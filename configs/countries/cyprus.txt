@@ -1,0 +1,14 @@
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9DWVBSVVMg8J+agA==
+#profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
+#support-url: https://t.me
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793271664
+#
+# ⏱ Нажми на значок спидометра 👆
+# 🌐 Подключись к серверу который выдал наименьшее число 🌐
+# 🚩 Сервера с отметкой VPN не работают при белых списках 🚩
+# 🔑 Полностью бесплатно и Open-Source 🔑
+# ⏳ Обновляется каждые 2 часа ⏳
+
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_CYPRUS%20%F0%9F%9A%80
+vless://9f0baff8-bdee-4de9-9515-bcc4932b41fa@194.76.154.31:40443?security=reality&encryption=none&pbk=MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ&headerType=none&fp=qq&type=tcp&sni=deepl.com&sid=a8ae#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2310

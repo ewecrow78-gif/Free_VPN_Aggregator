@@ -1,0 +1,38 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇺🇸 Gh0st #26'
+  network: tcp
+  port: 40443
+  reality-opts:
+    public-key: KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo
+    short-id: aae8
+  server: 194.55.189.249
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: 8212a50b-25bf-4739-bba1-aaffb5ffc84c
+  ws-opts: {}
+- name: '🇺🇸 Gh0st #65'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 04c9b77ed330452d
+  server: 155.117.137.65
+  servername: cdn4-23.yahoo.com
+  tls: true
+  type: vless
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
+  proxies:
+  - '🇺🇸 Gh0st #26'
+  - '🇺🇸 Gh0st #65'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
+socks-port: 7891

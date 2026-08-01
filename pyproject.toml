@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "free-vpn-aggregator"
+version = "3.0.0"
+description = "A scraper, validator, and aggregator for free VPN proxy configurations"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [
+    {name = "Free_VPN_Aggregator"}
+]
+dependencies = [
+    "aiohttp",
+    "aiohttp-socks",
+    "telethon",
+    "maxminddb",
+    "pydantic",
+    "qrcode",
+    "pyyaml"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/ewecrow78-gif/Free_VPN_Aggregator"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]

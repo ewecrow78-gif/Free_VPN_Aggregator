@@ -1,0 +1,14 @@
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9NT0xET1ZBIPCfmoA=
+#profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
+#support-url: https://t.me
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
+#
+# ⏱ Нажми на значок спидометра 👆
+# 🌐 Подключись к серверу который выдал наименьшее число 🌐
+# 🚩 Сервера с отметкой VPN не работают при белых списках 🚩
+# 🔑 Полностью бесплатно и Open-Source 🔑
+# ⏳ Обновляется каждые 2 часа ⏳
+
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_MOLDOVA%20%F0%9F%9A%80
+vmess://eyJhZGQiOiI5NC4xMzEuMTA4LjM2IiwiaWQiOiI5ODU1ZjFmMC1hODAwLTQwZDQtOGIzOC1jN2QzZWI3OTMwMmQiLCJwb3J0IjoiNDQzIiwic2N5IjoiYXV0byIsInYiOiIyIiwibmV0Ijoid3MiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiJub25lIiwicHMiOiJcdWQ4M2NcdWRmZjNcdWZlMGYgR2gwc3QgIzY2In0=

@@ -1,0 +1,139 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇷🇺 Gh0st #1'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: 496ee75c2f91f51d
+  server: 104.171.132.207
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  ws-opts: {}
+- name: '🇷🇺 Gh0st #2'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: 496ee75c2f91f51d
+  server: 201.51.2.248
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  ws-opts: {}
+- name: '🇷🇺 Gh0st #3'
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 81.85.78.78
+  servername: 81.85.78.78
+  tls: false
+  type: vless
+  uuid: 2aa7f4b1-e859-46d0-b8ac-8587811ab7b1
+  ws-opts:
+    path: /v1
+- name: '🇷🇺 Gh0st #4'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dRPcJM7ZWihjiGNHuIJ4iaCpLxHAKoo59WE-vsTZASs
+    short-id: 41f6de54
+  server: 91.243.86.196
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 34a1ada8-4a1a-434b-8583-7b68668f6e9d
+  ws-opts: {}
+- name: '🇷🇺 Gh0st #8'
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 130.17.2.27
+  servername: 130.17.2.27
+  tls: false
+  type: vless
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
+  ws-opts:
+    path: /v1
+- name: '🇷🇺 Gh0st #15'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tZEzySB7soxBmNn2NPyzvUZtC7H1O0pyZx5M60_X2g4
+    short-id: 496ee75c2f91f51d
+  server: 92.63.179.159
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  ws-opts: {}
+- name: '🇷🇺 Gh0st #39'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+    short-id: ''
+  server: 94.126.206.29
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: d6dc1358-1bb5-4a9d-92fd-3e255567e3fc
+  ws-opts: {}
+- name: '🇷🇺 Gh0st #41'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+    short-id: ''
+  server: 94.126.206.117
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 64b6f905-94d5-4745-8f92-cafa107b7c16
+  ws-opts: {}
+- name: '🇷🇺 Gh0st #53'
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 185.247.16.3
+  servername: 185.247.16.3
+  tls: false
+  type: vless
+  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
+  ws-opts:
+    path: /v1
+- name: '🇷🇺 Gh0st #58'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TOQhmz_hLwinbN9a_b6lEraEWzME2nRMAnRW_-WQjE4
+    short-id: 7e2acc51c5c9fa24
+  server: 91.196.33.34
+  servername: us.hatvpn.org
+  tls: true
+  type: vless
+  uuid: d0129121-76c1-47ce-b386-93dbc8f2111f
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
+  proxies:
+  - '🇷🇺 Gh0st #1'
+  - '🇷🇺 Gh0st #2'
+  - '🇷🇺 Gh0st #3'
+  - '🇷🇺 Gh0st #4'
+  - '🇷🇺 Gh0st #8'
+  - '🇷🇺 Gh0st #15'
+  - '🇷🇺 Gh0st #39'
+  - '🇷🇺 Gh0st #41'
+  - '🇷🇺 Gh0st #53'
+  - '🇷🇺 Gh0st #58'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_RUSSIA]
+socks-port: 7891

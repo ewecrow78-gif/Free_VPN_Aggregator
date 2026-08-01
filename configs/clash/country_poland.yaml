@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇵🇱 Gh0st #37'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
+    short-id: ''
+  server: 95.85.229.112
+  servername: www.wikihow.com
+  tls: true
+  type: vless
+  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_POLAND]
+  proxies:
+  - '🇵🇱 Gh0st #37'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_POLAND]
+socks-port: 7891

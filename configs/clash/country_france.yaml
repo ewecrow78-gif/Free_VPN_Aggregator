@@ -1,0 +1,45 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: aes-256-gcm
+  name: '🇫🇷 Gh0st #24'
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 64.31.63.244
+  type: ss
+- name: '🇫🇷 Gh0st #30'
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 62.210.91.10
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  ws-opts: {}
+- name: '🇫🇷 Gh0st #32'
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '01'
+  server: 62.210.91.2
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_FRANCE]
+  proxies:
+  - '🇫🇷 Gh0st #24'
+  - '🇫🇷 Gh0st #30'
+  - '🇫🇷 Gh0st #32'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_FRANCE]
+socks-port: 7891

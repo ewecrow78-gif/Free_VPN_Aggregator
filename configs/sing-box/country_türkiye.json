@@ -1,0 +1,54 @@
+{
+  "log": {
+    "level": "info"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query"
+      }
+    ]
+  },
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "proxy-select",
+      "outbounds": [
+        "🇹🇷 Gh0st #21"
+      ]
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇹🇷 Gh0st #21",
+      "server": "38.180.112.246",
+      "server_port": 52315,
+      "uuid": "29498268-55f3-4b51-ba1a-1eba23f4ab63",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "38.180.112.246",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🏳️ Gh0st #57'
+  network: grpc
+  port: 1500
+  reality-opts:
+    public-key: VQxVgczORkbSNdDrkNOYs6zMBINpViztTKDuWCeQsVE
+    short-id: 775eb6408888248e
+  server: 81.208.170.142
+  servername: www.ebay.com
+  tls: true
+  type: vless
+  uuid: e332f028-d343-5b44-8016-b3130f39e133
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_SAUDI_ARABIA]
+  proxies:
+  - '🏳️ Gh0st #57'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_SAUDI_ARABIA]
+socks-port: 7891

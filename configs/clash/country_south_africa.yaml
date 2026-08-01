@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: 🏳️ South Africa 12
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
+    short-id: ''
+  server: 31.43.191.99
+  servername: hasty-dolphin.cdn.cachefleet.com
+  tls: true
+  type: vless
+  uuid: 5117ad77-cd9a-46e9-995b-b601b0b5e435
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_SOUTH_AFRICA]
+  proxies:
+  - 🏳️ South Africa 12
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_SOUTH_AFRICA]
+socks-port: 7891

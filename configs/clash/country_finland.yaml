@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇫🇮 Gh0st #4'
+  network: tcp
+  port: 34151
+  reality-opts:
+    public-key: nlEvGwt7WTuobjUSOK9ITQ8LF5VIC-SrWPMTH9FqTk4
+    short-id: 5e039404
+  server: 178.17.53.177
+  servername: 178.17.53.177
+  tls: true
+  type: vless
+  uuid: e80398bb-aecb-4686-a75c-dfe4cd8ce242
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_FINLAND]
+  proxies:
+  - '🇫🇮 Gh0st #4'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_FINLAND]
+socks-port: 7891

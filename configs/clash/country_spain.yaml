@@ -1,0 +1,20 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇪🇸 Gh0st #47'
+  password: 2eutknankxtbgkwcajzt
+  port: 52794
+  server: 193.148.19.210
+  skip-cert-verify: true
+  sni: www.vk.com
+  type: trojan
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_SPAIN]
+  proxies:
+  - '🇪🇸 Gh0st #47'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_SPAIN]
+socks-port: 7891

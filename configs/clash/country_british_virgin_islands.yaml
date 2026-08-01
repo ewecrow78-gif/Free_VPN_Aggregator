@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🏳️ Gh0st #11'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg
+    short-id: aaec521b22bbe6cb
+  server: 185.221.163.211
+  servername: fin1.panel11.ru
+  tls: true
+  type: vless
+  uuid: aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_BRITISH_VIRGIN_ISLANDS]
+  proxies:
+  - '🏳️ Gh0st #11'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_BRITISH_VIRGIN_ISLANDS]
+socks-port: 7891

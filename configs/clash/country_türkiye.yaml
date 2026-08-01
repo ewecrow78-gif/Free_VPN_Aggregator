@@ -1,0 +1,24 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇹🇷 Gh0st #21'
+  network: ws
+  port: 52315
+  reality-opts: {}
+  server: 38.180.112.246
+  servername: 38.180.112.246
+  tls: false
+  type: vless
+  uuid: 29498268-55f3-4b51-ba1a-1eba23f4ab63
+  ws-opts:
+    path: ''
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_TÜRKIYE]
+  proxies:
+  - '🇹🇷 Gh0st #21'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_TÜRKIYE]
+socks-port: 7891

@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇨🇭 Gh0st #16'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: -qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM
+    short-id: e17b4d9a8c1f3526
+  server: 2.26.139.184
+  servername: kukuruza.mycdn-me.ru
+  tls: true
+  type: vless
+  uuid: f055899d-026b-49b5-88ed-0227795082da
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_SWITZERLAND]
+  proxies:
+  - '🇨🇭 Gh0st #16'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_SWITZERLAND]
+socks-port: 7891

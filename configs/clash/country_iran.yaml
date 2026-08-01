@@ -1,0 +1,23 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇮🇷 Gh0st #4'
+  network: tcp
+  port: 8880
+  reality-opts: {}
+  server: 185.143.233.43
+  servername: 185.143.233.43
+  tls: false
+  type: vless
+  uuid: 0053c51b-b1f6-4d11-a087-ad795f65bec1
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_IRAN]
+  proxies:
+  - '🇮🇷 Gh0st #4'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_IRAN]
+socks-port: 7891

@@ -1,0 +1,19 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: aes-256-gcm
+  name: '🇮🇳 Gh0st #52'
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 172.105.39.124
+  type: ss
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_INDIA]
+  proxies:
+  - '🇮🇳 Gh0st #52'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_INDIA]
+socks-port: 7891

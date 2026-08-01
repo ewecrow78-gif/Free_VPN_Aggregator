@@ -1,0 +1,31 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🏳️ Gh0st #29'
+  network: ws
+  port: 52315
+  reality-opts: {}
+  server: 45.131.215.61
+  servername: 45.131.215.61
+  tls: false
+  type: vless
+  uuid: 29498268-55f3-4b51-ba1a-1eba23f4ab63
+  ws-opts:
+    path: /
+- cipher: aes-256-gcm
+  name: '🏳️ Gh0st #60'
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 156.244.32.9
+  type: ss
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_SEYCHELLES]
+  proxies:
+  - '🏳️ Gh0st #29'
+  - '🏳️ Gh0st #60'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_SEYCHELLES]
+socks-port: 7891

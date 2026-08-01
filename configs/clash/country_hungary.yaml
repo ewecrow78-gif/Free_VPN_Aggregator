@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🏳️ Gh0st #90'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+    short-id: ''
+  server: 37.221.210.188
+  servername: hu888.bearbeer.digital
+  tls: true
+  type: vless
+  uuid: fc64e874-656e-402e-a303-e0d161f907fb
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_HUNGARY]
+  proxies:
+  - '🏳️ Gh0st #90'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_HUNGARY]
+socks-port: 7891

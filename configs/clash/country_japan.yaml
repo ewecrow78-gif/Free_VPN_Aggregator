@@ -1,0 +1,27 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '🇯🇵 Gh0st #67'
+  network: ws
+  port: 4010
+  server: 45.76.202.45
+  servername: 45.76.202.45
+  tls: false
+  type: vmess
+  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /liksuzcp
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_JAPAN]
+  proxies:
+  - '🇯🇵 Gh0st #67'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_JAPAN]
+socks-port: 7891

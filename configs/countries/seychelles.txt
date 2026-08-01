@@ -1,0 +1,15 @@
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9TRVlDSEVMTEVTIPCfmoA=
+#profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
+#support-url: https://t.me
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793349187
+#
+# ⏱ Нажми на значок спидометра 👆
+# 🌐 Подключись к серверу который выдал наименьшее число 🌐
+# 🚩 Сервера с отметкой VPN не работают при белых списках 🚩
+# 🔑 Полностью бесплатно и Open-Source 🔑
+# ⏳ Обновляется каждые 2 часа ⏳
+
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SEYCHELLES%20%F0%9F%9A%80
+vless://29498268-55f3-4b51-ba1a-1eba23f4ab63@45.131.215.61:52315?&type=ws&headerType=none&path=/#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2329
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@156.244.32.9:7002?fp=firefox#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2360

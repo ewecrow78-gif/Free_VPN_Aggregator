@@ -1,0 +1,15 @@
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9VTklURURfU1RBVEVTIPCfmoA=
+#profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
+#support-url: https://t.me
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793349187
+#
+# ⏱ Нажми на значок спидометра 👆
+# 🌐 Подключись к серверу который выдал наименьшее число 🌐
+# 🚩 Сервера с отметкой VPN не работают при белых списках 🚩
+# 🔑 Полностью бесплатно и Open-Source 🔑
+# ⏳ Обновляется каждые 2 часа ⏳
+
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
+vless://8212a50b-25bf-4739-bba1-aaffb5ffc84c@194.55.189.249:40443?security=reality&encryption=none&pbk=KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo&headerType=none&fp=chrome&type=tcp&sni=deepl.com&sid=aae8#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2326
+vless://55f7d143-a594-4a91-b030-f227039f85ef@155.117.137.65:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&security=reality&sid=04c9b77ed330452d&sni=cdn4-23.yahoo.com&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2365

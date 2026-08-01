@@ -1,0 +1,546 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: 🇨🇭 Switzerland 01
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: 8f9d033ad6d2cebf
+  server: 138.124.244.36
+  servername: fi2.cyphervpn.pro
+  tls: true
+  type: vless
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  ws-opts: {}
+- name: 🇩🇪 Germany 02
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dqgIhU45MGa6nWIwRU-j9LDYVOQXliSQAoI1Foe4cyI
+    short-id: 11ffa74edffc01aa
+  server: 93.152.224.198
+  servername: akenai.kyras.pw
+  tls: true
+  type: vless
+  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
+  ws-opts: {}
+- name: 🇳🇱 The Netherlands 03
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HS4Gr-vMqAOKdxn1Qr2Kwvh3UCIgr3eYWOvUTvuhJh4
+    short-id: 89965a0c305affd3
+  server: 82.23.163.53
+  servername: xxl.orbit-escape.ru
+  tls: true
+  type: vless
+  uuid: 27c1d725-629c-4e65-9271-d6f5df82c7e9
+  ws-opts: {}
+- name: 🇩🇪 Germany 04
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
+    short-id: 9d84de9d9f7b85e9
+  server: 185.191.118.67
+  servername: de.edge-9d7c.com
+  tls: true
+  type: vless
+  uuid: bbae962a-b6e9-46e6-990c-6abf13e6b075
+  ws-opts: {}
+- name: 🏳️ Czechia 05
+  network: tcp
+  port: 20342
+  reality-opts: {}
+  server: 193.124.57.208
+  servername: 193.124.57.208
+  tls: false
+  type: vless
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+  ws-opts: {}
+- cipher: aes-128-gcm
+  name: 🇳🇱 The Netherlands 06
+  password: shadowsocks
+  port: 443
+  server: 158.173.20.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 United Kingdom 07
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 194.164.92.198
+  type: ss
+- name: 🇨🇭 Switzerland 08
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oGgupP3uX0TNyFwuxNYaFj-IQ8EPhCuKfJdaOHiMnV0
+    short-id: c334408a1056aaf8
+  server: 138.124.67.45
+  servername: nl15.sodahub.online
+  tls: true
+  type: vless
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  ws-opts: {}
+- name: 🏳️ Iraq 09
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CGrQMXFz6Qopcrvn3EIJnJwY-d_tQ4ahez7WQI8Z1Bk
+    short-id: 53f809e639280191
+  server: 178.17.57.19
+  servername: ge14.cyphervpn.pro
+  tls: true
+  type: vless
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  ws-opts: {}
+- name: 🇳🇱 The Netherlands 10
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oGgupP3uX0TNyFwuxNYaFj-IQ8EPhCuKfJdaOHiMnV0
+    short-id: c334408a1056aaf8
+  server: 147.45.50.132
+  servername: nl16.sodahub.online
+  tls: true
+  type: vless
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇪🇸 Spain 11
+  password: qItG8SueYQcP
+  port: 8388
+  server: 140.174.184.5
+  type: ss
+- name: 🇳🇱 The Netherlands 12
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
+    short-id: 15affa0af66dfc79
+  server: 130.12.242.106
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: bc058e69-0444-4c7b-98da-bd67f0b143da
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇪🇸 Spain 13
+  password: WSyL4XTwNsdv
+  port: 8388
+  server: 108.181.121.226
+  type: ss
+- name: 🇩🇪 Germany 14
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: 152.53.127.214
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  ws-opts: {}
+- name: 🇬🇧 United Kingdom 15
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 2cfC4N-V5UGaoDjrRXWb6TYJNfuXzhlITdKoCx9mLwM
+    short-id: 408763178ac4cb55
+  server: 31.76.39.24
+  servername: gb1.cyphervpn.pro
+  tls: true
+  type: vless
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  ws-opts: {}
+- name: 🇮🇹 Italy 16
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: T7cxFOGNMLKqZiEustm2sOfwOovHyHnLcGDWfSmaU1c
+    short-id: ''
+  server: 31.77.154.51
+  servername: it-one.quiet-rogue.site
+  tls: true
+  type: vless
+  uuid: 71cada65-d23e-418c-88e4-a06188d14689
+  ws-opts: {}
+- name: 🇸🇪 Sweden 17
+  network: tcp
+  port: 12683
+  reality-opts: {}
+  server: 31.192.244.42
+  servername: 31.192.244.42
+  tls: false
+  type: vless
+  uuid: 8c8d8180-a2c5-4478-a86e-4117f841e88e
+  ws-opts: {}
+- name: 🏳️ Bulgaria 18
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QocXHwad0mV7WA5jSAcqDac3uuVBEp1WF775-CilniE
+    short-id: 45ba18f429ad1f28
+  server: 93.152.223.98
+  servername: web.max.ru
+  tls: true
+  type: vless
+  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
+  ws-opts: {}
+- cipher: aes-256-gcm
+  name: 🇳🇱 The Netherlands 19
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 109.104.154.163
+  type: ss
+- name: 🇵🇱 Poland 20
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: gEcRhgxPiqPdtnq2lGNE4GLHwVn-h7pBViTq4uTQ_Ak
+    short-id: bc90eca8
+  server: 193.247.81.254
+  servername: pl1.sky-cloud.online
+  tls: true
+  type: vless
+  uuid: 777bcc23-6bc8-5819-a40d-7f2a743419a1
+  ws-opts: {}
+- name: 🇳🇱 The Netherlands 21
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYL1z7PNyo6LqYLeZpXa50FnK9eEu7o18KHRhOlST1w
+    short-id: bd72
+  server: 50.7.41.142
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: b8794f67-80d9-4124-8fc5-2d2ce5516573
+  ws-opts: {}
+- name: 🇩🇪 Germany 22
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: 152.53.236.182
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 The Netherlands 23
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: 92.112.126.90
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇳 India 24
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.80
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇳 India 25
+  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
+  port: 28061
+  server: 103.111.114.61
+  type: ss
+- name: 🇵🇱 Poland 26
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Fmn3VyIvCT-KpCwvmb1ZqqkQxOW8GEBvamSZYZrqcic
+    short-id: 376d46f012a36cd2
+  server: 94.183.209.37
+  servername: www.twitch.tv
+  tls: true
+  type: vless
+  uuid: 759c9817-5fbb-4dc9-9a36-9144952f76e0
+  ws-opts: {}
+- name: 🇩🇪 Germany 27
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: 152.53.236.22
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  ws-opts: {}
+- name: 🇺🇸 United States 28
+  password: lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths
+  port: 58536
+  server: 64.74.163.118
+  skip-cert-verify: true
+  sni: 64.74.163.118
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 United States 29
+  password: G5p6ww4o67HB
+  port: 8388
+  server: 108.181.0.177
+  type: ss
+- name: 🇺🇸 United States 30
+  network: tcp
+  port: 55861
+  reality-opts:
+    public-key: t2ndf6SeVxinFCo5bcemnW_ZZhAtmHWiAkllks5qPWs
+    short-id: 7551ed1b
+  server: 47.89.186.170
+  servername: www.intel.com
+  tls: true
+  type: vless
+  uuid: d51ed55c-d6dd-400b-aaf6-017c33969bfe
+  ws-opts: {}
+- name: 🇳🇱 The Netherlands 31
+  network: tcp
+  port: 11594
+  reality-opts: {}
+  server: 45.88.172.154
+  servername: 45.88.172.154
+  tls: false
+  type: vless
+  uuid: 0370b162-baff-4757-86cc-cce4bf07f6f1
+  ws-opts: {}
+- cipher: aes-128-gcm
+  name: 🇺🇸 United States 32
+  password: shadowsocks
+  port: 443
+  server: 173.244.56.6
+  type: ss
+- name: 🏳️ Moldova 33
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Ua80Sem5yHVDbRu37u1yYM5vWBzinhru__7ACrvnx1E
+    short-id: ''
+  server: 185.163.47.132
+  servername: console.cloud.yandex.ru
+  tls: true
+  type: vless
+  uuid: 99eb8d4a-bb06-4a07-a79b-348ac037dc3e
+  ws-opts: {}
+- name: 🇷🇺 Russia 34
+  network: xhttp
+  port: 443
+  reality-opts: {}
+  server: 195.209.86.193
+  servername: s14692.cdn.ngenix.net
+  tls: true
+  type: vless
+  uuid: 33a2d991-7335-45e7-9c51-1b5729531f8f
+  ws-opts: {}
+- name: 🇺🇸 United States 35
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: AYL1z7PNyo6LqYLeZpXa50FnK9eEu7o18KHRhOlST1w
+    short-id: bd72
+  server: 50.7.177.179
+  servername: deepl.com
+  tls: true
+  type: vless
+  uuid: b8794f67-80d9-4124-8fc5-2d2ce5516573
+  ws-opts: {}
+- name: 🇮🇹 Italy 36
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.165.201
+  servername: 151.115.165.201
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: 🇮🇹 Italy 37
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.165.107
+  servername: 151.115.165.107
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: 🇮🇹 Italy 38
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.167.22
+  servername: 151.115.167.22
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: 🇫🇷 France 39
+  network: tcp
+  port: 448
+  reality-opts:
+    public-key: fjPED4_A_EQrL8PAuBUi9ChoNbY2OC4mUl7r8zaLoxo
+    short-id: 05fdaa8a05be46a9
+  server: 194.164.217.139
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  uuid: d61b4e1b-4745-484f-8362-18537825a7af
+  ws-opts: {}
+- name: 🇮🇹 Italy 40
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.167.97
+  servername: 151.115.167.97
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: 🇮🇹 Italy 41
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.166.87
+  servername: 151.115.166.87
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: 🇷🇺 Russia 42
+  network: tcp
+  port: 9999
+  reality-opts: {}
+  server: 141.98.87.48
+  servername: 141.98.87.48
+  tls: false
+  type: vless
+  uuid: f83d8e60-f039-45c8-95d2-2a44c59025f6
+  ws-opts: {}
+- cipher: aes-256-gcm
+  name: 🇮🇹 Italy 43
+  password: 6512030961473f21
+  port: 20129
+  server: 185.198.235.208
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 United States 44
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 68.168.222.210
+  type: ss
+- name: 🇷🇺 Russia 45
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 130.17.2.27
+  servername: 130.17.2.27
+  tls: false
+  type: vless
+  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
+  ws-opts:
+    path: /v1
+- name: 🇷🇺 Russia 46
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 81.85.78.78
+  servername: 81.85.78.78
+  tls: false
+  type: vless
+  uuid: 9501f3d6-483f-45c1-ab2c-33266520cd5c
+  ws-opts:
+    path: /v1
+- name: 🇺🇸 United States 47
+  network: grpc
+  port: 17301
+  reality-opts:
+    public-key: nadshlxG0RqC6om__cf9E4F6qolRmHJLcNtReBTr9xY
+    short-id: 5d
+  server: 149.248.79.235
+  servername: aws.amazon.com
+  tls: true
+  type: vless
+  uuid: 3571b127-4b3b-4c01-8249-1684daf586b5
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 United Kingdom 48
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.174
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🏳️ Australia 49
+  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+  port: 15675
+  server: 45.77.232.213
+  type: ss
+- name: 🇺🇸 United States 50
+  password: OD90375861
+  port: 443
+  server: nearby-muskrat.rooster465.autos
+  skip-cert-verify: true
+  sni: nearby-muskrat.rooster465.autos
+  type: trojan
+proxy-groups:
+- name: Free_VPN_Aggregator [TOP]
+  proxies:
+  - 🇨🇭 Switzerland 01
+  - 🇩🇪 Germany 02
+  - 🇳🇱 The Netherlands 03
+  - 🇩🇪 Germany 04
+  - 🏳️ Czechia 05
+  - 🇳🇱 The Netherlands 06
+  - 🇬🇧 United Kingdom 07
+  - 🇨🇭 Switzerland 08
+  - 🏳️ Iraq 09
+  - 🇳🇱 The Netherlands 10
+  - 🇪🇸 Spain 11
+  - 🇳🇱 The Netherlands 12
+  - 🇪🇸 Spain 13
+  - 🇩🇪 Germany 14
+  - 🇬🇧 United Kingdom 15
+  - 🇮🇹 Italy 16
+  - 🇸🇪 Sweden 17
+  - 🏳️ Bulgaria 18
+  - 🇳🇱 The Netherlands 19
+  - 🇵🇱 Poland 20
+  - 🇳🇱 The Netherlands 21
+  - 🇩🇪 Germany 22
+  - 🇳🇱 The Netherlands 23
+  - 🇮🇳 India 24
+  - 🇮🇳 India 25
+  - 🇵🇱 Poland 26
+  - 🇩🇪 Germany 27
+  - 🇺🇸 United States 28
+  - 🇺🇸 United States 29
+  - 🇺🇸 United States 30
+  - 🇳🇱 The Netherlands 31
+  - 🇺🇸 United States 32
+  - 🏳️ Moldova 33
+  - 🇷🇺 Russia 34
+  - 🇺🇸 United States 35
+  - 🇮🇹 Italy 36
+  - 🇮🇹 Italy 37
+  - 🇮🇹 Italy 38
+  - 🇫🇷 France 39
+  - 🇮🇹 Italy 40
+  - 🇮🇹 Italy 41
+  - 🇷🇺 Russia 42
+  - 🇮🇹 Italy 43
+  - 🇺🇸 United States 44
+  - 🇷🇺 Russia 45
+  - 🇷🇺 Russia 46
+  - 🇺🇸 United States 47
+  - 🇬🇧 United Kingdom 48
+  - 🏳️ Australia 49
+  - 🇺🇸 United States 50
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [TOP]
+socks-port: 7891

@@ -1,0 +1,107 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇮🇹 Gh0st #6'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.166.130
+  servername: 151.115.166.130
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: '🇮🇹 Gh0st #7'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.166.127
+  servername: 151.115.166.127
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: '🇮🇹 Gh0st #9'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.164.117
+  servername: 151.115.164.117
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: '🇮🇹 Gh0st #12'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.164.43
+  servername: 151.115.164.43
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: '🇮🇹 Gh0st #13'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.166.5
+  servername: 151.115.166.5
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: '🇮🇹 Gh0st #14'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.164.60
+  servername: 151.115.164.60
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: '🇮🇹 Gh0st #19'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.167.252
+  servername: 151.115.167.252
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- name: '🇮🇹 Gh0st #21'
+  network: grpc
+  port: 8880
+  reality-opts: {}
+  server: 151.115.166.53
+  servername: 151.115.166.53
+  tls: false
+  type: vless
+  uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3
+  ws-opts: {}
+- cipher: aes-256-gcm
+  name: '🇮🇹 Gh0st #40'
+  password: RexnBgU7EV5ADxG
+  port: 7001
+  server: 185.213.20.110
+  type: ss
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_ITALY]
+  proxies:
+  - '🇮🇹 Gh0st #6'
+  - '🇮🇹 Gh0st #7'
+  - '🇮🇹 Gh0st #9'
+  - '🇮🇹 Gh0st #12'
+  - '🇮🇹 Gh0st #13'
+  - '🇮🇹 Gh0st #14'
+  - '🇮🇹 Gh0st #19'
+  - '🇮🇹 Gh0st #21'
+  - '🇮🇹 Gh0st #40'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_ITALY]
+socks-port: 7891

@@ -1,0 +1,27 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- alterId: 0
+  cipher: auto
+  name: '🏳️ Gh0st #66'
+  network: ws
+  port: 443
+  server: 94.131.108.36
+  servername: 94.131.108.36
+  tls: false
+  type: vmess
+  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_MOLDOVA]
+  proxies:
+  - '🏳️ Gh0st #66'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_MOLDOVA]
+socks-port: 7891

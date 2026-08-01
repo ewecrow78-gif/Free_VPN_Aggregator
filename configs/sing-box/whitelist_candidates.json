@@ -1,0 +1,74 @@
+{
+  "log": {
+    "level": "info"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query"
+      }
+    ]
+  },
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "proxy-select",
+      "outbounds": [
+        "🇳🇱 Gh0st #22",
+        "🇳🇱 Gh0st #31"
+      ]
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Gh0st #22",
+      "server": "193.233.126.104",
+      "server_port": 8443,
+      "uuid": "b12eebc2-369c-4f3c-96a0-a8bd150ca8d5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "00.img.avito.st",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU",
+          "short_id": "eb0cca7312345678"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 Gh0st #31",
+      "server": "193.233.126.104",
+      "server_port": 443,
+      "uuid": "b12eebc2-369c-4f3c-96a0-a8bd150ca8d5",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "00.img.avito.st",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU",
+          "short_id": "eb0cca7312345678"
+        }
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      }
+    ]
+  }
+}

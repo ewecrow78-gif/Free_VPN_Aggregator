@@ -1,0 +1,31 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: chacha20-poly1305
+  name: '🏳️ Gh0st #5'
+  password: W74XFALLLuw6m5IA
+  port: 443
+  server: 104.21.96.1
+  type: ss
+- name: '🏳️ Gh0st #6'
+  network: ws
+  port: 443
+  reality-opts: {}
+  server: 104.21.83.126
+  servername: 2-------------uu-MiTiVPN---MiTiVPN-yyyo.MAQROR.ir
+  tls: true
+  type: vless
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN-----
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_UNKNOWN]
+  proxies:
+  - '🏳️ Gh0st #5'
+  - '🏳️ Gh0st #6'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_UNKNOWN]
+socks-port: 7891

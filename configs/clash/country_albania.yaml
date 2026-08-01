@@ -1,0 +1,19 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '🏳️ Gh0st #69'
+  password: XF0klw7870vXn3uQIxe19Q
+  port: 1080
+  server: 31.171.152.222
+  type: ss
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_ALBANIA]
+  proxies:
+  - '🏳️ Gh0st #69'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_ALBANIA]
+socks-port: 7891

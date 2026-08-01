@@ -1,0 +1,49 @@
+{
+  "log": {
+    "level": "info"
+  },
+  "dns": {
+    "servers": [
+      {
+        "address": "https://1.1.1.1/dns-query"
+      }
+    ]
+  },
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "proxy-select",
+      "outbounds": [
+        "🇸🇬 Gh0st #66"
+      ]
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 Gh0st #66",
+      "server": "139.59.238.97",
+      "server_port": 50573,
+      "password": "pvZE3UfT0ziK1omVLlsjINBqeqqwab1M",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.59.238.97",
+        "insecure": true
+      }
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      }
+    ]
+  }
+}

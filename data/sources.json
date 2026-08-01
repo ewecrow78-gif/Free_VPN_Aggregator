@@ -1,0 +1,34 @@
+[
+  {
+    "name": "barry-far All",
+    "url": "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt",
+    "type": "mixed",
+    "priority": 80,
+    "enabled": true,
+    "trust_level": "medium"
+  },
+  {
+    "name": "matryoshka whitelist",
+    "url": "https://raw.githubusercontent.com/FLEXIY0/matryoshka-vpn/main/configs/russia_whitelist.txt",
+    "type": "whitelist",
+    "priority": 90,
+    "enabled": true,
+    "trust_level": "high"
+  },
+  {
+    "name": "goida configs",
+    "url": "https://raw.githubusercontent.com/AvenCores/goida-vpn-configs/main/configs/alive.txt",
+    "type": "mixed",
+    "priority": 85,
+    "enabled": true,
+    "trust_level": "medium"
+  },
+  {
+    "name": "kort0881 alive",
+    "url": "https://raw.githubusercontent.com/kort0881/vpn-vless-configs-russia/output/alive.txt",
+    "type": "mixed",
+    "priority": 80,
+    "enabled": true,
+    "trust_level": "medium"
+  }
+]

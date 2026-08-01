@@ -1,0 +1,19 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '🏳️ Gh0st #20'
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  port: 990
+  server: 185.213.23.63
+  type: ss
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_NORWAY]
+  proxies:
+  - '🏳️ Gh0st #20'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_NORWAY]
+socks-port: 7891

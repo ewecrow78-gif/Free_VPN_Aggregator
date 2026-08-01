@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🏳️ Gh0st #11'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CGrQMXFz6Qopcrvn3EIJnJwY-d_tQ4ahez7WQI8Z1Bk
+    short-id: 53f809e639280191
+  server: 178.17.57.19
+  servername: ge14.cyphervpn.pro
+  tls: true
+  type: vless
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_IRAQ]
+  proxies:
+  - '🏳️ Gh0st #11'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_IRAQ]
+socks-port: 7891

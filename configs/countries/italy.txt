@@ -1,0 +1,22 @@
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9JVEFMWSDwn5qA
+#profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
+#support-url: https://t.me
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793349187
+#
+# ⏱ Нажми на значок спидометра 👆
+# 🌐 Подключись к серверу который выдал наименьшее число 🌐
+# 🚩 Сервера с отметкой VPN не работают при белых списках 🚩
+# 🔑 Полностью бесплатно и Open-Source 🔑
+# ⏳ Обновляется каждые 2 часа ⏳
+
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_ITALY%20%F0%9F%9A%80
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.130:8880?encryption=none&security=none&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%236
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.127:8880?security=none&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%237
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?encryption=none&security=none&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%239
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?mode=gun&security=none&encryption=none&authority=BIA_TELEGRAM%40vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr_vpnserverrr&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%2312
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.5:8880?security=none&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%2313
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.60:8880?security=none&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%2314
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.167.252:8880?encryption=none&security=none&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%2319
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.166.53:8880?mode=gun&security=none&encryption=none&type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%2321
+ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001?#%F0%9F%87%AE%F0%9F%87%B9%20Gh0st%20%2340

@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇦🇪 Gh0st #5'
+  network: tcp
+  port: 993
+  reality-opts:
+    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
+    short-id: ''
+  server: 45.88.13.3
+  servername: download.nvidia.com
+  tls: true
+  type: vless
+  uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_UNITED_ARAB_EMIRATES]
+  proxies:
+  - '🇦🇪 Gh0st #5'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_UNITED_ARAB_EMIRATES]
+socks-port: 7891

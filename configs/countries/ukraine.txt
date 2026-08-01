@@ -1,0 +1,14 @@
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9VS1JBSU5FIPCfmoA=
+#profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
+#support-url: https://t.me
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793237090
+#
+# ⏱ Нажми на значок спидометра 👆
+# 🌐 Подключись к серверу который выдал наименьшее число 🌐
+# 🚩 Сервера с отметкой VPN не работают при белых списках 🚩
+# 🔑 Полностью бесплатно и Open-Source 🔑
+# ⏳ Обновляется каждые 2 часа ⏳
+
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UKRAINE%20%F0%9F%9A%80
+vless://a95b6f06-af75-4cf8-bcb0-15bcdcec7b64@193.104.58.45:59167?encryption=none&type=tcp&security=none#%F0%9F%87%BA%F0%9F%87%A6%20Gh0st%20%2347

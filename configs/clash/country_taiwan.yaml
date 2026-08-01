@@ -1,0 +1,23 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇹🇼 Gh0st #62'
+  network: tcp
+  port: 10000
+  reality-opts: {}
+  server: 60.249.101.13
+  servername: 60.249.101.13
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_TAIWAN]
+  proxies:
+  - '🇹🇼 Gh0st #62'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_TAIWAN]
+socks-port: 7891

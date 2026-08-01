@@ -1,0 +1,114 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇩🇪 Gh0st #28'
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 203.23.179.151
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #33'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: d08bb54b5b94b2fc
+  server: 109.163.239.60
+  servername: cdn5-89.yahoo.com
+  tls: true
+  type: vless
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #34'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: 152.53.127.214
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #38'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM
+    short-id: 273940fba6ad8250
+  server: 159.195.44.159
+  servername: 5.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #42'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
+    short-id: 7a76f3c4b9dd
+  server: 152.53.236.182
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #43'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 3c9c5d01c6f824dd
+  server: 109.163.239.208
+  servername: cdn9-78.yahoo.com
+  tls: true
+  type: vless
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #50'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ
+    short-id: 04bc695105689674
+  server: 159.195.46.178
+  servername: 4.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #54'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig
+    short-id: 28415a7918168947
+  server: 159.195.27.99
+  servername: 1.oncloudnineservicestreang.com
+  tls: true
+  type: vless
+  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_GERMANY]
+  proxies:
+  - '🇩🇪 Gh0st #28'
+  - '🇩🇪 Gh0st #33'
+  - '🇩🇪 Gh0st #34'
+  - '🇩🇪 Gh0st #38'
+  - '🇩🇪 Gh0st #42'
+  - '🇩🇪 Gh0st #43'
+  - '🇩🇪 Gh0st #50'
+  - '🇩🇪 Gh0st #54'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_GERMANY]
+socks-port: 7891

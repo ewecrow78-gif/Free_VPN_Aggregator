@@ -1,0 +1,19 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: '🏳️ Gh0st #47'
+  password: TWG7J1KR5KsPaV5qZI+rieueKxxafZSpCH
+  port: 15675
+  server: 45.77.232.213
+  type: ss
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_AUSTRALIA]
+  proxies:
+  - '🏳️ Gh0st #47'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_AUSTRALIA]
+socks-port: 7891

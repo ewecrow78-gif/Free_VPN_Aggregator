@@ -1,0 +1,20 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇸🇬 Gh0st #66'
+  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
+  port: 50573
+  server: 139.59.238.97
+  skip-cert-verify: true
+  sni: 139.59.238.97
+  type: trojan
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
+  proxies:
+  - '🇸🇬 Gh0st #66'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_SINGAPORE]
+socks-port: 7891

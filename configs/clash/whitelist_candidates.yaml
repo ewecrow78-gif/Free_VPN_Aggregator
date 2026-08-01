@@ -1,0 +1,38 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: '🇳🇱 Gh0st #22'
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
+    short-id: eb0cca7312345678
+  server: 193.233.126.104
+  servername: 00.img.avito.st
+  tls: true
+  type: vless
+  uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
+  ws-opts: {}
+- name: '🇳🇱 Gh0st #31'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
+    short-id: eb0cca7312345678
+  server: 193.233.126.104
+  servername: 00.img.avito.st
+  tls: true
+  type: vless
+  uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [WHITELIST_CANDIDATES]
+  proxies:
+  - '🇳🇱 Gh0st #22'
+  - '🇳🇱 Gh0st #31'
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [WHITELIST_CANDIDATES]
+socks-port: 7891
