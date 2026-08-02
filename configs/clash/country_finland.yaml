@@ -3,22 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇫🇮 Gh0st #4'
+- name: '🇫🇮 Gh0st #31'
   network: tcp
-  port: 34151
+  port: 8444
   reality-opts:
-    public-key: nlEvGwt7WTuobjUSOK9ITQ8LF5VIC-SrWPMTH9FqTk4
-    short-id: 5e039404
-  server: 178.17.53.177
-  servername: 178.17.53.177
+    public-key: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
+    short-id: eb0cca7312345678
+  server: 31.76.30.79
+  servername: kinopoisk.ru
   tls: true
   type: vless
-  uuid: e80398bb-aecb-4686-a75c-dfe4cd8ce242
+  uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FINLAND]
   proxies:
-  - '🇫🇮 Gh0st #4'
+  - '🇫🇮 Gh0st #31'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_FINLAND]

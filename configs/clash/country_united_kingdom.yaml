@@ -3,22 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇬🇧 Gh0st #59'
+- name: '🇬🇧 Gh0st #37'
   network: tcp
   port: 443
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 82.39.171.145
-  servername: yahoo.com
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '5678'
+  server: 84.75.161.38
+  servername: auto.malina24.xyz
   tls: true
   type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]
   proxies:
-  - '🇬🇧 Gh0st #59'
+  - '🇬🇧 Gh0st #37'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]

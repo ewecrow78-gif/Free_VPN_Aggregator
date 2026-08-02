@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 set -Eeuo pipefail
-cd /root/Free_VPN_Aggregator || exit
+cd "$(dirname "$0")" || exit
+
+LOCKFILE="$(pwd)/run.lock"
+if [ -e "${LOCKFILE}" ] && kill -0 `cat "${LOCKFILE}"` 2>/dev/null; then
+    echo "Скрипт уже запущен."
+    exit 1
+fi
+echo $$ > "${LOCKFILE}"
+trap 'rm -f "${LOCKFILE}"; exit' INT TERM EXIT
 
 git pull origin main --rebase || true
 

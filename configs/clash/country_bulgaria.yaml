@@ -3,19 +3,7 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #48'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 185.82.219.152
-  servername: eu-central.cendora.ru
-  tls: true
-  type: vless
-  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
-  ws-opts: {}
-- name: '🏳️ Gh0st #49'
+- name: '🏳️ Gh0st #61'
   network: tcp
   port: 13443
   reality-opts:
@@ -27,24 +15,23 @@ proxies:
   type: vless
   uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
   ws-opts: {}
-- name: '🏳️ Gh0st #51'
+- name: '🏳️ Gh0st #62'
   network: tcp
   port: 443
   reality-opts:
-    public-key: XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo
-    short-id: 7bcfc0bc
-  server: 87.120.196.68
-  servername: yahoo.com
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 185.82.219.152
+  servername: eu-central.cendora.ru
   tls: true
   type: vless
-  uuid: 5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BULGARIA]
   proxies:
-  - '🏳️ Gh0st #48'
-  - '🏳️ Gh0st #49'
-  - '🏳️ Gh0st #51'
+  - '🏳️ Gh0st #61'
+  - '🏳️ Gh0st #62'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_BULGARIA]

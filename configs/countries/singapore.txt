@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793349187
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SINGAPORE%20%F0%9F%9A%80
-trojan://pvZE3UfT0ziK1omVLlsjINBqeqqwab1M@139.59.238.97:50573?allowInsecure=1&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20Gh0st%20%2366
+vless://cfb310a9-7846-45dd-b72c-37597d6e33b3@217.217.254.126:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=B1e_iMjxReenyAiFXDymzmzFNHqhvwc_RMdD3o3KYRE&sid=64e6ad70ed4c248f&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20Gh0st%20%2391
+vless://b6449404-7d69-4446-9590-e212023ceec3@194.233.90.135:2053?encryption=none&security=reality&sni=www.apple.com&fp=chrome&pbk=h158YhbqAZ8mPeaIPiSAeDewASBy9vx-rOIuy_vOdWo&sid=302c4e8cdc613e24&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20Gh0st%20%2393

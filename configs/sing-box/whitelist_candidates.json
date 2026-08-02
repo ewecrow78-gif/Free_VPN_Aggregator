@@ -14,8 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇳🇱 Gh0st #22",
-        "🇳🇱 Gh0st #31"
+        "🇹🇷 Gh0st #75"
       ]
     },
     {
@@ -28,37 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 Gh0st #22",
-      "server": "193.233.126.104",
-      "server_port": 8443,
-      "uuid": "b12eebc2-369c-4f3c-96a0-a8bd150ca8d5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "00.img.avito.st",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU",
-          "short_id": "eb0cca7312345678"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 Gh0st #31",
-      "server": "193.233.126.104",
+      "tag": "🇹🇷 Gh0st #75",
+      "server": "91.124.63.229",
       "server_port": 443,
-      "uuid": "b12eebc2-369c-4f3c-96a0-a8bd150ca8d5",
+      "uuid": "acc50200-7f21-4f90-9cca-0057efcbf042",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "00.img.avito.st",
+        "server_name": "www.ya.ru",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU",
-          "short_id": "eb0cca7312345678"
+          "public_key": "rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM",
+          "short_id": "c0573c8280a0c019"
         }
       }
     }

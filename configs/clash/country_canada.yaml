@@ -3,22 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇨🇦 Gh0st #54'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: kjiuPmjM4IutdZudHfcPZHEwcrBEFY4qBLlvfC6A_Ss
-    short-id: b9f8d3f8
-  server: 216.152.147.28
-  servername: www.cloudflare.com
+- name: '🇨🇦 Gh0st #45'
+  network: xhttp
+  port: 2087
+  reality-opts: {}
+  server: 74.49.214.21
+  servername: ch-de.sdcards.ir
   tls: true
   type: vless
-  uuid: d9e4721d-cdac-44c7-bc91-117367eac194
+  uuid: 9d6104a5-fc6d-4fe6-95b7-80d8f699e09d
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_CANADA]
   proxies:
-  - '🇨🇦 Gh0st #54'
+  - '🇨🇦 Gh0st #45'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_CANADA]

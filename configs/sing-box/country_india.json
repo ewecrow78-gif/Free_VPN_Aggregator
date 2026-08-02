@@ -14,7 +14,10 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇮🇳 Gh0st #52"
+        "🇮🇳 Gh0st #71",
+        "🇮🇳 Gh0st #84",
+        "🇮🇳 Gh0st #85",
+        "🇮🇳 Gh0st #89"
       ]
     },
     {
@@ -27,11 +30,50 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇮🇳 Gh0st #52",
-      "server": "172.105.39.124",
-      "server_port": 7002,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
+      "tag": "🇮🇳 Gh0st #71",
+      "server": "103.111.114.55",
+      "server_port": 28061,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇳 Gh0st #84",
+      "server": "194.61.31.126",
+      "server_port": 2053,
+      "uuid": "9c9f29d5-cf0d-49be-97fd-643e866752da",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "f5Z_ywk2z0Yuj7ksyjawYC36qgxQngD8yGXEIPFNVGM",
+          "short_id": "30ed89c317118330"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳 Gh0st #85",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇳 Gh0st #89",
+      "server": "103.111.114.71",
+      "server_port": 28061,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
     }
   ],
   "route": {

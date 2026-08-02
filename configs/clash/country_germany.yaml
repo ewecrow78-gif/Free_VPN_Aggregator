@@ -3,53 +3,67 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇩🇪 Gh0st #28'
-  network: tcp
+- name: '🇩🇪 Gh0st #5'
+  network: grpc
   port: 443
-  reality-opts: {}
-  server: 203.23.179.151
-  servername: ddc-akn.astralweb.tech
+  reality-opts:
+    public-key: dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8
+    short-id: ''
+  server: 103.27.156.63
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
+  uuid: 2d7c8eef-49c0-4d89-a74f-591ea805274d
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #24'
+  network: tcp
+  port: 50443
+  reality-opts:
+    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
+    short-id: ''
+  server: 138.124.61.172
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #25'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8
+    short-id: ''
+  server: 194.87.55.47
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 2d7c8eef-49c0-4d89-a74f-591ea805274d
   ws-opts: {}
 - name: '🇩🇪 Gh0st #33'
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: d08bb54b5b94b2fc
-  server: 109.163.239.60
-  servername: cdn5-89.yahoo.com
+    public-key: N2H6Y5aEVwq2yUY1GL5fL6HKaiYUvve-tgImQAIAT0U
+    short-id: 0d77f881
+  server: 185.204.170.235
+  servername: npav.havray2025.ir
   tls: true
   type: vless
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+  uuid: 326f45c1-0a69-4150-a3b9-42f282a3c34c
   ws-opts: {}
 - name: '🇩🇪 Gh0st #34'
   network: tcp
   port: 443
   reality-opts:
-    public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
-    short-id: 7a76f3c4b9dd
-  server: 152.53.127.214
-  servername: www.cloudflare.com
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 42e51b053eec3700
+  server: 5.254.121.199
+  servername: cdn4-81.yahoo.com
   tls: true
   type: vless
-  uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
   ws-opts: {}
-- name: '🇩🇪 Gh0st #38'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM
-    short-id: 273940fba6ad8250
-  server: 159.195.44.159
-  servername: 5.oncloudnineservicestreang.com
-  tls: true
-  type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
-  ws-opts: {}
-- name: '🇩🇪 Gh0st #42'
+- name: '🇩🇪 Gh0st #36'
   network: tcp
   port: 443
   reality-opts:
@@ -61,53 +75,102 @@ proxies:
   type: vless
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
   ws-opts: {}
+- name: '🇩🇪 Gh0st #39'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 31.56.188.145
+  servername: eu-central.cendora.ru
+  tls: true
+  type: vless
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
+  ws-opts: {}
 - name: '🇩🇪 Gh0st #43'
   network: tcp
   port: 443
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: 3c9c5d01c6f824dd
-  server: 109.163.239.208
-  servername: cdn9-78.yahoo.com
+    short-id: 299a6ca1f217c457
+  server: 5.254.121.232
+  servername: cdn9-40.yahoo.com
   tls: true
   type: vless
-  uuid: 55f7d143-a594-4a91-b030-f227039f85ef
+  uuid: 5c2a674b-bf9d-4461-b56d-a9c2bc299d9a
   ws-opts: {}
-- name: '🇩🇪 Gh0st #50'
+- name: '🇩🇪 Gh0st #48'
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ
-    short-id: 04bc695105689674
-  server: 159.195.46.178
-  servername: 4.oncloudnineservicestreang.com
-  tls: true
+  port: 50417
+  reality-opts: {}
+  server: 91.107.139.186
+  servername: 91.107.139.186
+  tls: false
   type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: '🇩🇪 Gh0st #49'
+  network: tcp
+  port: 51459
+  server: 91.107.139.186
+  servername: 91.107.139.186
+  tls: false
+  type: vmess
+  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
   ws-opts: {}
 - name: '🇩🇪 Gh0st #54'
+  network: ws
+  port: 52315
+  reality-opts: {}
+  server: 5.175.249.199
+  servername: 5.175.249.199
+  tls: false
+  type: vless
+  uuid: bece874b-e905-48a4-9620-5ef59b49081a
+  ws-opts:
+    path: /
+- name: '🇩🇪 Gh0st #68'
   network: tcp
   port: 443
   reality-opts:
-    public-key: EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig
-    short-id: 28415a7918168947
-  server: 159.195.27.99
-  servername: 1.oncloudnineservicestreang.com
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: df5f7ec1de636bbb
+  server: 109.163.239.6
+  servername: cdn8-03.yahoo.com
   tls: true
   type: vless
-  uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a
+  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
+  ws-opts: {}
+- name: '🇩🇪 Gh0st #98'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: 8015c191d21aa452
+  server: 5.254.121.201
+  servername: cdn8-63.yahoo.com
+  tls: true
+  type: vless
+  uuid: 7d6d3391-7bf8-46bf-bd2e-01e82a790017
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_GERMANY]
   proxies:
-  - '🇩🇪 Gh0st #28'
+  - '🇩🇪 Gh0st #5'
+  - '🇩🇪 Gh0st #24'
+  - '🇩🇪 Gh0st #25'
   - '🇩🇪 Gh0st #33'
   - '🇩🇪 Gh0st #34'
-  - '🇩🇪 Gh0st #38'
-  - '🇩🇪 Gh0st #42'
+  - '🇩🇪 Gh0st #36'
+  - '🇩🇪 Gh0st #39'
   - '🇩🇪 Gh0st #43'
-  - '🇩🇪 Gh0st #50'
+  - '🇩🇪 Gh0st #48'
+  - '🇩🇪 Gh0st #49'
   - '🇩🇪 Gh0st #54'
+  - '🇩🇪 Gh0st #68'
+  - '🇩🇪 Gh0st #98'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_GERMANY]

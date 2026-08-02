@@ -38,7 +38,7 @@ async def async_main():
 
     with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}"), transient=True) as p:
         p.add_task(description="[cyan]Xray-core валидация (HTTP-маршрутизация и DPI Bypass)...", total=None)
-        working_configs = await validate_all_xray(raw_configs, blocked_ips, batch_size=100)
+        working_configs = await validate_all_xray(raw_configs, blocked_ips, batch_size=150)
 
     console.print(f"[green][OK][/green] Идеально рабочих узлов найдено: [bold green]{len(working_configs)}[/bold green]")
 

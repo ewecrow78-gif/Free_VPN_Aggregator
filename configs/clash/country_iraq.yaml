@@ -3,7 +3,7 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #11'
+- name: '🏳️ Gh0st #14'
   network: tcp
   port: 443
   reality-opts:
@@ -18,7 +18,7 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_IRAQ]
   proxies:
-  - '🏳️ Gh0st #11'
+  - '🏳️ Gh0st #14'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_IRAQ]

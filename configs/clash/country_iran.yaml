@@ -3,20 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇮🇷 Gh0st #4'
+- name: '🇮🇷 Gh0st #55'
   network: tcp
-  port: 8880
-  reality-opts: {}
-  server: 185.143.233.43
-  servername: 185.143.233.43
-  tls: false
+  port: 443
+  reality-opts:
+    public-key: zSjG6wndmLAzE8ykCBXpAm2eh0viWVSy3gt2juXF4EE
+    short-id: eaa8
+  server: 195.254.165.243
+  servername: play.google.com
+  tls: true
   type: vless
-  uuid: 0053c51b-b1f6-4d11-a087-ad795f65bec1
+  uuid: 1f6531a1-a6eb-4274-9f51-4a0899456fcf
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_IRAN]
   proxies:
-  - '🇮🇷 Gh0st #4'
+  - '🇮🇷 Gh0st #55'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_IRAN]

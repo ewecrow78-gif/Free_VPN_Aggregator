@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #16"
+        "🏳️ Belgium 15"
       ]
     },
     {
@@ -27,10 +27,10 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #16",
-      "server": "109.69.218.168",
+      "tag": "🏳️ Belgium 15",
+      "server": "109.69.218.167",
       "server_port": 443,
-      "uuid": "c28ee61d-0d43-4e69-8e6a-6397ed0ffc03",
+      "uuid": "5117ad77-cd9a-46e9-995b-b601b0b5e435",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,

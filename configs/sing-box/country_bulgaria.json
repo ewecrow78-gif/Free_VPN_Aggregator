@@ -14,9 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #48",
-        "🏳️ Gh0st #49",
-        "🏳️ Gh0st #51"
+        "🏳️ Gh0st #61",
+        "🏳️ Gh0st #62"
       ]
     },
     {
@@ -29,25 +28,7 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #48",
-      "server": "185.82.219.152",
-      "server_port": 443,
-      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "eu-central.cendora.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
-          "short_id": "00bca5982f82d083"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #49",
+      "tag": "🏳️ Gh0st #61",
       "server": "185.82.219.152",
       "server_port": 13443,
       "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
@@ -65,19 +46,19 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #51",
-      "server": "87.120.196.68",
+      "tag": "🏳️ Gh0st #62",
+      "server": "185.82.219.152",
       "server_port": 443,
-      "uuid": "5bb7df8d-ad02-41fa-a8e6-8a8a4650d2c4",
+      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "eu-central.cendora.ru",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "XZa7f7bABj7lY4HuLopVCBBBYTu-RB7QyIZ96njvYwo",
-          "short_id": "7bcfc0bc"
+          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
+          "short_id": "00bca5982f82d083"
         }
       }
     }

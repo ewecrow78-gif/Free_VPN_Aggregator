@@ -5,7 +5,7 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: '🇰🇷 Gh0st #44'
+  name: '🇰🇷 Gh0st #94'
   network: tcp
   port: 443
   server: 140.238.2.250
@@ -14,25 +14,10 @@ proxies:
   type: vmess
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷 Gh0st #49'
-  network: ws
-  port: 80
-  server: 132.145.80.230
-  servername: 132.145.80.230
-  tls: false
-  type: vmess
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  ws-opts:
-    headers:
-      Host: kr02.a0a.xyz
-    path: /cctv13.m3u8
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SOUTH_KOREA]
   proxies:
-  - '🇰🇷 Gh0st #44'
-  - '🇰🇷 Gh0st #49'
+  - '🇰🇷 Gh0st #94'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_SOUTH_KOREA]

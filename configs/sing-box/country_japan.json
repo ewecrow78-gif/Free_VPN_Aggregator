@@ -14,7 +14,9 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇯🇵 Gh0st #67"
+        "🇯🇵 Gh0st #96",
+        "🇯🇵 Gh0st #99",
+        "🇯🇵 Gh0st #100"
       ]
     },
     {
@@ -26,16 +28,42 @@
       "tag": "dns-out"
     },
     {
+      "type": "vless",
+      "tag": "🇯🇵 Gh0st #96",
+      "server": "43.163.241.110",
+      "server_port": 24477,
+      "uuid": "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "43.163.241.110",
+        "insecure": true
+      }
+    },
+    {
       "type": "vmess",
-      "tag": "🇯🇵 Gh0st #67",
-      "server": "45.76.202.45",
-      "server_port": 4010,
-      "uuid": "071a8a71-c656-4fb6-a908-4e42eb72243d",
+      "tag": "🇯🇵 Gh0st #99",
+      "server": "140.83.51.161",
+      "server_port": 25686,
+      "uuid": "6733c357-ba11-4e9f-f00f-7d87f2776ff9",
+      "security": "",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 Gh0st #100",
+      "server": "168.138.43.75",
+      "server_port": 80,
+      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
       "security": "auto",
       "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/liksuzcp"
+        "path": "/cctv13.m3u8"
       }
     }
   ],

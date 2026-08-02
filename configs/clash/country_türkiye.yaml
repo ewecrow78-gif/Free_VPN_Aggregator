@@ -3,21 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇹🇷 Gh0st #21'
-  network: ws
-  port: 52315
-  reality-opts: {}
-  server: 38.180.112.246
-  servername: 38.180.112.246
-  tls: false
+- name: '🇹🇷 Gh0st #75'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
+    short-id: c0573c8280a0c019
+  server: 91.124.63.229
+  servername: www.ya.ru
+  tls: true
   type: vless
-  uuid: 29498268-55f3-4b51-ba1a-1eba23f4ab63
-  ws-opts:
-    path: ''
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_TÜRKIYE]
   proxies:
-  - '🇹🇷 Gh0st #21'
+  - '🇹🇷 Gh0st #75'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_TÜRKIYE]

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793212719
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792937220
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_ISRAEL%20%F0%9F%9A%80
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@79.108.161.101:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=eu-central.cendora.ru&fp=qq&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&type=tcp&headerType=none#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2342
+vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@185.159.73.247:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=asia.cendora.ru&fp=qq&pbk=eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU&sid=e53048e82bb20077#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2390

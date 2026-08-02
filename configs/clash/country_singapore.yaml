@@ -3,17 +3,35 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇸🇬 Gh0st #66'
-  password: pvZE3UfT0ziK1omVLlsjINBqeqqwab1M
-  port: 50573
-  server: 139.59.238.97
-  skip-cert-verify: true
-  sni: 139.59.238.97
-  type: trojan
+- name: '🇸🇬 Gh0st #91'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: B1e_iMjxReenyAiFXDymzmzFNHqhvwc_RMdD3o3KYRE
+    short-id: 64e6ad70ed4c248f
+  server: 217.217.254.126
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: cfb310a9-7846-45dd-b72c-37597d6e33b3
+  ws-opts: {}
+- name: '🇸🇬 Gh0st #93'
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: h158YhbqAZ8mPeaIPiSAeDewASBy9vx-rOIuy_vOdWo
+    short-id: 302c4e8cdc613e24
+  server: 194.233.90.135
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: b6449404-7d69-4446-9590-e212023ceec3
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
   proxies:
-  - '🇸🇬 Gh0st #66'
+  - '🇸🇬 Gh0st #91'
+  - '🇸🇬 Gh0st #93'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_SINGAPORE]

@@ -261,47 +261,65 @@ def generate_outputs_old(configs):
     
     logger.info(f"[Generator] Formatting {len(alive)} alive configs...")
     alive.sort(key=lambda c: getattr(c, "latency_ms", 999999) or 999999)
-    for idx, cfg in enumerate(alive):
+    for cfg in alive:
         flag = getattr(cfg, "flag", "🏳️") or "🏳️"
-        cfg.rename(f"{flag} Gh0st #{idx+1}")
+        cfg.rename(f"{flag} GhostVPN")
 
-    write_json_file("configs/configs.json", [c.model_dump() for c in alive])
+    write_json_file("configs/configs.json", [c.dict() for c in alive])
 
-    stable = [c for c in alive if is_stable(c)]
-    recommended = [c for c in alive if is_recommended(c)]
-    whitelist_candidates = [c for c in alive if is_whitelist_candidate(c)]
-    top_fast = alive[:50]
+    whitelist_all = [c for c in alive if getattr(c, "is_ip_whitelisted", False) or getattr(c, "is_sni_whitelisted", False)]
+    normal_all = [c for c in alive if c not in whitelist_all]
     
-    # Cap list sizes so they are usable as subscriptions
-    alive = alive[:100]
-    stable = stable[:100]
-    recommended = recommended[:50]
-    whitelist_candidates = whitelist_candidates[:100]
+    top_50_fast = normal_all[:50]
+    top_30_fast = normal_all[:30]
+    all_configs = alive
+    wl_100 = whitelist_all[:100]
+    wl_50 = whitelist_all[:50]
+    wl_30 = whitelist_all[:30]
+    mixed_100 = normal_all[:50] + whitelist_all[:50]
+    all_wl = whitelist_all
+    fastest_all_100 = alive[:100]
 
+    # Generate outputs based on requested folders/files
     generate_all_sub_formats(
-        "configs/all.txt", "configs/base64/all.txt", "configs/clash/all.yaml", "configs/sing-box/all.json",
-        configs[:200], "ALL"
+        "configs/top_50_fast.txt", "configs/base64/top_50_fast.txt", "configs/clash/top_50_fast.yaml", "configs/sing-box/top_50_fast.json",
+        top_50_fast, "TOP_50_FAST"
     )
     generate_all_sub_formats(
-        "configs/top_fast.txt", "configs/base64/top_fast.txt", "configs/clash/top_fast.yaml", "configs/sing-box/top_fast.json",
-        top_fast, "TOP_FAST"
+        "configs/top_30_fast.txt", "configs/base64/top_30_fast.txt", "configs/clash/top_30_fast.yaml", "configs/sing-box/top_30_fast.json",
+        top_30_fast, "TOP_30_FAST"
     )
     generate_all_sub_formats(
-        "configs/alive.txt", "configs/base64/alive.txt", "configs/clash/alive.yaml", "configs/sing-box/alive.json",
-        alive, "ALIVE"
+        "configs/all_configs.txt", "configs/base64/all_configs.txt", "configs/clash/all_configs.yaml", "configs/sing-box/all_configs.json",
+        all_configs, "ALL_CONFIGS"
     )
     generate_all_sub_formats(
-        "configs/stable.txt", "configs/base64/stable.txt", "configs/clash/stable.yaml", "configs/sing-box/stable.json",
-        stable, "STABLE"
+        "configs/whitelists/wl_100.txt", "configs/base64/wl_100.txt", "configs/clash/wl_100.yaml", "configs/sing-box/wl_100.json",
+        wl_100, "WL_100"
     )
     generate_all_sub_formats(
-        "configs/recommended.txt", "configs/base64/recommended.txt", "configs/clash/recommended.yaml", "configs/sing-box/recommended.json",
-        recommended, "RECOMMENDED"
+        "configs/whitelists/wl_50.txt", "configs/base64/wl_50.txt", "configs/clash/wl_50.yaml", "configs/sing-box/wl_50.json",
+        wl_50, "WL_50"
     )
     generate_all_sub_formats(
-        "configs/whitelist_candidates.txt", "configs/base64/whitelist_candidates.txt", "configs/clash/whitelist_candidates.yaml", "configs/sing-box/whitelist_candidates.json",
-        whitelist_candidates, "WHITELIST_CANDIDATES"
+        "configs/whitelists/wl_30.txt", "configs/base64/wl_30.txt", "configs/clash/wl_30.yaml", "configs/sing-box/wl_30.json",
+        wl_30, "WL_30"
     )
+    generate_all_sub_formats(
+        "configs/mixed_100.txt", "configs/base64/mixed_100.txt", "configs/clash/mixed_100.yaml", "configs/sing-box/mixed_100.json",
+        mixed_100, "MIXED_100"
+    )
+    generate_all_sub_formats(
+        "configs/whitelists/all_wl.txt", "configs/base64/all_wl.txt", "configs/clash/all_wl.yaml", "configs/sing-box/all_wl.json",
+        all_wl, "ALL_WL"
+    )
+    generate_all_sub_formats(
+        "configs/fastest_all_100.txt", "configs/base64/fastest_all_100.txt", "configs/clash/fastest_all_100.yaml", "configs/sing-box/fastest_all_100.json",
+        fastest_all_100, "FASTEST_ALL"
+    )
+    
+    # RU Mobile Whitelist alias
+    generate_base64_sub("configs/base64/ru_mobile_whitelist.txt", [c.raw_link for c in all_wl])
 
     by_country = defaultdict(list)
     by_proto = defaultdict(list)
@@ -327,9 +345,15 @@ def generate_outputs_old(configs):
         "funnel": {},
         "total": len(configs), 
         "alive": len(alive),
-        "stable": len(stable),
-        "recommended": len(recommended),
-        "whitelist_candidates": len(whitelist_candidates),
+        "top_50_fast": len(top_50_fast),
+        "top_30_fast": len(top_30_fast),
+        "all_configs": len(all_configs),
+        "wl_100": len(wl_100),
+        "wl_50": len(wl_50),
+        "wl_30": len(wl_30),
+        "mixed_100": len(mixed_100),
+        "all_wl": len(all_wl),
+        "fastest_all_100": len(fastest_all_100),
         "by_country": {c: len(items) for c, items in by_country.items()},
         "country_flags": country_flags,
         "by_protocol": {p: len(items) for p, items in by_proto.items()}

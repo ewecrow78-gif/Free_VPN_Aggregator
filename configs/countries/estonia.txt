@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793259648
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792875259
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,7 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_ESTONIA%20%F0%9F%9A%80
-vless://da0f3291-c93e-4a19-b3f2-d150aad828ed@89.125.13.147:443?&security=reality&flow=xtls-rprx-vision&pbk=x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10&sid=e132826d&fp=chrome&sni=api.led.samsung.com&type=tcp&headerType=none&host=api.led.samsung.com&path=%2F#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2314
+vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@5.175.178.36:443?type=tcp&security=reality&sni=spry-jolt.cdn.cachefleet.com&pbk=ym3hAtR8IhSWN-uRGGRcjHm7tvaPfeVcBDW6DM8w_Ec&fp=random&encryption=none&flow=xtls-rprx-vision#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%237
+vless://c28ee61d-0d43-4e69-8e6a-6397ed0ffc03@5.175.178.29:443?type=tcp&security=reality&sni=keen-siren.cdn.cachefleet.com&pbk=ym3hAtR8IhSWN-uRGGRcjHm7tvaPfeVcBDW6DM8w_Ec&fp=random&encryption=none&flow=xtls-rprx-vision#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%238
+vless://26cd92ed-2bff-4e97-963a-d5ec374ba8f8@87.121.86.120:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=ee001.bearbeer.digital&fp=qq&security=reality&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&sid=#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2340
+vless://9d6104a5-fc6d-4fe6-95b7-80d8f699e09d@45.80.110.21:2087?mode=auto&security=tls&alpn=h2%2Chttp%2F1.1&encryption=none&insecure=0&type=xhttp&allowInsecure=0&sni=ch-de.sdcards.ir#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2344

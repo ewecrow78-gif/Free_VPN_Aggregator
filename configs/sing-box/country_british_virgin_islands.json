@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #11"
+        "🏳️ British Virgin Islands 03"
       ]
     },
     {
@@ -27,10 +27,10 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #11",
-      "server": "185.221.163.211",
+      "tag": "🏳️ British Virgin Islands 03",
+      "server": "fin1.panel11.ru",
       "server_port": 443,
-      "uuid": "aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d",
+      "uuid": "24e3a924-fc4b-4e3f-98a8-85d506d530f9",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,

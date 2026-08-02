@@ -3,19 +3,19 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇸🇪 Gh0st #11'
+- name: '🇸🇪 Gh0st #41'
   network: tcp
-  port: 443
+  port: 8443
   reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: abcd
-  server: 82.29.43.43
-  servername: auto.malina24.xyz
+    public-key: J4WffPKdBfvAlQgqDNPU63l24N4rhGbLYlQ2QgqVz1k
+    short-id: 5ee7e763329c07a6
+  server: 95.85.246.41
+  servername: www.reddit.com
   tls: true
   type: vless
-  uuid: 635a1c4e-122b-45f5-8339-03bce6039739
+  uuid: 070b81db-1954-4767-bfa5-26d2c3598273
   ws-opts: {}
-- name: '🇸🇪 Gh0st #36'
+- name: '🇸🇪 Gh0st #59'
   network: tcp
   port: 443
   reality-opts:
@@ -30,8 +30,8 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWEDEN]
   proxies:
-  - '🇸🇪 Gh0st #11'
-  - '🇸🇪 Gh0st #36'
+  - '🇸🇪 Gh0st #41'
+  - '🇸🇪 Gh0st #59'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_SWEDEN]

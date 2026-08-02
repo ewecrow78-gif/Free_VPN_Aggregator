@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇬🇧 Gh0st #59"
+        "🇬🇧 Gh0st #37"
       ]
     },
     {
@@ -27,19 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Gh0st #59",
-      "server": "82.39.171.145",
+      "tag": "🇬🇧 Gh0st #37",
+      "server": "84.75.161.38",
       "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "uuid": "da7685a7-15ef-41e4-a0d9-009bb4be7220",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "auto.malina24.xyz",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "5678"
         }
       }
     }

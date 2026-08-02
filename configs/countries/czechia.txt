@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792977580
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792890199
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_CZECHIA%20%F0%9F%9A%80
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@46.8.113.190:443?&security=reality&flow=xtls-rprx-vision&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&fp=qq&sni=eu-central.cendora.ru&type=tcp&headerType=none&host=eu-central.cendora.ru&path=%2F#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2337
+vless://5eecb34f-c905-4c77-b7fb-d830b451cd11@141.133.172.222:20342?&type=tcp&headerType=none&path=%2F#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2334
+vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@46.8.113.190:443?type=tcp&security=reality&sni=eu-central.cendora.ru&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&fp=qq&flow=xtls-rprx-vision#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2366

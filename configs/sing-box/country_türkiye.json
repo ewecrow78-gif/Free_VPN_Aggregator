@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇹🇷 Gh0st #21"
+        "🇹🇷 Gh0st #75"
       ]
     },
     {
@@ -27,19 +27,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 Gh0st #21",
-      "server": "38.180.112.246",
-      "server_port": 52315,
-      "uuid": "29498268-55f3-4b51-ba1a-1eba23f4ab63",
-      "flow": "",
+      "tag": "🇹🇷 Gh0st #75",
+      "server": "91.124.63.229",
+      "server_port": 443,
+      "uuid": "acc50200-7f21-4f90-9cca-0057efcbf042",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "38.180.112.246",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": ""
+        "server_name": "www.ya.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM",
+          "short_id": "c0573c8280a0c019"
+        }
       }
     }
   ],

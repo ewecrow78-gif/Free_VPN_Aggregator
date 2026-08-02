@@ -10,12 +10,12 @@
   },
   "matryoshka whitelist": {
     "status": "ok",
-    "downloaded_lines": 1990,
-    "parsed_configs": 1926,
+    "downloaded_lines": 1529,
+    "parsed_configs": 1499,
     "unique_configs": 0,
     "alive_configs": 0,
     "success_rate": 0.0,
-    "last_success": "2026-07-30T09:34:11Z"
+    "last_success": "2026-07-22T08:15:03Z"
   },
   "goida configs": {
     "status": "failed_parse",

@@ -20,6 +20,5 @@ GeoLite2-Country.mmdb
 
 # configs/*
 !configs/stats.json
-core/temp_batch_*.json
-core/temp_batch_*.json
-core/temp_*.json
+whitelist.pdf
+data/history.json

@@ -14,8 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇪 Gh0st #11",
-        "🇸🇪 Gh0st #36"
+        "🇸🇪 Gh0st #41",
+        "🇸🇪 Gh0st #59"
       ]
     },
     {
@@ -28,25 +28,25 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Gh0st #11",
-      "server": "82.29.43.43",
-      "server_port": 443,
-      "uuid": "635a1c4e-122b-45f5-8339-03bce6039739",
+      "tag": "🇸🇪 Gh0st #41",
+      "server": "95.85.246.41",
+      "server_port": 8443,
+      "uuid": "070b81db-1954-4767-bfa5-26d2c3598273",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "auto.malina24.xyz",
+        "server_name": "www.reddit.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "abcd"
+          "public_key": "J4WffPKdBfvAlQgqDNPU63l24N4rhGbLYlQ2QgqVz1k",
+          "short_id": "5ee7e763329c07a6"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Gh0st #36",
+      "tag": "🇸🇪 Gh0st #59",
       "server": "95.85.246.65",
       "server_port": 443,
       "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",

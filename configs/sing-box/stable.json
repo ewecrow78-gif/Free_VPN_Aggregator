@@ -14,8 +14,17 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #49",
-        "🇬🇧 Gh0st #59"
+        "🇫🇷 Gh0st #22",
+        "🇫🇷 Gh0st #29",
+        "🇫🇷 Gh0st #30",
+        "🇦🇪 Gh0st #47",
+        "🇮🇳 Gh0st #71",
+        "🇺🇸 Gh0st #80",
+        "🇮🇳 Gh0st #85",
+        "🇰🇷 Gh0st #94",
+        "🇯🇵 Gh0st #99",
+        "🇯🇵 Gh0st #100",
+        "🇸🇬 Gh0st #103"
       ]
     },
     {
@@ -27,39 +36,137 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #49",
-      "server": "185.82.219.152",
-      "server_port": 13443,
-      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇫🇷 Gh0st #22",
+      "server": "35.180.10.212",
+      "server_port": 443,
+      "password": "IQ68037294",
       "tls": {
         "enabled": true,
-        "server_name": "auto.cendora.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM",
-          "short_id": "a7f3c91b2e6d84c0"
-        }
+        "server_name": "firm-warthog.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 Gh0st #29",
+      "server": "35.181.168.168",
+      "server_port": 443,
+      "password": "WG39087154",
+      "tls": {
+        "enabled": true,
+        "server_name": "nearby-cod.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 Gh0st #30",
+      "server": "13.39.195.215",
+      "server_port": 443,
+      "password": "PD07395842",
+      "tls": {
+        "enabled": true,
+        "server_name": "tough-pigeon.rooster465.autos",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Gh0st #59",
-      "server": "82.39.171.145",
+      "tag": "🇦🇪 Gh0st #47",
+      "server": "151.245.192.225",
       "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "uuid": "da7685a7-15ef-41e4-a0d9-009bb4be7220",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "auto.malina24.xyz",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
-          "short_id": "c39cc7310a"
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "5678"
         }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇮🇳 Gh0st #71",
+      "server": "103.111.114.55",
+      "server_port": 28061,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #80",
+      "server": "64.94.95.117",
+      "server_port": 57142,
+      "password": "kkzh2prsyr2ik47as615",
+      "tls": {
+        "enabled": true,
+        "server_name": "static.rutube.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳 Gh0st #85",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 Gh0st #94",
+      "server": "140.238.2.250",
+      "server_port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 Gh0st #99",
+      "server": "140.83.51.161",
+      "server_port": 25686,
+      "uuid": "6733c357-ba11-4e9f-f00f-7d87f2776ff9",
+      "security": "",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 Gh0st #100",
+      "server": "168.138.43.75",
+      "server_port": 80,
+      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 Gh0st #103",
+      "server": "139.59.238.97",
+      "server_port": 50573,
+      "password": "pvZE3UfT0ziK1omVLlsjINBqeqqwab1M",
+      "tls": {
+        "enabled": true,
+        "server_name": "139.59.238.97",
+        "insecure": true
       }
     }
   ],

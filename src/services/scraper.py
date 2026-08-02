@@ -359,7 +359,13 @@ async def fetch_telegram() -> List[BaseVPNConfig]:
 
     logger.info("[Scraper] Connecting to Telegram...")
     try:
-        client = TelegramClient(StringSession(TG_SESSION), int(TG_API_ID), TG_API_HASH)
+        import python_socks
+        client = TelegramClient(
+            StringSession(TG_SESSION), 
+            int(TG_API_ID), 
+            TG_API_HASH, 
+            proxy=(python_socks.ProxyType.SOCKS5, "127.0.0.1", 1080)
+        )
         await client.connect()
         if not await client.is_user_authorized():
             logger.error("[Scraper] Telegram session invalid.")
@@ -374,7 +380,7 @@ async def fetch_telegram() -> List[BaseVPNConfig]:
 
         collected_happ_urls = set()
 
-        targets = [(c, 50) for c in channels] + [(f, 300) for f in forums]
+        targets = [(c, 20) for c in channels] + [(f, 100) for f in forums]
 
         for target_raw, limit in targets:
             target = parse_tg_target(target_raw)
@@ -438,10 +444,14 @@ async def fetch_telegram() -> List[BaseVPNConfig]:
         if collected_urls:
             logger.info(f"[Scraper] Found {len(collected_urls)} HTTP links in Telegram. Fetching...")
             async with aiohttp.ClientSession() as session:
-                tasks = [fetch_url(session, url) for url in collected_urls]
-                results = await asyncio.gather(*tasks)
-                for res in results:
-                    configs.extend(res)
+                urls_list = list(collected_urls)
+                chunk_size = 5000
+                for i in range(0, len(urls_list), chunk_size):
+                    chunk = urls_list[i:i+chunk_size]
+                    tasks = [fetch_url(session, url) for url in chunk]
+                    results = await asyncio.gather(*tasks)
+                    for res in results:
+                        configs.extend(res)
 
     except Exception as e:
         logger.error(f"[Scraper] Telegram error: {e}")
@@ -484,10 +494,13 @@ async def scrape_all() -> List[BaseVPNConfig]:
     if urls_txt:
         logger.info(f"[Scraper] Fetching {len(urls_txt)} URLs from urls.txt...")
         async with aiohttp.ClientSession() as session:
-            tasks = [fetch_url(session, url) for url in urls_txt]
-            results = await asyncio.gather(*tasks)
-            for res in results:
-                all_configs.extend(res)
+            chunk_size = 5000
+            for i in range(0, len(urls_txt), chunk_size):
+                chunk = urls_txt[i:i+chunk_size]
+                tasks = [fetch_url(session, url) for url in chunk]
+                results = await asyncio.gather(*tasks)
+                for res in results:
+                    all_configs.extend(res)
     
     # 3. Telegram Sources
     logger.info("[Scraper] Attempting to scrape Telegram channels...")

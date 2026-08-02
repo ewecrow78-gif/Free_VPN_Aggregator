@@ -3,22 +3,48 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇦🇪 Gh0st #5'
+- name: '🇦🇪 Gh0st #14'
   network: tcp
   port: 993
   reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
+    public-key: WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY
     short-id: ''
-  server: 45.88.13.3
+  server: 89.47.55.3
   servername: download.nvidia.com
   tls: true
   type: vless
   uuid: 5e243126-4a2a-84b6-782a-73b14797fb5f
   ws-opts: {}
+- name: '🇦🇪 Gh0st #46'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '5678'
+  server: 151.245.192.193
+  servername: auto.malina24.xyz
+  tls: true
+  type: vless
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+  ws-opts: {}
+- name: '🇦🇪 Gh0st #47'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '5678'
+  server: 151.245.192.225
+  servername: auto.malina24.xyz
+  tls: true
+  type: vless
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_ARAB_EMIRATES]
   proxies:
-  - '🇦🇪 Gh0st #5'
+  - '🇦🇪 Gh0st #14'
+  - '🇦🇪 Gh0st #46'
+  - '🇦🇪 Gh0st #47'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_UNITED_ARAB_EMIRATES]

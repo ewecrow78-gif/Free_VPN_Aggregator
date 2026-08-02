@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793334756
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SWITZERLAND%20%F0%9F%9A%80
-vless://f055899d-026b-49b5-88ed-0227795082da@2.26.139.184:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=-qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM&sid=e17b4d9a8c1f3526&sni=kukuruza.mycdn-me.ru#%F0%9F%87%A8%F0%9F%87%AD%20Gh0st%20%2316
+vless://18bdc31e-fc7a-41ae-ba10-55a2fba63019@2.26.135.196:443?&security=reality&flow=xtls-rprx-vision&pbk=09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE&sid=a1f9c0e21d7b6485&fp=qq&sni=smorodina.mycdn-me.ru&type=tcp&headerType=none&host=smorodina.mycdn-me.ru&path=%2F#%F0%9F%87%A8%F0%9F%87%AD%20Gh0st%20%2317

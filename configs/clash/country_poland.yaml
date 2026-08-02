@@ -3,22 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇵🇱 Gh0st #37'
+- name: '🇵🇱 Gh0st #13'
   network: tcp
   port: 443
   reality-opts:
-    public-key: HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U
-    short-id: ''
-  server: 95.85.229.112
-  servername: www.wikihow.com
+    public-key: CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM
+    short-id: 5e3ab3ab228625
+  server: 144.31.0.100
+  servername: vaultivo-hgooe.ru
   tls: true
   type: vless
-  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
+  uuid: 7b81d175-d180-4ec8-bbc5-dfe80e8d3b68
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:
-  - '🇵🇱 Gh0st #37'
+  - '🇵🇱 Gh0st #13'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_POLAND]

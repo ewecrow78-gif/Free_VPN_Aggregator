@@ -188,7 +188,7 @@ def generate_outputs(configs: List[VPNConfig]) -> None:
         cfg.rename_with_index(i)
 
     # Write configs.json metadata
-    write_json_file("configs/configs.json", [c.model_dump() for c in configs])
+    write_json_file("configs/configs.json", [c.dict() for c in configs])
 
     # 2. Top working (configs/alive.txt)
     generate_all_sub_formats(

@@ -3,24 +3,50 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- name: '🇯🇵 Gh0st #96'
+  network: tcp
+  port: 24477
+  reality-opts: {}
+  server: 43.163.241.110
+  servername: 43.163.241.110
+  tls: false
+  type: vless
+  uuid: 2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d
+  ws-opts: {}
 - alterId: 0
-  cipher: auto
-  name: '🇯🇵 Gh0st #67'
+  cipher: ''
+  name: '🇯🇵 Gh0st #99'
   network: ws
-  port: 4010
-  server: 45.76.202.45
-  servername: 45.76.202.45
+  port: 25686
+  server: 140.83.51.161
+  servername: 140.83.51.161
   tls: false
   type: vmess
-  uuid: 071a8a71-c656-4fb6-a908-4e42eb72243d
+  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
   ws-opts:
     headers:
-      Host: ''
-    path: /liksuzcp
+      Host: jp02.a0a.xyz
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '🇯🇵 Gh0st #100'
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  servername: 168.138.43.75
+  tls: false
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_JAPAN]
   proxies:
-  - '🇯🇵 Gh0st #67'
+  - '🇯🇵 Gh0st #96'
+  - '🇯🇵 Gh0st #99'
+  - '🇯🇵 Gh0st #100'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_JAPAN]

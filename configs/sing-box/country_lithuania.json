@@ -14,8 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #16",
-        "🏳️ Gh0st #35"
+        "🏳️ Gh0st #45"
       ]
     },
     {
@@ -28,20 +27,7 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #16",
-      "server": "93.115.25.139",
-      "server_port": 443,
-      "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ddc-chr2.astralweb.tech",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #35",
+      "tag": "🏳️ Gh0st #45",
       "server": "5.199.170.105",
       "server_port": 443,
       "uuid": "fd47216b-4217-4ec1-85b9-98304634a391",

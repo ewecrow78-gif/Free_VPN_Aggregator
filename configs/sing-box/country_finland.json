@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇫🇮 Gh0st #4"
+        "🇫🇮 Gh0st #31"
       ]
     },
     {
@@ -27,19 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 Gh0st #4",
-      "server": "178.17.53.177",
-      "server_port": 34151,
-      "uuid": "e80398bb-aecb-4686-a75c-dfe4cd8ce242",
+      "tag": "🇫🇮 Gh0st #31",
+      "server": "31.76.30.79",
+      "server_port": 8444,
+      "uuid": "b12eebc2-369c-4f3c-96a0-a8bd150ca8d5",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "178.17.53.177",
+        "server_name": "kinopoisk.ru",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "nlEvGwt7WTuobjUSOK9ITQ8LF5VIC-SrWPMTH9FqTk4",
-          "short_id": "5e039404"
+          "public_key": "Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU",
+          "short_id": "eb0cca7312345678"
         }
       }
     }

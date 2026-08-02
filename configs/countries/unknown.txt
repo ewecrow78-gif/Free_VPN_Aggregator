@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793300701
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNKNOWN%20%F0%9F%9A%80
-ss://Y2hhY2hhMjAtcG9seTEzMDU6Vzc0WEZBTExMdXc2bTVJQQ==@104.21.96.1:443#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%235
-vless://c19735a7-ff97-a112-3f07-60e500f7719b@104.21.83.126:443?encryption=none&type=ws&security=tls&path=%2F---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN---%40MiTiVPN-----&host=-------1---j-iii-MiTiVPN---MiTiVPN------.MAQROR.ir&sni=2-------------uu-MiTiVPN---MiTiVPN-yyyo.MAQROR.ir&alpn=h2%2Chttp%2F1.1&fp=chrome#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%236
+vless://00328cdc-2250-4da8-bf32-1ce54f1b8ca8@104.26.14.137:8443?mode=auto&path=%2F%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=sa.sorixset.ir&fp=firefox&type=xhttp&allowInsecure=0&sni=sa.sorixset.ir#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2363

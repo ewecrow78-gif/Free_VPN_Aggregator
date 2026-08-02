@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇭🇰 Gh0st #64"
+        "🇭🇰 Gh0st #95"
       ]
     },
     {
@@ -26,15 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
-      "tag": "🇭🇰 Gh0st #64",
-      "server": "18.163.180.201",
-      "server_port": 6357,
-      "password": "d1960ba9f0f6353353994fa844cf817b",
+      "type": "vless",
+      "tag": "🇭🇰 Gh0st #95",
+      "server": "43.255.156.59",
+      "server_port": 40118,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.nintendogames.net",
-        "insecure": true
+        "server_name": "www.lamer.com.sg",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20",
+          "short_id": "5895914d"
+        }
       }
     }
   ],

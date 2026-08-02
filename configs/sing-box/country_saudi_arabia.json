@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #57"
+        "🏳️ Gh0st #69"
       ]
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #57",
+      "tag": "🏳️ Gh0st #69",
       "server": "81.208.170.142",
       "server_port": 1500,
       "uuid": "e332f028-d343-5b44-8016-b3130f39e133",

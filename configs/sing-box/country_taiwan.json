@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇹🇼 Gh0st #62"
+        "🇹🇼 Gh0st #88"
       ]
     },
     {
@@ -26,12 +26,13 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🇹🇼 Gh0st #62",
-      "server": "60.249.101.13",
-      "server_port": 10000,
-      "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-      "flow": ""
+      "type": "vmess",
+      "tag": "🇹🇼 Gh0st #88",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "",
+      "alter_id": 0
     }
   ],
   "route": {

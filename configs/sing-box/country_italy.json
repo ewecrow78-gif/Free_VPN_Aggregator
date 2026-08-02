@@ -14,15 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇮🇹 Gh0st #6",
-        "🇮🇹 Gh0st #7",
-        "🇮🇹 Gh0st #9",
-        "🇮🇹 Gh0st #12",
-        "🇮🇹 Gh0st #13",
-        "🇮🇹 Gh0st #14",
-        "🇮🇹 Gh0st #19",
-        "🇮🇹 Gh0st #21",
-        "🇮🇹 Gh0st #40"
+        "🇮🇹 Gh0st #6"
       ]
     },
     {
@@ -36,114 +28,15 @@
     {
       "type": "vless",
       "tag": "🇮🇹 Gh0st #6",
-      "server": "151.115.166.130",
+      "server": "151.115.166.46",
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "151.115.166.130",
+        "server_name": "151.115.166.46",
         "insecure": true
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Gh0st #7",
-      "server": "151.115.166.127",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.115.166.127",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Gh0st #9",
-      "server": "151.115.164.117",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.115.164.117",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Gh0st #12",
-      "server": "151.115.164.43",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.115.164.43",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Gh0st #13",
-      "server": "151.115.166.5",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.115.166.5",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Gh0st #14",
-      "server": "151.115.164.60",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.115.164.60",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Gh0st #19",
-      "server": "151.115.167.252",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.115.167.252",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇮🇹 Gh0st #21",
-      "server": "151.115.166.53",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "151.115.166.53",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇹 Gh0st #40",
-      "server": "185.213.20.110",
-      "server_port": 7001,
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG"
     }
   ],
   "route": {

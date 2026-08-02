@@ -22,4 +22,6 @@ We welcome ideas for new features or improvements. Open an issue with the label 
 6. Push to the branch (`git push origin feature/your-feature`).
 7. Open a Pull Request.
 
+**Note on Commits**: Since this repository relies on frequent auto-updates from GitHub Actions, all Pull Requests should be **squashed into a single commit** upon merging. This prevents the commit history from bloating with minor auto-update commits and keeps the `main` branch clean.
+
 Please follow standard Python code style (PEP 8) and ensure you do not commit any sensitive data or secrets.

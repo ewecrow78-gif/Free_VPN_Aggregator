@@ -14,14 +14,19 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇩🇪 Gh0st #28",
+        "🇩🇪 Gh0st #5",
+        "🇩🇪 Gh0st #24",
+        "🇩🇪 Gh0st #25",
         "🇩🇪 Gh0st #33",
         "🇩🇪 Gh0st #34",
-        "🇩🇪 Gh0st #38",
-        "🇩🇪 Gh0st #42",
+        "🇩🇪 Gh0st #36",
+        "🇩🇪 Gh0st #39",
         "🇩🇪 Gh0st #43",
-        "🇩🇪 Gh0st #50",
-        "🇩🇪 Gh0st #54"
+        "🇩🇪 Gh0st #48",
+        "🇩🇪 Gh0st #49",
+        "🇩🇪 Gh0st #54",
+        "🇩🇪 Gh0st #68",
+        "🇩🇪 Gh0st #98"
       ]
     },
     {
@@ -34,74 +39,97 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Gh0st #28",
-      "server": "203.23.179.151",
+      "tag": "🇩🇪 Gh0st #5",
+      "server": "103.27.156.63",
       "server_port": 443,
-      "uuid": "3ad1d277-5715-4ca1-84db-5baea72f822d",
+      "uuid": "2d7c8eef-49c0-4d89-a74f-591ea805274d",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ddc-akn.astralweb.tech",
-        "insecure": true
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Gh0st #24",
+      "server": "138.124.61.172",
+      "server_port": 50443,
+      "uuid": "ab51054f-de76-4a0f-9f3a-b44c8df86a6c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.icloud.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Gh0st #25",
+      "server": "194.87.55.47",
+      "server_port": 443,
+      "uuid": "2d7c8eef-49c0-4d89-a74f-591ea805274d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "dSKIQmSXKkmpXGcB9RCt320PmpuE92omqsVqdH351G8",
+          "short_id": ""
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 Gh0st #33",
-      "server": "109.163.239.60",
-      "server_port": 443,
-      "uuid": "55f7d143-a594-4a91-b030-f227039f85ef",
+      "server": "185.204.170.235",
+      "server_port": 2053,
+      "uuid": "326f45c1-0a69-4150-a3b9-42f282a3c34c",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn5-89.yahoo.com",
+        "server_name": "npav.havray2025.ir",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
-          "short_id": "d08bb54b5b94b2fc"
+          "public_key": "N2H6Y5aEVwq2yUY1GL5fL6HKaiYUvve-tgImQAIAT0U",
+          "short_id": "0d77f881"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 Gh0st #34",
-      "server": "152.53.127.214",
+      "server": "5.254.121.199",
       "server_port": 443,
-      "uuid": "711c018e-2692-4aa8-93f3-544d83fcd16c",
+      "uuid": "5c2a674b-bf9d-4461-b56d-a9c2bc299d9a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "cdn4-81.yahoo.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs",
-          "short_id": "7a76f3c4b9dd"
+          "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
+          "short_id": "42e51b053eec3700"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Gh0st #38",
-      "server": "159.195.44.159",
-      "server_port": 443,
-      "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "5.oncloudnineservicestreang.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "RurLbpOTStqCjS3lhwB0d3MEZ3629j3atv_r1dT5zjM",
-          "short_id": "273940fba6ad8250"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 Gh0st #42",
+      "tag": "🇩🇪 Gh0st #36",
       "server": "152.53.236.182",
       "server_port": 443,
       "uuid": "711c018e-2692-4aa8-93f3-544d83fcd16c",
@@ -119,55 +147,107 @@
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Gh0st #43",
-      "server": "109.163.239.208",
+      "tag": "🇩🇪 Gh0st #39",
+      "server": "31.56.188.145",
       "server_port": 443,
-      "uuid": "55f7d143-a594-4a91-b030-f227039f85ef",
+      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn9-78.yahoo.com",
+        "server_name": "eu-central.cendora.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
+          "short_id": "00bca5982f82d083"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Gh0st #43",
+      "server": "5.254.121.232",
+      "server_port": 443,
+      "uuid": "5c2a674b-bf9d-4461-b56d-a9c2bc299d9a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn9-40.yahoo.com",
         "insecure": true,
         "reality": {
           "enabled": true,
           "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
-          "short_id": "3c9c5d01c6f824dd"
+          "short_id": "299a6ca1f217c457"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇩🇪 Gh0st #50",
-      "server": "159.195.46.178",
-      "server_port": 443,
-      "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "4.oncloudnineservicestreang.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "P5ceHLOW8Gmz45z-ozbm9T6xsdSsIGLB71-jMfSjCBQ",
-          "short_id": "04bc695105689674"
-        }
-      }
+      "tag": "🇩🇪 Gh0st #48",
+      "server": "91.107.139.186",
+      "server_port": 50417,
+      "uuid": "500cdc83-b189-4d79-b06b-139c7972a57f",
+      "flow": ""
+    },
+    {
+      "type": "vmess",
+      "tag": "🇩🇪 Gh0st #49",
+      "server": "91.107.139.186",
+      "server_port": 51459,
+      "uuid": "500cdc83-b189-4d79-b06b-139c7972a57f",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "type": "vless",
       "tag": "🇩🇪 Gh0st #54",
-      "server": "159.195.27.99",
+      "server": "5.175.249.199",
+      "server_port": 52315,
+      "uuid": "bece874b-e905-48a4-9620-5ef59b49081a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "5.175.249.199",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Gh0st #68",
+      "server": "109.163.239.6",
       "server_port": 443,
-      "uuid": "859a537b-09cf-4bce-8da4-ecbb72950e3a",
+      "uuid": "7d6d3391-7bf8-46bf-bd2e-01e82a790017",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "1.oncloudnineservicestreang.com",
+        "server_name": "cdn8-03.yahoo.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "EuExqpNB141gtIjbCmU0yyurbBqiLtGjDg-n95JIuig",
-          "short_id": "28415a7918168947"
+          "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
+          "short_id": "df5f7ec1de636bbb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 Gh0st #98",
+      "server": "5.254.121.201",
+      "server_port": 443,
+      "uuid": "7d6d3391-7bf8-46bf-bd2e-01e82a790017",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn8-63.yahoo.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
+          "short_id": "8015c191d21aa452"
         }
       }
     }

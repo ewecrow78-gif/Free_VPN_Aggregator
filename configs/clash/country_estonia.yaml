@@ -3,22 +3,59 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #14'
+- name: '🏳️ Gh0st #7'
   network: tcp
   port: 443
   reality-opts:
-    public-key: x8AqgiU2yHx67Yv2opPUV17wRjAz1ftFtVi2CcVup10
-    short-id: e132826d
-  server: 89.125.13.147
-  servername: api.led.samsung.com
+    public-key: ym3hAtR8IhSWN-uRGGRcjHm7tvaPfeVcBDW6DM8w_Ec
+    short-id: ''
+  server: 5.175.178.36
+  servername: spry-jolt.cdn.cachefleet.com
   tls: true
   type: vless
-  uuid: da0f3291-c93e-4a19-b3f2-d150aad828ed
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+  ws-opts: {}
+- name: '🏳️ Gh0st #8'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ym3hAtR8IhSWN-uRGGRcjHm7tvaPfeVcBDW6DM8w_Ec
+    short-id: ''
+  server: 5.175.178.29
+  servername: keen-siren.cdn.cachefleet.com
+  tls: true
+  type: vless
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+  ws-opts: {}
+- name: '🏳️ Gh0st #40'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU
+    short-id: ''
+  server: 87.121.86.120
+  servername: ee001.bearbeer.digital
+  tls: true
+  type: vless
+  uuid: 26cd92ed-2bff-4e97-963a-d5ec374ba8f8
+  ws-opts: {}
+- name: '🏳️ Gh0st #44'
+  network: xhttp
+  port: 2087
+  reality-opts: {}
+  server: 45.80.110.21
+  servername: ch-de.sdcards.ir
+  tls: true
+  type: vless
+  uuid: 9d6104a5-fc6d-4fe6-95b7-80d8f699e09d
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_ESTONIA]
   proxies:
-  - '🏳️ Gh0st #14'
+  - '🏳️ Gh0st #7'
+  - '🏳️ Gh0st #8'
+  - '🏳️ Gh0st #40'
+  - '🏳️ Gh0st #44'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_ESTONIA]

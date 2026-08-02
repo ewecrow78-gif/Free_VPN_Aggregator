@@ -14,8 +14,14 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #55",
-        "🇯🇵 Gh0st #67"
+        "🇩🇪 Gh0st #49",
+        "🏳️ Gh0st #66",
+        "🇮🇳 Gh0st #85",
+        "🇹🇼 Gh0st #88",
+        "🇰🇷 Gh0st #94",
+        "🇺🇸 Gh0st #97",
+        "🇯🇵 Gh0st #99",
+        "🇯🇵 Gh0st #100"
       ]
     },
     {
@@ -28,24 +34,99 @@
     },
     {
       "type": "vmess",
-      "tag": "🏳️ Gh0st #55",
-      "server": "47.250.135.244",
-      "server_port": 10000,
-      "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
+      "tag": "🇩🇪 Gh0st #49",
+      "server": "91.107.139.186",
+      "server_port": 51459,
+      "uuid": "500cdc83-b189-4d79-b06b-139c7972a57f",
       "security": "auto",
       "alter_id": 0
     },
     {
       "type": "vmess",
-      "tag": "🇯🇵 Gh0st #67",
-      "server": "45.76.202.45",
-      "server_port": 4010,
-      "uuid": "071a8a71-c656-4fb6-a908-4e42eb72243d",
+      "tag": "🏳️ Gh0st #66",
+      "server": "94.131.108.36",
+      "server_port": 443,
+      "uuid": "9855f1f0-a800-40d4-8b38-c7d3eb79302d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "94.131.108.36",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇮🇳 Gh0st #85",
+      "server": "152.67.8.205",
+      "server_port": 80,
+      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
+      "security": "",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇼 Gh0st #88",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 Gh0st #94",
+      "server": "140.238.2.250",
+      "server_port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 Gh0st #97",
+      "server": "192.220.32.219",
+      "server_port": 40913,
+      "uuid": "cc247516-d2cd-4ad4-a984-c4ae8ad9074a",
       "security": "auto",
       "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/liksuzcp"
+        "path": "/cc247516-d2cd-4ad4-a984-c4ae8ad9074a-vm"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 Gh0st #99",
+      "server": "140.83.51.161",
+      "server_port": 25686,
+      "uuid": "6733c357-ba11-4e9f-f00f-7d87f2776ff9",
+      "security": "",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 Gh0st #100",
+      "server": "168.138.43.75",
+      "server_port": 80,
+      "uuid": "11c3627f-31e8-4695-dfbd-34076e2f1f5d",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
       }
     }
   ],

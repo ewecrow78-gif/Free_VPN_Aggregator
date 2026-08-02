@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793349187
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,25 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20PROTO_TROJAN%20%F0%9F%9A%80
-trojan://2eutknankxtbgkwcajzt@193.148.19.210:52794?security=tls&sni=www.vk.com&fp=chrome&type=tcp&headerType=none&path=%2f&allow_insecure=1#%F0%9F%87%AA%F0%9F%87%B8%20Gh0st%20%2347
-trojan://d1960ba9f0f6353353994fa844cf817b@18.163.180.201:6357?security=tls&sni=www.nintendogames.net#%F0%9F%87%AD%F0%9F%87%B0%20Gh0st%20%2364
-trojan://pvZE3UfT0ziK1omVLlsjINBqeqqwab1M@139.59.238.97:50573?allowInsecure=1&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20Gh0st%20%2366
+trojan://ON38567014@13.39.249.40:443?sni=one-quail.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2318
+trojan://FC60532879@13.37.127.48:443?sni=pretty-quail.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2319
+trojan://UZ15382649@15.188.75.92:443?sni=moral-dolphin.rooster465.autos&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2320
+trojan://IQ68037294@13.39.89.72:443?security=tls&sni=definite-giraffe.rooster465.autos&type=tcp&headerType=none&path=%2f&allow_insecure=0#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2321
+trojan://IQ68037294@35.180.10.212:443?sni=firm-warthog.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2322
+trojan://PD07395842@13.39.127.43:443?sni=united-bedbug.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2323
+trojan://IQ68037294@13.39.161.149:443?sni=humane-bird.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2326
+trojan://IQ68037294@51.44.167.144:443?sni=immune-earwig.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2327
+trojan://FC60532879@51.44.160.58:443?sni=great-krill.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2328
+trojan://WG39087154@35.181.168.168:443?sni=nearby-cod.rooster465.autos&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2329
+trojan://PD07395842@13.39.195.215:443?sni=tough-pigeon.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2330
+trojan://IQ68037294@13.37.222.178:443?sni=correct-pony.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2331
+trojan://2eutknankxtbgkwcajzt@193.148.19.213:52794?sni=193.148.19.213&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%AA%F0%9F%87%B8%20Gh0st%20%2360
+trojan://2eutknankxtbgkwcajzt@193.148.19.210:52794?security=tls&sni=www.vk.com&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AA%F0%9F%87%B8%20Gh0st%20%2361
+trojan://9ad83f65a560960e6509b677eb6162c1@153.75.250.171:49271?sni=153.75.250.171.sslip.io&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2370
+trojan://lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths@64.74.163.118:58536?security=tls&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2372
+trojan://bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR@148.72.168.35:58615?allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2374
+trojan://kkzh2prsyr2ik47as615@64.94.95.115:57142?allowInsecure=1&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2378
+trojan://kkzh2prsyr2ik47as615@64.94.95.117:57142?allowInsecure=1&sni=static.rutube.ru&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2380
+trojan://kkzh2prsyr2ik47as615@64.94.95.118:57142?sni=64.94.95.118&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2381
+trojan://kkzh2prsyr2ik47as615@64.94.95.114:57142?sni=static.rutube.ru&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2382
+trojan://0ebb269c9f2d4e8e46b0cd4105a55134@163.245.196.68:49361?security=tls&sni=163.245.196.68.sslip.io&path=%2f#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2386

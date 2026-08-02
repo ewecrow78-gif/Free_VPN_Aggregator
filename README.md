@@ -19,7 +19,7 @@
 
 `VLESS` · `Trojan` · `Shadowsocks` · `VMess` · `Reality` · Xray-core
 
-[🌐 Репозиторий](https://github.com/ewecrow78-gif/Free_VPN_Aggregator) · [💬 Telegram](https://t.me) · [📦 Ветка output](https://github.com/ewecrow78-gif/Free_VPN_Aggregator/tree/main/configs)
+[🌐 Репозиторий](https://github.com/ewecrow78-gif/Free_VPN_Aggregator) · [📦 Ветка output](https://github.com/ewecrow78-gif/Free_VPN_Aggregator/tree/main/configs)
 
 </div>
 
@@ -40,7 +40,9 @@
 - [⚙️ Как это работает](#️-как-это-работает)
 - [🗂 Структура репозитория](#-структура-репозитория)
 - [🔧 Локальный запуск](#-локальный-запуск)
-- [⚠️ Безопасность](#️-безопасность)
+- [➕ Как добавить свой источник](#-как-добавить-свой-источник-конфигов)
+- [🛠 Troubleshooting (для разработчиков)](#-troubleshooting-для-разработчиков)
+- [⚠️ Безопасность и Disclaimer](#️-безопасность-и-disclaimer)
 - [📊 Статистика](#-статистика)
 - [📜 Лицензия](#-лицензия)
 
@@ -102,7 +104,7 @@
 
 ## 📊 Статус сети
 
-> Автообновление пайплайном. Время: **2026-08-01 08:33 UTC**.
+> Автообновление пайплайном. Время: **2026-08-02 13:35 UTC**.
 
 | Показатель | Значение | Описание |
 | :--- | :---: | :--- |
@@ -111,11 +113,15 @@
 | **Отсеяно (синтаксис / IP)** | `0` | Битый URI, private IP |
 | **Отсеяно (DNS / TCP)** | `0` | Мёртвые домены / порты |
 | **Рабочих (Xray test)** | `0` | Реальный HTTP через VPN |
-| **В выдаче (top)** | `69` | Лимит клиентских подписок |
-| **Whitelist** | `0` | White-list сценарий |
-| **Premium** | `0` | Жёсткий отбор |
-| **Recommended** | `0` | Для новичков |
-| **Mobile** | `0` | Лёгкие протоколы |
+| **Топ 50 быстрых** | `0` | |
+| **Топ 30 быстрых** | `0` | |
+| **Все конфиги** | `0` | Без лимитов |
+| **Белые списки 100** | `0` | |
+| **Топ 50 белых списков** | `0` | |
+| **Топ 30 белых списков** | `0` | |
+| **Все вместе** | `0` | 50 обычных + 50 белых |
+| **Все белые списки** | `0` | Без лимитов |
+| **Топ быстрых 100** | `0` | Обычные и белые |
 
 ---
 
@@ -125,498 +131,381 @@
 > Для клиентов почти всегда берите **Base64**.  
 > Если `raw.githubusercontent.com` не открывается — [🪞 Зеркала](#-зеркала).
 
-### ⚫ Обычный режим (чёрные списки)
+### 1. 🌍 По странам
+*(Подписки для каждой страны находятся ниже в разделе «Страны»)*
 
-*Обычный интернет без жёсткого whitelist у провайдера.*
+### 2. Топ 50 быстрых
+### 🚀 ТОП 50 БЫСТРЫХ ⚫ (0)
 
-### 🥇 RECOMMENDED — лучший старт ⚫ (0)
-
-### [base64/recommended.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/recommended.txt)
+### [base64/top_50_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt)
 
 <details>
 <summary>QR-код</summary>
 
-![qr-recommended](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/recommended.png)
+![qr-top_50_fast](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_50_fast.png)
 
 </details>
 
-`Сбалансированный список: success rate, stable pool, DPI-bypass. Идеально новичкам.`
+`50 лучших обычных конфигов (не белые списки) с самым низким пингом.`
 
 <details>
 <summary>🪞 Зеркала и другие форматы</summary>
 
 **Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/recommended.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/recommended.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/recommended.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/recommended.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_50_fast.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_50_fast.txt`
 
 **Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/recommended.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/recommended.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/recommended.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/recommended.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_50_fast.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_50_fast.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_50_fast.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_50_fast.txt`
 
 | Формат | Ссылка |
 | :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/recommended.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/recommended.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/recommended.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/recommended.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/recommended.png) |
-
-</details>
-
----
-
-### 🚀 TOP FAST — минимальный пинг ⚫
-
-### [base64/top_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_fast.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-top_fast](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_fast.png)
-
-</details>
-
-`Топ узлов с наименьшей latency после Xray HTTP-теста.`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_fast.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_fast.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_fast.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_fast.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_fast.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_fast.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_fast.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_fast.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_fast.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_fast.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/top_fast.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/top_fast.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_fast.png) |
-
-</details>
-
----
-
-### ✅ ALIVE — все прошедшие Xray ⚫ (69)
-
-### [base64/alive.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/alive.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-alive](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/alive.png)
-
-</details>
-
-`Полный рабочий пул (с лимитом выдачи). Больше выбор — дольше пинг-тест на слабых телефонах.`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/alive.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/alive.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/alive.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/alive.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/alive.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/alive.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/alive.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/alive.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/alive.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/alive.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/alive.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/alive.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/alive.png) |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_50_fast.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/top_50_fast.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/top_50_fast.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_50_fast.png) |
 
 </details>
 
 ---
 
 
-### ⚪ Обход белых списков
+### 3. Топ 30 быстрых
+### 🚀 ТОП 30 БЫСТРЫХ ⚫ (0)
 
-*Когда «режут» всё, кроме белых IP/SNI.*
-
-### 📱 RU MOBILE WHITELIST ⚪
-
-### [base64/ru_mobile_whitelist.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/ru_mobile_whitelist.txt)
+### [base64/top_30_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt)
 
 <details>
 <summary>QR-код</summary>
 
-![qr-ru_mobile_whitelist](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/ru_mobile_whitelist.png)
+![qr-top_30_fast](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_30_fast.png)
 
 </details>
 
-`Обход ограничений мобильных операторов / whitelist. Лёгкий набор для телефона.`
+`30 лучших обычных конфигов (не белые списки) с самым низким пингом.`
 
 <details>
 <summary>🪞 Зеркала и другие форматы</summary>
 
 **Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/ru_mobile_whitelist.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/ru_mobile_whitelist.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/ru_mobile_whitelist.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/ru_mobile_whitelist.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_30_fast.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_30_fast.txt`
 
 **Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/ru_mobile_whitelist.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/ru_mobile_whitelist.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/ru_mobile_whitelist.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/ru_mobile_whitelist.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_30_fast.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_30_fast.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_30_fast.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_30_fast.txt`
 
 | Формат | Ссылка |
 | :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/ru_mobile_whitelist.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/ru_mobile_whitelist.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/ru_mobile_whitelist.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/ru_mobile_whitelist.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/ru_mobile_whitelist.png) |
-
-</details>
-
----
-
-### WHITE LIST ALL ⚪ (~)
-
-### [base64/whitelist_all.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_all.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-whitelist_all](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/whitelist_all.png)
-
-</details>
-
-`Расширенный whitelist-пул (clean IP / RU-reachable).`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_all.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/whitelist_all.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_all.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/whitelist_all.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/all.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/all.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/all.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/all.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_all.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/all.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/whitelist_all.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/whitelist_all.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/whitelist_all.png) |
-
-</details>
-
----
-
-### WHITE LIST SMALL — жёстче фильтр ⚪ (~)
-
-### [base64/whitelist_small.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_small.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-whitelist_small](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/whitelist_small.png)
-
-</details>
-
-`Меньше узлов, выше требования к пингу / success / jitter.`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_small.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/whitelist_small.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_small.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/whitelist_small.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/small.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/small.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/small.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/small.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_small.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/small.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/whitelist_small.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/whitelist_small.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/whitelist_small.png) |
-
-</details>
-
----
-
-### 💎 WHITE LIST PREMIUM ⚪ (~)
-
-### [base64/whitelist_premium.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_premium.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-whitelist_premium](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/whitelist_premium.png)
-
-</details>
-
-`Самый жёсткий отбор: низкий пинг, высокий success, speed-test. Узлов мало — зато качество.`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_premium.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/whitelist_premium.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_premium.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/whitelist_premium.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/premium.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/premium.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/premium.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/premium.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/whitelist_premium.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/premium.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/whitelist_premium.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/whitelist_premium.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/whitelist_premium.png) |
-
-</details>
-
----
-
-### 🔒 SNI / CIDR BYPASS ⚪
-
-### [base64/sni_cidr_bypass.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/sni_cidr_bypass.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-sni_cidr_bypass](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/sni_cidr_bypass.png)
-
-</details>
-
-`Конфиги с TLS/Reality и SNI — обход SNI/CIDR ограничений.`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/sni_cidr_bypass.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/sni_cidr_bypass.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/sni_cidr_bypass.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/sni_cidr_bypass.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sni_cidr_bypass.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/sni_cidr_bypass.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sni_cidr_bypass.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/sni_cidr_bypass.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/sni_cidr_bypass.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sni_cidr_bypass.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/sni_cidr_bypass.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/sni_cidr_bypass.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/sni_cidr_bypass.png) |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_30_fast.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/top_30_fast.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/top_30_fast.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_30_fast.png) |
 
 </details>
 
 ---
 
 
-### 📱 Мобильные / лёгкие
+### 4. Все конфиги (без лимитов на количество)
+### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (0)
 
-*Меньше узлов = быстрее импорт и пинг-тест на телефоне.*
-
-### TOP-150 MOBILE 📱
-
-### [base64/top_150_mobile.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_150_mobile.txt)
+### [base64/all_configs.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt)
 
 <details>
 <summary>QR-код</summary>
 
-![qr-top_150_mobile](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_150_mobile.png)
+![qr-all_configs](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/all_configs.png)
 
 </details>
 
-`До 150 лёгких узлов (VLESS/Trojan/SS). Не перегружает смартфон.`
+`Абсолютно все живые конфигурации в одном месте.`
 
 <details>
 <summary>🪞 Зеркала и другие форматы</summary>
 
 **Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_150_mobile.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_150_mobile.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_150_mobile.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/top_150_mobile.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/all_configs.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/all_configs.txt`
 
 **Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_150_mobile.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_150_mobile.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_150_mobile.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/top_150_mobile.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/all_configs.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/all_configs.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/all_configs.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/all_configs.txt`
 
 | Формат | Ссылка |
 | :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_150_mobile.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/top_150_mobile.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/top_150_mobile.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/top_150_mobile.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/top_150_mobile.png) |
-
-</details>
-
----
-
-### MOBILE 📱 (~)
-
-### [base64/mobile.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mobile.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-mobile](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/mobile.png)
-
-</details>
-
-`Мобильный профиль: лёгкие протоколы, лимит по странам.`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mobile.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/mobile.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mobile.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/mobile.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/mobile.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/mobile.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/mobile.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/mobile.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mobile.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/mobile.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/mobile.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/mobile.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/mobile.png) |
-
-</details>
-
----
-
-### Happ / Incy profile 📱
-
-### [base64/happ.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/happ.txt)
-
-<details>
-<summary>QR-код</summary>
-
-![qr-happ](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/happ.png)
-
-</details>
-
-`Укороченный набор под Happ/Incy и похожие клиенты.`
-
-<details>
-<summary>🪞 Зеркала и другие форматы</summary>
-
-**Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/happ.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/happ.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/happ.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/happ.txt`
-
-**Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/apps/happ.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/apps/happ.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/apps/happ.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/apps/happ.txt`
-
-| Формат | Ссылка |
-| :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/happ.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/apps/happ.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/happ.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/happ.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/happ.png) |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/all_configs.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/all_configs.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/all_configs.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/all_configs.png) |
 
 </details>
 
 ---
 
 
-### ⚠️ Risky
+### 5. Белые списки (не должно превышать 100)
+### ⚪ БЕЛЫЕ СПИСКИ (До 100) ⚪ (0)
 
-### ALLOW INSECURE (risky) ⚠️
-
-### [base64/allow_insecure.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/allow_insecure.txt)
+### [base64/wl_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_100.txt)
 
 <details>
 <summary>QR-код</summary>
 
-![qr-allow_insecure](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/allow_insecure.png)
+![qr-wl_100](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/wl_100.png)
 
 </details>
 
-`Конфиги с allowInsecure. Только если понимаете риск. Не для банков и личных кабинетов.`
+`Обход блокировок по IP/SNI. Скомпилировано максимум 100 штук.`
 
 <details>
 <summary>🪞 Зеркала и другие форматы</summary>
 
 **Base64 (рекомендуется):**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/allow_insecure.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/allow_insecure.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/allow_insecure.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/allow_insecure.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_100.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/wl_100.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_100.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/wl_100.txt`
 
 **Raw TXT:**
-- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/risky/allow_insecure.txt`
-- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/risky/allow_insecure.txt`
-- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/risky/allow_insecure.txt`
-- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/risky/allow_insecure.txt`
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_100.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/wl_100.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_100.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/wl_100.txt`
 
 | Формат | Ссылка |
 | :--- | :--- |
-| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/allow_insecure.txt) |
-| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/risky/allow_insecure.txt) |
-| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/allow_insecure.yaml) |
-| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/allow_insecure.json) |
-| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/allow_insecure.png) |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_100.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_100.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/wl_100.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/wl_100.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/wl_100.png) |
+
+</details>
+
+---
+
+
+### 6. Топ 50 белых списков
+### ⚪ ТОП 50 БЕЛЫХ СПИСКОВ ⚪ (0)
+
+### [base64/wl_50.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_50.txt)
+
+<details>
+<summary>QR-код</summary>
+
+![qr-wl_50](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/wl_50.png)
+
+</details>
+
+`Топ 50 лучших конфигов для обхода жестких белых списков (DPI).`
+
+<details>
+<summary>🪞 Зеркала и другие форматы</summary>
+
+**Base64 (рекомендуется):**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_50.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/wl_50.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_50.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/wl_50.txt`
+
+**Raw TXT:**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_50.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/wl_50.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_50.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/wl_50.txt`
+
+| Формат | Ссылка |
+| :--- | :--- |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_50.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_50.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/wl_50.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/wl_50.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/wl_50.png) |
+
+</details>
+
+---
+
+
+### 7. Топ 30 белых списков
+### ⚪ ТОП 30 БЕЛЫХ СПИСКОВ ⚪ (0)
+
+### [base64/wl_30.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_30.txt)
+
+<details>
+<summary>QR-код</summary>
+
+![qr-wl_30](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/wl_30.png)
+
+</details>
+
+`Топ 30 лучших конфигов для обхода жестких белых списков (DPI).`
+
+<details>
+<summary>🪞 Зеркала и другие форматы</summary>
+
+**Base64 (рекомендуется):**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_30.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/wl_30.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_30.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/wl_30.txt`
+
+**Raw TXT:**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_30.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/wl_30.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_30.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/wl_30.txt`
+
+| Формат | Ссылка |
+| :--- | :--- |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_30.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/wl_30.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/wl_30.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/wl_30.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/wl_30.png) |
+
+</details>
+
+---
+
+
+### 8. Все вместе (50 обычных конфигов, 50 белых списков)
+### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (0)
+
+### [base64/mixed_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt)
+
+<details>
+<summary>QR-код</summary>
+
+![qr-mixed_100](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/mixed_100.png)
+
+</details>
+
+`Микс: 50 быстрых обычных конфигураций + 50 для белых списков.`
+
+<details>
+<summary>🪞 Зеркала и другие форматы</summary>
+
+**Base64 (рекомендуется):**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/mixed_100.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/mixed_100.txt`
+
+**Raw TXT:**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/mixed_100.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/mixed_100.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/mixed_100.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/mixed_100.txt`
+
+| Формат | Ссылка |
+| :--- | :--- |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/mixed_100.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/mixed_100.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/mixed_100.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/mixed_100.png) |
+
+</details>
+
+---
+
+
+### 9. Все конфиги белых списков без лимитов на количество
+### ⚪ ВСЕ БЕЛЫЕ СПИСКИ (Без лимитов) ⚪ (0)
+
+### [base64/all_wl.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_wl.txt)
+
+<details>
+<summary>QR-код</summary>
+
+![qr-all_wl](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/all_wl.png)
+
+</details>
+
+`Полный набор всех конфигов, проходящих проверку на белые списки.`
+
+<details>
+<summary>🪞 Зеркала и другие форматы</summary>
+
+**Base64 (рекомендуется):**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_wl.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/all_wl.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_wl.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/all_wl.txt`
+
+**Raw TXT:**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/all_wl.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/all_wl.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/all_wl.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/whitelists/all_wl.txt`
+
+| Формат | Ссылка |
+| :--- | :--- |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_wl.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/whitelists/all_wl.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/all_wl.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/all_wl.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/all_wl.png) |
+
+</details>
+
+---
+
+
+### 10. Топ самых быстрых конфигов (без разницы простые или белые списки)
+### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (0)
+
+### [base64/fastest_all_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt)
+
+<details>
+<summary>QR-код</summary>
+
+![qr-fastest_all_100](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/fastest_all_100.png)
+
+</details>
+
+`Топ 100 конфигов с самым низким пингом, без разницы простые они или белые списки.`
+
+<details>
+<summary>🪞 Зеркала и другие форматы</summary>
+
+**Base64 (рекомендуется):**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/fastest_all_100.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/base64/fastest_all_100.txt`
+
+**Raw TXT:**
+- **GitHub RAW:** `https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/fastest_all_100.txt`
+- **jsDelivr:** `https://cdn.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/fastest_all_100.txt`
+- **GitHack:** `https://raw.githack.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/fastest_all_100.txt`
+- **Fastly:** `https://fastly.jsdelivr.net/gh/ewecrow78-gif/Free_VPN_Aggregator@output/fastest_all_100.txt`
+
+| Формат | Ссылка |
+| :--- | :--- |
+| Base64 | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt) |
+| Raw | [open](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/fastest_all_100.txt) |
+| Clash | [yaml](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/fastest_all_100.yaml) |
+| Sing-Box | [json](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/fastest_all_100.json) |
+| QR | [png](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/qr/fastest_all_100.png) |
 
 </details>
 
@@ -630,7 +519,7 @@
 <details>
 <summary><b>📋 Раскрыть все Base64 URL (копировать в клиент)</b></summary>
 
-> Рекомендуемые: **[recommended](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/recommended.txt)**, **[top_fast](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_fast.txt)**, **[top_150_mobile](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_150_mobile.txt)**, **[ru_mobile_whitelist](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/ru_mobile_whitelist.txt)**, **[sni_cidr_bypass](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/sni_cidr_bypass.txt)**.
+> Рекомендуемые: **[top_50_fast](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt)**, **[wl_100](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_100.txt)**, **[mixed_100](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt)**.
 
 - [x] **Вечно актуальные (ветка output)**
 
@@ -851,6 +740,28 @@ python main.py
 
 ---
 
+## ➕ Как добавить свой источник конфигов
+
+Хотите добавить новый источник?
+1. Откройте `urls.txt` для добавления прямых ссылок на подписки (TXT, Base64).
+2. Откройте `tg_channels.txt` для добавления открытых Telegram каналов.
+3. Откройте `tg_forums.txt` для добавления закрытых Telegram форумов (потребуется `TG_SESSION`).
+4. Для добавления доверенных доменов для маскировки SNI обновите `sni.txt`.
+5. Сделайте Pull Request!
+
+---
+
+## 🛠 Troubleshooting (для разработчиков)
+
+- **Где хранятся сырые данные и логи?** 
+  Проверьте папку `data/`. `history.json` хранит историю стабильности нод.
+- **Почему в README нули?** 
+  Проверьте [configs/stats.json](configs/stats.json). Если там пусто, значит пайплайн упал на этапе парсинга.
+- **Out of Memory при пуше?**
+  Убедитесь, что в Git установлены лимиты (`git config pack.windowMemory 100m`).
+
+---
+
 <details>
 <summary><b>❓ FAQ: Зачем я тестирую конфигурации и какой транспорт лучше? (Нажмите, чтобы узнать)</b></summary>
 
@@ -895,7 +806,7 @@ python main.py
 
 ---
 
-## ⚠️ Безопасность
+## ⚠️ Безопасность и Disclaimer
 
 > [!CAUTION]
 > **Бесплатные публичные VPN могут быть опасны.**
@@ -903,7 +814,9 @@ python main.py
 > - Админ узла теоретически видит незашифрованный трафик.
 > - `allowInsecure=1` → отдельный risky-список + штраф в score.
 > - На Android с RU-приложениями задайте **логин/пароль локального inbound** (Karing / v2rayNG / Happ).
-> - Проект educational / anti-censorship, AS IS, без гарантий.
+> - Проект educational / anti-censorship, AS IS, без гарантий. 
+> 
+> **Disclaimer:** Мы не владеем этими серверами. Конфигурации собираются автоматически из открытых источников в интернете. Используйте на свой страх и риск.
 
 ---
 
@@ -914,29 +827,7 @@ python main.py
 
 | Страна | Кол-во | Флаг | Подписки |
 | :--- | :---: | :---: | :--- |
-| The Netherlands | 11 | 🇳🇱 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_the_netherlands.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/the_netherlands.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_the_netherlands.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_the_netherlands.json) |
-| Russia | 10 | 🇷🇺 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_russia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/russia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_russia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_russia.json) |
-| Italy | 9 | 🇮🇹 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_italy.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/italy.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_italy.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_italy.json) |
-| Germany | 8 | 🇩🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_germany.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/germany.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_germany.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_germany.json) |
-| France | 3 | 🇫🇷 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_france.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/france.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_france.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_france.json) |
-| Bulgaria | 3 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_bulgaria.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/bulgaria.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_bulgaria.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_bulgaria.json) |
-| Sweden | 2 | 🇸🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_sweden.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/sweden.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_sweden.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_sweden.json) |
-| Lithuania | 2 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_lithuania.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/lithuania.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_lithuania.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_lithuania.json) |
-| United States | 2 | 🇺🇸 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_states.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_states.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_states.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_states.json) |
-| Seychelles | 2 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_seychelles.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/seychelles.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_seychelles.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_seychelles.json) |
-| Austria | 2 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_austria.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/austria.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_austria.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_austria.json) |
-| Colombia | 2 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_colombia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/colombia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_colombia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_colombia.json) |
-| United Arab Emirates | 1 | 🇦🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_arab_emirates.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_arab_emirates.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_arab_emirates.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_arab_emirates.json) |
-| Poland | 1 | 🇵🇱 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_poland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/poland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_poland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_poland.json) |
-| Spain | 1 | 🇪🇸 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_spain.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/spain.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_spain.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_spain.json) |
-| India | 1 | 🇮🇳 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_india.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/india.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_india.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_india.json) |
-| Malaysia | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_malaysia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/malaysia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_malaysia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_malaysia.json) |
-| Thailand | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_thailand.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/thailand.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_thailand.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_thailand.json) |
-| United Kingdom | 1 | 🇬🇧 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_kingdom.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_kingdom.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_kingdom.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_kingdom.json) |
-| Taiwan | 1 | 🇹🇼 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_taiwan.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/taiwan.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_taiwan.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_taiwan.json) |
-| Hong Kong | 1 | 🇭🇰 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_hong_kong.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/hong_kong.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_hong_kong.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_hong_kong.json) |
-| Singapore | 1 | 🇸🇬 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_singapore.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/singapore.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_singapore.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_singapore.json) |
-| Japan | 1 | 🇯🇵 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_japan.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/japan.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_japan.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_japan.json) |
+| - | 0 | 🏳️ | - |
 
 </details>
 
@@ -945,10 +836,7 @@ python main.py
 
 | Протокол | Кол-во | Доля |
 | :--- | :---: | :---: |
-| VLESS | 53 | 79.1% |
-| SS | 9 | 13.4% |
-| TROJAN | 3 | 4.5% |
-| VMESS | 2 | 3.0% |
+| - | 0 | 0% |
 
 </details>
 
@@ -964,6 +852,6 @@ MIT — см. [LICENSE](LICENSE).
 
 **⭐ Если проект полезен — поставьте Star**
 
-<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-01 08:33 UTC</sub>
+<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-02 13:35 UTC</sub>
 
 </div>

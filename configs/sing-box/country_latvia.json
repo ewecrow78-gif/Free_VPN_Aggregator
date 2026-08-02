@@ -14,7 +14,14 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #8"
+        "🏳️ Gh0st #14",
+        "🏳️ Gh0st #20",
+        "🏳️ Gh0st #27",
+        "🏳️ Gh0st #33",
+        "🏳️ Gh0st #37",
+        "🏳️ Gh0st #43",
+        "🏳️ Gh0st #49",
+        "🏳️ Gh0st #60"
       ]
     },
     {
@@ -27,21 +34,107 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #8",
-      "server": "195.123.208.92",
-      "server_port": 13443,
-      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
+      "tag": "🏳️ Gh0st #14",
+      "server": "146.19.128.152",
+      "server_port": 8765,
+      "uuid": "e9c8fc84-ad63-4d73-bf99-1eaafb061bf1",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "auto.cendora.ru",
+        "server_name": "www.samsung.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM",
-          "short_id": "a7f3c91b2e6d84c0"
+          "public_key": "uXKpoUYa0BLHflsIxD2SLycUSsvTR8g4lPx-PXVMlAE",
+          "short_id": "6a7b8c9d32"
         }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ Gh0st #20",
+      "server": "45.145.6.247",
+      "server_port": 443,
+      "uuid": "be2bcd98-0ecc-000a-aa1a-b453a1878393",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3-fi-1.rucdn777.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ Gh0st #27",
+      "server": "146.19.128.149",
+      "server_port": 8765,
+      "uuid": "e9c8fc84-ad63-4d73-bf99-1eaafb061bf1",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "uXKpoUYa0BLHflsIxD2SLycUSsvTR8g4lPx-PXVMlAE",
+          "short_id": "6a7b8c9d32"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ Gh0st #33",
+      "server": "46.8.238.5",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ Gh0st #37",
+      "server": "203.18.98.109",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ Gh0st #43",
+      "server": "31.56.204.212",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "31.56.204.212",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ Gh0st #49",
+      "server": "31.56.204.32",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "31.56.204.32",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ Gh0st #60",
+      "server": "46.8.233.212",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "flow": ""
     }
   ],
   "route": {

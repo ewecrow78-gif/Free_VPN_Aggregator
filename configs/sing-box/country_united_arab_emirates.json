@@ -14,7 +14,9 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇦🇪 Gh0st #5"
+        "🇦🇪 Gh0st #14",
+        "🇦🇪 Gh0st #46",
+        "🇦🇪 Gh0st #47"
       ]
     },
     {
@@ -27,8 +29,8 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 Gh0st #5",
-      "server": "45.88.13.3",
+      "tag": "🇦🇪 Gh0st #14",
+      "server": "89.47.55.3",
       "server_port": 993,
       "uuid": "5e243126-4a2a-84b6-782a-73b14797fb5f",
       "flow": "xtls-rprx-vision",
@@ -38,8 +40,44 @@
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk",
+          "public_key": "WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 Gh0st #46",
+      "server": "151.245.192.193",
+      "server_port": 443,
+      "uuid": "da7685a7-15ef-41e4-a0d9-009bb4be7220",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "auto.malina24.xyz",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "5678"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇦🇪 Gh0st #47",
+      "server": "151.245.192.225",
+      "server_port": 443,
+      "uuid": "da7685a7-15ef-41e4-a0d9-009bb4be7220",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "auto.malina24.xyz",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "5678"
         }
       }
     }

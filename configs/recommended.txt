@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793349187
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954281
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,3 +11,6 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20RECOMMENDED%20%F0%9F%9A%80
+trojan://IQ68037294@35.180.10.212:443?sni=firm-warthog.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2322
+trojan://WG39087154@35.181.168.168:443?sni=nearby-cod.rooster465.autos&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2329
+trojan://PD07395842@13.39.195.215:443?sni=tough-pigeon.rooster465.autos&fp=chrome&type=tcp&path=%2f#%F0%9F%87%AB%F0%9F%87%B7%20Gh0st%20%2330

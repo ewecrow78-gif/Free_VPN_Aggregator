@@ -3,20 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇺🇦 Gh0st #47'
+- name: '🇺🇦 Gh0st #91'
   network: tcp
-  port: 59167
-  reality-opts: {}
-  server: 193.104.58.45
-  servername: 193.104.58.45
-  tls: false
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 5.34.182.23
+  servername: eu-central.cendora.ru
+  tls: true
   type: vless
-  uuid: a95b6f06-af75-4cf8-bcb0-15bcdcec7b64
+  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UKRAINE]
   proxies:
-  - '🇺🇦 Gh0st #47'
+  - '🇺🇦 Gh0st #91'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_UKRAINE]

@@ -3,17 +3,7 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #16'
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 93.115.25.139
-  servername: ddc-chr2.astralweb.tech
-  tls: true
-  type: vless
-  uuid: 3ad1d277-5715-4ca1-84db-5baea72f822d
-  ws-opts: {}
-- name: '🏳️ Gh0st #35'
+- name: '🏳️ Gh0st #45'
   network: tcp
   port: 443
   reality-opts:
@@ -28,8 +18,7 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_LITHUANIA]
   proxies:
-  - '🏳️ Gh0st #16'
-  - '🏳️ Gh0st #35'
+  - '🏳️ Gh0st #45'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_LITHUANIA]

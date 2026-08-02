@@ -3,7 +3,17 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #37'
+- name: '🏳️ Gh0st #34'
+  network: tcp
+  port: 20342
+  reality-opts: {}
+  server: 141.133.172.222
+  servername: 141.133.172.222
+  tls: false
+  type: vless
+  uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11
+  ws-opts: {}
+- name: '🏳️ Gh0st #66'
   network: tcp
   port: 443
   reality-opts:
@@ -18,7 +28,8 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_CZECHIA]
   proxies:
-  - '🏳️ Gh0st #37'
+  - '🏳️ Gh0st #34'
+  - '🏳️ Gh0st #66'
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_CZECHIA]

@@ -14,8 +14,25 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇺🇸 Gh0st #26",
-        "🇺🇸 Gh0st #65"
+        "🇺🇸 Gh0st #4",
+        "🇺🇸 Gh0st #7",
+        "🇺🇸 Gh0st #8",
+        "🇺🇸 Gh0st #58",
+        "🇺🇸 Gh0st #65",
+        "🇺🇸 Gh0st #70",
+        "🇺🇸 Gh0st #72",
+        "🇺🇸 Gh0st #73",
+        "🇺🇸 Gh0st #74",
+        "🇺🇸 Gh0st #76",
+        "🇺🇸 Gh0st #78",
+        "🇺🇸 Gh0st #80",
+        "🇺🇸 Gh0st #81",
+        "🇺🇸 Gh0st #82",
+        "🇺🇸 Gh0st #83",
+        "🇺🇸 Gh0st #86",
+        "🇺🇸 Gh0st #90",
+        "🇺🇸 Gh0st #92",
+        "🇺🇸 Gh0st #97"
       ]
     },
     {
@@ -28,38 +45,281 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇸 Gh0st #26",
-      "server": "194.55.189.249",
-      "server_port": 40443,
-      "uuid": "8212a50b-25bf-4739-bba1-aaffb5ffc84c",
-      "flow": "",
+      "tag": "🇺🇸 Gh0st #4",
+      "server": "31.76.50.111",
+      "server_port": 443,
+      "uuid": "817c009c-bfaa-47b4-b5b8-2930f83568ca",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "musicboss.eu",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "KCbW84C8h2Ja01LS0Ro8EpLLfzMTjs11t1ldDWLd5zo",
-          "short_id": "aae8"
+          "public_key": "QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I",
+          "short_id": "197e9c7abe"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #7",
+      "server": "31.76.50.110",
+      "server_port": 443,
+      "uuid": "817c009c-bfaa-47b4-b5b8-2930f83568ca",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "musicboss.eu",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I",
+          "short_id": "197e9c7abe"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #8",
+      "server": "31.76.50.107",
+      "server_port": 443,
+      "uuid": "817c009c-bfaa-47b4-b5b8-2930f83568ca",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "musicboss.eu",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I",
+          "short_id": "197e9c7abe"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #58",
+      "server": "155.117.137.55",
+      "server_port": 443,
+      "uuid": "5c2a674b-bf9d-4461-b56d-a9c2bc299d9a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn4-35.yahoo.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
+          "short_id": "7de40c5c4663409d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 Gh0st #65",
-      "server": "155.117.137.65",
+      "server": "155.117.137.201",
       "server_port": 443,
-      "uuid": "55f7d143-a594-4a91-b030-f227039f85ef",
+      "uuid": "5c2a674b-bf9d-4461-b56d-a9c2bc299d9a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn4-23.yahoo.com",
+        "server_name": "cdn9-33.yahoo.com",
         "insecure": true,
         "reality": {
           "enabled": true,
           "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
-          "short_id": "04c9b77ed330452d"
+          "short_id": "3c9c5d01c6f824dd"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #70",
+      "server": "153.75.250.171",
+      "server_port": 49271,
+      "password": "9ad83f65a560960e6509b677eb6162c1",
+      "tls": {
+        "enabled": true,
+        "server_name": "153.75.250.171.sslip.io",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #72",
+      "server": "64.74.163.118",
+      "server_port": 58536,
+      "password": "lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths",
+      "tls": {
+        "enabled": true,
+        "server_name": "64.74.163.118",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #73",
+      "server": "167.99.48.117",
+      "server_port": 24665,
+      "uuid": "f421241e-572f-481e-93ab-961812437fe6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.mysql.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "U1wgcKgoj-pgHELpRRsg1ghhsfgAlwkoPY-yu694VkY",
+          "short_id": "6ba85179e30d4fc2"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #74",
+      "server": "148.72.168.35",
+      "server_port": 58615,
+      "password": "bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR",
+      "tls": {
+        "enabled": true,
+        "server_name": "148.72.168.35",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #76",
+      "server": "154.19.184.40",
+      "server_port": 52535,
+      "uuid": "a1ac8747-4fd7-486b-b099-19fbb45610be",
+      "flow": ""
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #78",
+      "server": "64.94.95.115",
+      "server_port": 57142,
+      "password": "kkzh2prsyr2ik47as615",
+      "tls": {
+        "enabled": true,
+        "server_name": "static.rutube.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #80",
+      "server": "64.94.95.117",
+      "server_port": 57142,
+      "password": "kkzh2prsyr2ik47as615",
+      "tls": {
+        "enabled": true,
+        "server_name": "static.rutube.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #81",
+      "server": "64.94.95.118",
+      "server_port": 57142,
+      "password": "kkzh2prsyr2ik47as615",
+      "tls": {
+        "enabled": true,
+        "server_name": "64.94.95.118",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #82",
+      "server": "64.94.95.114",
+      "server_port": 57142,
+      "password": "kkzh2prsyr2ik47as615",
+      "tls": {
+        "enabled": true,
+        "server_name": "static.rutube.ru",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #83",
+      "server": "47.89.186.170",
+      "server_port": 55861,
+      "uuid": "d51ed55c-d6dd-400b-aaf6-017c33969bfe",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "t2ndf6SeVxinFCo5bcemnW_ZZhAtmHWiAkllks5qPWs",
+          "short_id": "7551ed1b"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 Gh0st #86",
+      "server": "163.245.196.68",
+      "server_port": 49361,
+      "password": "0ebb269c9f2d4e8e46b0cd4105a55134",
+      "tls": {
+        "enabled": true,
+        "server_name": "163.245.196.68.sslip.io",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #90",
+      "server": "172.247.109.66",
+      "server_port": 443,
+      "uuid": "92868492-9572-47fa-946c-9e44edeb62ec",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "PRLqQ27t_SqA759-vyfr1OMgcawB5sqUsUdyyEldXTs",
+          "short_id": "abcd1234"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 Gh0st #92",
+      "server": "155.117.137.169",
+      "server_port": 443,
+      "uuid": "5c2a674b-bf9d-4461-b56d-a9c2bc299d9a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn1-42.yahoo.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw",
+          "short_id": "d08bb54b5b94b2fc"
+        }
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 Gh0st #97",
+      "server": "192.220.32.219",
+      "server_port": 40913,
+      "uuid": "cc247516-d2cd-4ad4-a984-c4ae8ad9074a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cc247516-d2cd-4ad4-a984-c4ae8ad9074a-vm"
       }
     }
   ],

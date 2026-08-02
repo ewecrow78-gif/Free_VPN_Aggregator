@@ -14,7 +14,10 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇪🇸 Gh0st #47"
+        "🇪🇸 Gh0st #60",
+        "🇪🇸 Gh0st #61",
+        "🇪🇸 Gh0st #62",
+        "🇪🇸 Gh0st #87"
       ]
     },
     {
@@ -27,7 +30,19 @@
     },
     {
       "type": "trojan",
-      "tag": "🇪🇸 Gh0st #47",
+      "tag": "🇪🇸 Gh0st #60",
+      "server": "193.148.19.213",
+      "server_port": 52794,
+      "password": "2eutknankxtbgkwcajzt",
+      "tls": {
+        "enabled": true,
+        "server_name": "193.148.19.213",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇪🇸 Gh0st #61",
       "server": "193.148.19.210",
       "server_port": 52794,
       "password": "2eutknankxtbgkwcajzt",
@@ -35,6 +50,36 @@
         "enabled": true,
         "server_name": "www.vk.com",
         "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 Gh0st #62",
+      "server": "5.180.173.248",
+      "server_port": 25198,
+      "uuid": "deb9c015-1ffe-4e41-9d21-310eb0422a4c",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/xray"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇪🇸 Gh0st #87",
+      "server": "113.30.149.20",
+      "server_port": 443,
+      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "eu-west.cendora.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0",
+          "short_id": "dd3ff38418d29d22"
+        }
       }
     }
   ],

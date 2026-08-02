@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇨🇭 Gh0st #16"
+        "🇨🇭 Gh0st #17"
       ]
     },
     {
@@ -27,19 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇨🇭 Gh0st #16",
-      "server": "2.26.139.184",
+      "tag": "🇨🇭 Gh0st #17",
+      "server": "2.26.135.196",
       "server_port": 443,
-      "uuid": "f055899d-026b-49b5-88ed-0227795082da",
+      "uuid": "18bdc31e-fc7a-41ae-ba10-55a2fba63019",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "kukuruza.mycdn-me.ru",
+        "server_name": "smorodina.mycdn-me.ru",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "-qRasoN1QIcSdRL937b6s-Y2qOb-9OFmlaHBi7UcOSM",
-          "short_id": "e17b4d9a8c1f3526"
+          "public_key": "09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE",
+          "short_id": "a1f9c0e21d7b6485"
         }
       }
     }

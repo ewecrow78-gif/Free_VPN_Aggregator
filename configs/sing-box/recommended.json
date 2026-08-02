@@ -14,7 +14,9 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "direct"
+        "🇫🇷 Gh0st #22",
+        "🇫🇷 Gh0st #29",
+        "🇫🇷 Gh0st #30"
       ]
     },
     {
@@ -24,6 +26,42 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 Gh0st #22",
+      "server": "35.180.10.212",
+      "server_port": 443,
+      "password": "IQ68037294",
+      "tls": {
+        "enabled": true,
+        "server_name": "firm-warthog.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 Gh0st #29",
+      "server": "35.181.168.168",
+      "server_port": 443,
+      "password": "WG39087154",
+      "tls": {
+        "enabled": true,
+        "server_name": "nearby-cod.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 Gh0st #30",
+      "server": "13.39.195.215",
+      "server_port": 443,
+      "password": "PD07395842",
+      "tls": {
+        "enabled": true,
+        "server_name": "tough-pigeon.rooster465.autos",
+        "insecure": true
+      }
     }
   ],
   "route": {

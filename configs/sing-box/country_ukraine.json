@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇺🇦 Gh0st #47"
+        "🇺🇦 Gh0st #91"
       ]
     },
     {
@@ -27,15 +27,20 @@
     },
     {
       "type": "vless",
-      "tag": "🇺🇦 Gh0st #47",
-      "server": "193.104.58.45",
-      "server_port": 59167,
-      "uuid": "a95b6f06-af75-4cf8-bcb0-15bcdcec7b64",
-      "flow": "",
+      "tag": "🇺🇦 Gh0st #91",
+      "server": "5.34.182.23",
+      "server_port": 443,
+      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "193.104.58.45",
-        "insecure": true
+        "server_name": "eu-central.cendora.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
+          "short_id": "00bca5982f82d083"
+        }
       }
     }
   ],

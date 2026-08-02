@@ -1,0 +1,13 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies: []
+proxy-groups:
+- name: Free_VPN_Aggregator [FASTEST_ALL]
+  proxies:
+  - DIRECT
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [FASTEST_ALL]
+socks-port: 7891

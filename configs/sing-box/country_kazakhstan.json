@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #9"
+        "🏳️ Kazakhstan 56"
       ]
     },
     {
@@ -26,21 +26,16 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #9",
-      "server": "149.33.0.214",
-      "server_port": 14302,
-      "uuid": "a8902155-0d88-4506-af6b-b565d5274582",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "lw7-Msn5E2O6HbBdqMw9SvoDJgbDIvHss0UVQ9iZFRc",
-          "short_id": "106f1604d65bb70c"
-        }
+      "type": "vmess",
+      "tag": "🏳️ Kazakhstan 56",
+      "server": "38.107.234.57",
+      "server_port": 80,
+      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/"
       }
     }
   ],
