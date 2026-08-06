@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ British Virgin Islands 03"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -27,10 +27,10 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ British Virgin Islands 03",
-      "server": "fin1.panel11.ru",
+      "tag": "🏳️ GhostVPN",
+      "server": "185.221.163.211",
       "server_port": 443,
-      "uuid": "24e3a924-fc4b-4e3f-98a8-85d506d530f9",
+      "uuid": "bc74bd1a-ec97-41cb-9de6-7cccf65dc042",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,

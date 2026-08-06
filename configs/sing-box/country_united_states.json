@@ -14,6 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN"
       ]
     },
@@ -26,20 +28,35 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇺🇸 GhostVPN",
-      "server": "38.246.226.240",
-      "server_port": 57878,
-      "uuid": "535f0e03-24d4-4268-ac40-5af829e8e59b",
-      "flow": "",
+      "server": "68.168.222.210",
+      "server_port": 1234,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD"
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "163.245.196.68",
+      "server_port": 49361,
+      "password": "0ebb269c9f2d4e8e46b0cd4105a55134",
       "tls": {
         "enabled": true,
-        "server_name": "38.246.226.240",
+        "server_name": "163.245.196.68.sslip.io",
         "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/535f0e03"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "35.86.90.51",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "natural-collie.rooster465.autos",
+        "insecure": true
       }
     }
   ],

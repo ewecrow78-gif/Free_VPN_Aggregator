@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793751753
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793794979
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,7 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_GERMANY%20%F0%9F%9A%80
-vless://e41f1455-24f5-4d28-9588-a2cba790171c@91.107.157.137:40124?security=none&encryption=none&headerType=none&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpPV1ZoWVdNNE9URmxOR0ZoTlRGaU5qWTVORE5sT0RJM1pERTVOamMwWm1FPQ@130.61.228.21:59924#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+trojan://ND91608427@54.93.54.137:443?security=tls&insecure=0&headerType=none&type=tcp&allowInsecure=0&sni=informed-alpaca.rooster465.autos#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
 trojan://ND91608427@3.124.187.220:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=rapid-firefly.rooster465.autos#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+trojan://ND91608427@3.68.79.32:443?fp=chrome&sni=large-baboon.rooster465.autos#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN

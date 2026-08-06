@@ -28,14 +28,19 @@
     {
       "type": "vless",
       "tag": "🇫🇮 GhostVPN",
-      "server": "193.29.224.185",
-      "server_port": 8443,
-      "uuid": "8787dd0a-095a-414e-804f-a7d16a1ae166",
+      "server": "213.176.17.215",
+      "server_port": 443,
+      "uuid": "c124a209-d949-4951-8234-e2d918b3e6c0",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fi1.hys.braidx.tech",
-        "insecure": true
+        "server_name": "helsink.vypnet.su",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc",
+          "short_id": ""
+        }
       }
     }
   ],

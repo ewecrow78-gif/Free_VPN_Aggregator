@@ -3,22 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🏳️ British Virgin Islands 03
+- name: 🏳️ GhostVPN
   network: tcp
   port: 443
   reality-opts:
     public-key: lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg
     short-id: aaec521b22bbe6cb
-  server: fin1.panel11.ru
+  server: 185.221.163.211
   servername: fin1.panel11.ru
   tls: true
   type: vless
-  uuid: 24e3a924-fc4b-4e3f-98a8-85d506d530f9
+  uuid: bc74bd1a-ec97-41cb-9de6-7cccf65dc042
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BRITISH_VIRGIN_ISLANDS]
   proxies:
-  - 🏳️ British Virgin Islands 03
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_BRITISH_VIRGIN_ISLANDS]

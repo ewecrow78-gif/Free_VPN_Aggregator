@@ -3,27 +3,223 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 194.26.229.218
+  servername: 194.26.229.218
+  tls: false
+  type: vless
+  uuid: af325624-e28d-44fd-a8a7-058a439d128f
+  ws-opts:
+    path: /v1
+- name: 🏳️ GhostVPN
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y
+    short-id: c56c3ba3b9f676c5
+  server: 95.85.233.181
+  servername: c.primarymaster.online
+  tls: true
+  type: vless
+  uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪 GhostVPN
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: 59924
+  server: 130.61.228.21
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.74.38
+  type: ss
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lQ8pnlOU0kqS77TA7Fftl8nSzktXLzFpOLGqCZEAhjg
+    short-id: aaec521b22bbe6cb
+  server: 185.221.163.211
+  servername: fin1.panel11.ru
+  tls: true
+  type: vless
+  uuid: bc74bd1a-ec97-41cb-9de6-7cccf65dc042
+  ws-opts: {}
+- name: 🇩🇪 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 54.93.54.137
+  skip-cert-verify: true
+  sni: informed-alpaca.rooster465.autos
+  type: trojan
+- name: 🇩🇪 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.124.187.220
+  skip-cert-verify: true
+  sni: rapid-firefly.rooster465.autos
+  type: trojan
+- name: 🇩🇪 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.68.79.32
+  skip-cert-verify: true
+  sni: large-baboon.rooster465.autos
+  type: trojan
+- name: 🇫🇷 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 15.237.49.244
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  type: trojan
+- name: 🇫🇷 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 13.36.175.151
+  skip-cert-verify: true
+  sni: classic-gator.rooster465.autos
+  type: trojan
+- name: 🇫🇷 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 15.237.219.234
+  skip-cert-verify: true
+  sni: careful-tadpole.rooster465.autos
+  type: trojan
+- name: 🇫🇷 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 15.237.137.197
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  type: trojan
+- name: 🇨🇭 GhostVPN
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sni: 86.106.84.195
+  type: trojan
+- name: 🏳️ GhostVPN
+  password: UO36402987
+  port: 443
+  server: 54.216.124.178
+  skip-cert-verify: true
+  sni: warm-bass.rooster465.autos
+  type: trojan
 - name: 🇬🇧 GhostVPN
   network: tcp
   port: 443
-  reality-opts: {}
-  server: 186.190.211.188
-  servername: 186.190.211.188
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: fdda9806fe5d8584
+  server: 185.232.117.117
+  servername: vl07.skorostnet.space
   tls: true
   type: vless
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
   ws-opts: {}
-- name: 🇺🇸 GhostVPN
+- name: 🏳️ GhostVPN
+  password: ND91608427
+  port: 443
+  server: 54.217.133.71
+  skip-cert-verify: true
+  sni: willing-beagle.rooster465.autos
+  type: trojan
+- name: 🏳️ GhostVPN
+  password: ND91608427
+  port: 443
+  server: 54.170.212.206
+  skip-cert-verify: true
+  sni: skilled-lioness.rooster465.autos
+  type: trojan
+- name: 🏳️ GhostVPN
+  password: UO36402987
+  port: 443
+  server: 34.251.228.118
+  skip-cert-verify: true
+  sni: definite-ladybird.rooster465.autos
+  type: trojan
+- name: 🇫🇷 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: fdda9806fe5d8584
+  server: 78.17.208.21
+  servername: fr04.skorostnet.space
+  tls: true
+  type: vless
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
   network: ws
-  port: 57878
+  port: 4100
   reality-opts: {}
-  server: 38.246.226.240
-  servername: 38.246.226.240
+  server: 104.171.134.235
+  servername: 104.171.134.235
   tls: false
   type: vless
-  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
+  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
   ws-opts:
-    path: /535f0e03
+    path: /v1
+- name: 🇫🇮 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C819rM4M_c473A8glp-eBFh8Fm9O1cmEeXmivDhM1Fc
+    short-id: ''
+  server: 213.176.17.215
+  servername: helsink.vypnet.su
+  tls: true
+  type: vless
+  uuid: c124a209-d949-4951-8234-e2d918b3e6c0
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 GhostVPN
+  password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
+  port: 1234
+  server: 68.168.222.210
+  type: ss
+- name: 🇭🇰 GhostVPN
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.163.180.201
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
+  port: 49361
+  server: 163.245.196.68
+  skip-cert-verify: true
+  sni: 163.245.196.68.sslip.io
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 35.86.90.51
+  skip-cert-verify: true
+  sni: natural-collie.rooster465.autos
+  type: trojan
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng
+    short-id: 08
+  server: 77.73.131.154
+  servername: vindobona.org
+  tls: true
+  type: vless
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  ws-opts: {}
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
@@ -34,37 +230,53 @@ proxies:
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 18.182.4.232
+  server: 54.65.167.167
   skip-cert-verify: true
-  sni: becoming-hare.rooster465.autos
+  sni: tough-robin.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 43.207.155.134
+  server: 54.199.202.238
   skip-cert-verify: true
-  sni: smart-pup.rooster465.autos
+  sni: definite-sturgeon.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 43.207.140.98
+  server: 54.249.34.120
   skip-cert-verify: true
-  sni: right-seahorse.rooster465.autos
-  type: trojan
-- name: 🇯🇵 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 18.179.31.199
-  skip-cert-verify: true
-  sni: prompt-duckling.rooster465.autos
+  sni: social-mutt.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [TOP_30_FAST]
   proxies:
+  - 🇷🇺 GhostVPN
+  - 🏳️ GhostVPN
+  - 🇩🇪 GhostVPN
   - 🇬🇧 GhostVPN
+  - 🏳️ GhostVPN
+  - 🇩🇪 GhostVPN
+  - 🇩🇪 GhostVPN
+  - 🇩🇪 GhostVPN
+  - 🇫🇷 GhostVPN
+  - 🇫🇷 GhostVPN
+  - 🇫🇷 GhostVPN
+  - 🇫🇷 GhostVPN
+  - 🇨🇭 GhostVPN
+  - 🏳️ GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🏳️ GhostVPN
+  - 🏳️ GhostVPN
+  - 🏳️ GhostVPN
+  - 🇫🇷 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇫🇮 GhostVPN
   - 🇺🇸 GhostVPN
-  - 🇯🇵 GhostVPN
+  - 🇭🇰 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🏳️ GhostVPN
   - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN

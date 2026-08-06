@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793772618
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793794980
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -12,7 +12,24 @@
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_JAPAN%20%F0%9F%9A%80
 trojan://ND91608427@57.180.13.78:443?security=tls&sni=healthy-louse.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@18.182.4.232:443?security=tls&sni=becoming-hare.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@43.207.155.134:443?security=tls&sni=smart-pup.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@43.207.140.98:443?security=tls&sni=right-seahorse.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@54.65.167.167:443?sni=tough-robin.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@54.199.202.238:443?security=tls&sni=definite-sturgeon.rooster465.autos&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@54.249.34.120:443?sni=social-mutt.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@18.181.164.216:443?security=tls&sni=upright-impala.rooster465.autos&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
 trojan://ND91608427@18.179.31.199:443?security=tls&sni=prompt-duckling.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@52.198.25.180:443?sni=clear-snail.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@43.207.89.29:443?security=tls&sni=relaxing-bluebird.rooster465.autos&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@3.113.24.17:443?sni=nearby-egret.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@52.194.230.221:443?sni=happy-mutt.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@3.112.223.141:443?sni=internal-sunbird.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@3.112.15.214:443?sni=adjusted-labrador.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@18.182.4.232:443?security=tls&sni=becoming-hare.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@43.207.139.153:443?sni=sensible-mongrel.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@18.181.194.227:443?sni=moral-buzzard.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+vless://cd5cf6e7-7ce5-42c9-9316-68210fa72a32@13.193.205.133:27407?security=reality&type=tcp&sni=bgcpartners.com&fp=chrome&sid=e6ac18b63f23&pbk=SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@13.231.232.184:443?sni=better-molly.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@3.112.238.99:443?sni=stunning-mite.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@18.181.175.120:443?sni=sure-humpback.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@43.207.140.98:443?security=tls&sni=right-seahorse.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@35.72.13.34:443?sni=casual-bee.rooster465.autos&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@43.207.155.134:443?security=tls&sni=smart-pup.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN

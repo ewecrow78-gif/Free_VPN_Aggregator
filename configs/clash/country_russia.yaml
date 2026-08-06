@@ -7,94 +7,13 @@ proxies:
   network: ws
   port: 2200
   reality-opts: {}
-  server: 168.222.141.146
-  servername: 168.222.141.146
+  server: 194.26.229.218
+  servername: 194.26.229.218
   tls: false
   type: vless
-  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
+  uuid: af325624-e28d-44fd-a8a7-058a439d128f
   ws-opts:
     path: /v1
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 2200
-  reality-opts: {}
-  server: 45.90.32.132
-  servername: 45.90.32.132
-  tls: false
-  type: vless
-  uuid: aef0e934-09d7-4b8f-b3bc-de78d2eec928
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 2200
-  reality-opts: {}
-  server: 168.222.140.205
-  servername: 168.222.140.205
-  tls: false
-  type: vless
-  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 194.26.229.217
-  servername: 194.26.229.217
-  tls: false
-  type: vless
-  uuid: e58a0802-443e-4ba3-992b-73687bb5b9f0
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE
-    short-id: 6aa44564cda562bc
-  server: 109.120.189.154
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  uuid: e9177091-3ec0-4b7e-8b63-b5ad7e06edfb
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 18443
-  reality-opts:
-    public-key: JScNgNDPXbQKa-5VKPNZAaC-RqQuvuf4uEEHbJWrVSc
-    short-id: 000443436f
-  server: 178.248.236.155
-  servername: rutube.ru
-  tls: true
-  type: vless
-  uuid: b668547d-d997-4f59-957b-5da1d9a5de15
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-    short-id: ''
-  server: 94.139.251.191
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
-    short-id: ''
-  server: 94.126.205.65
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts: {}
 - name: 🇷🇺 GhostVPN
   network: tcp
   port: 14443
@@ -108,103 +27,19 @@ proxies:
   uuid: aa8b4a23-655f-480c-aef6-27b0c45e7877
   ws-opts: {}
 - name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: 94.126.204.159
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-    short-id: ''
-  server: 94.139.251.9
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: 94.139.251.23
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-    short-id: ''
-  server: 94.139.250.36
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: 94.126.206.29
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 8443
+  network: ws
+  port: 4100
   reality-opts: {}
-  server: 193.233.74.89
-  servername: de1.hys.braidx.tech
-  tls: true
+  server: 104.171.134.235
+  servername: 104.171.134.235
+  tls: false
   type: vless
-  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: 94.139.250.34
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
-  ws-opts: {}
+  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
+  ws-opts:
+    path: /v1
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN

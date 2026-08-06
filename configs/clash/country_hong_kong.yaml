@@ -4,11 +4,11 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇭🇰 GhostVPN
-  password: BxceQaOe
-  port: 26704
-  server: 95.40.205.94
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.163.180.201
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: www.nintendogames.net
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_HONG_KONG]

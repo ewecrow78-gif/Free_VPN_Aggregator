@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "direct"
+        "🇷🇺 GhostVPN"
       ]
     },
     {
@@ -24,6 +24,24 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "178.248.236.155",
+      "server_port": 14443,
+      "uuid": "aa8b4a23-655f-480c-aef6-27b0c45e7877",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "rutube.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "szC_0ZhoT_nwOrJcYXRrMw3EGJkiOAYCU-6atQo6mXQ",
+          "short_id": "0dacf3306f"
+        }
+      }
     }
   ],
   "route": {

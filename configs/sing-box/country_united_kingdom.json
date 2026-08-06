@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN"
       ]
     },
@@ -26,16 +27,29 @@
       "tag": "dns-out"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "129.151.74.38",
+      "server_port": 61312,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
+    },
+    {
       "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "186.190.211.188",
+      "server": "185.232.117.117",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "flow": "",
+      "uuid": "c04bf2df-2b7f-44da-a893-3792d3910fd8",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "186.190.211.188",
-        "insecure": true
+        "server_name": "vl07.skorostnet.space",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o",
+          "short_id": "fdda9806fe5d8584"
+        }
       }
     }
   ],

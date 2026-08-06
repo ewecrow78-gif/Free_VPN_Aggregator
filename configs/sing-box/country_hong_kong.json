@@ -28,12 +28,12 @@
     {
       "type": "trojan",
       "tag": "🇭🇰 GhostVPN",
-      "server": "95.40.205.94",
-      "server_port": 26704,
-      "password": "BxceQaOe",
+      "server": "18.163.180.201",
+      "server_port": 6357,
+      "password": "d1960ba9f0f6353353994fa844cf817b",
       "tls": {
         "enabled": true,
-        "server_name": "t.me%2Fripaojiedian",
+        "server_name": "www.nintendogames.net",
         "insecure": true
       }
     }

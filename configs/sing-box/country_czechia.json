@@ -14,8 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #34",
-        "🏳️ Gh0st #66"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -28,27 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #34",
-      "server": "141.133.172.222",
-      "server_port": 20342,
-      "uuid": "5eecb34f-c905-4c77-b7fb-d830b451cd11",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #66",
-      "server": "46.8.113.190",
+      "tag": "🏳️ GhostVPN",
+      "server": "95.85.233.181",
       "server_port": 443,
-      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
-      "flow": "xtls-rprx-vision",
+      "uuid": "e0bb3250-1873-4b9d-b9b5-7aa6c863885f",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "eu-central.cendora.ru",
+        "server_name": "c.primarymaster.online",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
-          "short_id": "00bca5982f82d083"
+          "public_key": "S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y",
+          "short_id": "c56c3ba3b9f676c5"
         }
       }
     }
