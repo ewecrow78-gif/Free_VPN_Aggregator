@@ -3,20 +3,24 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #63'
-  network: xhttp
-  port: 8443
-  reality-opts: {}
-  server: 104.26.14.137
-  servername: sa.sorixset.ir
+- alterId: 0
+  cipher: zero
+  name: 🏳️ GhostVPN
+  network: ws
+  port: 443
+  server: 104.17.3.81
+  servername: access.mysignal.cyou
   tls: true
-  type: vless
-  uuid: 00328cdc-2250-4da8-bf32-1ce54f1b8ca8
-  ws-opts: {}
+  type: vmess
+  uuid: ebe24b94-e2dd-48c8-a8c1-565ee5857e0f
+  ws-opts:
+    headers:
+      Host: access.mysignal.cyou
+    path: /vmess
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNKNOWN]
   proxies:
-  - '🏳️ Gh0st #63'
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_UNKNOWN]

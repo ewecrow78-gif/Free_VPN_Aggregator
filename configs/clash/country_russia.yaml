@@ -3,200 +3,211 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇷🇺 Gh0st #1'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: d67ec5a8fc40ebea
-  server: 176.124.200.222
-  servername: ru06.myxasecure.space
-  tls: true
-  type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
-  ws-opts: {}
-- name: '🇷🇺 Gh0st #2'
+- name: 🇷🇺 GhostVPN
   network: ws
   port: 2200
   reality-opts: {}
-  server: 130.17.2.137
-  servername: 130.17.2.137
+  server: 168.222.141.146
+  servername: 168.222.141.146
   tls: false
   type: vless
-  uuid: e7299042-7d8f-440f-8368-2516b0e69341
+  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
   ws-opts:
     path: /v1
-- name: '🇷🇺 Gh0st #3'
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 45.90.32.132
+  servername: 45.90.32.132
+  tls: false
+  type: vless
+  uuid: aef0e934-09d7-4b8f-b3bc-de78d2eec928
+  ws-opts:
+    path: /v1
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 168.222.140.205
+  servername: 168.222.140.205
+  tls: false
+  type: vless
+  uuid: d4aad26f-70b6-4411-8517-17f7b4281886
+  ws-opts:
+    path: /v1
+- name: 🇷🇺 GhostVPN
   network: ws
   port: 4100
   reality-opts: {}
-  server: 130.17.2.137
-  servername: 130.17.2.137
+  server: 194.26.229.217
+  servername: 194.26.229.217
   tls: false
   type: vless
-  uuid: 2aa7f4b1-e859-46d0-b8ac-8587811ab7b1
+  uuid: e58a0802-443e-4ba3-992b-73687bb5b9f0
   ws-opts:
     path: /v1
-- name: '🇷🇺 Gh0st #9'
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: IZn3ibz8K1yot2cj4ssmAQHVB--xrcQEc3RCFQUSRiE
-    short-id: '2143'
-  server: 186.246.8.37
-  servername: deepl.com
-  tls: true
-  type: vless
-  uuid: 84e919d1-efc6-48fc-8248-8c3cbfec9f17
-  ws-opts: {}
-- name: '🇷🇺 Gh0st #10'
+- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: dxsu1yp4dcpuhq32vLIX6fZ3A7uWs_5OzNIlUmLBSzQ
-    short-id: c7c005c49b11d17c
-  server: 85.209.135.18
-  servername: ru-xr-1.124515.xyz
+    public-key: KvQ0JuE-17nWMSvEnG9xdlqPWv3bZBn9JlDiLmyE-SE
+    short-id: 6aa44564cda562bc
+  server: 109.120.189.154
+  servername: ads.x5.ru
   tls: true
   type: vless
-  uuid: 56b812e4-2d96-0001-b365-6c801663a37a
+  uuid: e9177091-3ec0-4b7e-8b63-b5ad7e06edfb
   ws-opts: {}
-- name: '🇷🇺 Gh0st #11'
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 18443
+  reality-opts:
+    public-key: JScNgNDPXbQKa-5VKPNZAaC-RqQuvuf4uEEHbJWrVSc
+    short-id: 000443436f
+  server: 178.248.236.155
+  servername: rutube.ru
+  tls: true
+  type: vless
+  uuid: b668547d-d997-4f59-957b-5da1d9a5de15
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: Np5eNpCJdcXe4IvMs0stzE-sMtlphhTnZeuCkhjQXzQ
-    short-id: a8389289e18af5f4
-  server: 159.194.230.15
-  servername: ru-01.gni-daed.ru
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+    short-id: ''
+  server: 94.139.251.191
+  servername: apple.com
   tls: true
   type: vless
-  uuid: 7c0f30a2-a7c1-43b1-bc51-20f07036a76e
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
   ws-opts: {}
-- name: '🇷🇺 Gh0st #12'
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: O9clKx7I5jpBnibeaV5Httd1lDFkVIhsf0c8kgjIkiU
-    short-id: 20c6
-  server: 5.129.215.24
-  servername: deepl.com
-  tls: true
-  type: vless
-  uuid: 9f5f55bd-e59e-4c32-a29d-85639919f01f
-  ws-opts: {}
-- name: '🇷🇺 Gh0st #13'
+- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: zA-R_HtKJR1Hb0c1KXA3Yxh1TH_SPi1oV6cDfWURdQs
-    short-id: d4f1c403150d9964
-  server: 138.124.254.2
-  servername: ru.themesh.site
+    public-key: M9_R2DX7bxoMJpkF4RcyJ0oJ8ZuGsxWrjuREKi6Ol0w
+    short-id: ''
+  server: 94.126.205.65
+  servername: apple.com
   tls: true
   type: vless
-  uuid: 6fa9f6ae-877b-4858-b128-a8377fd9038b
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
   ws-opts: {}
-- name: '🇷🇺 Gh0st #15'
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 14443
+  reality-opts:
+    public-key: szC_0ZhoT_nwOrJcYXRrMw3EGJkiOAYCU-6atQo6mXQ
+    short-id: 0dacf3306f
+  server: 178.248.236.155
+  servername: rutube.ru
+  tls: true
+  type: vless
+  uuid: aa8b4a23-655f-480c-aef6-27b0c45e7877
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: RaAQd349NbMoL5WJOfT_RWvlT2s6sav0pOgEsoSm2zw
-    short-id: f0131a4772b494d4
-  server: 85.209.135.3
-  servername: dns.adguard-dns.com
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+    short-id: ''
+  server: 94.126.204.159
+  servername: apple.com
   tls: true
   type: vless
-  uuid: 070b81db-1954-4767-bfa5-26d2c3598273
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
   ws-opts: {}
-- name: '🇷🇺 Gh0st #38'
+- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 138.124.254.238
-  servername: russia.cendora.ru
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+    short-id: ''
+  server: 94.139.251.9
+  servername: apple.com
   tls: true
   type: vless
-  uuid: fc1b3bda-b226-0002-8c5c-b0e36a1f8f88
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
   ws-opts: {}
-- name: '🇷🇺 Gh0st #44'
+- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: dgrcO3r5wkEjcsWdEsNtgtWCe9vER6mgADXYclWXVxg
-    short-id: 8de54d32a8d3fdf9
-  server: 193.93.194.120
-  servername: site.rumedia-cdn.com
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+    short-id: ''
+  server: 94.139.251.23
+  servername: apple.com
   tls: true
   type: vless
-  uuid: cfb5b3d3-c094-4222-99e8-53faa787c857
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
   ws-opts: {}
-- name: '🇷🇺 Gh0st #50'
-  network: xhttp
+- name: 🇷🇺 GhostVPN
+  network: tcp
   port: 443
+  reality-opts:
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+    short-id: ''
+  server: 94.139.250.36
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+    short-id: ''
+  server: 94.126.206.29
+  servername: apple.com
+  tls: true
+  type: vless
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 8443
   reality-opts: {}
-  server: 128.75.228.189
-  servername: 43awzzm8vt.a.trbcdn.net
+  server: 193.233.74.89
+  servername: de1.hys.braidx.tech
   tls: true
   type: vless
-  uuid: 701929cb-c487-4772-a1b1-46813d7c17a0
+  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
   ws-opts: {}
-- name: '🇷🇺 Gh0st #51'
+- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 138.124.254.239
-  servername: russia.cendora.ru
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+    short-id: ''
+  server: 94.139.250.34
+  servername: apple.com
   tls: true
   type: vless
-  uuid: fc1b3bda-b226-0003-8c5c-b0e36a1f8f88
-  ws-opts: {}
-- name: '🇷🇺 Gh0st #64'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: M0OIVB0y6CXMfNZ16OfHfWrHktWU9yZ0rgQ3a9-_gUY
-    short-id: 4952fc975688bce3
-  server: 176.98.178.136
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: a95b3155-bc03-4789-b367-944b83be8f86
-  ws-opts: {}
-- name: '🇷🇺 Gh0st #79'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ZXi0bwZwOe9e5CMticA2-bU7qamHgs_sN-2kHygbDyk
-    short-id: e91da98020a38be9
-  server: 138.124.254.241
-  servername: russia.cendora.ru
-  tls: true
-  type: vless
-  uuid: fc1b3bda-b226-0006-8c5c-b0e36a1f8f88
+  uuid: 35699c54-9188-4f43-972e-e8e42dbb104e
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - '🇷🇺 Gh0st #1'
-  - '🇷🇺 Gh0st #2'
-  - '🇷🇺 Gh0st #3'
-  - '🇷🇺 Gh0st #9'
-  - '🇷🇺 Gh0st #10'
-  - '🇷🇺 Gh0st #11'
-  - '🇷🇺 Gh0st #12'
-  - '🇷🇺 Gh0st #13'
-  - '🇷🇺 Gh0st #15'
-  - '🇷🇺 Gh0st #38'
-  - '🇷🇺 Gh0st #44'
-  - '🇷🇺 Gh0st #50'
-  - '🇷🇺 Gh0st #51'
-  - '🇷🇺 Gh0st #64'
-  - '🇷🇺 Gh0st #79'
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_RUSSIA]

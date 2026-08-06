@@ -3,22 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #67'
+- name: 🏳️ GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: LaGTRJ1CJnnYV7FnyqQnU28I0xFTPFKI8xmUFwig5ic
-    short-id: c410508e9721512b
-  server: 152.53.46.27
-  servername: stackoverflow.com
+    public-key: 5GhMSJXQv1wXHVD999YHRRj83m-7VKH8qb_vTxBGbng
+    short-id: 08
+  server: 77.73.131.154
+  servername: vindobona.org
   tls: true
   type: vless
-  uuid: bcc094e4-1a85-8a25-f8e1-5b08b9af841c
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_AUSTRIA]
   proxies:
-  - '🏳️ Gh0st #67'
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_AUSTRIA]

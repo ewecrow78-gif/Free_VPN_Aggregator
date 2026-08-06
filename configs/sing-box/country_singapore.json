@@ -14,8 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇬 Gh0st #91",
-        "🇸🇬 Gh0st #93"
+        "🇸🇬 GhostVPN"
       ]
     },
     {
@@ -28,38 +27,15 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 Gh0st #91",
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "uuid": "cfb310a9-7846-45dd-b72c-37597d6e33b3",
+      "tag": "🇸🇬 GhostVPN",
+      "server": "139.162.61.57",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "B1e_iMjxReenyAiFXDymzmzFNHqhvwc_RMdD3o3KYRE",
-          "short_id": "64e6ad70ed4c248f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 Gh0st #93",
-      "server": "194.233.90.135",
-      "server_port": 2053,
-      "uuid": "b6449404-7d69-4446-9590-e212023ceec3",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "h158YhbqAZ8mPeaIPiSAeDewASBy9vx-rOIuy_vOdWo",
-          "short_id": "302c4e8cdc613e24"
-        }
+        "server_name": "139.162.61.57",
+        "insecure": true
       }
     }
   ],

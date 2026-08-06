@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇬🇧 Gh0st #37"
+        "🇬🇧 GhostVPN"
       ]
     },
     {
@@ -27,20 +27,15 @@
     },
     {
       "type": "vless",
-      "tag": "🇬🇧 Gh0st #37",
-      "server": "84.75.161.38",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "186.190.211.188",
       "server_port": 443,
-      "uuid": "da7685a7-15ef-41e4-a0d9-009bb4be7220",
-      "flow": "xtls-rprx-vision",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "auto.malina24.xyz",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "5678"
-        }
+        "server_name": "186.190.211.188",
+        "insecure": true
       }
     }
   ],

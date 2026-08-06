@@ -1,0 +1,14 @@
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9USEFJTEFORCDwn5qA
+#profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
+#support-url: https://t.me
+#profile-update-interval: 1
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793751753
+#
+# ⏱ Нажми на значок спидометра 👆
+# 🌐 Подключись к серверу который выдал наименьшее число 🌐
+# 🚩 Сервера с отметкой VPN не работают при белых списках 🚩
+# 🔑 Полностью бесплатно и Open-Source 🔑
+# ⏳ Обновляется каждые 2 часа ⏳
+
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_THAILAND%20%F0%9F%9A%80
+vless://b93efa30-e2c5-401c-9ec7-22e30266cc60@157.85.102.28:1083?security=&encryption=none&headerType=none&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

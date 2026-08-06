@@ -14,10 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇮🇳 Gh0st #71",
-        "🇮🇳 Gh0st #84",
-        "🇮🇳 Gh0st #85",
-        "🇮🇳 Gh0st #89"
+        "🇮🇳 GhostVPN"
       ]
     },
     {
@@ -29,19 +26,11 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 Gh0st #71",
-      "server": "103.111.114.55",
-      "server_port": 28061,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
-    },
-    {
       "type": "vless",
-      "tag": "🇮🇳 Gh0st #84",
+      "tag": "🇮🇳 GhostVPN",
       "server": "194.61.31.126",
       "server_port": 2053,
-      "uuid": "9c9f29d5-cf0d-49be-97fd-643e866752da",
+      "uuid": "7f1f5848-da44-47df-8581-df83e88ee2b3",
       "flow": "",
       "tls": {
         "enabled": true,
@@ -49,31 +38,10 @@
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "f5Z_ywk2z0Yuj7ksyjawYC36qgxQngD8yGXEIPFNVGM",
-          "short_id": "30ed89c317118330"
+          "public_key": "GAYlNViQ9mkjs0iTjNmijAIXOaK2h0P2opHCYOrCNy0",
+          "short_id": "ae3ba555edc1ba0a"
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇮🇳 Gh0st #85",
-      "server": "152.67.8.205",
-      "server_port": 80,
-      "uuid": "9db4c708-aef8-4359-821b-38e47990be0d",
-      "security": "",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇮🇳 Gh0st #89",
-      "server": "103.111.114.71",
-      "server_port": 28061,
-      "method": "chacha20-ietf-poly1305",
-      "password": "WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm"
     }
   ],
   "route": {

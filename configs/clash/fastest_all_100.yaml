@@ -2,11 +2,73 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🇬🇧 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 186.190.211.188
+  servername: 186.190.211.188
+  tls: true
+  type: vless
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 57878
+  reality-opts: {}
+  server: 38.246.226.240
+  servername: 38.246.226.240
+  tls: false
+  type: vless
+  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
+  ws-opts:
+    path: /535f0e03
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 57.180.13.78
+  skip-cert-verify: true
+  sni: healthy-louse.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 18.182.4.232
+  skip-cert-verify: true
+  sni: becoming-hare.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 43.207.155.134
+  skip-cert-verify: true
+  sni: smart-pup.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 43.207.140.98
+  skip-cert-verify: true
+  sni: right-seahorse.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 18.179.31.199
+  skip-cert-verify: true
+  sni: prompt-duckling.rooster465.autos
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [FASTEST_ALL]
   proxies:
-  - DIRECT
+  - 🇬🇧 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [FASTEST_ALL]

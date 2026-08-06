@@ -3,51 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '🇮🇳 Gh0st #71'
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.55
-  type: ss
-- name: '🇮🇳 Gh0st #84'
+- name: 🇮🇳 GhostVPN
   network: tcp
   port: 2053
   reality-opts:
-    public-key: f5Z_ywk2z0Yuj7ksyjawYC36qgxQngD8yGXEIPFNVGM
-    short-id: 30ed89c317118330
+    public-key: GAYlNViQ9mkjs0iTjNmijAIXOaK2h0P2opHCYOrCNy0
+    short-id: ae3ba555edc1ba0a
   server: 194.61.31.126
   servername: www.apple.com
   tls: true
   type: vless
-  uuid: 9c9f29d5-cf0d-49be-97fd-643e866752da
+  uuid: 7f1f5848-da44-47df-8581-df83e88ee2b3
   ws-opts: {}
-- alterId: 0
-  cipher: ''
-  name: '🇮🇳 Gh0st #85'
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: 152.67.8.205
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '🇮🇳 Gh0st #89'
-  password: WOir3lXBhMHDcLFPQdEZXPu37_pTQDCXfm
-  port: 28061
-  server: 103.111.114.71
-  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_INDIA]
   proxies:
-  - '🇮🇳 Gh0st #71'
-  - '🇮🇳 Gh0st #84'
-  - '🇮🇳 Gh0st #85'
-  - '🇮🇳 Gh0st #89'
+  - 🇮🇳 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_INDIA]

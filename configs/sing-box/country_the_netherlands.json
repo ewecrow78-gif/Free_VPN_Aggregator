@@ -14,10 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇳🇱 Gh0st #16",
-        "🇳🇱 Gh0st #32",
-        "🇳🇱 Gh0st #53",
-        "🇳🇱 Gh0st #77"
+        "🇳🇱 GhostVPN"
       ]
     },
     {
@@ -29,70 +26,12 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🇳🇱 Gh0st #16",
-      "server": "85.17.145.65",
-      "server_port": 12068,
-      "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 Gh0st #32",
-      "server": "152.70.58.201",
-      "server_port": 443,
-      "uuid": "8892e34a-339b-4526-b88d-cf68c516231c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.nvidia.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28",
-          "short_id": "52c723e0fad49689"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 Gh0st #53",
-      "server": "72.56.92.177",
-      "server_port": 40443,
-      "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y",
-          "short_id": "01d1bf2d4755d40c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 Gh0st #77",
-      "server": "217.60.11.159",
-      "server_port": 443,
-      "uuid": "6e35e494-c95d-4c40-9787-f21698ad5360",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "musicboss.eu",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I",
-          "short_id": "197e9c7abe"
-        }
-      }
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "193.29.139.234",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "4a2rfixophdjffa8KVA4Aa"
     }
   ],
   "route": {

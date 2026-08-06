@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇫🇮 Gh0st #31"
+        "🇫🇮 GhostVPN"
       ]
     },
     {
@@ -27,20 +27,15 @@
     },
     {
       "type": "vless",
-      "tag": "🇫🇮 Gh0st #31",
-      "server": "31.76.30.79",
-      "server_port": 8444,
-      "uuid": "b12eebc2-369c-4f3c-96a0-a8bd150ca8d5",
+      "tag": "🇫🇮 GhostVPN",
+      "server": "193.29.224.185",
+      "server_port": 8443,
+      "uuid": "8787dd0a-095a-414e-804f-a7d16a1ae166",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "kinopoisk.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU",
-          "short_id": "eb0cca7312345678"
-        }
+        "server_name": "fi1.hys.braidx.tech",
+        "insecure": true
       }
     }
   ],

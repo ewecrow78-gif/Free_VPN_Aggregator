@@ -4,119 +4,23 @@ mode: Rule
 port: 7890
 proxies:
 - alterId: 0
-  cipher: auto
-  name: '🇩🇪 Gh0st #49'
-  network: tcp
-  port: 51459
-  server: 91.107.139.186
-  servername: 91.107.139.186
-  tls: false
-  type: vmess
-  uuid: 500cdc83-b189-4d79-b06b-139c7972a57f
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🏳️ Gh0st #66'
+  cipher: zero
+  name: 🏳️ GhostVPN
   network: ws
   port: 443
-  server: 94.131.108.36
-  servername: 94.131.108.36
-  tls: false
+  server: 104.17.3.81
+  servername: access.mysignal.cyou
+  tls: true
   type: vmess
-  uuid: 9855f1f0-a800-40d4-8b38-c7d3eb79302d
+  uuid: ebe24b94-e2dd-48c8-a8c1-565ee5857e0f
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: ''
-  name: '🇮🇳 Gh0st #85'
-  network: ws
-  port: 80
-  server: 152.67.8.205
-  servername: 152.67.8.205
-  tls: false
-  type: vmess
-  uuid: 9db4c708-aef8-4359-821b-38e47990be0d
-  ws-opts:
-    headers:
-      Host: 152.67.8.205
-    path: /
-- alterId: 0
-  cipher: ''
-  name: '🇹🇼 Gh0st #88'
-  network: tcp
-  port: 35034
-  server: 165.154.195.38
-  servername: 165.154.195.38
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇰🇷 Gh0st #94'
-  network: tcp
-  port: 443
-  server: 140.238.2.250
-  servername: 140.238.2.250
-  tls: false
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 Gh0st #97'
-  network: ws
-  port: 40913
-  server: 192.220.32.219
-  servername: 192.220.32.219
-  tls: false
-  type: vmess
-  uuid: cc247516-d2cd-4ad4-a984-c4ae8ad9074a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cc247516-d2cd-4ad4-a984-c4ae8ad9074a-vm
-- alterId: 0
-  cipher: ''
-  name: '🇯🇵 Gh0st #99'
-  network: ws
-  port: 25686
-  server: 140.83.51.161
-  servername: 140.83.51.161
-  tls: false
-  type: vmess
-  uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9
-  ws-opts:
-    headers:
-      Host: jp02.a0a.xyz
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: '🇯🇵 Gh0st #100'
-  network: ws
-  port: 80
-  server: 168.138.43.75
-  servername: 168.138.43.75
-  tls: false
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
+      Host: access.mysignal.cyou
+    path: /vmess
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_VMESS]
   proxies:
-  - '🇩🇪 Gh0st #49'
-  - '🏳️ Gh0st #66'
-  - '🇮🇳 Gh0st #85'
-  - '🇹🇼 Gh0st #88'
-  - '🇰🇷 Gh0st #94'
-  - '🇺🇸 Gh0st #97'
-  - '🇯🇵 Gh0st #99'
-  - '🇯🇵 Gh0st #100'
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [PROTO_VMESS]

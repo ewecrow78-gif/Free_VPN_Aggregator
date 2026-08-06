@@ -3,22 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇫🇮 Gh0st #31'
+- name: 🇫🇮 GhostVPN
   network: tcp
-  port: 8444
-  reality-opts:
-    public-key: Lxs8Ruv2zHH0XW5EiQmuCaScfkGPCxWjW02YDWH8pyU
-    short-id: eb0cca7312345678
-  server: 31.76.30.79
-  servername: kinopoisk.ru
+  port: 8443
+  reality-opts: {}
+  server: 193.29.224.185
+  servername: fi1.hys.braidx.tech
   tls: true
   type: vless
-  uuid: b12eebc2-369c-4f3c-96a0-a8bd150ca8d5
+  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FINLAND]
   proxies:
-  - '🇫🇮 Gh0st #31'
+  - 🇫🇮 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_FINLAND]

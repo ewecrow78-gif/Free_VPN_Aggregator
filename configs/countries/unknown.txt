@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793751753
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNKNOWN%20%F0%9F%9A%80
-vless://00328cdc-2250-4da8-bf32-1ce54f1b8ca8@104.26.14.137:8443?mode=auto&path=%2F%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-%40IRAN_V2RAY1-&security=tls&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%221000000%22%2C%22xPaddingBytes%22%3A%22100-1000%22%7D&insecure=0&host=sa.sorixset.ir&fp=firefox&type=xhttp&allowInsecure=0&sni=sa.sorixset.ir#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2363
+vmess://eyJhZGQiOiIxMDQuMTcuMy44MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6ImFjY2Vzcy5teXNpZ25hbC5jeW91IiwiaWQiOiJlYmUyNGI5NC1lMmRkLTQ4YzgtYThjMS01NjVlZTU4NTdlMGYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRmZjNcdWZlMGYgR2hvc3RWUE4iLCJzY3kiOiJ6ZXJvIiwic25pIjoiYWNjZXNzLm15c2lnbmFsLmN5b3UiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==

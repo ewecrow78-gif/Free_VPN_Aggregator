@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #63"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -26,16 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #63",
-      "server": "104.26.14.137",
-      "server_port": 8443,
-      "uuid": "00328cdc-2250-4da8-bf32-1ce54f1b8ca8",
-      "flow": "",
+      "type": "vmess",
+      "tag": "🏳️ GhostVPN",
+      "server": "104.17.3.81",
+      "server_port": 443,
+      "uuid": "ebe24b94-e2dd-48c8-a8c1-565ee5857e0f",
+      "security": "zero",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "sa.sorixset.ir",
+        "server_name": "access.mysignal.cyou",
         "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vmess"
       }
     }
   ],

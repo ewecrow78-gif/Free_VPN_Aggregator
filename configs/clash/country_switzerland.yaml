@@ -3,22 +3,17 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇨🇭 Gh0st #17'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 09O8bAlIWm9AGnNyxBtHwpYNQxlXPSQeQeKzS3ZMwGE
-    short-id: a1f9c0e21d7b6485
-  server: 2.26.135.196
-  servername: smorodina.mycdn-me.ru
-  tls: true
-  type: vless
-  uuid: 18bdc31e-fc7a-41ae-ba10-55a2fba63019
-  ws-opts: {}
+- name: 🇨🇭 GhostVPN
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sni: 86.106.84.195
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWITZERLAND]
   proxies:
-  - '🇨🇭 Gh0st #17'
+  - 🇨🇭 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_SWITZERLAND]

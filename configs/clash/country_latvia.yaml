@@ -3,103 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #14'
+- name: 🏳️ GhostVPN
   network: tcp
-  port: 8765
+  port: 1683
   reality-opts:
-    public-key: uXKpoUYa0BLHflsIxD2SLycUSsvTR8g4lPx-PXVMlAE
-    short-id: 6a7b8c9d32
-  server: 146.19.128.152
-  servername: www.samsung.com
+    public-key: _fz8jpa604XXSweCCf6PU9Xmd7F4sZ1RSMqNTzwBVA0
+    short-id: a4f8c92d
+  server: 31.58.46.47
+  servername: celerisdigital.top
   tls: true
   type: vless
-  uuid: e9c8fc84-ad63-4d73-bf99-1eaafb061bf1
-  ws-opts: {}
-- name: '🏳️ Gh0st #20'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM
-    short-id: ''
-  server: 45.145.6.247
-  servername: s3-fi-1.rucdn777.com
-  tls: true
-  type: vless
-  uuid: be2bcd98-0ecc-000a-aa1a-b453a1878393
-  ws-opts: {}
-- name: '🏳️ Gh0st #27'
-  network: tcp
-  port: 8765
-  reality-opts:
-    public-key: uXKpoUYa0BLHflsIxD2SLycUSsvTR8g4lPx-PXVMlAE
-    short-id: 6a7b8c9d32
-  server: 146.19.128.149
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  uuid: e9c8fc84-ad63-4d73-bf99-1eaafb061bf1
-  ws-opts: {}
-- name: '🏳️ Gh0st #33'
-  network: tcp
-  port: 2090
-  reality-opts: {}
-  server: 46.8.238.5
-  servername: 46.8.238.5
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  ws-opts: {}
-- name: '🏳️ Gh0st #37'
-  network: tcp
-  port: 2090
-  reality-opts: {}
-  server: 203.18.98.109
-  servername: 203.18.98.109
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  ws-opts: {}
-- name: '🏳️ Gh0st #43'
-  network: tcp
-  port: 2090
-  reality-opts: {}
-  server: 31.56.204.212
-  servername: 31.56.204.212
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  ws-opts: {}
-- name: '🏳️ Gh0st #49'
-  network: tcp
-  port: 2090
-  reality-opts: {}
-  server: 31.56.204.32
-  servername: 31.56.204.32
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-  ws-opts: {}
-- name: '🏳️ Gh0st #60'
-  network: tcp
-  port: 2090
-  reality-opts: {}
-  server: 46.8.233.212
-  servername: 46.8.233.212
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: 5c6d8045-9de9-45e4-b495-463fc3f1a828
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_LATVIA]
   proxies:
-  - '🏳️ Gh0st #14'
-  - '🏳️ Gh0st #20'
-  - '🏳️ Gh0st #27'
-  - '🏳️ Gh0st #33'
-  - '🏳️ Gh0st #37'
-  - '🏳️ Gh0st #43'
-  - '🏳️ Gh0st #49'
-  - '🏳️ Gh0st #60'
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_LATVIA]

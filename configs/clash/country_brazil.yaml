@@ -1,0 +1,19 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 GhostVPN
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 168.138.246.189
+  type: ss
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_BRAZIL]
+  proxies:
+  - 🇧🇷 GhostVPN
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_BRAZIL]
+socks-port: 7891

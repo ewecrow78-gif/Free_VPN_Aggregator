@@ -5,19 +5,19 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: '🇰🇷 Gh0st #94'
+  name: 🇰🇷 GhostVPN
   network: tcp
-  port: 443
-  server: 140.238.2.250
-  servername: 140.238.2.250
+  port: 8888
+  server: 146.56.112.110
+  servername: 146.56.112.110
   tls: false
   type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SOUTH_KOREA]
   proxies:
-  - '🇰🇷 Gh0st #94'
+  - 🇰🇷 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_SOUTH_KOREA]

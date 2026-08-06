@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793751753
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,7 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SPAIN%20%F0%9F%9A%80
-trojan://2eutknankxtbgkwcajzt@193.148.19.213:52794?sni=193.148.19.213&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%AA%F0%9F%87%B8%20Gh0st%20%2360
-trojan://2eutknankxtbgkwcajzt@193.148.19.210:52794?security=tls&sni=www.vk.com&fp=chrome&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%AA%F0%9F%87%B8%20Gh0st%20%2361
-vless://deb9c015-1ffe-4e41-9d21-310eb0422a4c@5.180.173.248:25198?&type=ws&headerType=none&path=/xray#%F0%9F%87%AA%F0%9F%87%B8%20Gh0st%20%2362
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@113.30.149.20:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=eu-west.cendora.ru&fp=qq&pbk=m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0&sid=dd3ff38418d29d22#%F0%9F%87%AA%F0%9F%87%B8%20Gh0st%20%2387
+trojan://2eutknankxtbgkwcajzt@193.148.19.213:52794?security=tls&sni=193.148.19.213#%F0%9F%87%AA%F0%9F%87%B8%20GhostVPN

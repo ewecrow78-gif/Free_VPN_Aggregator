@@ -3,22 +3,17 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇭🇰 Gh0st #95'
-  network: tcp
-  port: 40118
-  reality-opts:
-    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
-    short-id: 5895914d
-  server: 43.255.156.59
-  servername: www.lamer.com.sg
-  tls: true
-  type: vless
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  ws-opts: {}
+- name: 🇭🇰 GhostVPN
+  password: BxceQaOe
+  port: 26704
+  server: 95.40.205.94
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_HONG_KONG]
   proxies:
-  - '🇭🇰 Gh0st #95'
+  - 🇭🇰 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_HONG_KONG]

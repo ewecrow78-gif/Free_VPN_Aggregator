@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇭🇰 Gh0st #95"
+        "🇭🇰 GhostVPN"
       ]
     },
     {
@@ -26,21 +26,15 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🇭🇰 Gh0st #95",
-      "server": "43.255.156.59",
-      "server_port": 40118,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "flow": "xtls-rprx-vision",
+      "type": "trojan",
+      "tag": "🇭🇰 GhostVPN",
+      "server": "95.40.205.94",
+      "server_port": 26704,
+      "password": "BxceQaOe",
       "tls": {
         "enabled": true,
-        "server_name": "www.lamer.com.sg",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20",
-          "short_id": "5895914d"
-        }
+        "server_name": "t.me%2Fripaojiedian",
+        "insecure": true
       }
     }
   ],

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793578427
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_ARAB_EMIRATES%20%F0%9F%9A%80
-vless://5e243126-4a2a-84b6-782a-73b14797fb5f@89.47.55.3:993?security=reality&encryption=none&pbk=WtLZK1KyhSpI3K-R4M3sLAHWPOgGPMgkL6RneL0OfCY&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=download.nvidia.com#%F0%9F%87%A6%F0%9F%87%AA%20Gh0st%20%2314
-vless://da7685a7-15ef-41e4-a0d9-009bb4be7220@151.245.192.193:443?security=reality&type=raw&sni=auto.malina24.xyz&fp=qq&flow=xtls-rprx-vision&sid=5678&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ#%F0%9F%87%A6%F0%9F%87%AA%20Gh0st%20%2346
-vless://da7685a7-15ef-41e4-a0d9-009bb4be7220@151.245.192.225:443?type=tcp&headerType=none&security=reality&encryption=none&sni=auto.malina24.xyz&fp=qq&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&sid=5678&flow=xtls-rprx-vision#%F0%9F%87%A6%F0%9F%87%AA%20Gh0st%20%2347
+vless://04b9e828-43ed-4faf-8952-41069ec08355@217.60.193.2:443?type=tcp&security=tls&sni=ddc-akn.astralweb.tech#%F0%9F%87%A6%F0%9F%87%AA%20GhostVPN

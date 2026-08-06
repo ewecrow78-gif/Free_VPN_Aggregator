@@ -3,60 +3,16 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇳🇱 Gh0st #16'
-  network: ws
-  port: 12068
-  reality-opts: {}
-  server: 85.17.145.65
-  servername: 85.17.145.65
-  tls: false
-  type: vless
-  uuid: 05caca6c-9e97-4c0f-8edf-7b88a6e572c5
-  ws-opts:
-    path: /
-- name: '🇳🇱 Gh0st #32'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Hg_ivwbClYmR-SEHdoGgq4yEk6ltbjS5c4yiQRa4_28
-    short-id: 52c723e0fad49689
-  server: 152.70.58.201
-  servername: www.nvidia.com
-  tls: true
-  type: vless
-  uuid: 8892e34a-339b-4526-b88d-cf68c516231c
-  ws-opts: {}
-- name: '🇳🇱 Gh0st #53'
-  network: tcp
-  port: 40443
-  reality-opts:
-    public-key: fWzCKXwvMXaacsl1DdFb1vKQ9l9cTK1G7udqmaYHL0Y
-    short-id: 01d1bf2d4755d40c
-  server: 72.56.92.177
-  servername: deepl.com
-  tls: true
-  type: vless
-  uuid: 4480161e-2c59-4d37-8736-675c9af32bf1
-  ws-opts: {}
-- name: '🇳🇱 Gh0st #77'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I
-    short-id: 197e9c7abe
-  server: 217.60.11.159
-  servername: musicboss.eu
-  tls: true
-  type: vless
-  uuid: 6e35e494-c95d-4c40-9787-f21698ad5360
-  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 193.29.139.234
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
-  - '🇳🇱 Gh0st #16'
-  - '🇳🇱 Gh0st #32'
-  - '🇳🇱 Gh0st #53'
-  - '🇳🇱 Gh0st #77'
+  - 🇳🇱 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792890199
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793751753
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,11 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_LATVIA%20%F0%9F%9A%80
-vless://e9c8fc84-ad63-4d73-bf99-1eaafb061bf1@146.19.128.152:8765?flow=xtls-rprx-vision&encryption=none&security=reality&sni=www.samsung.com&fp=firefox&pbk=uXKpoUYa0BLHflsIxD2SLycUSsvTR8g4lPx-PXVMlAE&sid=6a7b8c9d32&type=tcp&headerType=none#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2314
-vless://be2bcd98-0ecc-000a-aa1a-b453a1878393@45.145.6.247:443?type=tcp&security=reality&sni=s3-fi-1.rucdn777.com&fp=firefox&flow=xtls-rprx-vision&pbk=sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2320
-vless://e9c8fc84-ad63-4d73-bf99-1eaafb061bf1@146.19.128.149:8765?flow=xtls-rprx-vision&encryption=none&security=reality&sni=www.samsung.com&fp=firefox&pbk=uXKpoUYa0BLHflsIxD2SLycUSsvTR8g4lPx-PXVMlAE&sid=6a7b8c9d32&type=tcp&headerType=none#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2327
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.238.5:2090?security=&alpn=http%2F1.1&encryption=none&headerType=none&fp=chrome&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2333
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@203.18.98.109:2090?security=&alpn=http%2F1.1&encryption=none&headerType=none&fp=chrome&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2337
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@31.56.204.212:2090?type=tcp&headerType=none&security=none&encryption=none&fp=chrome#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2343
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@31.56.204.32:2090?type=tcp&headerType=none&security=none&encryption=none&fp=chrome#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2349
-vless://eab915bc-d2df-73d1-47d0-6eb240497055@46.8.233.212:2090?alpn=http/1.1&encryption=none&headerType=none&fp=chrome&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20Gh0st%20%2360
+vless://5c6d8045-9de9-45e4-b495-463fc3f1a828@31.58.46.47:1683?type=tcp&security=reality&sni=celerisdigital.top&pbk=_fz8jpa604XXSweCCf6PU9Xmd7F4sZ1RSMqNTzwBVA0&sid=a4f8c92d&fp=firefox&encryption=none&flow=xtls-rprx-vision#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

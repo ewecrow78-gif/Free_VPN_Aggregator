@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #56"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -26,21 +26,15 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #56",
-      "server": "188.211.233.229",
+      "type": "trojan",
+      "tag": "🏳️ GhostVPN",
+      "server": "54.170.212.206",
       "server_port": 443,
-      "uuid": "817c009c-bfaa-47b4-b5b8-2930f83568ca",
-      "flow": "xtls-rprx-vision",
+      "password": "ND91608427",
       "tls": {
         "enabled": true,
-        "server_name": "musicboss.eu",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I",
-          "short_id": "197e9c7abe"
-        }
+        "server_name": "skilled-lioness.rooster465.autos",
+        "insecure": true
       }
     }
   ],

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954281
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793772618
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,22 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-vless://817c009c-bfaa-47b4-b5b8-2930f83568ca@31.76.50.111:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=musicboss.eu&fp=firefox&pbk=QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I&sid=197e9c7abe&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%234
-vless://817c009c-bfaa-47b4-b5b8-2930f83568ca@31.76.50.110:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=musicboss.eu&fp=firefox&pbk=QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I&sid=197e9c7abe&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%237
-vless://817c009c-bfaa-47b4-b5b8-2930f83568ca@31.76.50.107:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=musicboss.eu&fp=firefox&pbk=QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I&sid=197e9c7abe&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%238
-vless://5c2a674b-bf9d-4461-b56d-a9c2bc299d9a@155.117.137.55:443?type=tcp&headerType=none&security=reality&encryption=none&sni=cdn4-35.yahoo.com&fp=firefox&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=7de40c5c4663409d&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2358
-vless://5c2a674b-bf9d-4461-b56d-a9c2bc299d9a@155.117.137.201:443?&security=reality&flow=xtls-rprx-vision&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=3c9c5d01c6f824dd&fp=firefox&sni=cdn9-33.yahoo.com&type=tcp&headerType=none&host=cdn9-33.yahoo.com&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2365
-trojan://9ad83f65a560960e6509b677eb6162c1@153.75.250.171:49271?sni=153.75.250.171.sslip.io&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2370
-trojan://lEjtI3pFYfU7O1UYozJcfZV5K6Fwfths@64.74.163.118:58536?security=tls&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2372
-vless://f421241e-572f-481e-93ab-961812437fe6@167.99.48.117:24665?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.mysql.com&fp=chrome&pbk=U1wgcKgoj-pgHELpRRsg1ghhsfgAlwkoPY-yu694VkY&sid=6ba85179e30d4fc2&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2373
-trojan://bIsrw94HH7zmhmvmGskKIb4HbmOZdcCR@148.72.168.35:58615?allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2374
-vless://a1ac8747-4fd7-486b-b099-19fbb45610be@154.19.184.40:52535?#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2376
-trojan://kkzh2prsyr2ik47as615@64.94.95.115:57142?allowInsecure=1&sni=static.rutube.ru#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2378
-trojan://kkzh2prsyr2ik47as615@64.94.95.117:57142?allowInsecure=1&sni=static.rutube.ru&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2380
-trojan://kkzh2prsyr2ik47as615@64.94.95.118:57142?sni=64.94.95.118&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2381
-trojan://kkzh2prsyr2ik47as615@64.94.95.114:57142?sni=static.rutube.ru&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2382
-vless://d51ed55c-d6dd-400b-aaf6-017c33969bfe@47.89.186.170:55861?security=reality&encryption=none&pbk=t2ndf6SeVxinFCo5bcemnW_ZZhAtmHWiAkllks5qPWs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.intel.com&sid=7551ed1b#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2383
-trojan://0ebb269c9f2d4e8e46b0cd4105a55134@163.245.196.68:49361?security=tls&sni=163.245.196.68.sslip.io&path=%2f#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2386
-vless://92868492-9572-47fa-946c-9e44edeb62ec@172.247.109.66:443?encryption=none&flow=xtls-rprx-vision&type=raw&headerType=none&security=reality&fp=chrome&pbk=PRLqQ27t_SqA759-vyfr1OMgcawB5sqUsUdyyEldXTs&sni=www.apple.com&sid=abcd1234#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2390
-vless://5c2a674b-bf9d-4461-b56d-a9c2bc299d9a@155.117.137.169:443?type=tcp&headerType=none&security=reality&encryption=none&sni=cdn1-42.yahoo.com&fp=firefox&pbk=CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw&sid=d08bb54b5b94b2fc&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20Gh0st%20%2392
-vmess://eyJhZGQiOiIxOTIuMjIwLjMyLjIxOSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6IiIsImlkIjoiY2MyNDc1MTYtZDJjZC00YWQ0LWE5ODQtYzRhZThhZDkwNzRhIiwibmV0Ijoid3MiLCJwYXRoIjoiL2NjMjQ3NTE2LWQyY2QtNGFkNC1hOTg0LWM0YWU4YWQ5MDc0YS12bSIsInBvcnQiOiI0MDkxMyIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdoMHN0ICM5NyIsInNjeSI6ImF1dG8iLCJzbmkiOiIiLCJ0bHMiOiIiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
+vless://535f0e03-24d4-4268-ac40-5af829e8e59b@38.246.226.240:57878?security=none&type=ws&path=/535f0e03&packetEncoding=xudp#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
