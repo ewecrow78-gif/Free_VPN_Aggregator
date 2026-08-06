@@ -31,22 +31,9 @@ proxies:
   skip-cert-verify: true
   sni: fancy-skink.rooster465.autos
   type: trojan
-- name: 🇫🇷 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: fdda9806fe5d8584
-  server: 78.17.208.21
-  servername: fr04.skorostnet.space
-  tls: true
-  type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FRANCE]
   proxies:
-  - 🇫🇷 GhostVPN
   - 🇫🇷 GhostVPN
   - 🇫🇷 GhostVPN
   - 🇫🇷 GhostVPN

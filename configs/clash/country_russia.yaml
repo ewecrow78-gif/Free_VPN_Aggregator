@@ -4,43 +4,32 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
-  network: ws
-  port: 2200
-  reality-opts: {}
-  server: 194.26.229.218
-  servername: 194.26.229.218
-  tls: false
-  type: vless
-  uuid: af325624-e28d-44fd-a8a7-058a439d128f
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
   network: tcp
-  port: 14443
+  port: 443
   reality-opts:
-    public-key: szC_0ZhoT_nwOrJcYXRrMw3EGJkiOAYCU-6atQo6mXQ
-    short-id: 0dacf3306f
-  server: 178.248.236.155
-  servername: rutube.ru
+    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
+    short-id: ''
+  server: 94.139.250.36
+  servername: apple.com
   tls: true
   type: vless
-  uuid: aa8b4a23-655f-480c-aef6-27b0c45e7877
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
   ws-opts: {}
 - name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 104.171.134.235
-  servername: 104.171.134.235
-  tls: false
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
+    short-id: ''
+  server: 94.139.250.34
+  servername: apple.com
+  tls: true
   type: vless
-  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
-  ws-opts:
-    path: /v1
+  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select

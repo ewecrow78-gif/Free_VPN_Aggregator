@@ -17,7 +17,6 @@
         "🇫🇷 GhostVPN",
         "🇫🇷 GhostVPN",
         "🇫🇷 GhostVPN",
-        "🇫🇷 GhostVPN",
         "🇫🇷 GhostVPN"
       ]
     },
@@ -75,24 +74,6 @@
         "enabled": true,
         "server_name": "fancy-skink.rooster465.autos",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇷 GhostVPN",
-      "server": "78.17.208.21",
-      "server_port": 443,
-      "uuid": "c04bf2df-2b7f-44da-a893-3792d3910fd8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr04.skorostnet.space",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o",
-          "short_id": "fdda9806fe5d8584"
-        }
       }
     }
   ],

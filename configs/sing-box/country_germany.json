@@ -29,22 +29,38 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "130.61.228.21",
-      "server_port": 59924,
-      "method": "chacha20-ietf-poly1305",
-      "password": "OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE="
-    },
-    {
       "type": "trojan",
       "tag": "🇩🇪 GhostVPN",
-      "server": "54.93.54.137",
+      "server": "3.68.79.32",
       "server_port": 443,
       "password": "ND91608427",
       "tls": {
         "enabled": true,
-        "server_name": "informed-alpaca.rooster465.autos",
+        "server_name": "large-baboon.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "54.93.65.133",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "next-turkey.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "3.64.59.246",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "gentle-raptor.rooster465.autos",
         "insecure": true
       }
     },
@@ -57,18 +73,6 @@
       "tls": {
         "enabled": true,
         "server_name": "rapid-firefly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "3.68.79.32",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "large-baboon.rooster465.autos",
         "insecure": true
       }
     }

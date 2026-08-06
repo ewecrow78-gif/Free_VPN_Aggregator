@@ -2,23 +2,11 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies:
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 14443
-  reality-opts:
-    public-key: szC_0ZhoT_nwOrJcYXRrMw3EGJkiOAYCU-6atQo6mXQ
-    short-id: 0dacf3306f
-  server: 178.248.236.155
-  servername: rutube.ru
-  tls: true
-  type: vless
-  uuid: aa8b4a23-655f-480c-aef6-27b0c45e7877
-  ws-opts: {}
+proxies: []
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_50]
   proxies:
-  - 🇷🇺 GhostVPN
+  - DIRECT
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_50]

@@ -15,7 +15,6 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN"
       ]
     },
@@ -30,53 +29,37 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "194.26.229.218",
-      "server_port": 2200,
-      "uuid": "af325624-e28d-44fd-a8a7-058a439d128f",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "194.26.229.218",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "178.248.236.155",
-      "server_port": 14443,
-      "uuid": "aa8b4a23-655f-480c-aef6-27b0c45e7877",
+      "server": "94.139.250.36",
+      "server_port": 443,
+      "uuid": "eadcacfa-ef1a-4901-a28b-8815fa1962a5",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "rutube.ru",
+        "server_name": "apple.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "szC_0ZhoT_nwOrJcYXRrMw3EGJkiOAYCU-6atQo6mXQ",
-          "short_id": "0dacf3306f"
+          "public_key": "m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "104.171.134.235",
-      "server_port": 4100,
-      "uuid": "bceda826-c83c-45d0-891e-15c4bfec76bc",
-      "flow": "",
+      "server": "94.139.250.34",
+      "server_port": 443,
+      "uuid": "eadcacfa-ef1a-4901-a28b-8815fa1962a5",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "104.171.134.235",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
+        "server_name": "apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY",
+          "short_id": ""
+        }
       }
     }
   ],
