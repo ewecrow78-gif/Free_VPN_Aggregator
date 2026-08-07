@@ -28,12 +28,12 @@
     {
       "type": "trojan",
       "tag": "🇺🇸 GhostVPN",
-      "server": "35.86.90.51",
-      "server_port": 443,
-      "password": "ND91608427",
+      "server": "163.245.196.68",
+      "server_port": 49361,
+      "password": "0ebb269c9f2d4e8e46b0cd4105a55134",
       "tls": {
         "enabled": true,
-        "server_name": "natural-collie.rooster465.autos",
+        "server_name": "163.245.196.68.sslip.io",
         "insecure": true
       }
     }

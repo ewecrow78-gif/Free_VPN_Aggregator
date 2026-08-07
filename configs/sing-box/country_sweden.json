@@ -14,8 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇪 Gh0st #41",
-        "🇸🇪 Gh0st #59"
+        "🇸🇪 GhostVPN"
       ]
     },
     {
@@ -28,37 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇪 Gh0st #41",
-      "server": "95.85.246.41",
-      "server_port": 8443,
-      "uuid": "070b81db-1954-4767-bfa5-26d2c3598273",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.reddit.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "J4WffPKdBfvAlQgqDNPU63l24N4rhGbLYlQ2QgqVz1k",
-          "short_id": "5ee7e763329c07a6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 Gh0st #59",
-      "server": "95.85.246.65",
+      "tag": "🇸🇪 GhostVPN",
+      "server": "46.246.92.109",
       "server_port": 443,
-      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "uuid": "14f19724-de91-4285-a633-aa8e2caaf812",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.wikihow.com",
+        "server_name": "www.rumedia-cdn.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U",
-          "short_id": ""
+          "public_key": "JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY",
+          "short_id": "cd40c992fe4b10c2"
         }
       }
     }

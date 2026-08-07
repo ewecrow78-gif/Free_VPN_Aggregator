@@ -4,11 +4,11 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 35.86.90.51
+  password: 0ebb269c9f2d4e8e46b0cd4105a55134
+  port: 49361
+  server: 163.245.196.68
   skip-cert-verify: true
-  sni: natural-collie.rooster465.autos
+  sni: 163.245.196.68.sslip.io
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]

@@ -14,36 +14,9 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
-        "🇫🇷 GhostVPN",
-        "🇩🇪 GhostVPN",
-        "🇩🇪 GhostVPN",
-        "🇫🇷 GhostVPN",
-        "🇫🇷 GhostVPN",
-        "🇩🇪 GhostVPN",
-        "🏳️ GhostVPN",
-        "🇫🇷 GhostVPN",
-        "🇩🇪 GhostVPN",
-        "🏳️ GhostVPN",
-        "🏳️ GhostVPN",
-        "🏳️ GhostVPN",
-        "🇨🇭 GhostVPN",
         "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN",
-        "🇺🇸 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN"
+        "🇸🇪 GhostVPN",
+        "🇺🇸 GhostVPN"
       ]
     },
     {
@@ -56,361 +29,44 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "134.98.149.115",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "152.70.53.15",
-      "server_port": 45819,
-      "method": "chacha20-ietf-poly1305",
-      "password": "YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM="
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "141.144.207.185",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷 GhostVPN",
-      "server": "15.237.49.244",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "star-kiwi.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "3.68.79.32",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "large-baboon.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "54.93.65.133",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "next-turkey.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷 GhostVPN",
-      "server": "13.36.175.151",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "classic-gator.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷 GhostVPN",
-      "server": "15.237.219.234",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "careful-tadpole.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "3.64.59.246",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "gentle-raptor.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🏳️ GhostVPN",
-      "server": "34.251.228.118",
-      "server_port": 443,
-      "password": "UO36402987",
-      "tls": {
-        "enabled": true,
-        "server_name": "definite-ladybird.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷 GhostVPN",
-      "server": "15.237.137.197",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "fancy-skink.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "3.124.187.220",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "rapid-firefly.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🏳️ GhostVPN",
-      "server": "54.217.133.71",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "willing-beagle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🏳️ GhostVPN",
-      "server": "54.216.124.178",
-      "server_port": 443,
-      "password": "UO36402987",
-      "tls": {
-        "enabled": true,
-        "server_name": "warm-bass.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🏳️ GhostVPN",
-      "server": "54.170.212.206",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "skilled-lioness.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇨🇭 GhostVPN",
-      "server": "86.106.84.195",
-      "server_port": 53261,
-      "password": "y3b03zx3tznhyo538p4c",
-      "tls": {
-        "enabled": true,
-        "server_name": "86.106.84.195",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "94.139.250.36",
-      "server_port": 443,
-      "uuid": "eadcacfa-ef1a-4901-a28b-8815fa1962a5",
+      "server": "78.159.245.32",
+      "server_port": 28473,
+      "uuid": "93bfd314-a270-447f-86f4-cf4fc5b2f3ff",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE",
-          "short_id": ""
-        }
+        "server_name": "secure.furrycdn.net",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "94.139.250.34",
+      "tag": "🇸🇪 GhostVPN",
+      "server": "46.246.92.109",
       "server_port": 443,
-      "uuid": "eadcacfa-ef1a-4901-a28b-8815fa1962a5",
+      "uuid": "14f19724-de91-4285-a633-aa8e2caaf812",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "www.rumedia-cdn.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY",
-          "short_id": ""
+          "public_key": "JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY",
+          "short_id": "cd40c992fe4b10c2"
         }
       }
     },
     {
       "type": "trojan",
       "tag": "🇺🇸 GhostVPN",
-      "server": "35.86.90.51",
-      "server_port": 443,
-      "password": "ND91608427",
+      "server": "163.245.196.68",
+      "server_port": 49361,
+      "password": "0ebb269c9f2d4e8e46b0cd4105a55134",
       "tls": {
         "enabled": true,
-        "server_name": "natural-collie.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "54.199.202.238",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "definite-sturgeon.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "13.230.118.96",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "real-werewolf.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "52.196.121.8",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "thankful-mustang.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "52.198.25.180",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "clear-snail.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "43.207.140.98",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "right-seahorse.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "18.181.194.227",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "moral-buzzard.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "13.192.168.51",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "learning-leopard.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "43.207.89.29",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "relaxing-bluebird.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "18.178.132.111",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "devoted-heron.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "43.207.155.134",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "smart-pup.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "18.179.31.199",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "prompt-duckling.rooster465.autos",
+        "server_name": "163.245.196.68.sslip.io",
         "insecure": true
       }
     }

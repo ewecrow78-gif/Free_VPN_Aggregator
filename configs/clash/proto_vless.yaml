@@ -3,57 +3,33 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇳🇱 GhostVPN
-  network: tcp
-  port: 62145
-  reality-opts: {}
-  server: 134.98.149.115
-  servername: 134.98.149.115
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  ws-opts: {}
-- name: 🇳🇱 GhostVPN
-  network: tcp
-  port: 62145
-  reality-opts: {}
-  server: 141.144.207.185
-  servername: 141.144.207.185
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  ws-opts: {}
 - name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 28473
+  reality-opts: {}
+  server: 78.159.245.32
+  servername: secure.furrycdn.net
+  tls: true
+  type: vless
+  uuid: 93bfd314-a270-447f-86f4-cf4fc5b2f3ff
+  ws-opts: {}
+- name: 🇸🇪 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-    short-id: ''
-  server: 94.139.250.36
-  servername: apple.com
+    public-key: JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY
+    short-id: cd40c992fe4b10c2
+  server: 46.246.92.109
+  servername: www.rumedia-cdn.com
   tls: true
   type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: 94.139.250.34
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+  uuid: 14f19724-de91-4285-a633-aa8e2caaf812
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_VLESS]
   proxies:
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
   - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
+  - 🇸🇪 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [PROTO_VLESS]

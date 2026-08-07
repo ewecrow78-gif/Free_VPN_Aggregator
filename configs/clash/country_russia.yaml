@@ -5,32 +5,17 @@ port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE
-    short-id: ''
-  server: 94.139.250.36
-  servername: apple.com
+  port: 28473
+  reality-opts: {}
+  server: 78.159.245.32
+  servername: secure.furrycdn.net
   tls: true
   type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY
-    short-id: ''
-  server: 94.139.250.34
-  servername: apple.com
-  tls: true
-  type: vless
-  uuid: eadcacfa-ef1a-4901-a28b-8815fa1962a5
+  uuid: 93bfd314-a270-447f-86f4-cf4fc5b2f3ff
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select
 rules:

@@ -14,10 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
         "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN"
+        "🇸🇪 GhostVPN"
       ]
     },
     {
@@ -30,53 +28,32 @@
     },
     {
       "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "134.98.149.115",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "141.144.207.185",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
-    },
-    {
-      "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "94.139.250.36",
-      "server_port": 443,
-      "uuid": "eadcacfa-ef1a-4901-a28b-8815fa1962a5",
+      "server": "78.159.245.32",
+      "server_port": 28473,
+      "uuid": "93bfd314-a270-447f-86f4-cf4fc5b2f3ff",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "m_Xgh5XeqmN9JaDxkct4yTup2YPVxCV5fGnUnMZ3pWE",
-          "short_id": ""
-        }
+        "server_name": "secure.furrycdn.net",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "94.139.250.34",
+      "tag": "🇸🇪 GhostVPN",
+      "server": "46.246.92.109",
       "server_port": 443,
-      "uuid": "eadcacfa-ef1a-4901-a28b-8815fa1962a5",
+      "uuid": "14f19724-de91-4285-a633-aa8e2caaf812",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "www.rumedia-cdn.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "6ycuxfrEPsqE9eXZ5_Osbnx4g6hXWmkc8pFuAJkJ4jY",
-          "short_id": ""
+          "public_key": "JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY",
+          "short_id": "cd40c992fe4b10c2"
         }
       }
     }

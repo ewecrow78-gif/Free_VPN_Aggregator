@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793837373
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SWEDEN%20%F0%9F%9A%80
-vless://070b81db-1954-4767-bfa5-26d2c3598273@95.85.246.41:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.reddit.com&fp=firefox&pbk=J4WffPKdBfvAlQgqDNPU63l24N4rhGbLYlQ2QgqVz1k&sid=5ee7e763329c07a6&type=tcp&headerType=none#%F0%9F%87%B8%F0%9F%87%AA%20Gh0st%20%2341
-vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@95.85.246.65:443?security=reality&encryption=none&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.wikihow.com#%F0%9F%87%B8%F0%9F%87%AA%20Gh0st%20%2359
+vless://14f19724-de91-4285-a633-aa8e2caaf812@46.246.92.109:443?type=tcp&security=reality&sni=www.rumedia-cdn.com&pbk=JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY&sid=cd40c992fe4b10c2&fp=safari&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
