@@ -4,12 +4,17 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
-  skip-cert-verify: true
-  sni: 163.245.196.68.sslip.io
-  type: trojan
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
+    short-id: a1b2c4d4a1b2c5d5
+  server: 31.76.22.141
+  servername: www.sciencedirect.com
+  tls: true
+  type: vless
+  uuid: 9500cf8b-020a-4a70-906c-e14bb5375875
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:

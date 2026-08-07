@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN"
       ]
     },
@@ -28,14 +29,37 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "78.159.245.32",
-      "server_port": 28473,
-      "uuid": "93bfd314-a270-447f-86f4-cf4fc5b2f3ff",
+      "server": "91.185.83.94",
+      "server_port": 443,
+      "uuid": "499735db-03b7-47a7-8569-c8662a34ad56",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "secure.furrycdn.net",
-        "insecure": true
+        "server_name": "5post-gate.x5.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "E96O40ypyPplb8XGZ9eYMtTiaATD8jlyhIgc3DOZr0o",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "91.185.83.94",
+      "server_port": 5443,
+      "uuid": "499735db-03b7-47a7-8569-c8662a34ad56",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "5post-gate.x5.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "A3BZvaih9lBbMaKWjndiEdhCDZLMRbeRD1fI8CP4324",
+          "short_id": ""
+        }
       }
     }
   ],

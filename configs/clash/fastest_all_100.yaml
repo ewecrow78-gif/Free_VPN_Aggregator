@@ -3,41 +3,77 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 28473
-  reality-opts: {}
-  server: 78.159.245.32
-  servername: secure.furrycdn.net
+- name: 🇩🇪 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 54.93.65.133
+  skip-cert-verify: true
+  sni: next-turkey.rooster465.autos
+  type: trojan
+- name: 🇫🇷 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 15.237.49.244
+  skip-cert-verify: true
+  sni: star-kiwi.rooster465.autos
+  type: trojan
+- name: 🏳️ GhostVPN
+  network: grpc
+  port: 51940
+  reality-opts:
+    public-key: uPHvFb_vZ3DKL-8Et_e9OliZskdSV5U1NZ66tHfC-2Y
+    short-id: fd7f
+  server: 111.88.143.139
+  servername: yahoo.com
   tls: true
   type: vless
-  uuid: 93bfd314-a270-447f-86f4-cf4fc5b2f3ff
+  uuid: 03464802-b517-404b-b15c-7750ffc5e78f
   ws-opts: {}
-- name: 🇸🇪 GhostVPN
+- name: 🇺🇸 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY
-    short-id: cd40c992fe4b10c2
-  server: 46.246.92.109
-  servername: www.rumedia-cdn.com
+    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
+    short-id: a1b2c4d4a1b2c5d5
+  server: 31.76.22.141
+  servername: www.sciencedirect.com
   tls: true
   type: vless
-  uuid: 14f19724-de91-4285-a633-aa8e2caaf812
+  uuid: 9500cf8b-020a-4a70-906c-e14bb5375875
   ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: 49361
-  server: 163.245.196.68
-  skip-cert-verify: true
-  sni: 163.245.196.68.sslip.io
-  type: trojan
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: E96O40ypyPplb8XGZ9eYMtTiaATD8jlyhIgc3DOZr0o
+    short-id: ''
+  server: 91.185.83.94
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  uuid: 499735db-03b7-47a7-8569-c8662a34ad56
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 5443
+  reality-opts:
+    public-key: A3BZvaih9lBbMaKWjndiEdhCDZLMRbeRD1fI8CP4324
+    short-id: ''
+  server: 91.185.83.94
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  uuid: 499735db-03b7-47a7-8569-c8662a34ad56
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [FASTEST_ALL]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🇸🇪 GhostVPN
+  - 🇩🇪 GhostVPN
+  - 🇫🇷 GhostVPN
+  - 🏳️ GhostVPN
   - 🇺🇸 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [FASTEST_ALL]

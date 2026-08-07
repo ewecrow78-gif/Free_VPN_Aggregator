@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Kazakhstan 56"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -26,16 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "vmess",
-      "tag": "🏳️ Kazakhstan 56",
-      "server": "38.107.234.57",
-      "server_port": 80,
-      "uuid": "567f4be5-12ab-42e1-b8d9-db6fd1fdd31c",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/vmess/"
+      "type": "vless",
+      "tag": "🏳️ GhostVPN",
+      "server": "111.88.143.139",
+      "server_port": 51940,
+      "uuid": "03464802-b517-404b-b15c-7750ffc5e78f",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "uPHvFb_vZ3DKL-8Et_e9OliZskdSV5U1NZ66tHfC-2Y",
+          "short_id": "fd7f"
+        }
       }
     }
   ],
