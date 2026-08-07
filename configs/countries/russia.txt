@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793859537
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793880982
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_RUSSIA%20%F0%9F%9A%80
-vless://499735db-03b7-47a7-8569-c8662a34ad56@91.185.83.94:443?type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=E96O40ypyPplb8XGZ9eYMtTiaATD8jlyhIgc3DOZr0o&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://499735db-03b7-47a7-8569-c8662a34ad56@91.185.83.94:5443?type=tcp&security=reality&sni=5post-gate.x5.ru&pbk=A3BZvaih9lBbMaKWjndiEdhCDZLMRbeRD1fI8CP4324&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://62d41535-25d3-4bb6-8378-e918cfeba95f@89.19.223.163:8443?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://62d41535-25d3-4bb6-8378-e918cfeba95f@89.19.223.137:8443?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN

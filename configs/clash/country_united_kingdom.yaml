@@ -7,23 +7,28 @@ proxies:
   name: 🇬🇧 GhostVPN
   password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
   port: 61312
-  server: 129.151.74.38
+  server: 129.151.67.154
   type: ss
 - name: 🇬🇧 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: fdda9806fe5d8584
-  server: 185.232.117.117
-  servername: vl07.skorostnet.space
-  tls: true
+  port: 2020
+  reality-opts: {}
+  server: 164.37.111.117
+  servername: 164.37.111.117
+  tls: false
   type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  uuid: 0dbacd35-9159-4648-89ac-c38b741567a8
   ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.175
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]
   proxies:
+  - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   type: select

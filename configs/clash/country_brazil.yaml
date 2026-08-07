@@ -7,7 +7,7 @@ proxies:
   name: 🇧🇷 GhostVPN
   password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
   port: 59319
-  server: 168.138.246.189
+  server: 163.176.119.238
   type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BRAZIL]

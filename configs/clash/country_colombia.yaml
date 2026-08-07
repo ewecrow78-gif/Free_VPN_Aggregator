@@ -7,8 +7,68 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 149.130.162.154
-  servername: 149.130.162.154
+  server: 157.137.210.130
+  servername: 157.137.210.130
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 149.130.191.17
+  servername: 149.130.191.17
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 149.130.187.58
+  servername: 149.130.187.58
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 149.130.177.227
+  servername: 149.130.177.227
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 149.130.185.99
+  servername: 149.130.185.99
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 157.137.211.247
+  servername: 157.137.211.247
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 157.137.208.150
+  servername: 157.137.208.150
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
@@ -16,6 +76,12 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_COLOMBIA]
   proxies:
+  - 🏳️ GhostVPN
+  - 🏳️ GhostVPN
+  - 🏳️ GhostVPN
+  - 🏳️ GhostVPN
+  - 🏳️ GhostVPN
+  - 🏳️ GhostVPN
   - 🏳️ GhostVPN
   type: select
 rules:

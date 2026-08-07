@@ -5,27 +5,23 @@ port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: E96O40ypyPplb8XGZ9eYMtTiaATD8jlyhIgc3DOZr0o
-    short-id: ''
-  server: 91.185.83.94
-  servername: 5post-gate.x5.ru
-  tls: true
+  port: 8443
+  reality-opts: {}
+  server: 89.19.223.163
+  servername: 89.19.223.163
+  tls: false
   type: vless
-  uuid: 499735db-03b7-47a7-8569-c8662a34ad56
+  uuid: 62d41535-25d3-4bb6-8378-e918cfeba95f
   ws-opts: {}
 - name: 🇷🇺 GhostVPN
   network: tcp
-  port: 5443
-  reality-opts:
-    public-key: A3BZvaih9lBbMaKWjndiEdhCDZLMRbeRD1fI8CP4324
-    short-id: ''
-  server: 91.185.83.94
-  servername: 5post-gate.x5.ru
-  tls: true
+  port: 8443
+  reality-opts: {}
+  server: 89.19.223.137
+  servername: 89.19.223.137
+  tls: false
   type: vless
-  uuid: 499735db-03b7-47a7-8569-c8662a34ad56
+  uuid: 62d41535-25d3-4bb6-8378-e918cfeba95f
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]

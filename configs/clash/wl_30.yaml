@@ -2,11 +2,23 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🇭🇰 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: uoXBNYcBgR-h2YmU1NFhFyASr6qh9UghWOuo1WZIikw
+    short-id: 17d824dd68e24aaf
+  server: 34.96.200.38
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 2058418a-7718-4050-bdd5-db7487ffdb3b
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_30]
   proxies:
-  - DIRECT
+  - 🇭🇰 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_30]

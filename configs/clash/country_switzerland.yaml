@@ -8,7 +8,7 @@ proxies:
   port: 53261
   server: 86.106.84.195
   skip-cert-verify: true
-  sni: 86.106.84.195
+  sni: speedtest.tinkoff.ru
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWITZERLAND]

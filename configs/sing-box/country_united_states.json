@@ -14,6 +14,13 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN"
       ]
     },
@@ -28,18 +35,121 @@
     {
       "type": "vless",
       "tag": "🇺🇸 GhostVPN",
-      "server": "31.76.22.141",
+      "server": "95.182.114.74",
       "server_port": 443,
-      "uuid": "9500cf8b-020a-4a70-906c-e14bb5375875",
-      "flow": "xtls-rprx-vision",
+      "uuid": "b4484cdd-b16b-4946-a8f5-78e5322b3abf",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.sciencedirect.com",
+        "server_name": "95.182.114.74",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "70.39.198.183",
+      "server_port": 46197,
+      "uuid": "5aab0d40-c509-4560-b048-ade921fdfb6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0",
-          "short_id": "a1b2c4d4a1b2c5d5"
+          "public_key": "npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00",
+          "short_id": "f24c17bb7fc284"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "70.39.178.231",
+      "server_port": 46197,
+      "uuid": "5aab0d40-c509-4560-b048-ade921fdfb6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00",
+          "short_id": "f24c17bb7fc284"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "70.39.197.13",
+      "server_port": 46197,
+      "uuid": "5aab0d40-c509-4560-b048-ade921fdfb6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00",
+          "short_id": "f24c17bb7fc284"
+        }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "44.244.3.114",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "pet-ghost.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "44.242.235.129",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "devoted-tapir.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "35.91.251.124",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "sincere-gelding.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "70.39.198.93",
+      "server_port": 46197,
+      "uuid": "5aab0d40-c509-4560-b048-ade921fdfb6a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "updates.cdn-apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00",
+          "short_id": "f24c17bb7fc284"
         }
       }
     }

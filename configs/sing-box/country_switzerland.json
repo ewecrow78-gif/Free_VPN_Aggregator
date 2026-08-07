@@ -33,7 +33,7 @@
       "password": "y3b03zx3tznhyo538p4c",
       "tls": {
         "enabled": true,
-        "server_name": "86.106.84.195",
+        "server_name": "speedtest.tinkoff.ru",
         "insecure": true
       }
     }

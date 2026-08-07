@@ -6,18 +6,92 @@ proxies:
 - name: 🇺🇸 GhostVPN
   network: tcp
   port: 443
+  reality-opts: {}
+  server: 95.182.114.74
+  servername: 95.182.114.74
+  tls: false
+  type: vless
+  uuid: b4484cdd-b16b-4946-a8f5-78e5322b3abf
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 46197
   reality-opts:
-    public-key: cNWgfJHerzIEb0RXxncP8R9Ex8-FkALOtbhneEIHpR0
-    short-id: a1b2c4d4a1b2c5d5
-  server: 31.76.22.141
-  servername: www.sciencedirect.com
+    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
+    short-id: f24c17bb7fc284
+  server: 70.39.198.183
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
-  uuid: 9500cf8b-020a-4a70-906c-e14bb5375875
+  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 46197
+  reality-opts:
+    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
+    short-id: f24c17bb7fc284
+  server: 70.39.178.231
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 46197
+  reality-opts:
+    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
+    short-id: f24c17bb7fc284
+  server: 70.39.197.13
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 44.244.3.114
+  skip-cert-verify: true
+  sni: pet-ghost.rooster465.autos
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 44.242.235.129
+  skip-cert-verify: true
+  sni: devoted-tapir.rooster465.autos
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 35.91.251.124
+  skip-cert-verify: true
+  sni: sincere-gelding.rooster465.autos
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 46197
+  reality-opts:
+    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
+    short-id: f24c17bb7fc284
+  server: 70.39.198.93
+  servername: updates.cdn-apple.com
+  tls: true
+  type: vless
+  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select
 rules:
