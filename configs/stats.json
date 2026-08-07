@@ -1,45 +1,30 @@
 {
   "funnel": {},
-  "total": 31,
-  "alive": 31,
-  "top_50_fast": 30,
-  "top_30_fast": 30,
-  "all_configs": 31,
-  "wl_100": 1,
-  "wl_50": 1,
-  "wl_30": 1,
-  "mixed_100": 31,
-  "all_wl": 1,
-  "fastest_all_100": 31,
+  "total": 9,
+  "alive": 9,
+  "top_50_fast": 9,
+  "top_30_fast": 9,
+  "all_configs": 9,
+  "wl_100": 0,
+  "wl_50": 0,
+  "wl_30": 0,
+  "mixed_100": 9,
+  "all_wl": 0,
+  "fastest_all_100": 9,
   "by_country": {
-    "The Netherlands": 5,
-    "United Kingdom": 3,
-    "Russia": 2,
-    "Switzerland": 1,
-    "Sweden": 1,
-    "Finland": 1,
-    "United States": 8,
-    "Germany": 1,
-    "Colombia": 7,
-    "Brazil": 1,
-    "Hong Kong": 1
+    "Germany": 4,
+    "United States": 3,
+    "The Netherlands": 1,
+    "Singapore": 1
   },
   "country_flags": {
-    "The Netherlands": "🇳🇱",
-    "United Kingdom": "🇬🇧",
-    "Russia": "🇷🇺",
-    "Switzerland": "🇨🇭",
-    "Sweden": "🇸🇪",
-    "Finland": "🇫🇮",
-    "United States": "🇺🇸",
     "Germany": "🇩🇪",
-    "Colombia": "🏳️",
-    "Brazil": "🇧🇷",
-    "Hong Kong": "🇭🇰"
+    "United States": "🇺🇸",
+    "The Netherlands": "🇳🇱",
+    "Singapore": "🇸🇬"
   },
   "by_protocol": {
-    "vless": 23,
-    "ss": 4,
-    "trojan": 4
+    "vless": 7,
+    "trojan": 2
   }
 }
