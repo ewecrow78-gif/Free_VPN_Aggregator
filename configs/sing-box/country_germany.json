@@ -14,9 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇩🇪 GhostVPN",
-        "🇩🇪 GhostVPN",
-        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -31,67 +28,19 @@
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "87.120.126.63",
-      "server_port": 8443,
-      "uuid": "b94da146-a56e-49d7-af4c-a68c9065cbfd",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "vpnforppl.top",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo",
-          "short_id": "1e943a831d22faf6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "2.26.230.254",
+      "server": "194.87.24.25",
       "server_port": 443,
-      "uuid": "10c9c533-1487-4de7-b3af-d2efae62cdac",
+      "uuid": "f692629b-3557-488a-9c9b-60775331e423",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "newgermany.live",
+        "server_name": "fi1-cosmostechnology.ru",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "y0wgEdmPNIKlAMJHeC0teOW_fBnX8tmRE8n1CwOZSwU",
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
           "short_id": ""
         }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "2.26.84.107",
-      "server_port": 443,
-      "uuid": "10c9c533-1487-4de7-b3af-d2efae62cdac",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "germany2fast.store",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "Z7qSP_rc8hA6aQvcqf7NpfBbmFX4gHMgpqVd_nrJGgI",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "3.64.59.246",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "gentle-raptor.rooster465.autos",
-        "insecure": true
       }
     }
   ],

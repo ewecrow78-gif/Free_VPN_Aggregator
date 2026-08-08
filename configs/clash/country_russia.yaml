@@ -5,27 +5,42 @@ port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
   network: tcp
-  port: 8443
-  reality-opts: {}
-  server: 89.19.223.163
-  servername: 89.19.223.163
-  tls: false
+  port: 43000
+  reality-opts:
+    public-key: CH7SpnfklhoBKYhez8VhcLzr9wzFkvbKAThOU_3y9lE
+    short-id: 7523ef69
+  server: 81.94.148.119
+  servername: iv.kommersant.ru
+  tls: true
   type: vless
-  uuid: 62d41535-25d3-4bb6-8378-e918cfeba95f
+  uuid: 25d25f21-7a9e-426f-8c14-0c06782585ff
   ws-opts: {}
 - name: 🇷🇺 GhostVPN
   network: tcp
   port: 8443
   reality-opts: {}
-  server: 89.19.223.137
-  servername: 89.19.223.137
-  tls: false
+  server: 193.233.74.89
+  servername: de1.hys.braidx.tech
+  tls: true
   type: vless
-  uuid: 62d41535-25d3-4bb6-8378-e918cfeba95f
+  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 5443
+  reality-opts:
+    public-key: EC_gDR0zwFKeVnGhy2RD1GePSUYyDhRjxCM2wCGktTk
+    short-id: ad7dab462a323acb
+  server: 217.16.18.174
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  uuid: 99216440-8607-48a6-8a96-397a45e03356
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
+  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select

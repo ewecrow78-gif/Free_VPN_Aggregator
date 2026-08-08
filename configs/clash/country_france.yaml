@@ -6,13 +6,21 @@ proxies:
 - name: 🇫🇷 GhostVPN
   password: ND91608427
   port: 443
-  server: 15.237.49.244
+  server: 13.36.175.151
   skip-cert-verify: true
-  sni: star-kiwi.rooster465.autos
+  sni: classic-gator.rooster465.autos
+  type: trojan
+- name: 🇫🇷 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 15.237.219.234
+  skip-cert-verify: true
+  sni: careful-tadpole.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FRANCE]
   proxies:
+  - 🇫🇷 GhostVPN
   - 🇫🇷 GhostVPN
   type: select
 rules:

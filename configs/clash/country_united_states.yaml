@@ -4,41 +4,19 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  password: 9ad83f65a560960e6509b677eb6162c1
-  port: 49271
-  server: 153.75.250.171
-  skip-cert-verify: true
-  sni: 153.75.250.171.sslip.io
-  type: trojan
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.178.231
-  servername: updates.cdn-apple.com
-  tls: true
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.136
+  servername: 40.160.68.136
+  tls: false
   type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.198.183
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select
 rules:

@@ -17,26 +17,6 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 149.130.191.17
-  servername: 149.130.191.17
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: tcp
-  port: 62145
-  reality-opts: {}
-  server: 149.130.187.58
-  servername: 149.130.187.58
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: tcp
-  port: 62145
-  reality-opts: {}
   server: 149.130.177.227
   servername: 149.130.177.227
   tls: false
@@ -47,8 +27,8 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 149.130.185.99
-  servername: 149.130.185.99
+  server: 149.130.178.238
+  servername: 149.130.178.238
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
@@ -57,8 +37,8 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 157.137.211.247
-  servername: 157.137.211.247
+  server: 149.130.191.17
+  servername: 149.130.191.17
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
@@ -67,8 +47,28 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 157.137.208.150
-  servername: 157.137.208.150
+  server: 157.137.226.194
+  servername: 157.137.226.194
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 157.137.229.190
+  servername: 157.137.229.190
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 157.137.221.5
+  servername: 157.137.221.5
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a

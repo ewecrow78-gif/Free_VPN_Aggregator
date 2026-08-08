@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793902411
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793923998
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,12 +11,24 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20MIXED_100%20%F0%9F%9A%80
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.63:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-trojan://9ad83f65a560960e6509b677eb6162c1@153.75.250.171:49271?security=tls&sni=153.75.250.171.sslip.io&insecure=0&allowInsecure=0&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://5dc56757-458e-4df2-9e71-2a14ce47e8af@84.32.101.222:443?encryption=none&fp=firefox&security=tls&sni=ddc-chr.astralweb.tech&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-vless://10c9c533-1487-4de7-b3af-d2efae62cdac@2.26.230.254:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=y0wgEdmPNIKlAMJHeC0teOW_fBnX8tmRE8n1CwOZSwU&security=reality&sni=newgermany.live&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://5aab0d40-c509-4560-b048-ade921fdfb6a@70.39.178.231:46197?security=reality&encryption=none&pbk=npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00&headerType=none&fp=chrome&spx=%2F2Ffdded5f9698d939&type=tcp&sni=updates.cdn-apple.com&sid=f24c17bb7fc284#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://10c9c533-1487-4de7-b3af-d2efae62cdac@2.26.84.107:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Z7qSP_rc8hA6aQvcqf7NpfBbmFX4gHMgpqVd_nrJGgI&security=reality&sni=germany2fast.store&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://6b408e62-c5d5-45e1-ae3a-4c9833d46d82@217.217.254.126:2053?encryption=none&security=reality&sni=www.cloudflare.com&fp=chrome&pbk=T4CMxxAJiCcrGk2r87kMkDcvmfNs3nL-gKleaE1wTHQ&sid=fb7ebc9996caf9ac&type=tcp#%F0%9F%87%B8%F0%9F%87%AC%20GhostVPN
-vless://5aab0d40-c509-4560-b048-ade921fdfb6a@70.39.198.183:46197?security=reality&encryption=none&pbk=npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00&headerType=none&fp=chrome&spx=%2F2Ffdded5f9698d939&type=tcp&sni=updates.cdn-apple.com&sid=f24c17bb7fc284#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-trojan://ND91608427@3.64.59.246:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=gentle-raptor.rooster465.autos#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@193.123.63.156:62145?&type=tcp&headerType=none&path=%2F#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.178.154.184:62145?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
+vless://25d25f21-7a9e-426f-8c14-0c06782585ff@81.94.148.119:43000?allowInsecure=1&flow=xtls-rprx-vision&fp=chrome&packetEncoding=xudp&pbk=CH7SpnfklhoBKYhez8VhcLzr9wzFkvbKAThOU_3y9lE&security=reality&sid=7523ef69&sni=iv.kommersant.ru&type=tcp&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.18:8080#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+trojan://ND91608427@13.36.175.151:443?fp=chrome&sni=classic-gator.rooster465.autos#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+trojan://ND91608427@15.237.219.234:443?fp=chrome&sni=careful-tadpole.rooster465.autos#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://14f19724-de91-4285-a633-aa8e2caaf812@46.246.92.109:443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.rumedia-cdn.com&fp=safari&pbk=JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY&sid=cd40c992fe4b10c2&flow=xtls-rprx-vision#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
+trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://99216440-8607-48a6-8a96-397a45e03356@217.179.221.82:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=W7zjZJiEbAN6b-KkXWtk5dJ513BFDeKMSxgdiCUOWBo&security=reality&sid=a1ab5a56bcca&sni=ve.cishosts.org&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+trojan://ND91608427@54.170.212.206:443?fp=chrome&sni=skilled-lioness.rooster465.autos#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://8787dd0a-095a-414e-804f-a7d16a1ae166@193.233.74.89:8443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=de1.hys.braidx.tech&fp=firefox&insecure=0&allowInsecure=0&type=tcp&headerType=none#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://99216440-8607-48a6-8a96-397a45e03356@217.16.18.174:5443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=EC_gDR0zwFKeVnGhy2RD1GePSUYyDhRjxCM2wCGktTk&security=reality&sid=ad7dab462a323acb&sni=ads.x5.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.136:8080?type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.210.130:62145?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.177.227:62145?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.178.238:62145?type=tcp&headerType=none&security=none&encryption=none&path=%2F#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@149.130.191.17:62145?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.226.194:62145?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.229.190:62145?type=tcp&headerType=none&security=none&encryption=none#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@157.137.221.5:62145?type=tcp&headerType=none&security=none&encryption=none&path=%2F#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://f692629b-3557-488a-9c9b-60775331e423@194.87.24.25:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&security=reality&sni=fi1-cosmostechnology.ru&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
