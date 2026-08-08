@@ -7,8 +7,8 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 193.123.63.156
-  servername: 193.123.63.156
+  server: 158.178.145.70
+  servername: 158.178.145.70
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
@@ -17,15 +17,26 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 158.178.154.184
-  servername: 158.178.154.184
+  server: 193.123.63.156
+  servername: 193.123.63.156
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 84.32.101.222
+  servername: ddc-chr.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select

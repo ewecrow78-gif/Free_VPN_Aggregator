@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793923998
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793945621
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,7 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.136:8080?type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://f692629b-3557-488a-9c9b-60775331e423@31.58.50.8:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.google.com&fp=chrome&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://f692629b-3557-488a-9c9b-60775331e423@31.57.46.55:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.google.com&fp=chrome&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://f692629b-3557-488a-9c9b-60775331e423@94.183.185.248:8443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=www.google.com&fp=chrome&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+trojan://ND91608427@44.244.3.114:443?security=tls&sni=pet-ghost.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

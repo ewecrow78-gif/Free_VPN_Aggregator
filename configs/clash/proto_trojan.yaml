@@ -3,41 +3,81 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇫🇷 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 13.36.175.151
+- name: 🇭🇰 GhostVPN
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 6357
+  server: 18.163.180.201
   skip-cert-verify: true
-  sni: classic-gator.rooster465.autos
+  sni: www.nintendogames.net
   type: trojan
-- name: 🇫🇷 GhostVPN
+- name: 🇺🇸 GhostVPN
   password: ND91608427
   port: 443
-  server: 15.237.219.234
+  server: 44.244.3.114
   skip-cert-verify: true
-  sni: careful-tadpole.rooster465.autos
+  sni: pet-ghost.rooster465.autos
   type: trojan
-- name: 🏳️ GhostVPN
+- name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 54.217.133.71
+  server: 52.194.230.221
   skip-cert-verify: true
-  sni: willing-beagle.rooster465.autos
+  sni: happy-mutt.rooster465.autos
   type: trojan
-- name: 🏳️ GhostVPN
+- name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 54.170.212.206
+  server: 3.112.238.99
   skip-cert-verify: true
-  sni: skilled-lioness.rooster465.autos
+  sni: stunning-mite.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.112.223.141
+  skip-cert-verify: true
+  sni: internal-sunbird.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 18.181.164.216
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 54.249.34.120
+  skip-cert-verify: true
+  sni: social-mutt.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 57.180.27.225
+  skip-cert-verify: true
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 43.207.155.134
+  skip-cert-verify: true
+  sni: smart-pup.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_TROJAN]
   proxies:
-  - 🇫🇷 GhostVPN
-  - 🇫🇷 GhostVPN
-  - 🏳️ GhostVPN
-  - 🏳️ GhostVPN
+  - 🇭🇰 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [PROTO_TROJAN]
