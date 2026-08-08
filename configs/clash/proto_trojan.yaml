@@ -3,47 +3,82 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇭🇰 GhostVPN
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.163.180.201
+- name: 🇫🇷 GhostVPN
+  password: QV31589740
+  port: 443
+  server: 51.44.160.58
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: great-krill.rooster465.autos
+  type: trojan
+- name: 🏳️ GhostVPN
+  password: ND91608427
+  port: 443
+  server: 54.217.133.71
+  skip-cert-verify: true
+  sni: willing-beagle.rooster465.autos
+  type: trojan
+- name: 🇪🇸 GhostVPN
+  password: 2eutknankxtbgkwcajzt
+  port: 52794
+  server: 193.148.19.210
+  skip-cert-verify: true
+  sni: www.vk.com
   type: trojan
 - name: 🇺🇸 GhostVPN
   password: ND91608427
   port: 443
-  server: 44.244.3.114
+  server: 35.86.90.51
   skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
+  sni: natural-collie.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 52.194.230.221
+  server: 13.192.168.51
   skip-cert-verify: true
-  sni: happy-mutt.rooster465.autos
+  sni: learning-leopard.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 3.112.238.99
+  server: 43.207.89.29
   skip-cert-verify: true
-  sni: stunning-mite.rooster465.autos
+  sni: relaxing-bluebird.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 3.112.223.141
+  server: 52.196.121.8
   skip-cert-verify: true
-  sni: internal-sunbird.rooster465.autos
+  sni: thankful-mustang.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 18.181.164.216
+  server: 43.207.140.98
   skip-cert-verify: true
-  sni: upright-impala.rooster465.autos
+  sni: right-seahorse.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 43.207.139.153
+  skip-cert-verify: true
+  sni: sensible-mongrel.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.112.15.214
+  skip-cert-verify: true
+  sni: adjusted-labrador.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 13.231.232.184
+  skip-cert-verify: true
+  sni: better-molly.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
@@ -55,6 +90,97 @@ proxies:
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
+  server: 18.181.194.227
+  skip-cert-verify: true
+  sni: moral-buzzard.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 18.178.132.111
+  skip-cert-verify: true
+  sni: devoted-heron.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 57.180.13.78
+  skip-cert-verify: true
+  sni: healthy-louse.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 18.181.175.120
+  skip-cert-verify: true
+  sni: sure-humpback.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 35.72.13.34
+  skip-cert-verify: true
+  sni: casual-bee.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 18.179.31.199
+  skip-cert-verify: true
+  sni: prompt-duckling.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.113.1.131
+  skip-cert-verify: true
+  sni: perfect-slug.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.112.223.141
+  skip-cert-verify: true
+  sni: internal-sunbird.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.112.238.99
+  skip-cert-verify: true
+  sni: stunning-mite.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 13.230.118.96
+  skip-cert-verify: true
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 18.181.164.216
+  skip-cert-verify: true
+  sni: upright-impala.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 3.113.24.17
+  skip-cert-verify: true
+  sni: nearby-egret.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 52.194.230.221
+  skip-cert-verify: true
+  sni: happy-mutt.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
   server: 57.180.27.225
   skip-cert-verify: true
   sni: picked-guinea.rooster465.autos
@@ -62,15 +188,33 @@ proxies:
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 43.207.155.134
+  server: 54.65.167.167
   skip-cert-verify: true
-  sni: smart-pup.rooster465.autos
+  sni: tough-robin.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_TROJAN]
   proxies:
-  - 🇭🇰 GhostVPN
+  - 🇫🇷 GhostVPN
+  - 🏳️ GhostVPN
+  - 🇪🇸 GhostVPN
   - 🇺🇸 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN

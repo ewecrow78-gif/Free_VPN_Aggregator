@@ -6,9 +6,9 @@ proxies:
 - name: 🇪🇸 GhostVPN
   password: 2eutknankxtbgkwcajzt
   port: 52794
-  server: 193.148.19.213
+  server: 193.148.19.210
   skip-cert-verify: true
-  sni: 193.148.19.213
+  sni: www.vk.com
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SPAIN]

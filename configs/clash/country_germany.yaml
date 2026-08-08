@@ -4,16 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇩🇪 GhostVPN
-  network: tcp
-  port: 443
+  network: grpc
+  port: 8443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
-    short-id: ''
-  server: 194.87.24.25
-  servername: fi1-cosmostechnology.ru
+    public-key: gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo
+    short-id: 1e943a831d22faf6
+  server: 87.120.126.63
+  servername: vpnforppl.top
   tls: true
   type: vless
-  uuid: f692629b-3557-488a-9c9b-60775331e423
+  uuid: b94da146-a56e-49d7-af4c-a68c9065cbfd
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_GERMANY]

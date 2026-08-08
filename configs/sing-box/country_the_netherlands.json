@@ -14,8 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN"
       ]
     },
@@ -30,31 +28,10 @@
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "158.178.145.70",
+      "server": "158.180.14.247",
       "server_port": 62145,
       "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
       "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "193.123.63.156",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "84.32.101.222",
-      "server_port": 443,
-      "uuid": "5dc56757-458e-4df2-9e71-2a14ce47e8af",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ddc-chr.astralweb.tech",
-        "insecure": true
-      }
     }
   ],
   "route": {

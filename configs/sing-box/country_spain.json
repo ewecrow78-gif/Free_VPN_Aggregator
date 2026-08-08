@@ -28,12 +28,12 @@
     {
       "type": "trojan",
       "tag": "🇪🇸 GhostVPN",
-      "server": "193.148.19.213",
+      "server": "193.148.19.210",
       "server_port": 52794,
       "password": "2eutknankxtbgkwcajzt",
       "tls": {
         "enabled": true,
-        "server_name": "193.148.19.213",
+        "server_name": "www.vk.com",
         "insecure": true
       }
     }

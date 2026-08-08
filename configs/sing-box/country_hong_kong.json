@@ -26,15 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇭🇰 GhostVPN",
-      "server": "18.163.180.201",
-      "server_port": 6357,
-      "password": "d1960ba9f0f6353353994fa844cf817b",
+      "server": "35.241.98.220",
+      "server_port": 443,
+      "uuid": "96563f88-f743-4395-a3b2-27ec462ae45e",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.nintendogames.net",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "bSK8gtmPMlw7gP415tmh6kQzzFiwzxBsT3Kuqql6cRo",
+          "short_id": "ec2c7091fe76336c"
+        }
       }
     }
   ],
