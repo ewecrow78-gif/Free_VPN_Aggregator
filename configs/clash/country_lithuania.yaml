@@ -3,22 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #45'
+- name: 🏳️ GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE
-    short-id: 6ba85179e30d4fc2
-  server: 5.199.170.105
-  servername: amd.com
+  port: 2443
+  reality-opts: {}
+  server: 84.32.110.58
+  servername: lao10.enterquality.online
   tls: true
   type: vless
-  uuid: fd47216b-4217-4ec1-85b9-98304634a391
+  uuid: cfae13ae-5f59-42dc-a6cd-a2736dd9dca9
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_LITHUANIA]
   proxies:
-  - '🏳️ Gh0st #45'
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_LITHUANIA]

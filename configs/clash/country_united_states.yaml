@@ -9,7 +9,7 @@ proxies:
   reality-opts:
     public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
     short-id: f24c17bb7fc284
-  server: 70.39.198.183
+  server: 70.39.178.231
   servername: updates.cdn-apple.com
   tls: true
   type: vless
@@ -21,36 +21,15 @@ proxies:
   reality-opts:
     public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
     short-id: f24c17bb7fc284
-  server: 70.39.178.231
+  server: 70.39.198.183
   servername: updates.cdn-apple.com
   tls: true
   type: vless
   uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
   ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 35.86.90.51
-  skip-cert-verify: true
-  sni: natural-collie.rooster465.autos
-  type: trojan
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e_-s4hvBq9dglNkWn0i4-GMPwKzhyLxZnReNvhdu2Gg
-    short-id: 57cc65bfd5ef7465
-  server: 46.16.34.182
-  servername: unlv.edu
-  tls: true
-  type: vless
-  uuid: acf4cf30-5e6c-4a60-8dea-c6c696e419a9
-  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select

@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #45"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -27,20 +27,15 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #45",
-      "server": "5.199.170.105",
-      "server_port": 443,
-      "uuid": "fd47216b-4217-4ec1-85b9-98304634a391",
+      "tag": "🏳️ GhostVPN",
+      "server": "84.32.110.58",
+      "server_port": 2443,
+      "uuid": "cfae13ae-5f59-42dc-a6cd-a2736dd9dca9",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "amd.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "xFUmqmEPEKyv-5ReppEM1oTkc04HQcBUfySH-EwPBlE",
-          "short_id": "6ba85179e30d4fc2"
-        }
+        "server_name": "lao10.enterquality.online",
+        "insecure": true
       }
     }
   ],
