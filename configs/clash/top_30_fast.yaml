@@ -2,23 +2,11 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies:
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 9001
-  reality-opts:
-    public-key: LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg
-    short-id: bf63ee4d
-  server: 192.9.233.244
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 23ed3e1a-afe7-4fb5-8a11-93b3717bf23e
-  ws-opts: {}
+proxies: []
 proxy-groups:
 - name: Free_VPN_Aggregator [TOP_30_FAST]
   proxies:
-  - 🇺🇸 GhostVPN
+  - DIRECT
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [TOP_30_FAST]

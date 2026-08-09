@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇺🇸 GhostVPN"
+        "direct"
       ]
     },
     {
@@ -24,24 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "192.9.233.244",
-      "server_port": 9001,
-      "uuid": "23ed3e1a-afe7-4fb5-8a11-93b3717bf23e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg",
-          "short_id": "bf63ee4d"
-        }
-      }
     }
   ],
   "route": {
