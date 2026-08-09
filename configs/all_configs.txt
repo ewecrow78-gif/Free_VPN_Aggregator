@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793988744
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794010362
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,12 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20ALL_CONFIGS%20%F0%9F%9A%80
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.63:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.160:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.159:8443?encryption=none&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&security=reality&sid=1e943a831d22faf6&sni=vpnforppl.top&type=grpc#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.156:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-trojan://2eutknankxtbgkwcajzt@193.148.19.213:52794?allowInsecure=1&sni=193.148.19.213#%F0%9F%87%AA%F0%9F%87%B8%20GhostVPN
-vless://d65cc14c-f53f-4fe2-b262-97856601319c@82.39.171.148:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=yahoo.com&fp=firefox&pbk=e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg&sid=c39cc7310a&type=tcp&headerType=none#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
-vless://cfae13ae-5f59-42dc-a6cd-a2736dd9dca9@84.32.110.58:2443?alpn=h2,http/1.1&encryption=none&flow=xtls-rprx-vision&fp=chrome&security=tls&sni=lao10.enterquality.online&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
-vless://5aab0d40-c509-4560-b048-ade921fdfb6a@70.39.178.231:46197?encryption=none&security=reality&sni=updates.cdn-apple.com&fp=firefox&pbk=npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00&sid=f24c17bb7fc284&spx=%2F2Ffdded5f9698d939&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://5aab0d40-c509-4560-b048-ade921fdfb6a@70.39.198.183:46197?encryption=none&security=reality&sni=updates.cdn-apple.com&fp=firefox&pbk=npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00&sid=f24c17bb7fc284&spx=%2F2Ffdded5f9698d939&type=tcp&headerType=none#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://23ed3e1a-afe7-4fb5-8a11-93b3717bf23e@192.9.233.244:9001?encryption=none&type=tcp&flow=xtls-rprx-vision&security=reality&pbk=LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg&sid=bf63ee4d&sni=www.apple.com&fp=chrome&alpn=http%2F1.1#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

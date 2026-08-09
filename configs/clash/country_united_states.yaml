@@ -5,32 +5,19 @@ port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
   network: tcp
-  port: 46197
+  port: 9001
   reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.178.231
-  servername: updates.cdn-apple.com
+    public-key: LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg
+    short-id: bf63ee4d
+  server: 192.9.233.244
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.198.183
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  uuid: 23ed3e1a-afe7-4fb5-8a11-93b3717bf23e
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select
 rules:

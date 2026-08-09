@@ -3,118 +3,21 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇩🇪 GhostVPN
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo
-    short-id: 1e943a831d22faf6
-  server: 87.120.126.63
-  servername: vpnforppl.top
-  tls: true
-  type: vless
-  uuid: b94da146-a56e-49d7-af4c-a68c9065cbfd
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo
-    short-id: 1e943a831d22faf6
-  server: 87.120.126.160
-  servername: vpnforppl.top
-  tls: true
-  type: vless
-  uuid: b94da146-a56e-49d7-af4c-a68c9065cbfd
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo
-    short-id: 1e943a831d22faf6
-  server: 87.120.126.159
-  servername: vpnforppl.top
-  tls: true
-  type: vless
-  uuid: b94da146-a56e-49d7-af4c-a68c9065cbfd
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo
-    short-id: 1e943a831d22faf6
-  server: 87.120.126.156
-  servername: vpnforppl.top
-  tls: true
-  type: vless
-  uuid: b94da146-a56e-49d7-af4c-a68c9065cbfd
-  ws-opts: {}
-- name: 🇪🇸 GhostVPN
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-- name: 🇬🇧 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 82.39.171.148
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: tcp
-  port: 2443
-  reality-opts: {}
-  server: 84.32.110.58
-  servername: lao10.enterquality.online
-  tls: true
-  type: vless
-  uuid: cfae13ae-5f59-42dc-a6cd-a2736dd9dca9
-  ws-opts: {}
 - name: 🇺🇸 GhostVPN
   network: tcp
-  port: 46197
+  port: 9001
   reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.178.231
-  servername: updates.cdn-apple.com
+    public-key: LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg
+    short-id: bf63ee4d
+  server: 192.9.233.244
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.198.183
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  uuid: 23ed3e1a-afe7-4fb5-8a11-93b3717bf23e
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [TOP_50_FAST]
   proxies:
-  - 🇩🇪 GhostVPN
-  - 🇩🇪 GhostVPN
-  - 🇩🇪 GhostVPN
-  - 🇩🇪 GhostVPN
-  - 🇪🇸 GhostVPN
-  - 🇬🇧 GhostVPN
-  - 🏳️ GhostVPN
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select
 rules:
