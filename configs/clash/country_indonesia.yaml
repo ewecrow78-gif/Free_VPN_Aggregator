@@ -7,19 +7,19 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
+    public-key: UdeZc5DrXa8lWOET4wlBp55-nXskqsvoU-2kVvd3zBg
     short-id: 7a3f9e2b1c8d4f6a
-  server: 87.76.160.67
-  servername: my.cdn-global.pro
+  server: 202.155.14.176
+  servername: id.cdn-global.pro
   tls: true
   type: vless
   uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
   ws-opts: {}
 proxy-groups:
-- name: Free_VPN_Aggregator [COUNTRY_MALAYSIA]
+- name: Free_VPN_Aggregator [COUNTRY_INDONESIA]
   proxies:
   - 🏳️ GhostVPN
   type: select
 rules:
-- MATCH,Free_VPN_Aggregator [COUNTRY_MALAYSIA]
+- MATCH,Free_VPN_Aggregator [COUNTRY_INDONESIA]
 socks-port: 7891

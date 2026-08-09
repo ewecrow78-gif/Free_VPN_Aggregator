@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794053559
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794075069
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,6 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-trojan://ND91608427@35.86.90.51:443?sni=natural-collie.rooster465.autos&path=/#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-trojan://ND91608427@44.242.235.129:443?fp=chrome&sni=devoted-tapir.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-trojan://ND91608427@44.244.3.114:443?sni=pet-ghost.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://a1022d47-2417-4489-b7e0-b0febcc7a8ad@65.98.5.106:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=X-Y_o4tsLGyFppQAdKIifwPyRKE__GdiMue0u23esWA&security=reality&sid=1ca2399ba267c7&sni=usconverter.medusafree.com&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+trojan://ND91608427@44.244.3.114:443?security=tls&sni=pet-ghost.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://2a12bb81-f3a3-41bb-99ab-36febf676b4a@152.53.82.202:443?flow=xtls-rprx-vision&fp=random&pbk=qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs&security=reality&sni=shy-tiger.cdn.cachefleet.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

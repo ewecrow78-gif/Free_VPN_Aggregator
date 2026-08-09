@@ -4,19 +4,17 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  password: ND91608427
+  network: tcp
   port: 443
-  server: 35.86.90.51
-  skip-cert-verify: true
-  sni: natural-collie.rooster465.autos
-  type: trojan
-- name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 44.242.235.129
-  skip-cert-verify: true
-  sni: devoted-tapir.rooster465.autos
-  type: trojan
+  reality-opts:
+    public-key: X-Y_o4tsLGyFppQAdKIifwPyRKE__GdiMue0u23esWA
+    short-id: 1ca2399ba267c7
+  server: 65.98.5.106
+  servername: usconverter.medusafree.com
+  tls: true
+  type: vless
+  uuid: a1022d47-2417-4489-b7e0-b0febcc7a8ad
+  ws-opts: {}
 - name: 🇺🇸 GhostVPN
   password: ND91608427
   port: 443
@@ -24,6 +22,18 @@ proxies:
   skip-cert-verify: true
   sni: pet-ghost.rooster465.autos
   type: trojan
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs
+    short-id: ''
+  server: 152.53.82.202
+  servername: shy-tiger.cdn.cachefleet.com
+  tls: true
+  type: vless
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:

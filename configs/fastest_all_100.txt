@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794053558
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794075069
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,31 +11,15 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20FASTEST_ALL%20%F0%9F%9A%80
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22223?security=none&type=tcp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22222?security=none&type=tcp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22224?security=none&type=tcp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.203:8080#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
-trojan://QV31589740@51.44.160.58:443?sni=great-krill.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.63:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
-vless://b251ec8f-47ec-4ab4-8bd2-13ac333a4100@176.109.85.140:9444?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w&security=reality&sid=12b9ecabbf3a3b88&sni=max.ru&type=raw#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://7596b721-f311-4194-96e6-b7b407cd6083@89.23.103.121:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho&sid=9795f83547c168d3&sni=www.debian.org#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-trojan://ND91608427@13.36.175.151:443?fp=chrome&sni=classic-gator.rooster465.autos#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
-trojan://BxceQaOe@18.163.120.239:32434/?type=tcp&security=tls&sni=t.me%252Fripaojiedian&allowInsecure=1#%F0%9F%87%AD%F0%9F%87%B0%20GhostVPN
-trojan://ND91608427@35.86.90.51:443?sni=natural-collie.rooster465.autos&path=/#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-trojan://ND91608427@44.242.235.129:443?fp=chrome&sni=devoted-tapir.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-trojan://ND91608427@44.244.3.114:443?sni=pet-ghost.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-trojan://ND91608427@57.180.27.225:443?sni=picked-guinea.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-vless://cd5cf6e7-7ce5-42c9-9316-68210fa72a32@13.193.205.133:27407?security=reality&type=tcp&packetEncoding=none&allowInsecure=1&sni=bgcpartners.com&fp=chrome&sid=e6ac18b63f23&pbk=SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@54.249.34.120:443?sni=social-mutt.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@35.72.13.34:443?sni=casual-bee.rooster465.autos&allowInsecure=1&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@52.196.121.8:443?sni=thankful-mustang.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@18.181.175.120:443?sni=sure-humpback.rooster465.autos&allowInsecure=1&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@13.231.232.184:443?sni=better-molly.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@54.65.167.167:443?sni=tough-robin.rooster465.autos&allowInsecure=1&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@3.113.1.131:443?sni=perfect-slug.rooster465.autos&allowInsecure=1&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@18.181.194.227:443?sni=moral-buzzard.rooster465.autos&fp=chrome&type=tcp&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@18.178.132.111:443?sni=devoted-heron.rooster465.autos&allowInsecure=1&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@43.207.89.29:443?sni=relaxing-bluebird.rooster465.autos&allowInsecure=1&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@43.207.155.134:443?sni=smart-pup.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@43.207.139.153:443?sni=sensible-mongrel.rooster465.autos&allowInsecure=1&type=tcp#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@54.217.133.71:443?security=tls&sni=willing-beagle.rooster465.autos#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+trojan://ND91608427@13.36.175.151:443?security=tls&sni=classic-gator.rooster465.autos#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://8fdf6dde-a1ca-456d-9b18-86b74d5768e6@141.227.170.14:8443?flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=sellflow.org#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://02e2d68f-9982-4467-ad47-00cbeeae30e6@168.222.251.122:711?encryption=none&fp=firefox&pbk=ADsaY9WkhwRaspXqF1JUt4Wg_Aw15h8h679K7Kt9GUU&security=reality&sni=who.int&type=grpc#%F0%9F%87%A7%F0%9F%87%B7%20GhostVPN
+vless://a1022d47-2417-4489-b7e0-b0febcc7a8ad@65.98.5.106:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=X-Y_o4tsLGyFppQAdKIifwPyRKE__GdiMue0u23esWA&security=reality&sid=1ca2399ba267c7&sni=usconverter.medusafree.com&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://02e2d68f-9982-4467-ad47-00cbeeae30e6@87.76.160.67:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ&security=reality&sid=7a3f9e2b1c8d4f6a&sni=my.cdn-global.pro&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+trojan://ND91608427@44.244.3.114:443?security=tls&sni=pet-ghost.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://2a12bb81-f3a3-41bb-99ab-36febf676b4a@152.53.82.202:443?flow=xtls-rprx-vision&fp=random&pbk=qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs&security=reality&sni=shy-tiger.cdn.cachefleet.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://02e2d68f-9982-4467-ad47-00cbeeae30e6@202.155.14.176:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=UdeZc5DrXa8lWOET4wlBp55-nXskqsvoU-2kVvd3zBg&security=reality&sid=7a3f9e2b1c8d4f6a&sni=id.cdn-global.pro&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+trojan://ND91608427@52.194.230.221:443?security=tls&sni=happy-mutt.rooster465.autos&type=tcp&headerType=none&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@3.112.238.99:443?security=tls&sni=stunning-mite.rooster465.autos&type=tcp&headerType=none&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://ND91608427@18.178.132.111:443?security=tls&sni=devoted-heron.rooster465.autos&path=/#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN

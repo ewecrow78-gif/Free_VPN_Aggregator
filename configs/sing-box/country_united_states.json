@@ -28,27 +28,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇺🇸 GhostVPN",
-      "server": "35.86.90.51",
+      "server": "65.98.5.106",
       "server_port": 443,
-      "password": "ND91608427",
+      "uuid": "a1022d47-2417-4489-b7e0-b0febcc7a8ad",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "natural-collie.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "44.242.235.129",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "devoted-tapir.rooster465.autos",
-        "insecure": true
+        "server_name": "usconverter.medusafree.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "X-Y_o4tsLGyFppQAdKIifwPyRKE__GdiMue0u23esWA",
+          "short_id": "1ca2399ba267c7"
+        }
       }
     },
     {
@@ -61,6 +55,24 @@
         "enabled": true,
         "server_name": "pet-ghost.rooster465.autos",
         "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "152.53.82.202",
+      "server_port": 443,
+      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "shy-tiger.cdn.cachefleet.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "qW8UIkS9M8F1BjbAa6Ih1kNL5hkTRDp_DZ5TEpyyIFs",
+          "short_id": ""
+        }
       }
     }
   ],
