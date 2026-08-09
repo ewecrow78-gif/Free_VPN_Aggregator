@@ -4,20 +4,31 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 9001
-  reality-opts:
-    public-key: LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg
-    short-id: bf63ee4d
-  server: 192.9.233.244
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 23ed3e1a-afe7-4fb5-8a11-93b3717bf23e
-  ws-opts: {}
+  password: ND91608427
+  port: 443
+  server: 35.86.90.51
+  skip-cert-verify: true
+  sni: natural-collie.rooster465.autos
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 44.242.235.129
+  skip-cert-verify: true
+  sni: devoted-tapir.rooster465.autos
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 44.244.3.114
+  skip-cert-verify: true
+  sni: pet-ghost.rooster465.autos
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select
 rules:

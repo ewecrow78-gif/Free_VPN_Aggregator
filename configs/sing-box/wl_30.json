@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "direct"
+        "🇷🇺 GhostVPN"
       ]
     },
     {
@@ -24,6 +24,24 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "176.109.85.140",
+      "server_port": 9444,
+      "uuid": "b251ec8f-47ec-4ab4-8bd2-13ac333a4100",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w",
+          "short_id": "12b9ecabbf3a3b88"
+        }
+      }
     }
   ],
   "route": {

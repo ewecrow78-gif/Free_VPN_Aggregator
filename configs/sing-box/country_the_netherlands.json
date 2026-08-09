@@ -28,10 +28,20 @@
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "158.180.14.247",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
+      "server": "89.23.103.121",
+      "server_port": 443,
+      "uuid": "7596b721-f311-4194-96e6-b7b407cd6083",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.debian.org",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho",
+          "short_id": "9795f83547c168d3"
+        }
+      }
     }
   ],
   "route": {

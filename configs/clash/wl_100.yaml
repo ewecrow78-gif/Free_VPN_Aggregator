@@ -2,11 +2,23 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 9444
+  reality-opts:
+    public-key: bqLr1d3mbuP10WAYxWj8OEdSuZlVvrywrKq2U6ACw2w
+    short-id: 12b9ecabbf3a3b88
+  server: 176.109.85.140
+  servername: max.ru
+  tls: true
+  type: vless
+  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_100]
   proxies:
-  - DIRECT
+  - 🇷🇺 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_100]

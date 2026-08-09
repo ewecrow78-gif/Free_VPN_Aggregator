@@ -14,6 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN"
       ]
     },
@@ -26,21 +28,39 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇺🇸 GhostVPN",
-      "server": "192.9.233.244",
-      "server_port": 9001,
-      "uuid": "23ed3e1a-afe7-4fb5-8a11-93b3717bf23e",
-      "flow": "xtls-rprx-vision",
+      "server": "35.86.90.51",
+      "server_port": 443,
+      "password": "ND91608427",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "LRMtZDygVe621vfhniB5ZSLza7zk_HOBFQsm8jS_XFg",
-          "short_id": "bf63ee4d"
-        }
+        "server_name": "natural-collie.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "44.242.235.129",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "devoted-tapir.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "44.244.3.114",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "pet-ghost.rooster465.autos",
+        "insecure": true
       }
     }
   ],

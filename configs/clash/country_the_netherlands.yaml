@@ -5,13 +5,15 @@ port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
   network: tcp
-  port: 62145
-  reality-opts: {}
-  server: 158.180.14.247
-  servername: 158.180.14.247
-  tls: false
+  port: 443
+  reality-opts:
+    public-key: qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho
+    short-id: 9795f83547c168d3
+  server: 89.23.103.121
+  servername: www.debian.org
+  tls: true
   type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  uuid: 7596b721-f311-4194-96e6-b7b407cd6083
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
