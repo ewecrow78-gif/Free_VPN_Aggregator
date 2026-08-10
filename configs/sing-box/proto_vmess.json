@@ -14,7 +14,9 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ GhostVPN"
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇰🇷 GhostVPN"
       ]
     },
     {
@@ -27,21 +29,34 @@
     },
     {
       "type": "vmess",
-      "tag": "🏳️ GhostVPN",
-      "server": "104.17.3.81",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "165.140.216.141",
       "server_port": 443,
-      "uuid": "ebe24b94-e2dd-48c8-a8c1-565ee5857e0f",
-      "security": "zero",
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "129.146.77.248",
+      "server_port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "security": "auto",
       "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "access.mysignal.cyou",
-        "insecure": true
-      },
       "transport": {
         "type": "ws",
-        "path": "/vmess"
+        "path": "/cctv13.m3u8"
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇰🇷 GhostVPN",
+      "server": "140.238.2.250",
+      "server_port": 443,
+      "uuid": "41a7089a-040b-4538-8b8d-010902405bde",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

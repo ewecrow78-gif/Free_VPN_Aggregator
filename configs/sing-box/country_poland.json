@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇵🇱 Gh0st #13"
+        "🇵🇱 GhostVPN"
       ]
     },
     {
@@ -27,19 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇵🇱 Gh0st #13",
-      "server": "144.31.0.100",
+      "tag": "🇵🇱 GhostVPN",
+      "server": "188.255.163.44",
       "server_port": 443,
-      "uuid": "7b81d175-d180-4ec8-bbc5-dfe80e8d3b68",
+      "uuid": "acc50200-7f21-4f90-9cca-0057efcbf042",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "vaultivo-hgooe.ru",
+        "server_name": "www.ya.ru",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "CxMPFpwhcR9Ocp-Xy_1J08mo-atdHKUf58WLOy_XlgM",
-          "short_id": "5e3ab3ab228625"
+          "public_key": "tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8",
+          "short_id": "3c88b649989ffa95"
         }
       }
     }

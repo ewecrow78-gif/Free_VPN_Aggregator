@@ -4,23 +4,47 @@ mode: Rule
 port: 7890
 proxies:
 - alterId: 0
-  cipher: zero
-  name: 🏳️ GhostVPN
-  network: ws
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: tcp
   port: 443
-  server: 104.17.3.81
-  servername: access.mysignal.cyou
-  tls: true
+  server: 165.140.216.141
+  servername: 165.140.216.141
+  tls: false
   type: vmess
-  uuid: ebe24b94-e2dd-48c8-a8c1-565ee5857e0f
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: ws
+  port: 39495
+  server: 129.146.77.248
+  servername: 129.146.77.248
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
   ws-opts:
     headers:
-      Host: access.mysignal.cyou
-    path: /vmess
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇰🇷 GhostVPN
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  servername: 140.238.2.250
+  tls: false
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_VMESS]
   proxies:
-  - 🏳️ GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇰🇷 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [PROTO_VMESS]

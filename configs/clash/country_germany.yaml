@@ -4,28 +4,6 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇩🇪 GhostVPN
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s
-    short-id: ''
-  server: 144.31.120.141
-  servername: wikihow.com
-  tls: true
-  type: vless
-  uuid: a34b5e88-cf0d-4c01-8199-2d1002d3c787
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: xhttp
-  port: 80
-  reality-opts: {}
-  server: 199.232.191.146
-  servername: 199.232.191.146
-  tls: false
-  type: vless
-  uuid: bee374de-0715-4ac1-b17f-0f301e7293a3
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
   network: grpc
   port: 8443
   reality-opts:
@@ -40,8 +18,6 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_GERMANY]
   proxies:
-  - 🇩🇪 GhostVPN
-  - 🇩🇪 GhostVPN
   - 🇩🇪 GhostVPN
   type: select
 rules:

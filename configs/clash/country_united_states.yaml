@@ -3,66 +3,46 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇺🇸 GhostVPN
-  network: xhttp
-  port: 80
-  reality-opts: {}
-  server: 151.101.66.219
-  servername: 151.101.66.219
-  tls: false
-  type: vless
-  uuid: '%40V2XNET'
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: xhttp
-  port: 80
-  reality-opts: {}
-  server: 151.101.130.219
-  servername: 151.101.130.219
-  tls: false
-  type: vless
-  uuid: '%40V2XNET'
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
   network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.197.13
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  port: 443
+  server: 165.140.216.141
+  servername: 165.140.216.141
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
   ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.198.183
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
   network: ws
-  port: 57878
-  reality-opts: {}
-  server: 38.246.226.240
-  servername: 38.246.226.240
+  port: 39495
+  server: 129.146.77.248
+  servername: 129.146.77.248
   tls: false
-  type: vless
-  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
   ws-opts:
-    path: /535f0e03
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+    short-id: 1a
+  server: 66.175.217.170
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN

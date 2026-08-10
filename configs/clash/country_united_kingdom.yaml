@@ -3,66 +3,29 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 82.38.31.11
-  type: ss
 - name: 🇬🇧 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0
-    short-id: ''
-  server: 164.37.104.149
-  servername: gb.cdn.cachefleet.com
+  network: grpc
+  port: 5443
+  reality-opts: {}
+  server: 89.125.124.178
+  servername: gb.wlrus.cfd
   tls: true
   type: vless
-  uuid: c28ee61d-0d43-0065-8e6a-6397ed0ffc03
+  uuid: 11b7e901-e970-4491-9c7d-13c153e39e5b
   ws-opts: {}
 - name: 🇬🇧 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
-    short-id: ''
-  server: 130.78.216.195
-  servername: quiet-bear.cdn.cachefleet.com
+  port: 8443
+  reality-opts: {}
+  server: 89.125.124.178
+  servername: gb.wlrus.cfd
   tls: true
   type: vless
-  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
-  ws-opts: {}
-- name: 🇬🇧 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: c39cc7310a
-  server: 82.39.171.145
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts: {}
-- name: 🇬🇧 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 178.83.121.19
-  servername: hk.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  uuid: 11b7e901-e970-4491-9c7d-13c153e39e5b
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]
   proxies:
-  - 🇬🇧 GhostVPN
-  - 🇬🇧 GhostVPN
-  - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   type: select
