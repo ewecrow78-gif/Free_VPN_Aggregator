@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇹🇼 Gh0st #88"
+        "🇹🇼 GhostVPN"
       ]
     },
     {
@@ -26,13 +26,12 @@
       "tag": "dns-out"
     },
     {
-      "type": "vmess",
-      "tag": "🇹🇼 Gh0st #88",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "",
-      "alter_id": 0
+      "type": "vless",
+      "tag": "🇹🇼 GhostVPN",
+      "server": "103.227.225.198",
+      "server_port": 32355,
+      "uuid": "a2f6da81-64bd-4b86-b806-5658e161b7e4",
+      "flow": ""
     }
   ],
   "route": {

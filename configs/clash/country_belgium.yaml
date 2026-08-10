@@ -3,22 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🏳️ Belgium 15
+- name: 🏳️ GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: cv_KJnMzQUZruACPbH-BCgLWrYqPm2dbUymg-gW_sVc
+    public-key: 8hse7wRRL-F66rQ-aAeetKTw0MSeJC7Rr6EaDeLzdCU
     short-id: ''
-  server: 109.69.218.167
-  servername: agile-raptor.cdn.cachefleet.com
+  server: 109.69.218.207
+  servername: crisp-titan.cdn.cachefleet.com
   tls: true
   type: vless
-  uuid: 5117ad77-cd9a-46e9-995b-b601b0b5e435
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BELGIUM]
   proxies:
-  - 🏳️ Belgium 15
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_BELGIUM]

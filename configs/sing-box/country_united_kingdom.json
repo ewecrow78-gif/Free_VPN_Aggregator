@@ -15,6 +15,9 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN"
       ]
     },
@@ -27,20 +30,64 @@
       "tag": "dns-out"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.38.31.11",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
       "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "130.78.216.197",
+      "server": "164.37.104.149",
+      "server_port": 443,
+      "uuid": "c28ee61d-0d43-0065-8e6a-6397ed0ffc03",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gb.cdn.cachefleet.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "sBSNX3DhJSWOkqTmRHisayVLisCBQLb4JcpKzwCrvC0",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "130.78.216.195",
       "server_port": 443,
       "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "luminous-jolt.cdn.cachefleet.com",
+        "server_name": "quiet-bear.cdn.cachefleet.com",
         "insecure": true,
         "reality": {
           "enabled": true,
           "public_key": "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.39.171.145",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg",
+          "short_id": "c39cc7310a"
         }
       }
     },

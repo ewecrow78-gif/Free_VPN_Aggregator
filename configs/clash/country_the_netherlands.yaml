@@ -5,19 +5,44 @@ port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
   network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 158.101.222.167
+  servername: 158.101.222.167
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.230
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.225
+  type: ss
+- name: 🇳🇱 GhostVPN
+  network: tcp
   port: 443
   reality-opts:
-    public-key: qY222OdlPFi9DvfoHZNgp0UHLubudtKLLF_KMuDy-Ho
-    short-id: 9795f83547c168d3
-  server: 89.23.103.121
-  servername: www.debian.org
+    public-key: cW4DmIxDcnF1nNrdqnO29-gvYOGjmpDerK4fj9VCk1o
+    short-id: 1b2a3f
+  server: 144.31.54.85
+  servername: serv.host
   tls: true
   type: vless
-  uuid: 7596b721-f311-4194-96e6-b7b407cd6083
+  uuid: 06ee3130-cb1e-4d66-b61c-d221eec984ed
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
 rules:

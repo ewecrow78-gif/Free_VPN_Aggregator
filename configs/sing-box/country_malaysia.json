@@ -28,19 +28,14 @@
     {
       "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "87.76.160.67",
-      "server_port": 443,
-      "uuid": "02e2d68f-9982-4467-ad47-00cbeeae30e6",
-      "flow": "xtls-rprx-vision",
+      "server": "136.0.110.35",
+      "server_port": 16865,
+      "uuid": "08d4e275-eb67-4878-949c-79a39e10cca1",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "my.cdn-global.pro",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
+        "server_name": "136.0.110.35",
+        "insecure": true
       }
     }
   ],

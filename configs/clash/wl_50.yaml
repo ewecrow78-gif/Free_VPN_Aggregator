@@ -2,11 +2,36 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bBTka5j8aqNSD5hl8X0YUhwYH04IrPIaeKUFkijUllg
+    short-id: ''
+  server: 51.250.13.122
+  servername: sun9-38.userapi.com
+  tls: true
+  type: vless
+  uuid: 9847793c-3860-41e8-9838-b21bccdc013a
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: x8wviceKY5DDJSk3tN2kJ4upEgEreWcedsXW7r5ul3w
+    short-id: ''
+  server: 158.160.76.189
+  servername: max.ru
+  tls: true
+  type: vless
+  uuid: 9847793c-3860-41e8-9838-b21bccdc013a
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_50]
   proxies:
-  - DIRECT
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_50]

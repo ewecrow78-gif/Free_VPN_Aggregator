@@ -16,7 +16,6 @@
       "outbounds": [
         "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN",
-        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -31,41 +30,28 @@
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "18.197.75.14",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "server": "144.31.120.141",
+      "server_port": 8443,
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "18.197.75.14",
-        "insecure": true
+        "server_name": "wikihow.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s",
+          "short_id": ""
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "18.197.75.14",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "18.197.75.14",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "18.197.75.14",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "18.197.75.14",
-        "insecure": true
-      }
+      "server": "199.232.191.146",
+      "server_port": 80,
+      "uuid": "bee374de-0715-4ac1-b17f-0f301e7293a3",
+      "flow": ""
     },
     {
       "type": "vless",

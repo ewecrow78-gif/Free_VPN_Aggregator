@@ -5,15 +5,13 @@ port: 7890
 proxies:
 - name: 🏳️ GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 87.76.160.67
-  servername: my.cdn-global.pro
+  port: 16865
+  reality-opts: {}
+  server: 136.0.110.35
+  servername: 136.0.110.35
   tls: true
   type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  uuid: 08d4e275-eb67-4878-949c-79a39e10cca1
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_MALAYSIA]

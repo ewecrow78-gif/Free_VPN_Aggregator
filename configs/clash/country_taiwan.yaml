@@ -3,21 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: ''
-  name: '🇹🇼 Gh0st #88'
+- name: 🇹🇼 GhostVPN
   network: tcp
-  port: 35034
-  server: 165.154.195.38
-  servername: 165.154.195.38
+  port: 32355
+  reality-opts: {}
+  server: 103.227.225.198
+  servername: 103.227.225.198
   tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  type: vless
+  uuid: a2f6da81-64bd-4b86-b806-5658e161b7e4
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_TAIWAN]
   proxies:
-  - '🇹🇼 Gh0st #88'
+  - 🇹🇼 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_TAIWAN]

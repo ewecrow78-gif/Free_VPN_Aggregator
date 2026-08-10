@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794053559
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794140314
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,7 +11,6 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_GERMANY%20%F0%9F%9A%80
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22223?security=none&type=tcp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22222?security=none&type=tcp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://e4514801-0d5a-42ba-869f-39bd605aef9e@18.197.75.14:22224?security=none&type=tcp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.63:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@144.31.120.141:8443?fp=firefox&mode=auto&pbk=p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s&security=reality&sni=wikihow.com&type=xhttp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://bee374de-0715-4ac1-b17f-0f301e7293a3@199.232.191.146:80?mode=auto&path=%2F&security=&encryption=none&host=de-ultran.global.ssl.fastly.net&type=xhttp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.63:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top&burmalda=640f4be8#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
