@@ -6,13 +6,6 @@ proxies:
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 52.194.230.221
-  skip-cert-verify: true
-  sni: happy-mutt.rooster465.autos
-  type: trojan
-- name: 🇯🇵 GhostVPN
-  password: ND91608427
-  port: 443
   server: 3.112.238.99
   skip-cert-verify: true
   sni: stunning-mite.rooster465.autos
@@ -20,14 +13,13 @@ proxies:
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 18.178.132.111
+  server: 13.192.168.51
   skip-cert-verify: true
-  sni: devoted-heron.rooster465.autos
+  sni: learning-leopard.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_JAPAN]
   proxies:
-  - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   type: select

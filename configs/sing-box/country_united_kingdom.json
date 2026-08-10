@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN"
       ]
     },
@@ -26,12 +27,40 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.203",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "server": "130.78.216.197",
+      "server_port": 443,
+      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "luminous-jolt.cdn.cachefleet.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "178.83.121.19",
+      "server_port": 443,
+      "uuid": "02e2d68f-9982-4467-ad47-00cbeeae30e6",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hk.cdn-global.pro",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ",
+          "short_id": "7a3f9e2b1c8d4f6a"
+        }
+      }
     }
   ],
   "route": {

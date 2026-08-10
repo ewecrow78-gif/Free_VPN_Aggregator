@@ -14,10 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ GhostVPN",
-        "🇫🇷 GhostVPN",
-        "🇺🇸 GhostVPN",
-        "🇯🇵 GhostVPN",
         "🇯🇵 GhostVPN",
         "🇯🇵 GhostVPN"
       ]
@@ -29,54 +25,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "trojan",
-      "tag": "🏳️ GhostVPN",
-      "server": "54.217.133.71",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "willing-beagle.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷 GhostVPN",
-      "server": "13.36.175.151",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "classic-gator.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "44.244.3.114",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "pet-ghost.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "52.194.230.221",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "happy-mutt.rooster465.autos",
-        "insecure": true
-      }
     },
     {
       "type": "trojan",
@@ -93,12 +41,12 @@
     {
       "type": "trojan",
       "tag": "🇯🇵 GhostVPN",
-      "server": "18.178.132.111",
+      "server": "13.192.168.51",
       "server_port": 443,
       "password": "ND91608427",
       "tls": {
         "enabled": true,
-        "server_name": "devoted-heron.rooster465.autos",
+        "server_name": "learning-leopard.rooster465.autos",
         "insecure": true
       }
     }

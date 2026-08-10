@@ -3,15 +3,34 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GhostVPN
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.203
-  type: ss
+- name: 🇬🇧 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: X44VAj_y9MabQeF7ZgssR57zaf2Rx5bX--BJ-U9wQ2o
+    short-id: ''
+  server: 130.78.216.197
+  servername: luminous-jolt.cdn.cachefleet.com
+  tls: true
+  type: vless
+  uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a
+  ws-opts: {}
+- name: 🇬🇧 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: nFJCJ2tvxLdLrc9G-O1laW8KDir5SDnaOTmYndVaOGQ
+    short-id: 7a3f9e2b1c8d4f6a
+  server: 178.83.121.19
+  servername: hk.cdn-global.pro
+  tls: true
+  type: vless
+  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]
   proxies:
+  - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   type: select
 rules:
