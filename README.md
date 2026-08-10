@@ -104,7 +104,7 @@
 
 ## 📊 Статус сети
 
-> Автообновление пайплайном. Время: **2026-08-10 00:08 UTC**.
+> Автообновление пайплайном. Время: **2026-08-10 06:08 UTC**.
 
 | Показатель | Значение | Описание |
 | :--- | :---: | :--- |
@@ -113,15 +113,15 @@
 | **Отсеяно (синтаксис / IP)** | `0` | Битый URI, private IP |
 | **Отсеяно (DNS / TCP)** | `0` | Мёртвые домены / порты |
 | **Рабочих (Xray test)** | `0` | Реальный HTTP через VPN |
-| **Топ 50 быстрых** | `8` | |
-| **Топ 30 быстрых** | `8` | |
-| **Все конфиги** | `8` | Без лимитов |
+| **Топ 50 быстрых** | `5` | |
+| **Топ 30 быстрых** | `5` | |
+| **Все конфиги** | `5` | Без лимитов |
 | **Белые списки 100** | `0` | |
 | **Топ 50 белых списков** | `0` | |
 | **Топ 30 белых списков** | `0` | |
-| **Все вместе** | `8` | 50 обычных + 50 белых |
+| **Все вместе** | `5` | 50 обычных + 50 белых |
 | **Все белые списки** | `0` | Без лимитов |
-| **Топ быстрых 100** | `8` | Обычные и белые |
+| **Топ быстрых 100** | `5` | Обычные и белые |
 
 ---
 
@@ -135,7 +135,7 @@
 *(Подписки для каждой страны находятся ниже в разделе «Страны»)*
 
 ### 2. Топ 50 быстрых
-### 🚀 ТОП 50 БЫСТРЫХ ⚫ (8)
+### 🚀 ТОП 50 БЫСТРЫХ ⚫ (5)
 
 ### [base64/top_50_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt)
 
@@ -177,7 +177,7 @@
 
 
 ### 3. Топ 30 быстрых
-### 🚀 ТОП 30 БЫСТРЫХ ⚫ (8)
+### 🚀 ТОП 30 БЫСТРЫХ ⚫ (5)
 
 ### [base64/top_30_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt)
 
@@ -219,7 +219,7 @@
 
 
 ### 4. Все конфиги (без лимитов на количество)
-### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (8)
+### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (5)
 
 ### [base64/all_configs.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt)
 
@@ -387,7 +387,7 @@
 
 
 ### 8. Все вместе (50 обычных конфигов, 50 белых списков)
-### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (8)
+### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (5)
 
 ### [base64/mixed_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt)
 
@@ -471,7 +471,7 @@
 
 
 ### 10. Топ самых быстрых конфигов (без разницы простые или белые списки)
-### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (8)
+### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (5)
 
 ### [base64/fastest_all_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt)
 
@@ -827,10 +827,8 @@ python main.py
 
 | Страна | Кол-во | Флаг | Подписки |
 | :--- | :---: | :---: | :--- |
-| United States | 3 | 🇺🇸 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_states.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_states.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_states.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_states.json) |
-| United Kingdom | 2 | 🇬🇧 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_kingdom.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_kingdom.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_kingdom.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_kingdom.json) |
-| Japan | 2 | 🇯🇵 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_japan.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/japan.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_japan.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_japan.json) |
-| Singapore | 1 | 🇸🇬 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_singapore.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/singapore.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_singapore.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_singapore.json) |
+| Japan | 3 | 🇯🇵 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_japan.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/japan.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_japan.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_japan.json) |
+| United States | 2 | 🇺🇸 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_states.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_states.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_states.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_states.json) |
 
 </details>
 
@@ -839,8 +837,8 @@ python main.py
 
 | Протокол | Кол-во | Доля |
 | :--- | :---: | :---: |
-| VLESS | 6 | 75.0% |
-| TROJAN | 2 | 25.0% |
+| TROJAN | 3 | 60.0% |
+| VLESS | 2 | 40.0% |
 
 </details>
 
@@ -856,6 +854,6 @@ MIT — см. [LICENSE](LICENSE).
 
 **⭐ Если проект полезен — поставьте Star**
 
-<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-10 00:08 UTC</sub>
+<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-10 06:08 UTC</sub>
 
 </div>

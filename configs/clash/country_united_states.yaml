@@ -5,44 +5,31 @@ port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
   network: tcp
-  port: 46197
+  port: 443
   reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.197.13
-  servername: updates.cdn-apple.com
+    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+    short-id: 00a61d55a07de885
+  server: 5.34.179.185
+  servername: us.convert-flow.net
   tls: true
   type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  uuid: 5710bc50-f5ff-0348-a3f5-067959ed2644
   ws-opts: {}
 - name: 🇺🇸 GhostVPN
   network: tcp
-  port: 46197
+  port: 443
   reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.198.93
-  servername: updates.cdn-apple.com
+    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
+    short-id: 00a61d55a07de885
+  server: 5.34.179.183
+  servername: us.convert-flow.net
   tls: true
   type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 37262
-  reality-opts:
-    public-key: 2CdblQdVObz2O0shOAdrW5Joljbng8mXIoWVWa2sFSI
-    short-id: 3a8e473202
-  server: 216.167.37.6
-  servername: yahoo.com
-  tls: true
-  type: vless
-  uuid: b0804657-2bd1-4ccd-bdc8-b599b2d2f23d
+  uuid: 5710bc50-f5ff-0348-a3f5-067959ed2644
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select
