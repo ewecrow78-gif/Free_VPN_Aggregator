@@ -14,8 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇯🇵 GhostVPN",
-        "🇯🇵 GhostVPN",
         "🇯🇵 GhostVPN"
       ]
     },
@@ -28,38 +26,15 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇯🇵 GhostVPN",
-      "server": "13.230.118.96",
-      "server_port": 443,
-      "password": "ND91608427",
+      "server": "152.69.195.67",
+      "server_port": 47878,
+      "uuid": "eb8613e3-8393-4cff-a3ad-6501fd4adc63",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "real-werewolf.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "52.196.121.8",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "thankful-mustang.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "18.178.132.111",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "devoted-heron.rooster465.autos",
+        "server_name": "152.69.195.67",
         "insecure": true
       }
     }

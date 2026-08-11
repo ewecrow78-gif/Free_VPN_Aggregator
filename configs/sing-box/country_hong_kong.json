@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇭🇰 GhostVPN",
         "🇭🇰 GhostVPN"
       ]
     },
@@ -26,16 +27,30 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇭🇰 GhostVPN",
-      "server": "18.163.120.239",
-      "server_port": 32434,
-      "password": "BxceQaOe",
+      "server": "18.162.173.112",
+      "server_port": 443,
+      "uuid": "ed720ae2-e1ab-41d4-8c9c-ca9ab3cfee70",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "t.me%2Fripaojiedian",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "0EtR_KBpH13wngvWn6rXJjINlWjb2nW8fgXrR46bz3E",
+          "short_id": "bd685806015172ca"
+        }
       }
+    },
+    {
+      "type": "vless",
+      "tag": "🇭🇰 GhostVPN",
+      "server": "182.16.61.4",
+      "server_port": 45647,
+      "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
+      "flow": ""
     }
   ],
   "route": {

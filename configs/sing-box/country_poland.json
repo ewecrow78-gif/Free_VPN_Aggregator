@@ -14,6 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇵🇱 GhostVPN",
+        "🇵🇱 GhostVPN",
         "🇵🇱 GhostVPN"
       ]
     },
@@ -28,19 +30,44 @@
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "188.255.163.44",
-      "server_port": 443,
-      "uuid": "acc50200-7f21-4f90-9cca-0057efcbf042",
+      "server": "31.77.56.107",
+      "server_port": 11443,
+      "uuid": "3fd3bab8-f0fc-4ac0-b209-4a5b636a8643",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nlhis.bkvpn.online",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-pl"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 GhostVPN",
+      "server": "2.26.255.36",
+      "server_port": 8443,
+      "uuid": "8787dd0a-095a-414e-804f-a7d16a1ae166",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.ya.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8",
-          "short_id": "3c88b649989ffa95"
-        }
+        "server_name": "po1.hys.braidx.tech",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 GhostVPN",
+      "server": "82.26.91.87",
+      "server_port": 443,
+      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "faster.yandex-apicloud.ru",
+        "insecure": true
       }
     }
   ],

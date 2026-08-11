@@ -4,15 +4,31 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇭🇰 GhostVPN
-  password: BxceQaOe
-  port: 32434
-  server: 18.163.120.239
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 0EtR_KBpH13wngvWn6rXJjINlWjb2nW8fgXrR46bz3E
+    short-id: bd685806015172ca
+  server: 18.162.173.112
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: ed720ae2-e1ab-41d4-8c9c-ca9ab3cfee70
+  ws-opts: {}
+- name: 🇭🇰 GhostVPN
+  network: tcp
+  port: 45647
+  reality-opts: {}
+  server: 182.16.61.4
+  servername: 182.16.61.4
+  tls: false
+  type: vless
+  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_HONG_KONG]
   proxies:
+  - 🇭🇰 GhostVPN
   - 🇭🇰 GhostVPN
   type: select
 rules:

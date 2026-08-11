@@ -4,31 +4,18 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇯🇵 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 13.230.118.96
-  skip-cert-verify: true
-  sni: real-werewolf.rooster465.autos
-  type: trojan
-- name: 🇯🇵 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 52.196.121.8
-  skip-cert-verify: true
-  sni: thankful-mustang.rooster465.autos
-  type: trojan
-- name: 🇯🇵 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 18.178.132.111
-  skip-cert-verify: true
-  sni: devoted-heron.rooster465.autos
-  type: trojan
+  network: tcp
+  port: 47878
+  reality-opts: {}
+  server: 152.69.195.67
+  servername: 152.69.195.67
+  tls: false
+  type: vless
+  uuid: eb8613e3-8393-4cff-a3ad-6501fd4adc63
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_JAPAN]
   proxies:
-  - 🇯🇵 GhostVPN
-  - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   type: select
 rules:

@@ -5,19 +5,28 @@ port: 7890
 proxies:
 - name: 🇧🇷 GhostVPN
   network: grpc
-  port: 711
-  reality-opts:
-    public-key: ADsaY9WkhwRaspXqF1JUt4Wg_Aw15h8h679K7Kt9GUU
-    short-id: ''
-  server: 168.222.251.122
-  servername: who.int
+  port: 3443
+  reality-opts: {}
+  server: 177.3.213.230
+  servername: get.wlrus.cfd
   tls: true
   type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
+  uuid: 11b7e901-e970-4491-9c7d-13c153e39e5b
+  ws-opts: {}
+- name: 🇧🇷 GhostVPN
+  network: tcp
+  port: 5443
+  reality-opts: {}
+  server: 177.3.213.230
+  servername: get.wlrus.cfd
+  tls: true
+  type: vless
+  uuid: 11b7e901-e970-4491-9c7d-13c153e39e5b
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BRAZIL]
   proxies:
+  - 🇧🇷 GhostVPN
   - 🇧🇷 GhostVPN
   type: select
 rules:

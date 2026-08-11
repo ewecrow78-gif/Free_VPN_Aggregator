@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794161624
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794183455
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -12,4 +12,14 @@
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_KINGDOM%20%F0%9F%9A%80
 vless://11b7e901-e970-4491-9c7d-13c153e39e5b@89.125.124.178:5443?alpn=h2%2Chttp%2F1.1&authority=&ech=AF%2F%2BDQBbAAAgACAFR%2FHPp44%2FbaiY09LBM5uEiDKn9PtWRL5BPEh7tn41EQAkAAEAAQABAAIAAQADAAIAAQACAAIAAgADAAMAAQADAAIAAwADAAxnYi53bHJ1cy5jZmQAAA%3D%3D&encryption=none&fp=firefox&security=tls&serviceName=&sni=gb.wlrus.cfd&type=grpc#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNR1U0WmpWa01HTmhZMlkzWXpNME5tSXhNRGd5TkRRNU9HVmpaalkyWTJZPUAxMjkuMTUxLjgxLjIyNDo2MTMxMg==#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.174:8080#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.204:8080?#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.149:443#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.203:8080?#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.200:8080#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR@82.38.31.206:8080?#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.57:443#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.10:8080?#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
 vless://11b7e901-e970-4491-9c7d-13c153e39e5b@89.125.124.178:8443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=firefox&security=tls&sni=gb.wlrus.cfd&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
+vless://ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b@169.197.113.179:20190?path=/#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN

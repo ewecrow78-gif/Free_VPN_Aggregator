@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794140314
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794183455
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,7 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20PROTO_TROJAN%20%F0%9F%9A%80
-trojan://ND91608427@54.217.133.71:443?security=tls&sni=willing-beagle.rooster465.autos#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
 trojan://QV31589740@51.44.160.58:443?security=tls&sni=great-krill.rooster465.autos&path=/#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
-trojan://ND91608427@13.36.175.151:443?security=tls&sni=classic-gator.rooster465.autos#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+trojan://9pCELV5d3T5FUf4-5KWkeALzv-owtSVD@144.31.230.95:9443?security=tls&sni=nlhis.bkvpn.online&alpn=http/1.1&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
+trojan://ND91608427@54.217.133.71:443?security=tls&sni=willing-beagle.rooster465.autos&path=/#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+trojan://ND91608427@13.36.175.151:443?fp=chrome&sni=classic-gator.rooster465.autos#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794161624
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794183455
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,9 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-vmess://eyJzY3kiOiJhdXRvIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIiwiYWRkIjoiMTY1LjE0MC4yMTYuMTQxIiwicG9ydCI6IjQ0MyIsImlkIjoiZTdkNzJhOGQtMjZmMi00YjU0LWIzNjYtMGM0M2UwYmNiYTdkIiwiYWlkIjoiMCIsIm5ldCI6InRjcCJ9
-vmess://eyJ2IjoiMiIsInNjeSI6ImF1dG8iLCJ0eXBlIjoibm9uZSIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIiwiYWRkIjoiMTI5LjE0Ni43Ny4yNDgiLCJwb3J0IjoiMzk0OTUiLCJpZCI6ImY4MzZjNzM2LTg3ZmMtNGZkZS1hYWJjLTAwODU3ZWNkZmYzZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2N0djEzLm0zdTgifQ==
-vless://b98d4c6e-6770-4a31-8256-a4750cdea0e7@66.175.217.170:443?security=reality&encryption=none&sni=www.amazon.com&fp=firefox&pbk=0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo&sid=1a&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@179.198.50.131:8443?type=xhttp&security=reality&fp=firefox&pbk=p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s&sni=wikihow.com&mode=auto#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.97:8080?type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.53:8080?type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://a1ac8747-4fd7-486b-b099-19fbb45610be@154.19.184.40:52535?type=tcp&security=none&encryption=none#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6ejBkSGpEZm9hU2FadVJGTEdILWhOZkJBTFNFSlVZRA@68.168.222.210:1234#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://0bcec952-a452-43ed-9468-4547b9f5dfc4@70.39.197.9:59216?path=/#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

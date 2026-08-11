@@ -4,20 +4,41 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8
-    short-id: 3c88b649989ffa95
-  server: 188.255.163.44
-  servername: www.ya.ru
+  network: ws
+  port: 11443
+  reality-opts: {}
+  server: 31.77.56.107
+  servername: nlhis.bkvpn.online
   tls: true
   type: vless
-  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  uuid: 3fd3bab8-f0fc-4ac0-b209-4a5b636a8643
+  ws-opts:
+    path: /ws-pl
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 8443
+  reality-opts: {}
+  server: 2.26.255.36
+  servername: po1.hys.braidx.tech
+  tls: true
+  type: vless
+  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
+  ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 82.26.91.87
+  servername: faster.yandex-apicloud.ru
+  tls: true
+  type: vless
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:
+  - 🇵🇱 GhostVPN
+  - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   type: select
 rules:

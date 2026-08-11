@@ -4,12 +4,17 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇪🇸 GhostVPN
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo
+    short-id: ''
+  server: 170.168.97.7
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  uuid: fc03a9a8-ef0f-5794-e119-0c3b68b178e8
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SPAIN]
   proxies:

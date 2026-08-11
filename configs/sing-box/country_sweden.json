@@ -14,6 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇸🇪 GhostVPN",
+        "🇸🇪 GhostVPN",
         "🇸🇪 GhostVPN"
       ]
     },
@@ -41,6 +43,35 @@
           "public_key": "JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY",
           "short_id": "cd40c992fe4b10c2"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇪 GhostVPN",
+      "server": "144.31.230.95",
+      "server_port": 9443,
+      "password": "9pCELV5d3T5FUf4-5KWkeALzv-owtSVD",
+      "tls": {
+        "enabled": true,
+        "server_name": "nlhis.bkvpn.online",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 GhostVPN",
+      "server": "144.31.230.95",
+      "server_port": 11443,
+      "uuid": "3fd3bab8-f0fc-4ac0-b209-4a5b636a8643",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nlhis.bkvpn.online",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-se2"
       }
     }
   ],
