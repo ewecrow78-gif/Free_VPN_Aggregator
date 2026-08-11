@@ -4,16 +4,24 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇩🇪 GhostVPN
-  network: xhttp
-  port: 8088
-  reality-opts:
-    public-key: hYLvEGoxIMNpQkqxVJt298bBGE1Tz8dhtXGsPsLznj0
-    short-id: 2acf8977eb67ea0c
-  server: 5.75.196.249
-  servername: www.yahoo.com
+  network: tcp
+  port: 22222
+  reality-opts: {}
+  server: 3.71.241.48
+  servername: 3.71.241.48
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  ws-opts: {}
+- name: 🇩🇪 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 181.214.231.16
+  servername: de36.fast-connect-service.site
   tls: true
   type: vless
-  uuid: 119f5e84-0923-48e9-97be-f0be9c6acead
+  uuid: '8033102198'
   ws-opts: {}
 - name: 🇩🇪 GhostVPN
   network: tcp
@@ -29,49 +37,15 @@ proxies:
   network: tcp
   port: 443
   reality-opts: {}
-  server: 159.195.40.19
-  servername: de7.fast-connect-service.site
+  server: 178.215.236.182
+  servername: de34.fast-connect-service.site
   tls: true
   type: vless
   uuid: '8033102198'
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 31.25.11.144
-  servername: de01.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: grpc
-  port: 8443
-  reality-opts:
-    public-key: gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo
-    short-id: 1e943a831d22faf6
-  server: 87.120.126.63
-  servername: vpnforppl.top
-  tls: true
-  type: vless
-  uuid: b94da146-a56e-49d7-af4c-a68c9065cbfd
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts: {}
-  server: 167.233.225.59
-  servername: uk-cf.aba-hum.store
-  tls: true
-  type: vless
-  uuid: 8f2a6194-1748-4ec7-9c5f-8ad504818aa3
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_GERMANY]
   proxies:
-  - 🇩🇪 GhostVPN
-  - 🇩🇪 GhostVPN
   - 🇩🇪 GhostVPN
   - 🇩🇪 GhostVPN
   - 🇩🇪 GhostVPN

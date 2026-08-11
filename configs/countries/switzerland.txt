@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794226846
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794248084
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SWITZERLAND%20%F0%9F%9A%80
-trojan://y3b03zx3tznhyo538p4c@86.106.84.195:53261?allowInsecure=1&fp=chrome&sni=speedtest.tinkoff.ru#%F0%9F%87%A8%F0%9F%87%AD%20GhostVPN
+vless://e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0@45.90.56.231:443?security=reality&encryption=none&pbk=KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0&fp=chrome&sni=www.cloudflare.com&sid=e2e66f4537770cef&type=tcp&flow=xtls-rprx-vision#%F0%9F%87%A8%F0%9F%87%AD%20GhostVPN

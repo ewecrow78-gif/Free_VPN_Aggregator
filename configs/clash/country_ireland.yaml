@@ -10,17 +10,9 @@ proxies:
   skip-cert-verify: true
   sni: willing-beagle.rooster465.autos
   type: trojan
-- name: 🏳️ GhostVPN
-  password: UO36402987
-  port: 443
-  server: 34.251.228.118
-  skip-cert-verify: true
-  sni: definite-ladybird.rooster465.autos
-  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_IRELAND]
   proxies:
-  - 🏳️ GhostVPN
   - 🏳️ GhostVPN
   type: select
 rules:

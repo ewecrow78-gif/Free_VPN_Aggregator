@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794226846
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794248084
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SWEDEN%20%F0%9F%9A%80
-vless://14f19724-de91-4285-a633-aa8e2caaf812@46.246.92.109:443?security=reality&encryption=none&sni=www.rumedia-cdn.com&fp=firefox&pbk=JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY&sid=cd40c992fe4b10c2&flow=xtls-rprx-vision#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
-vless://3fd3bab8-f0fc-4ac0-b209-4a5b636a8643@144.31.230.95:11443?type=ws&security=tls&encryption=none&sni=nlhis.bkvpn.online&path=%2Fws-se2&host=nlhis.bkvpn.online&alpn=http/1.1&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
-trojan://9pCELV5d3T5FUf4-5KWkeALzv-owtSVD@144.31.230.95:9443?security=tls&sni=nlhis.bkvpn.online&alpn=http/1.1&fp=chrome#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
+vless://8033102198@95.85.246.160:443?alpn=http/1.1&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=pl10.fast-connect-service.site&type=tcp#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
+vless://8033102198@95.85.246.138:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=pl9.fast-connect-service.site&alpn=http%2F1.1&fp=firefox#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN

@@ -26,15 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇨🇭 GhostVPN",
-      "server": "86.106.84.195",
-      "server_port": 53261,
-      "password": "y3b03zx3tznhyo538p4c",
+      "server": "45.90.56.231",
+      "server_port": 443,
+      "uuid": "e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "speedtest.tinkoff.ru",
-        "insecure": true
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0",
+          "short_id": "e2e66f4537770cef"
+        }
       }
     }
   ],

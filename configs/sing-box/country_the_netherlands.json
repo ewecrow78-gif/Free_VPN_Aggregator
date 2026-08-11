@@ -17,7 +17,6 @@
         "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN"
       ]
     },
@@ -30,28 +29,33 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
+      "type": "trojan",
       "tag": "🇳🇱 GhostVPN",
-      "server": "193.29.139.225",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "server": "2.26.102.239",
+      "server_port": 9443,
+      "password": "9pCELV5d3T5FUf4-5KWkeALzv-owtSVD",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.bkvpn.online",
+        "insecure": true
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "193.29.139.225",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "193.29.139.212",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "QCXDxuDlTTMD7jtgHUjIoj"
+      "server": "2.26.102.239",
+      "server_port": 11443,
+      "uuid": "3fd3bab8-f0fc-4ac0-b209-4a5b636a8643",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl.bkvpn.online",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-nl"
+      }
     },
     {
       "type": "vless",
@@ -67,17 +71,12 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇳🇱 GhostVPN",
-      "server": "64.188.77.184",
+      "server": "193.29.139.230",
       "server_port": 443,
-      "uuid": "8033102198",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl13.fast-connect-service.site",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     }
   ],
   "route": {

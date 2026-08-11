@@ -10,19 +10,12 @@ proxies:
   skip-cert-verify: true
   sni: nlhis.bkvpn.online
   type: trojan
-- name: 🇨🇭 GhostVPN
-  password: y3b03zx3tznhyo538p4c
-  port: 53261
-  server: 86.106.84.195
+- name: 🇳🇱 GhostVPN
+  password: 9pCELV5d3T5FUf4-5KWkeALzv-owtSVD
+  port: 9443
+  server: 2.26.102.239
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  type: trojan
-- name: 🏳️ GhostVPN
-  password: ND91608427
-  port: 443
-  server: 54.217.133.71
-  skip-cert-verify: true
-  sni: willing-beagle.rooster465.autos
+  sni: nl.bkvpn.online
   type: trojan
 - name: 🇫🇷 GhostVPN
   password: QV31589740
@@ -31,69 +24,20 @@ proxies:
   skip-cert-verify: true
   sni: great-krill.rooster465.autos
   type: trojan
-- name: 🇪🇸 GhostVPN
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.210
-  skip-cert-verify: true
-  sni: www.vk.com
-  type: trojan
-- name: 🇪🇸 GhostVPN
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-- name: 🇫🇷 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 15.237.137.197
-  skip-cert-verify: true
-  sni: fancy-skink.rooster465.autos
-  type: trojan
-- name: 🇸🇪 GhostVPN
-  password: 9pCELV5d3T5FUf4-5KWkeALzv-owtSVD
-  port: 9443
-  server: 144.31.230.95
-  skip-cert-verify: true
-  sni: nlhis.bkvpn.online
-  type: trojan
 - name: 🏳️ GhostVPN
-  password: UO36402987
-  port: 443
-  server: 34.251.228.118
-  skip-cert-verify: true
-  sni: definite-ladybird.rooster465.autos
-  type: trojan
-- name: 🇺🇸 GhostVPN
   password: ND91608427
   port: 443
-  server: 44.242.235.129
+  server: 54.217.133.71
   skip-cert-verify: true
-  sni: devoted-tapir.rooster465.autos
-  type: trojan
-- name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 44.244.3.114
-  skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
+  sni: willing-beagle.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_TROJAN]
   proxies:
   - 🇵🇱 GhostVPN
-  - 🇨🇭 GhostVPN
-  - 🏳️ GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇫🇷 GhostVPN
-  - 🇪🇸 GhostVPN
-  - 🇪🇸 GhostVPN
-  - 🇫🇷 GhostVPN
-  - 🇸🇪 GhostVPN
   - 🏳️ GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [PROTO_TROJAN]

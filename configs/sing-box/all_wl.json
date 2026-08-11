@@ -14,9 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇷🇺 GhostVPN",
-        "🏳️ GhostVPN",
-        "🇺🇸 GhostVPN"
+        "direct"
       ]
     },
     {
@@ -26,55 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "159.194.226.13",
-      "server_port": 8443,
-      "uuid": "b6c29ae7-4748-4049-b642-b695c0d2c776",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "167UuK8Oaxr23FtoB2a2UbzMRrdRyoHv8JeiIbt3yH4",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ GhostVPN",
-      "server": "104.18.32.47",
-      "server_port": 443,
-      "uuid": "a5a544bf-e4b3-4651-9ff4-de3461910d87",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "rus.aba-hum.store",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "201.34.141.83",
-      "server_port": 443,
-      "uuid": "16ab4d4a-fd81-4535-9b7b-346677226ce8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ya.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "Oo6WRP0tgvO-WVZSjCf5PDrPVJ-IoYwiilK9g3__8C4",
-          "short_id": "cba0dcfd9c4f36"
-        }
-      }
     }
   ],
   "route": {

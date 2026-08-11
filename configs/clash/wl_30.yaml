@@ -2,47 +2,11 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies:
-- name: 🇷🇺 GhostVPN
-  network: xhttp
-  port: 8443
-  reality-opts:
-    public-key: 167UuK8Oaxr23FtoB2a2UbzMRrdRyoHv8JeiIbt3yH4
-    short-id: ''
-  server: 159.194.226.13
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: b6c29ae7-4748-4049-b642-b695c0d2c776
-  ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts: {}
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  tls: true
-  type: vless
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: Oo6WRP0tgvO-WVZSjCf5PDrPVJ-IoYwiilK9g3__8C4
-    short-id: cba0dcfd9c4f36
-  server: 201.34.141.83
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 16ab4d4a-fd81-4535-9b7b-346677226ce8
-  ws-opts: {}
+proxies: []
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_30]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🏳️ GhostVPN
-  - 🇺🇸 GhostVPN
+  - DIRECT
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_30]
