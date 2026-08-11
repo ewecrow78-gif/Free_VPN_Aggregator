@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794183455
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794204670
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_BRAZIL%20%F0%9F%9A%80
-vless://11b7e901-e970-4491-9c7d-13c153e39e5b@177.3.213.230:3443?alpn=h2%2Chttp%2F1.1&authority=&encryption=none&fp=edge&security=tls&serviceName=&sni=get.wlrus.cfd&type=grpc#%F0%9F%87%A7%F0%9F%87%B7%20GhostVPN
-vless://11b7e901-e970-4491-9c7d-13c153e39e5b@177.3.213.230:5443?alpn=h2%2Chttp%2F1.1&encryption=none&fp=edge&security=tls&sni=get.wlrus.cfd&type=tcp#%F0%9F%87%A7%F0%9F%87%B7%20GhostVPN
+vless://eac6ea16-8963-4948-8ba8-0dd3bab4773e@147.45.116.30:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=yg6IqqBKuUew1C26U8I2ZiQuBXLcGSKN3MyxEzhsaFM&security=reality&sid=b6ff5a25b94803d8&sni=br-storage10.infrastucture.site&type=tcp#%F0%9F%87%A7%F0%9F%87%B7%20GhostVPN

@@ -3,22 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇹🇷 Gh0st #75'
+- name: 🇹🇷 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM
-    short-id: c0573c8280a0c019
-  server: 91.124.63.229
-  servername: www.ya.ru
+    public-key: G_LkIUtwCR5RoHxB021-jY8DlwXwKKKgFOes8p54XU0
+    short-id: 40c3a20ae97f78a0
+  server: 45.136.5.49
+  servername: turkey.anonch.net
   tls: true
   type: vless
-  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  uuid: d16a7171-625d-4d09-9459-859f1c9b3b0a
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_TÜRKIYE]
   proxies:
-  - '🇹🇷 Gh0st #75'
+  - 🇹🇷 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_TÜRKIYE]

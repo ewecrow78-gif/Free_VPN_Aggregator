@@ -4,6 +4,33 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇵🇱 GhostVPN
+  password: 9pCELV5d3T5FUf4-5KWkeALzv-owtSVD
+  port: 9443
+  server: 31.77.56.107
+  skip-cert-verify: true
+  sni: nlhis.bkvpn.online
+  type: trojan
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 144.31.112.199
+  servername: pl2.fast-connect-service.site
+  tls: true
+  type: vless
+  uuid: '8033102198'
+  ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 31.56.188.152
+  servername: pl11.fast-connect-service.site
+  tls: true
+  type: vless
+  uuid: '8033102198'
+  ws-opts: {}
+- name: 🇵🇱 GhostVPN
   network: ws
   port: 11443
   reality-opts: {}
@@ -16,13 +43,13 @@ proxies:
     path: /ws-pl
 - name: 🇵🇱 GhostVPN
   network: tcp
-  port: 8443
+  port: 443
   reality-opts: {}
-  server: 2.26.255.36
-  servername: po1.hys.braidx.tech
+  server: 95.85.253.134
+  servername: pl5.fast-connect-service.site
   tls: true
   type: vless
-  uuid: 8787dd0a-095a-414e-804f-a7d16a1ae166
+  uuid: '8033102198'
   ws-opts: {}
 - name: 🇵🇱 GhostVPN
   network: tcp
@@ -34,9 +61,25 @@ proxies:
   type: vless
   uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
   ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8
+    short-id: 3c88b649989ffa95
+  server: 188.255.163.44
+  servername: www.ya.ru
+  tls: true
+  type: vless
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:
+  - 🇵🇱 GhostVPN
+  - 🇵🇱 GhostVPN
+  - 🇵🇱 GhostVPN
+  - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN

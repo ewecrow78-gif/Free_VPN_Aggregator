@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇹🇷 Gh0st #75"
+        "🇹🇷 GhostVPN"
       ]
     },
     {
@@ -27,19 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🇹🇷 Gh0st #75",
-      "server": "91.124.63.229",
+      "tag": "🇹🇷 GhostVPN",
+      "server": "45.136.5.49",
       "server_port": 443,
-      "uuid": "acc50200-7f21-4f90-9cca-0057efcbf042",
+      "uuid": "d16a7171-625d-4d09-9459-859f1c9b3b0a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.ya.ru",
+        "server_name": "turkey.anonch.net",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM",
-          "short_id": "c0573c8280a0c019"
+          "public_key": "G_LkIUtwCR5RoHxB021-jY8DlwXwKKKgFOes8p54XU0",
+          "short_id": "40c3a20ae97f78a0"
         }
       }
     }

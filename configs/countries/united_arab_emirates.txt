@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793578427
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794204670
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_ARAB_EMIRATES%20%F0%9F%9A%80
-vless://04b9e828-43ed-4faf-8952-41069ec08355@217.60.193.2:443?type=tcp&security=tls&sni=ddc-akn.astralweb.tech#%F0%9F%87%A6%F0%9F%87%AA%20GhostVPN
+vless://7fa91a52-54d0-442f-b550-cf83d916918c@89.36.137.206:2083?security=tls&encryption=none&sni=edge-tr-ist.cdn.sx&fp=firefox#%F0%9F%87%A6%F0%9F%87%AA%20GhostVPN

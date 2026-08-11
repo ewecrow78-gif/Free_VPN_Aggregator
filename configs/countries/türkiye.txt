@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1792954282
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794204670
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_T%C3%9CRKIYE%20%F0%9F%9A%80
-vless://acc50200-7f21-4f90-9cca-0057efcbf042@91.124.63.229:443?security=reality&encryption=none&pbk=rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM&host=v2rayNplus--v2rayNplus--v2rayNplus&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.ya.ru&sid=c0573c8280a0c019#%F0%9F%87%B9%F0%9F%87%B7%20Gh0st%20%2375
+vless://d16a7171-625d-4d09-9459-859f1c9b3b0a@45.136.5.49:443?security=reality&encryption=none&sni=turkey.anonch.net&fp=firefox&pbk=G_LkIUtwCR5RoHxB021-jY8DlwXwKKKgFOes8p54XU0&sid=40c3a20ae97f78a0&flow=xtls-rprx-vision#%F0%9F%87%B9%F0%9F%87%B7%20GhostVPN

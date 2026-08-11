@@ -15,7 +15,6 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇸🇪 GhostVPN",
-        "🇸🇪 GhostVPN",
         "🇸🇪 GhostVPN"
       ]
     },
@@ -26,24 +25,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 GhostVPN",
-      "server": "46.246.92.109",
-      "server_port": 443,
-      "uuid": "14f19724-de91-4285-a633-aa8e2caaf812",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.rumedia-cdn.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY",
-          "short_id": "cd40c992fe4b10c2"
-        }
-      }
     },
     {
       "type": "trojan",

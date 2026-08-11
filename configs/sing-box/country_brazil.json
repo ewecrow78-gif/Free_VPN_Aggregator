@@ -14,7 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇧🇷 GhostVPN",
         "🇧🇷 GhostVPN"
       ]
     },
@@ -29,27 +28,19 @@
     {
       "type": "vless",
       "tag": "🇧🇷 GhostVPN",
-      "server": "177.3.213.230",
-      "server_port": 3443,
-      "uuid": "11b7e901-e970-4491-9c7d-13c153e39e5b",
-      "flow": "",
+      "server": "147.45.116.30",
+      "server_port": 443,
+      "uuid": "eac6ea16-8963-4948-8ba8-0dd3bab4773e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "get.wlrus.cfd",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 GhostVPN",
-      "server": "177.3.213.230",
-      "server_port": 5443,
-      "uuid": "11b7e901-e970-4491-9c7d-13c153e39e5b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "get.wlrus.cfd",
-        "insecure": true
+        "server_name": "br-storage10.infrastucture.site",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "yg6IqqBKuUew1C26U8I2ZiQuBXLcGSKN3MyxEzhsaFM",
+          "short_id": "b6ff5a25b94803d8"
+        }
       }
     }
   ],

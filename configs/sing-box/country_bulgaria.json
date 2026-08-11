@@ -14,8 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ Gh0st #61",
-        "🏳️ Gh0st #62"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -28,37 +27,19 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ Gh0st #61",
-      "server": "185.82.219.152",
-      "server_port": 13443,
-      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "auto.cendora.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM",
-          "short_id": "a7f3c91b2e6d84c0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ Gh0st #62",
-      "server": "185.82.219.152",
+      "tag": "🏳️ GhostVPN",
+      "server": "87.120.196.135",
       "server_port": 443,
-      "uuid": "fc1b3bda-b226-452a-8c5c-b0e36a1f8f88",
-      "flow": "xtls-rprx-vision",
+      "uuid": "860c29ef-ea15-4fa7-aa2e-249dcbb64c79",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "eu-central.cendora.ru",
+        "server_name": "ai.android",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
-          "short_id": "00bca5982f82d083"
+          "public_key": "uE1WBdW9se1rQnx8Vh-a1jjaehzK-iUmCVrPui5KU3g",
+          "short_id": "53499a662395"
         }
       }
     }

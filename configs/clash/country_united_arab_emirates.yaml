@@ -5,13 +5,13 @@ port: 7890
 proxies:
 - name: 🇦🇪 GhostVPN
   network: tcp
-  port: 443
+  port: 2083
   reality-opts: {}
-  server: 217.60.193.2
-  servername: ddc-akn.astralweb.tech
+  server: 89.36.137.206
+  servername: edge-tr-ist.cdn.sx
   tls: true
   type: vless
-  uuid: 04b9e828-43ed-4faf-8952-41069ec08355
+  uuid: 7fa91a52-54d0-442f-b550-cf83d916918c
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_ARAB_EMIRATES]

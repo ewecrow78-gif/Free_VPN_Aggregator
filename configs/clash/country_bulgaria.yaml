@@ -3,35 +3,22 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #61'
-  network: tcp
-  port: 13443
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: a7f3c91b2e6d84c0
-  server: 185.82.219.152
-  servername: auto.cendora.ru
-  tls: true
-  type: vless
-  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
-  ws-opts: {}
-- name: '🏳️ Gh0st #62'
-  network: tcp
+- name: 🏳️ GhostVPN
+  network: grpc
   port: 443
   reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: 00bca5982f82d083
-  server: 185.82.219.152
-  servername: eu-central.cendora.ru
+    public-key: uE1WBdW9se1rQnx8Vh-a1jjaehzK-iUmCVrPui5KU3g
+    short-id: 53499a662395
+  server: 87.120.196.135
+  servername: ai.android
   tls: true
   type: vless
-  uuid: fc1b3bda-b226-452a-8c5c-b0e36a1f8f88
+  uuid: 860c29ef-ea15-4fa7-aa2e-249dcbb64c79
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BULGARIA]
   proxies:
-  - '🏳️ Gh0st #61'
-  - '🏳️ Gh0st #62'
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_BULGARIA]

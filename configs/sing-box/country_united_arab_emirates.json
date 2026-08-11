@@ -28,13 +28,13 @@
     {
       "type": "vless",
       "tag": "🇦🇪 GhostVPN",
-      "server": "217.60.193.2",
-      "server_port": 443,
-      "uuid": "04b9e828-43ed-4faf-8952-41069ec08355",
+      "server": "89.36.137.206",
+      "server_port": 2083,
+      "uuid": "7fa91a52-54d0-442f-b550-cf83d916918c",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ddc-akn.astralweb.tech",
+        "server_name": "edge-tr-ist.cdn.sx",
         "insecure": true
       }
     }
