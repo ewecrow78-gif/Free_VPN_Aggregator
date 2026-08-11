@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794183455
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794226846
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_HONG_KONG%20%F0%9F%9A%80
-vless://ed720ae2-e1ab-41d4-8c9c-ca9ab3cfee70@18.162.173.112:443?security=reality&type=tcp&sni=www.cloudflare.com&fp=chrome&flow=xtls-rprx-vision&sid=bd685806015172ca&pbk=0EtR_KBpH13wngvWn6rXJjINlWjb2nW8fgXrR46bz3E&encryption=none#%F0%9F%87%AD%F0%9F%87%B0%20GhostVPN
-vless://431fe973-a43a-4fac-bf83-2a772e0d0625@182.16.61.4:45647#%F0%9F%87%AD%F0%9F%87%B0%20GhostVPN
+vless://431fe973-a43a-4fac-bf83-2a772e0d0625@182.16.61.4:45647?encryption=none#%F0%9F%87%AD%F0%9F%87%B0%20GhostVPN

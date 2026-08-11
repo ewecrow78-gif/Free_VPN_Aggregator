@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇨🇭 GhostVPN"
+        "🏳️ GhostVPN"
       ]
     },
     {
@@ -26,15 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
-      "tag": "🇨🇭 GhostVPN",
-      "server": "86.106.84.195",
-      "server_port": 53261,
-      "password": "y3b03zx3tznhyo538p4c",
+      "type": "vless",
+      "tag": "🏳️ GhostVPN",
+      "server": "87.58.205.109",
+      "server_port": 443,
+      "uuid": "53db95fa-4ebe-4450-8013-a2b0a5827f3f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "speedtest.tinkoff.ru",
-        "insecure": true
+        "server_name": "www.googletagmanager.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "GUYDQKGvNl3_YozhbqG8bvecxjQ7HL5A8iqbuYBUUkw",
+          "short_id": "01c1bb79d6a7c6cf"
+        }
       }
     }
   ],

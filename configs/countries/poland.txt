@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794204670
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794226846
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -12,9 +12,8 @@
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_POLAND%20%F0%9F%9A%80
 trojan://9pCELV5d3T5FUf4-5KWkeALzv-owtSVD@31.77.56.107:9443?security=tls&sni=nlhis.bkvpn.online&alpn=http/1.1&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://8033102198@144.31.112.199:443?security=tls&encryption=none&sni=pl2.fast-connect-service.site&alpn=http/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://8033102198@31.56.188.152:443?security=tls&encryption=none&sni=pl11.fast-connect-service.site&alpn=http/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
 vless://3fd3bab8-f0fc-4ac0-b209-4a5b636a8643@31.77.56.107:11443?type=ws&security=tls&encryption=none&sni=nlhis.bkvpn.online&path=%2Fws-pl&host=nlhis.bkvpn.online&alpn=http/1.1&fp=chrome#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://8033102198@95.85.253.134:443?security=tls&encryption=none&sni=pl5.fast-connect-service.site&alpn=http/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
 vless://7e760d89-a8f4-4a87-8f10-b4af28c61b7f@82.26.91.87:443?security=tls&encryption=none&sni=faster.yandex-apicloud.ru&alpn=h2&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://acc50200-7f21-4f90-9cca-0057efcbf042@188.255.163.44:443?security=reality&encryption=none&sni=www.ya.ru&fp=firefox&pbk=tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8&sid=3c88b649989ffa95&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
+vless://8033102198@144.31.171.233:443?security=tls&encryption=none&sni=pl6.fast-connect-service.site&alpn=h2%2Chttp/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
+vless://8033102198@95.85.253.134:443?security=tls&encryption=none&sni=pl5.fast-connect-service.site&alpn=http/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
+vless://8033102198@95.85.253.5:443?security=tls&encryption=none&sni=pl4.fast-connect-service.site&alpn=http/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN

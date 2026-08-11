@@ -11,26 +11,6 @@ proxies:
   sni: nlhis.bkvpn.online
   type: trojan
 - name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 144.31.112.199
-  servername: pl2.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 31.56.188.152
-  servername: pl11.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇵🇱 GhostVPN
   network: ws
   port: 11443
   reality-opts: {}
@@ -45,6 +25,26 @@ proxies:
   network: tcp
   port: 443
   reality-opts: {}
+  server: 82.26.91.87
+  servername: faster.yandex-apicloud.ru
+  tls: true
+  type: vless
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 144.31.171.233
+  servername: pl6.fast-connect-service.site
+  tls: true
+  type: vless
+  uuid: '8033102198'
+  ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
   server: 95.85.253.134
   servername: pl5.fast-connect-service.site
   tls: true
@@ -55,28 +55,15 @@ proxies:
   network: tcp
   port: 443
   reality-opts: {}
-  server: 82.26.91.87
-  servername: faster.yandex-apicloud.ru
+  server: 95.85.253.5
+  servername: pl4.fast-connect-service.site
   tls: true
   type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
-  ws-opts: {}
-- name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8
-    short-id: 3c88b649989ffa95
-  server: 188.255.163.44
-  servername: www.ya.ru
-  tls: true
-  type: vless
-  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  uuid: '8033102198'
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:
-  - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN

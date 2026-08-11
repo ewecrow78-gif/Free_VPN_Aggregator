@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GUYDQKGvNl3_YozhbqG8bvecxjQ7HL5A8iqbuYBUUkw
+    short-id: 01c1bb79d6a7c6cf
+  server: 87.58.205.109
+  servername: www.googletagmanager.com
+  tls: true
+  type: vless
+  uuid: 53db95fa-4ebe-4450-8013-a2b0a5827f3f
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_ROMANIA]
+  proxies:
+  - 🏳️ GhostVPN
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_ROMANIA]
+socks-port: 7891

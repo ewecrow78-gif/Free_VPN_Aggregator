@@ -4,15 +4,34 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇫🇷 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 212.69.86.187
+  servername: cdn.intercom-home.online
+  tls: true
+  type: vless
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  ws-opts: {}
+- name: 🇫🇷 GhostVPN
   password: QV31589740
   port: 443
   server: 51.44.160.58
   skip-cert-verify: true
   sni: great-krill.rooster465.autos
   type: trojan
+- name: 🇫🇷 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 15.237.137.197
+  skip-cert-verify: true
+  sni: fancy-skink.rooster465.autos
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FRANCE]
   proxies:
+  - 🇫🇷 GhostVPN
+  - 🇫🇷 GhostVPN
   - 🇫🇷 GhostVPN
   type: select
 rules:

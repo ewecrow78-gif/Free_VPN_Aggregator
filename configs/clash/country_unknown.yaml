@@ -3,20 +3,16 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: zero
-  name: 🏳️ GhostVPN
-  network: ws
+- name: 🏳️ GhostVPN
+  network: xhttp
   port: 443
-  server: 104.17.3.81
-  servername: access.mysignal.cyou
+  reality-opts: {}
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
   tls: true
-  type: vmess
-  uuid: ebe24b94-e2dd-48c8-a8c1-565ee5857e0f
-  ws-opts:
-    headers:
-      Host: access.mysignal.cyou
-    path: /vmess
+  type: vless
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNKNOWN]
   proxies:

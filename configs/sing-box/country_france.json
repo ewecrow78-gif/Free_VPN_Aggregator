@@ -14,6 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇫🇷 GhostVPN",
+        "🇫🇷 GhostVPN",
         "🇫🇷 GhostVPN"
       ]
     },
@@ -26,6 +28,19 @@
       "tag": "dns-out"
     },
     {
+      "type": "vless",
+      "tag": "🇫🇷 GhostVPN",
+      "server": "212.69.86.187",
+      "server_port": 443,
+      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.intercom-home.online",
+        "insecure": true
+      }
+    },
+    {
       "type": "trojan",
       "tag": "🇫🇷 GhostVPN",
       "server": "51.44.160.58",
@@ -34,6 +49,18 @@
       "tls": {
         "enabled": true,
         "server_name": "great-krill.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 GhostVPN",
+      "server": "15.237.137.197",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "fancy-skink.rooster465.autos",
         "insecure": true
       }
     }

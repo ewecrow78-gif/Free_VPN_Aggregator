@@ -3,19 +3,51 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 193.29.139.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.212
+  type: ss
 - name: 🇳🇱 GhostVPN
   network: tcp
-  port: 62145
+  port: 443
   reality-opts: {}
-  server: 144.21.43.130
-  servername: 144.21.43.130
-  tls: false
+  server: 66.248.205.49
+  servername: oldcdn.intercom-home.online
+  tls: true
   type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 64.188.77.184
+  servername: nl13.fast-connect-service.site
+  tls: true
+  type: vless
+  uuid: '8033102198'
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
 rules:

@@ -4,16 +4,12 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇨🇭 GhostVPN
-  network: ws
-  port: 8204
-  reality-opts: {}
-  server: 92.119.165.177
-  servername: zeta.optiklink.com
-  tls: true
-  type: vless
-  uuid: ed1aaa45-18b3-4c07-a434-ea42e2dfba77
-  ws-opts:
-    path: /gayporn---gayporn---gayporn---gayporn---gayporn---gayporn---gayporn
+  password: y3b03zx3tznhyo538p4c
+  port: 53261
+  server: 86.106.84.195
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWITZERLAND]
   proxies:

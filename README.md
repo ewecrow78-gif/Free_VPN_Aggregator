@@ -104,7 +104,7 @@
 
 ## 📊 Статус сети
 
-> Автообновление пайплайном. Время: **2026-08-11 06:11 UTC**.
+> Автообновление пайплайном. Время: **2026-08-11 12:20 UTC**.
 
 | Показатель | Значение | Описание |
 | :--- | :---: | :--- |
@@ -113,15 +113,15 @@
 | **Отсеяно (синтаксис / IP)** | `0` | Битый URI, private IP |
 | **Отсеяно (DNS / TCP)** | `0` | Мёртвые домены / порты |
 | **Рабочих (Xray test)** | `0` | Реальный HTTP через VPN |
-| **Топ 50 быстрых** | `17` | |
-| **Топ 30 быстрых** | `17` | |
-| **Все конфиги** | `17` | Без лимитов |
-| **Белые списки 100** | `0` | |
-| **Топ 50 белых списков** | `0` | |
-| **Топ 30 белых списков** | `0` | |
-| **Все вместе** | `17` | 50 обычных + 50 белых |
-| **Все белые списки** | `0` | Без лимитов |
-| **Топ быстрых 100** | `17` | Обычные и белые |
+| **Топ 50 быстрых** | `50` | |
+| **Топ 30 быстрых** | `30` | |
+| **Все конфиги** | `62` | Без лимитов |
+| **Белые списки 100** | `3` | |
+| **Топ 50 белых списков** | `3` | |
+| **Топ 30 белых списков** | `3` | |
+| **Все вместе** | `53` | 50 обычных + 50 белых |
+| **Все белые списки** | `3` | Без лимитов |
+| **Топ быстрых 100** | `62` | Обычные и белые |
 
 ---
 
@@ -135,7 +135,7 @@
 *(Подписки для каждой страны находятся ниже в разделе «Страны»)*
 
 ### 2. Топ 50 быстрых
-### 🚀 ТОП 50 БЫСТРЫХ ⚫ (17)
+### 🚀 ТОП 50 БЫСТРЫХ ⚫ (50)
 
 ### [base64/top_50_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt)
 
@@ -177,7 +177,7 @@
 
 
 ### 3. Топ 30 быстрых
-### 🚀 ТОП 30 БЫСТРЫХ ⚫ (17)
+### 🚀 ТОП 30 БЫСТРЫХ ⚫ (30)
 
 ### [base64/top_30_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt)
 
@@ -219,7 +219,7 @@
 
 
 ### 4. Все конфиги (без лимитов на количество)
-### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (17)
+### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (62)
 
 ### [base64/all_configs.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt)
 
@@ -261,7 +261,7 @@
 
 
 ### 5. Белые списки (не должно превышать 100)
-### ⚪ БЕЛЫЕ СПИСКИ (До 100) ⚪ (0)
+### ⚪ БЕЛЫЕ СПИСКИ (До 100) ⚪ (3)
 
 ### [base64/wl_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_100.txt)
 
@@ -303,7 +303,7 @@
 
 
 ### 6. Топ 50 белых списков
-### ⚪ ТОП 50 БЕЛЫХ СПИСКОВ ⚪ (0)
+### ⚪ ТОП 50 БЕЛЫХ СПИСКОВ ⚪ (3)
 
 ### [base64/wl_50.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_50.txt)
 
@@ -345,7 +345,7 @@
 
 
 ### 7. Топ 30 белых списков
-### ⚪ ТОП 30 БЕЛЫХ СПИСКОВ ⚪ (0)
+### ⚪ ТОП 30 БЕЛЫХ СПИСКОВ ⚪ (3)
 
 ### [base64/wl_30.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_30.txt)
 
@@ -387,7 +387,7 @@
 
 
 ### 8. Все вместе (50 обычных конфигов, 50 белых списков)
-### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (17)
+### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (53)
 
 ### [base64/mixed_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt)
 
@@ -429,7 +429,7 @@
 
 
 ### 9. Все конфиги белых списков без лимитов на количество
-### ⚪ ВСЕ БЕЛЫЕ СПИСКИ (Без лимитов) ⚪ (0)
+### ⚪ ВСЕ БЕЛЫЕ СПИСКИ (Без лимитов) ⚪ (3)
 
 ### [base64/all_wl.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_wl.txt)
 
@@ -471,7 +471,7 @@
 
 
 ### 10. Топ самых быстрых конфигов (без разницы простые или белые списки)
-### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (17)
+### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (62)
 
 ### [base64/fastest_all_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt)
 
@@ -827,16 +827,26 @@ python main.py
 
 | Страна | Кол-во | Флаг | Подписки |
 | :--- | :---: | :---: | :--- |
-| Poland | 7 | 🇵🇱 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_poland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/poland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_poland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_poland.json) |
-| Sweden | 2 | 🇸🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_sweden.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/sweden.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_sweden.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_sweden.json) |
-| Bulgaria | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_bulgaria.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/bulgaria.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_bulgaria.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_bulgaria.json) |
-| The Netherlands | 1 | 🇳🇱 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_the_netherlands.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/the_netherlands.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_the_netherlands.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_the_netherlands.json) |
+| United States | 15 | 🇺🇸 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_states.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_states.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_states.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_states.json) |
+| Germany | 6 | 🇩🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_germany.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/germany.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_germany.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_germany.json) |
+| Poland | 6 | 🇵🇱 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_poland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/poland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_poland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_poland.json) |
+| The Netherlands | 5 | 🇳🇱 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_the_netherlands.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/the_netherlands.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_the_netherlands.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_the_netherlands.json) |
+| United Kingdom | 4 | 🇬🇧 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_kingdom.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_kingdom.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_kingdom.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_kingdom.json) |
+| Colombia | 4 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_colombia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/colombia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_colombia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_colombia.json) |
+| Sweden | 3 | 🇸🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_sweden.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/sweden.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_sweden.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_sweden.json) |
+| Spain | 3 | 🇪🇸 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_spain.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/spain.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_spain.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_spain.json) |
+| France | 3 | 🇫🇷 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_france.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/france.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_france.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_france.json) |
+| Ireland | 2 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_ireland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/ireland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_ireland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_ireland.json) |
+| Finland | 2 | 🇫🇮 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_finland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/finland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_finland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_finland.json) |
+| Latvia | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_latvia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/latvia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_latvia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_latvia.json) |
+| Russia | 1 | 🇷🇺 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_russia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/russia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_russia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_russia.json) |
+| Unknown | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_unknown.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/unknown.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_unknown.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_unknown.json) |
+| Switzerland | 1 | 🇨🇭 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_switzerland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/switzerland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_switzerland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_switzerland.json) |
 | Estonia | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_estonia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/estonia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_estonia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_estonia.json) |
-| France | 1 | 🇫🇷 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_france.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/france.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_france.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_france.json) |
-| United Arab Emirates | 1 | 🇦🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_arab_emirates.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_arab_emirates.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_arab_emirates.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_arab_emirates.json) |
-| Türkiye | 1 | 🇹🇷 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_türkiye.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/türkiye.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_türkiye.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_türkiye.json) |
-| Finland | 1 | 🇫🇮 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_finland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/finland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_finland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_finland.json) |
-| Brazil | 1 | 🇧🇷 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_brazil.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/brazil.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_brazil.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_brazil.json) |
+| Romania | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_romania.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/romania.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_romania.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_romania.json) |
+| India | 1 | 🇮🇳 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_india.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/india.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_india.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_india.json) |
+| Hong Kong | 1 | 🇭🇰 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_hong_kong.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/hong_kong.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_hong_kong.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_hong_kong.json) |
+| Taiwan | 1 | 🇹🇼 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_taiwan.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/taiwan.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_taiwan.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_taiwan.json) |
 
 </details>
 
@@ -845,8 +855,10 @@ python main.py
 
 | Протокол | Кол-во | Доля |
 | :--- | :---: | :---: |
-| VLESS | 14 | 82.4% |
-| TROJAN | 3 | 17.6% |
+| VLESS | 39 | 62.9% |
+| TROJAN | 11 | 17.7% |
+| SS | 8 | 12.9% |
+| VMESS | 4 | 6.5% |
 
 </details>
 
@@ -862,6 +874,6 @@ MIT — см. [LICENSE](LICENSE).
 
 **⭐ Если проект полезен — поставьте Star**
 
-<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-11 06:11 UTC</sub>
+<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-11 12:20 UTC</sub>
 
 </div>

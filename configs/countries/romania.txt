@@ -1,4 +1,4 @@
-#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9JUkVMQU5EIPCfmoA=
+#profile-title: base64:RnJlZSBWUE4gwrcgQ09VTlRSWV9ST01BTklBIPCfmoA=
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
@@ -10,6 +10,5 @@
 # 🔑 Полностью бесплатно и Open-Source 🔑
 # ⏳ Обновляется каждые 2 часа ⏳
 
-vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_IRELAND%20%F0%9F%9A%80
-trojan://ND91608427@54.217.133.71:443?sni=willing-beagle.rooster465.autos#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
-trojan://UO36402987@34.251.228.118:443?fp=chrome&sni=definite-ladybird.rooster465.autos#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_ROMANIA%20%F0%9F%9A%80
+vless://53db95fa-4ebe-4450-8013-a2b0a5827f3f@87.58.205.109:443?flow=xtls-rprx-vision&encryption=none&security=reality&sni=www.googletagmanager.com&fp=chrome&pbk=GUYDQKGvNl3_YozhbqG8bvecxjQ7HL5A8iqbuYBUUkw&sid=01c1bb79d6a7c6cf&type=tcp&headerType=none#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

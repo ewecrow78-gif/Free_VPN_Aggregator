@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793751753
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794226846
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_LATVIA%20%F0%9F%9A%80
-vless://5c6d8045-9de9-45e4-b495-463fc3f1a828@31.58.46.47:1683?type=tcp&security=reality&sni=celerisdigital.top&pbk=_fz8jpa604XXSweCCf6PU9Xmd7F4sZ1RSMqNTzwBVA0&sid=a4f8c92d&fp=firefox&encryption=none&flow=xtls-rprx-vision#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://6de486c1-dbad-4540-8875-98c35e9cd173@46.8.228.91:47424?&type=tcp&headerType=none&path=%2F#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

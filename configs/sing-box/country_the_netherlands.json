@@ -14,6 +14,10 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇳🇱 GhostVPN",
+        "🇳🇱 GhostVPN",
+        "🇳🇱 GhostVPN",
+        "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN"
       ]
     },
@@ -26,15 +30,52 @@
       "tag": "dns-out"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "193.29.139.225",
+      "server_port": 443,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "193.29.139.225",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "193.29.139.212",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "QCXDxuDlTTMD7jtgHUjIoj"
+    },
+    {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "144.21.43.130",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": "",
+      "server": "66.248.205.49",
+      "server_port": 443,
+      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "144.21.43.130",
+        "server_name": "oldcdn.intercom-home.online",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "64.188.77.184",
+      "server_port": 443,
+      "uuid": "8033102198",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl13.fast-connect-service.site",
         "insecure": true
       }
     }

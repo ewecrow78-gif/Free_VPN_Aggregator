@@ -19,7 +19,6 @@
         "🇵🇱 GhostVPN",
         "🇵🇱 GhostVPN",
         "🇵🇱 GhostVPN",
-        "🇵🇱 GhostVPN",
         "🇵🇱 GhostVPN"
       ]
     },
@@ -46,32 +45,6 @@
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "144.31.112.199",
-      "server_port": 443,
-      "uuid": "8033102198",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl2.fast-connect-service.site",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 GhostVPN",
-      "server": "31.56.188.152",
-      "server_port": 443,
-      "uuid": "8033102198",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl11.fast-connect-service.site",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 GhostVPN",
       "server": "31.77.56.107",
       "server_port": 11443,
       "uuid": "3fd3bab8-f0fc-4ac0-b209-4a5b636a8643",
@@ -84,19 +57,6 @@
       "transport": {
         "type": "ws",
         "path": "/ws-pl"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇵🇱 GhostVPN",
-      "server": "95.85.253.134",
-      "server_port": 443,
-      "uuid": "8033102198",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl5.fast-connect-service.site",
-        "insecure": true
       }
     },
     {
@@ -115,19 +75,40 @@
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "188.255.163.44",
+      "server": "144.31.171.233",
       "server_port": 443,
-      "uuid": "acc50200-7f21-4f90-9cca-0057efcbf042",
+      "uuid": "8033102198",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.ya.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8",
-          "short_id": "3c88b649989ffa95"
-        }
+        "server_name": "pl6.fast-connect-service.site",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 GhostVPN",
+      "server": "95.85.253.134",
+      "server_port": 443,
+      "uuid": "8033102198",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl5.fast-connect-service.site",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇵🇱 GhostVPN",
+      "server": "95.85.253.5",
+      "server_port": 443,
+      "uuid": "8033102198",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl4.fast-connect-service.site",
+        "insecure": true
       }
     }
   ],

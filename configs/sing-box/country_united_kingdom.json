@@ -17,14 +17,6 @@
         "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN"
       ]
     },
@@ -52,72 +44,8 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 GhostVPN",
-      "server": "129.151.81.224",
-      "server_port": 61312,
-      "method": "chacha20-ietf-poly1305",
-      "password": "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
       "server": "82.38.31.174",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.204",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.149",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.203",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.200",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.206",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.57",
-      "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.10",
-      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
@@ -135,12 +63,12 @@
       }
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇬🇧 GhostVPN",
-      "server": "169.197.113.179",
-      "server_port": 20190,
-      "uuid": "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b",
-      "flow": ""
+      "server": "194.164.92.198",
+      "server_port": 1234,
+      "method": "chacha20-ietf-poly1305",
+      "password": "zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD"
     }
   ],
   "route": {

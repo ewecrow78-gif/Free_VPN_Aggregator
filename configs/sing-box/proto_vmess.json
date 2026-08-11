@@ -14,7 +14,10 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇩🇪 GhostVPN"
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇹🇼 GhostVPN"
       ]
     },
     {
@@ -27,21 +30,47 @@
     },
     {
       "type": "vmess",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "104.105.28.164",
-      "server_port": 2053,
-      "uuid": "9a1a05d9-69be-45d3-e326-c6621edf7b31",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "132.145.200.43",
+      "server_port": 2054,
+      "uuid": "ceeaee0b-89af-40b1-aa14-577cbde03a89",
       "security": "auto",
       "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "deapp.jisuyun.top",
-        "insecure": true
-      },
       "transport": {
         "type": "ws",
-        "path": "/devm"
+        "path": "/p"
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "129.146.77.248",
+      "server_port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇹🇼 GhostVPN",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {

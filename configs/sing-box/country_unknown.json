@@ -26,21 +26,16 @@
       "tag": "dns-out"
     },
     {
-      "type": "vmess",
+      "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "104.17.3.81",
+      "server": "104.18.32.47",
       "server_port": 443,
-      "uuid": "ebe24b94-e2dd-48c8-a8c1-565ee5857e0f",
-      "security": "zero",
-      "alter_id": 0,
+      "uuid": "a5a544bf-e4b3-4651-9ff4-de3461910d87",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "access.mysignal.cyou",
+        "server_name": "rus.aba-hum.store",
         "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/vmess"
       }
     }
   ],

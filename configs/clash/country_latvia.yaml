@@ -5,15 +5,13 @@ port: 7890
 proxies:
 - name: 🏳️ GhostVPN
   network: tcp
-  port: 1683
-  reality-opts:
-    public-key: _fz8jpa604XXSweCCf6PU9Xmd7F4sZ1RSMqNTzwBVA0
-    short-id: a4f8c92d
-  server: 31.58.46.47
-  servername: celerisdigital.top
-  tls: true
+  port: 47424
+  reality-opts: {}
+  server: 46.8.228.91
+  servername: 46.8.228.91
+  tls: false
   type: vless
-  uuid: 5c6d8045-9de9-45e4-b495-463fc3f1a828
+  uuid: 6de486c1-dbad-4540-8875-98c35e9cd173
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_LATVIA]

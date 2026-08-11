@@ -15,6 +15,7 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇸🇪 GhostVPN",
+        "🇸🇪 GhostVPN",
         "🇸🇪 GhostVPN"
       ]
     },
@@ -27,15 +28,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇸🇪 GhostVPN",
-      "server": "144.31.230.95",
-      "server_port": 9443,
-      "password": "9pCELV5d3T5FUf4-5KWkeALzv-owtSVD",
+      "server": "46.246.92.109",
+      "server_port": 443,
+      "uuid": "14f19724-de91-4285-a633-aa8e2caaf812",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nlhis.bkvpn.online",
-        "insecure": true
+        "server_name": "www.rumedia-cdn.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY",
+          "short_id": "cd40c992fe4b10c2"
+        }
       }
     },
     {
@@ -53,6 +60,18 @@
       "transport": {
         "type": "ws",
         "path": "/ws-se2"
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇪 GhostVPN",
+      "server": "144.31.230.95",
+      "server_port": 9443,
+      "password": "9pCELV5d3T5FUf4-5KWkeALzv-owtSVD",
+      "tls": {
+        "enabled": true,
+        "server_name": "nlhis.bkvpn.online",
+        "insecure": true
       }
     }
   ],

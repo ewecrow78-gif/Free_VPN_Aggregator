@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793751753
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794226846
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNKNOWN%20%F0%9F%9A%80
-vmess://eyJhZGQiOiIxMDQuMTcuMy44MSIsImFpZCI6IjAiLCJhbHBuIjoiIiwiaG9zdCI6ImFjY2Vzcy5teXNpZ25hbC5jeW91IiwiaWQiOiJlYmUyNGI5NC1lMmRkLTQ4YzgtYThjMS01NjVlZTU4NTdlMGYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvdm1lc3MiLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRmZjNcdWZlMGYgR2hvc3RWUE4iLCJzY3kiOiJ6ZXJvIiwic25pIjoiYWNjZXNzLm15c2lnbmFsLmN5b3UiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiLS0tIiwidiI6IjIifQ==
+vless://a5a544bf-e4b3-4651-9ff4-de3461910d87@104.18.32.47:443?&security=tls&fp=chrome&alpn=h3&sni=rus.aba-hum.store&type=xhttp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
