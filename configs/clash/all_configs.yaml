@@ -3,69 +3,67 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- name: 🇳🇱 GhostVPN
+  network: grpc
+  port: 443
+  reality-opts: {}
+  server: 78.17.132.147
+  servername: 78.17.132.147
+  tls: false
+  type: vless
+  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: grpc
+  port: 443
+  reality-opts: {}
+  server: 78.17.132.148
+  servername: 78.17.132.148
+  tls: false
+  type: vless
+  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
+  ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: grpc
+  port: 443
+  reality-opts: {}
+  server: 31.56.188.183
+  servername: 31.56.188.183
+  tls: false
+  type: vless
+  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
+  ws-opts: {}
 - name: 🇷🇺 GhostVPN
   network: ws
   port: 2200
   reality-opts: {}
-  server: 104.171.136.112
-  servername: 104.171.136.112
+  server: 194.26.229.220
+  servername: 194.26.229.220
   tls: false
   type: vless
-  uuid: bee21918-0933-430c-904b-c941b92256ba
+  uuid: 47947923-49ac-49f8-86ed-2912bcbf2d18
   ws-opts:
     path: /v1
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 GhostVPN
-  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
-  port: 45819
-  server: 152.70.53.15
-  type: ss
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 104.171.133.53
-  servername: 104.171.133.53
-  tls: false
-  type: vless
-  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 104.171.135.186
-  servername: 104.171.135.186
-  tls: false
-  type: vless
-  uuid: 2c66d559-9889-45c5-a712-d8b7a31fa04d
-  ws-opts:
-    path: /v1
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GhostVPN
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.200
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GhostVPN
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: 61312
-  server: 129.151.68.189
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇩🇪 GhostVPN
+  network: grpc
   port: 443
-  server: 193.29.139.225
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 GhostVPN
-  password: QCXDxuDlTTMD7jtgHUjIoj
-  port: 8080
-  server: 193.29.139.212
-  type: ss
+  reality-opts: {}
+  server: 78.17.147.128
+  servername: 78.17.147.128
+  tls: false
+  type: vless
+  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: grpc
+  port: 443
+  reality-opts: {}
+  server: 94.156.131.91
+  servername: 94.156.131.91
+  tls: false
+  type: vless
+  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
+  ws-opts: {}
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 GhostVPN
   password: oZIoA69Q8yhcQV8ka3Pa3A
@@ -78,40 +76,6 @@ proxies:
   port: 443
   server: 82.38.31.149
   type: ss
-- name: 🇳🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 64.188.77.184
-  servername: nl13.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: xhttp
-  port: 8088
-  reality-opts:
-    public-key: hYLvEGoxIMNpQkqxVJt298bBGE1Tz8dhtXGsPsLznj0
-    short-id: 2acf8977eb67ea0c
-  server: 5.75.196.249
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 119f5e84-0923-48e9-97be-f0be9c6acead
-  ws-opts: {}
-- name: 🇪🇸 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo
-    short-id: ''
-  server: 170.168.97.7
-  servername: cdn.steamstatic.com
-  tls: true
-  type: vless
-  uuid: fc03a9a8-ef0f-5794-e119-0c3b68b178e8
-  ws-opts: {}
 - name: 🏳️ GhostVPN
   network: xhttp
   port: 443
@@ -122,192 +86,59 @@ proxies:
   type: vless
   uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
   ws-opts: {}
-- name: 🇳🇱 GhostVPN
-  network: tcp
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.200
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  reality-opts: {}
-  server: 66.248.205.49
-  servername: oldcdn.intercom-home.online
-  tls: true
-  type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
-  ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: ws
-  port: 11443
-  reality-opts: {}
-  server: 89.125.13.3
-  servername: nlhis.bkvpn.online
-  tls: true
-  type: vless
-  uuid: 3fd3bab8-f0fc-4ac0-b209-4a5b636a8643
-  ws-opts:
-    path: /ws-ee
-- name: 🇫🇮 GhostVPN
-  network: tcp
-  port: 8443
-  reality-opts: {}
-  server: 212.237.216.46
-  servername: fastcdn.intercom-home.online
-  tls: true
-  type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
-  ws-opts: {}
+  server: 193.29.139.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 193.29.139.230
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 193.29.139.234
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 193.29.139.223
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧 GhostVPN
   password: zz0dHjDfoaSaZuRFLGH-hNfBALSEJUYD
   port: 1234
   server: 194.164.92.198
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.164
-  type: ss
-- name: 🇩🇪 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 147.45.39.85
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 45.83.31.36
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
 - name: 🇳🇱 GhostVPN
   network: xhttp
   port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 194.26.192.220
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
-- name: 🇫🇮 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 2.26.27.49
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
-- name: 🇸🇪 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 2.27.14.105
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: tcp
-  port: 27254
   reality-opts: {}
-  server: 169.40.138.65
-  servername: 169.40.138.65
-  tls: false
+  server: 185.229.190.148
+  servername: moein-bf821.b-cdn.net
+  tls: true
   type: vless
-  uuid: 5109835e-f49b-4094-a069-3ad3ce240e9d
+  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
   ws-opts: {}
-- name: 🇫🇷 GhostVPN
-  password: ND91608427
+- name: 🏳️ GhostVPN
+  password: UO36402987
   port: 443
-  server: 15.237.137.197
+  server: 34.251.228.118
   skip-cert-verify: true
-  sni: fancy-skink.rooster465.autos
+  sni: definite-ladybird.rooster465.autos
   type: trojan
-- name: 🇳🇱 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 153.80.249.77
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
-- name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 82.26.91.87
-  servername: faster.yandex-apicloud.ru
-  tls: true
-  type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts: {}
-  server: 143.246.182.7
-  servername: uk7.jailever.org
-  tls: true
-  type: vless
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  ws-opts: {}
-- name: 🇸🇪 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 95.85.246.104
-  servername: pl7.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇸🇪 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
-    short-id: ''
-  server: 84.32.99.238
-  servername: recaptcha.net.cn
-  tls: true
-  type: vless
-  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
-  ws-opts: {}
-- name: 🇳🇱 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 194.26.192.234
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
 - name: 🇸🇪 GhostVPN
   network: tcp
   port: 443
@@ -318,32 +149,155 @@ proxies:
   type: vless
   uuid: '8033102198'
   ws-opts: {}
-- name: 🏳️ GhostVPN
+- name: 🇹🇷 GhostVPN
   network: xhttp
-  port: 443
+  port: 8088
   reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 194.33.61.19
-  servername: www.google.com
+    public-key: hYLvEGoxIMNpQkqxVJt298bBGE1Tz8dhtXGsPsLznj0
+    short-id: 2acf8977eb67ea0c
+  server: 158.94.216.232
+  servername: www.yahoo.com
   tls: true
   type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
+  uuid: de9f46e2-5785-4978-b1d0-c6b308a66b35
   ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 201.24.120.68
+  servername: 201.24.120.68
+  tls: false
+  type: vless
+  uuid: 59525c39-e731-4c27-bc9e-6d8cef67572c
+  ws-opts:
+    path: /v1
+- cipher: chacha20-poly1305
+  name: 🇬🇧 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.46
+  type: ss
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8020
+  reality-opts: {}
+  server: 216.106.183.132
+  servername: 216.106.183.132
+  tls: false
+  type: vless
+  uuid: aa8250e1-954c-449e-98fc-aa56a973a3f1
+  ws-opts:
+    path: /upload?ed=2560
 - name: 🇫🇷 GhostVPN
   password: ND91608427
   port: 443
-  server: 13.36.175.151
+  server: 15.237.137.197
   skip-cert-verify: true
-  sni: classic-gator.rooster465.autos
+  sni: fancy-skink.rooster465.autos
   type: trojan
-- name: 🏳️ GhostVPN
-  password: UO36402987
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: tcp
   port: 443
-  server: 34.251.228.118
-  skip-cert-verify: true
-  sni: definite-ladybird.rooster465.autos
-  type: trojan
+  server: 165.140.216.142
+  servername: 165.140.216.142
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.72
+  servername: 40.160.68.72
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.118
+  servername: 40.160.68.118
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: ws
+  port: 2054
+  server: 132.145.200.43
+  servername: 132.145.200.43
+  tls: false
+  type: vmess
+  uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
+  ws-opts:
+    headers:
+      Host: ''
+    path: /p
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.55
+  servername: 40.160.68.55
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.136
+  servername: 40.160.68.136
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.97
+  servername: 40.160.69.97
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.53
+  servername: 40.160.69.53
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.126
+  servername: 40.160.68.126
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
 - name: 🏳️ GhostVPN
   network: tcp
   port: 62145
@@ -354,70 +308,37 @@ proxies:
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: tcp
-  port: 62145
-  reality-opts: {}
-  server: 149.130.168.29
-  servername: 149.130.168.29
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: tcp
-  port: 62145
-  reality-opts: {}
-  server: 157.137.231.159
-  servername: 157.137.231.159
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  ws-opts: {}
-- name: 🏳️ GhostVPN
-  network: tcp
-  port: 62145
-  reality-opts: {}
-  server: 149.130.161.150
-  servername: 149.130.161.150
-  tls: false
-  type: vless
-  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
-  ws-opts: {}
-- name: 🇨🇭 GhostVPN
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
   network: ws
-  port: 8204
-  reality-opts: {}
-  server: 92.119.165.177
-  servername: zeta.optiklink.com
-  tls: true
-  type: vless
-  uuid: ed1aaa45-18b3-4c07-a434-ea42e2dfba77
+  port: 39495
+  server: 129.146.77.248
+  servername: 129.146.77.248
+  tls: false
+  type: vmess
+  uuid: f836c736-87fc-4fde-aabc-00857ecdff3e
   ws-opts:
-    path: /gayporn---gayporn---gayporn---gayporn---gayporn---gayporn---gayporn
-- name: 🇸🇬 GhostVPN
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: T4CMxxAJiCcrGk2r87kMkDcvmfNs3nL-gKleaE1wTHQ
-    short-id: fb7ebc9996caf9ac
-  server: 217.217.254.126
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 6b408e62-c5d5-45e1-ae3a-4c9833d46d82
-  ws-opts: {}
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
 - name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 44.244.3.114
+  skip-cert-verify: true
+  sni: pet-ghost.rooster465.autos
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 GhostVPN
   network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.198.93
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
+  port: 35034
+  server: 165.154.195.38
+  servername: 165.154.195.38
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   ws-opts: {}
 - name: 🇺🇸 GhostVPN
   password: ND91608427
@@ -426,95 +347,46 @@ proxies:
   skip-cert-verify: true
   sni: devoted-tapir.rooster465.autos
   type: trojan
-- name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 44.244.3.114
-  skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
-  type: trojan
-- name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 35.86.90.51
-  skip-cert-verify: true
-  sni: natural-collie.rooster465.autos
-  type: trojan
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: fdda9806fe5d8584
-  server: 89.185.80.195
-  servername: 5us.skorostnet.space
-  tls: true
-  type: vless
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
-  ws-opts: {}
-- name: 🇮🇳 GhostVPN
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: GAYlNViQ9mkjs0iTjNmijAIXOaK2h0P2opHCYOrCNy0
-    short-id: ae3ba555edc1ba0a
-  server: 194.61.31.126
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 7f1f5848-da44-47df-8581-df83e88ee2b3
-  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [ALL_CONFIGS]
   proxies:
-  - 🇷🇺 GhostVPN
   - 🇳🇱 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇬🇧 GhostVPN
-  - 🇬🇧 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇬🇧 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇩🇪 GhostVPN
-  - 🇪🇸 GhostVPN
-  - 🏳️ GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🏳️ GhostVPN
-  - 🇫🇮 GhostVPN
-  - 🇬🇧 GhostVPN
-  - 🇬🇧 GhostVPN
-  - 🇩🇪 GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇫🇮 GhostVPN
-  - 🇸🇪 GhostVPN
-  - 🇩🇪 GhostVPN
-  - 🇫🇷 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇵🇱 GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇸🇪 GhostVPN
-  - 🇸🇪 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇩🇪 GhostVPN
   - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🏳️ GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🏳️ GhostVPN
   - 🇸🇪 GhostVPN
-  - 🏳️ GhostVPN
+  - 🇹🇷 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🇺🇸 GhostVPN
   - 🇫🇷 GhostVPN
-  - 🏳️ GhostVPN
-  - 🏳️ GhostVPN
-  - 🏳️ GhostVPN
-  - 🏳️ GhostVPN
-  - 🏳️ GhostVPN
-  - 🇨🇭 GhostVPN
-  - 🇸🇬 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
-  - 🇮🇳 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🏳️ GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇹🇼 GhostVPN
+  - 🇺🇸 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [ALL_CONFIGS]

@@ -4,44 +4,18 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇩🇪 GhostVPN
-  network: xhttp
-  port: 8088
-  reality-opts:
-    public-key: hYLvEGoxIMNpQkqxVJt298bBGE1Tz8dhtXGsPsLznj0
-    short-id: 2acf8977eb67ea0c
-  server: 5.75.196.249
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  uuid: 119f5e84-0923-48e9-97be-f0be9c6acead
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: xhttp
+  network: grpc
   port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 147.45.39.85
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
-- name: 🇩🇪 GhostVPN
-  network: tcp
-  port: 27254
   reality-opts: {}
-  server: 169.40.138.65
-  servername: 169.40.138.65
+  server: 78.17.147.128
+  servername: 78.17.147.128
   tls: false
   type: vless
-  uuid: 5109835e-f49b-4094-a069-3ad3ce240e9d
+  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_GERMANY]
   proxies:
-  - 🇩🇪 GhostVPN
-  - 🇩🇪 GhostVPN
   - 🇩🇪 GhostVPN
   type: select
 rules:

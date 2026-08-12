@@ -4,40 +4,6 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇸🇪 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 2.27.14.105
-  servername: www.google.com
-  tls: true
-  type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
-  ws-opts: {}
-- name: 🇸🇪 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 95.85.246.104
-  servername: pl7.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇸🇪 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
-    short-id: ''
-  server: 84.32.99.238
-  servername: recaptcha.net.cn
-  tls: true
-  type: vless
-  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
-  ws-opts: {}
-- name: 🇸🇪 GhostVPN
   network: tcp
   port: 443
   reality-opts: {}
@@ -50,9 +16,6 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWEDEN]
   proxies:
-  - 🇸🇪 GhostVPN
-  - 🇸🇪 GhostVPN
-  - 🇸🇪 GhostVPN
   - 🇸🇪 GhostVPN
   type: select
 rules:

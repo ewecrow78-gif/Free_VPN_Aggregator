@@ -8,11 +8,11 @@ proxies:
   name: 🇺🇸 GhostVPN
   network: tcp
   port: 443
-  server: 165.140.216.141
-  servername: 165.140.216.141
+  server: 165.140.216.142
+  servername: 165.140.216.142
   tls: false
   type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
   ws-opts: {}
 - alterId: 0
   cipher: auto

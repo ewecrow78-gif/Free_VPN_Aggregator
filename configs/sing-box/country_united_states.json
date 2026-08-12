@@ -20,6 +20,12 @@
         "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN"
       ]
     },
@@ -34,62 +40,162 @@
     {
       "type": "vless",
       "tag": "🇺🇸 GhostVPN",
-      "server": "45.83.31.36",
-      "server_port": 443,
-      "uuid": "3548fba9-e70a-4fe3-98f0-ff7e392226f4",
+      "server": "216.106.183.132",
+      "server_port": 8020,
+      "uuid": "aa8250e1-954c-449e-98fc-aa56a973a3f1",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE",
-          "short_id": ""
-        }
+        "server_name": "216.106.183.132",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/upload?ed=2560"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "165.140.216.142",
+      "server_port": 443,
+      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.68.72",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "40.160.68.72",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 GhostVPN",
-      "server": "143.246.182.7",
-      "server_port": 443,
-      "uuid": "60ba3369-9a78-40fe-98c3-233a6f107043",
+      "server": "40.160.68.118",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "uk7.jailever.org",
+        "server_name": "40.160.68.118",
         "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "132.145.200.43",
+      "server_port": 2054,
+      "uuid": "ceeaee0b-89af-40b1-aa14-577cbde03a89",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/p"
       }
     },
     {
       "type": "vless",
       "tag": "🇺🇸 GhostVPN",
-      "server": "70.39.198.93",
-      "server_port": 46197,
-      "uuid": "5aab0d40-c509-4560-b048-ade921fdfb6a",
+      "server": "40.160.68.55",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
       "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "updates.cdn-apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00",
-          "short_id": "f24c17bb7fc284"
-        }
+      "transport": {
+        "type": "ws",
+        "path": ""
       }
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇺🇸 GhostVPN",
-      "server": "44.242.235.129",
-      "server_port": 443,
-      "password": "ND91608427",
+      "server": "40.160.68.136",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "devoted-tapir.rooster465.autos",
+        "server_name": "40.160.68.136",
         "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.97",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "40.160.69.97",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.53",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.68.126",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "40.160.68.126",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "129.146.77.248",
+      "server_port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8"
       }
     },
     {
@@ -107,31 +213,13 @@
     {
       "type": "trojan",
       "tag": "🇺🇸 GhostVPN",
-      "server": "35.86.90.51",
+      "server": "44.242.235.129",
       "server_port": 443,
       "password": "ND91608427",
       "tls": {
         "enabled": true,
-        "server_name": "natural-collie.rooster465.autos",
+        "server_name": "devoted-tapir.rooster465.autos",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "89.185.80.195",
-      "server_port": 443,
-      "uuid": "c04bf2df-2b7f-44da-a893-3792d3910fd8",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "5us.skorostnet.space",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o",
-          "short_id": "fdda9806fe5d8584"
-        }
       }
     }
   ],

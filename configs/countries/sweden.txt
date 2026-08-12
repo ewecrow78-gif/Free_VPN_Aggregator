@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794291445
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794312743
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,7 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SWEDEN%20%F0%9F%9A%80
-vless://3548fba9-e70a-4fe3-98f0-ff7e392226f4@2.27.14.105:443?encryption=none&type=xhttp&path=%2F&host=www.google.com&mode=auto&security=reality&sni=www.google.com&fp=qq&pbk=sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
-vless://8033102198@95.85.246.104:443?security=tls&alpn=http/1.1&encryption=none&insecure=0&headerType=none&fp=firefox&type=tcp&allowInsecure=0&flow=xtls-rprx-vision&sni=pl7.fast-connect-service.site#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
-vless://f1c496bf-d2ab-45be-bc13-051d60d227b7@84.32.99.238:443?mode=auto&path=%2Fapi%2Fv1%2Fdata%2F%3F%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI%3Fed&security=reality&encryption=none&pbk=UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8&fp=firefox&type=xhttp&sni=recaptcha.net.cn#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN
 vless://8033102198@95.85.246.160:443?alpn=http/1.1&encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=pl10.fast-connect-service.site&type=tcp#%F0%9F%87%B8%F0%9F%87%AA%20GhostVPN

@@ -4,16 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇹🇷 GhostVPN
-  network: tcp
-  port: 443
+  network: xhttp
+  port: 8088
   reality-opts:
-    public-key: G_LkIUtwCR5RoHxB021-jY8DlwXwKKKgFOes8p54XU0
-    short-id: 40c3a20ae97f78a0
-  server: 45.136.5.49
-  servername: turkey.anonch.net
+    public-key: hYLvEGoxIMNpQkqxVJt298bBGE1Tz8dhtXGsPsLznj0
+    short-id: 2acf8977eb67ea0c
+  server: 158.94.216.232
+  servername: www.yahoo.com
   tls: true
   type: vless
-  uuid: d16a7171-625d-4d09-9459-859f1c9b3b0a
+  uuid: de9f46e2-5785-4978-b1d0-c6b308a66b35
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_TÜRKIYE]

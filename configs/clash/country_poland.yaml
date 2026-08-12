@@ -4,14 +4,14 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇵🇱 GhostVPN
-  network: tcp
+  network: grpc
   port: 443
   reality-opts: {}
-  server: 82.26.91.87
-  servername: faster.yandex-apicloud.ru
-  tls: true
+  server: 31.56.188.183
+  servername: 31.56.188.183
+  tls: false
   type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]

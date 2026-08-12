@@ -28,15 +28,10 @@
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "82.26.91.87",
+      "server": "31.56.188.183",
       "server_port": 443,
-      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "faster.yandex-apicloud.ru",
-        "insecure": true
-      }
+      "uuid": "63ffaa18-d7dd-4bef-9479-9a979858850b",
+      "flow": ""
     }
   ],
   "route": {
