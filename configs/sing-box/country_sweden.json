@@ -15,6 +15,7 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇸🇪 GhostVPN",
+        "🇸🇪 GhostVPN",
         "🇸🇪 GhostVPN"
       ]
     },
@@ -29,14 +30,19 @@
     {
       "type": "vless",
       "tag": "🇸🇪 GhostVPN",
-      "server": "95.85.246.160",
+      "server": "46.246.92.109",
       "server_port": 443,
-      "uuid": "8033102198",
+      "uuid": "14f19724-de91-4285-a633-aa8e2caaf812",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl10.fast-connect-service.site",
-        "insecure": true
+        "server_name": "www.rumedia-cdn.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "JwL5KoiWkCJI2vMJxyTEplfv-zBAtwxOH8SMbw6QHzY",
+          "short_id": "cd40c992fe4b10c2"
+        }
       }
     },
     {
@@ -49,6 +55,19 @@
       "tls": {
         "enabled": true,
         "server_name": "pl9.fast-connect-service.site",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇸🇪 GhostVPN",
+      "server": "95.85.246.104",
+      "server_port": 443,
+      "uuid": "8033102198",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl7.fast-connect-service.site",
         "insecure": true
       }
     }

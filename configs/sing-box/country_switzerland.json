@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇨🇭 GhostVPN",
         "🇨🇭 GhostVPN"
       ]
     },
@@ -41,6 +42,23 @@
           "public_key": "KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0",
           "short_id": "e2e66f4537770cef"
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 GhostVPN",
+      "server": "92.119.165.177",
+      "server_port": 8204,
+      "uuid": "ed1aaa45-18b3-4c07-a434-ea42e2dfba77",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "zeta.optiklink.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/gayporn---gayporn---gayporn---gayporn---gayporn---gayporn---gayporn"
       }
     }
   ],

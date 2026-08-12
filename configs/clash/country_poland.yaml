@@ -4,13 +4,6 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇵🇱 GhostVPN
-  password: 9pCELV5d3T5FUf4-5KWkeALzv-owtSVD
-  port: 9443
-  server: 31.77.56.107
-  skip-cert-verify: true
-  sni: nlhis.bkvpn.online
-  type: trojan
-- name: 🇵🇱 GhostVPN
   network: tcp
   port: 443
   reality-opts: {}
@@ -21,34 +14,11 @@ proxies:
   uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
   ws-opts: {}
 - name: 🇵🇱 GhostVPN
-  network: ws
-  port: 11443
-  reality-opts: {}
-  server: 31.77.56.107
-  servername: nlhis.bkvpn.online
-  tls: true
-  type: vless
-  uuid: 3fd3bab8-f0fc-4ac0-b209-4a5b636a8643
-  ws-opts:
-    path: /ws-pl
-- name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 8yMLSTbkpJFfbgTjNzotzz7U8OT6AERrclgKdKrXXW8
-    short-id: 150a627d15154cf2
-  server: 150.251.113.34
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: d7d724b5-17ce-4f3c-877d-dfbf0f07afa1
-  ws-opts: {}
-- name: 🇵🇱 GhostVPN
   network: tcp
   port: 443
   reality-opts: {}
-  server: 95.85.253.134
-  servername: pl5.fast-connect-service.site
+  server: 95.85.253.5
+  servername: pl4.fast-connect-service.site
   tls: true
   type: vless
   uuid: '8033102198'
@@ -63,11 +33,19 @@ proxies:
   type: vless
   uuid: '8033102198'
   ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 95.85.253.134
+  servername: pl5.fast-connect-service.site
+  tls: true
+  type: vless
+  uuid: '8033102198'
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:
-  - 🇵🇱 GhostVPN
-  - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN

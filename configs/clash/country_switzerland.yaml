@@ -15,9 +15,21 @@ proxies:
   type: vless
   uuid: e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0
   ws-opts: {}
+- name: 🇨🇭 GhostVPN
+  network: ws
+  port: 8204
+  reality-opts: {}
+  server: 92.119.165.177
+  servername: zeta.optiklink.com
+  tls: true
+  type: vless
+  uuid: ed1aaa45-18b3-4c07-a434-ea42e2dfba77
+  ws-opts:
+    path: /gayporn---gayporn---gayporn---gayporn---gayporn---gayporn---gayporn
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWITZERLAND]
   proxies:
+  - 🇨🇭 GhostVPN
   - 🇨🇭 GhostVPN
   type: select
 rules:

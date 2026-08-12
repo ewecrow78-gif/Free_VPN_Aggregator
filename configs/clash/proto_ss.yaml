@@ -5,15 +5,9 @@ port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.149
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 82.38.31.164
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.68.189
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 GhostVPN
@@ -21,11 +15,24 @@ proxies:
   port: 443
   server: 193.29.139.230
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 193.29.139.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.212
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_SS]
   proxies:
   - 🇬🇧 GhostVPN
-  - 🇬🇧 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
 rules:

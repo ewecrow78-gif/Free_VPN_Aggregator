@@ -3,40 +3,34 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇳🇱 GhostVPN
-  password: 9pCELV5d3T5FUf4-5KWkeALzv-owtSVD
-  port: 9443
-  server: 2.26.102.239
-  skip-cert-verify: true
-  sni: nl.bkvpn.online
-  type: trojan
-- name: 🇳🇱 GhostVPN
-  network: ws
-  port: 11443
-  reality-opts: {}
-  server: 2.26.102.239
-  servername: nl.bkvpn.online
-  tls: true
-  type: vless
-  uuid: 3fd3bab8-f0fc-4ac0-b209-4a5b636a8643
-  ws-opts:
-    path: /ws-nl
-- name: 🇳🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 66.248.205.49
-  servername: oldcdn.intercom-home.online
-  tls: true
-  type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
-  ws-opts: {}
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 GhostVPN
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
   server: 193.29.139.230
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 193.29.139.225
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.212
+  type: ss
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 64.188.77.184
+  servername: nl13.fast-connect-service.site
+  tls: true
+  type: vless
+  uuid: '8033102198'
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:

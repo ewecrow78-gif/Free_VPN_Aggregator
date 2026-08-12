@@ -3,31 +3,21 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇪🇸 GhostVPN
-  password: WSyL4XTwNsdv
-  port: 8388
-  server: 108.181.121.226
-  type: ss
 - name: 🇪🇸 GhostVPN
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.210
-  skip-cert-verify: true
-  sni: www.vk.com
-  type: trojan
-- name: 🇪🇸 GhostVPN
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
+  network: tcp
+  port: 8433
+  reality-opts:
+    public-key: VnpuNVes24AiqJofMykF5ZPj_1ufZZyHnj_oAZ4_8kw
+    short-id: 81f3d1e4c057
+  server: 193.17.183.81
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 3a4dbd51-72ea-4c20-a764-f51de001c0ab
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SPAIN]
   proxies:
-  - 🇪🇸 GhostVPN
-  - 🇪🇸 GhostVPN
   - 🇪🇸 GhostVPN
   type: select
 rules:
