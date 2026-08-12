@@ -26,15 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇫🇷 GhostVPN",
-      "server": "15.237.137.197",
+      "server": "213.136.92.67",
       "server_port": 443,
-      "password": "ND91608427",
+      "uuid": "af348651-1624-4710-b55f-0307a22d891f",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fancy-skink.rooster465.autos",
-        "insecure": true
+        "server_name": "status.play.google.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo",
+          "short_id": "5030"
+        }
       }
     }
   ],

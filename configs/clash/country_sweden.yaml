@@ -7,11 +7,11 @@ proxies:
   network: tcp
   port: 443
   reality-opts: {}
-  server: 95.85.246.160
-  servername: pl10.fast-connect-service.site
+  server: 95.85.246.138
+  servername: pl9.fast-connect-service.site
   tls: true
   type: vless
-  uuid: '8033102198'
+  uuid: 551955b3-46e9-5129-95c9-e7474c15ed6b
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWEDEN]

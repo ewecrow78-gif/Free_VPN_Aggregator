@@ -4,12 +4,17 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇫🇷 GhostVPN
-  password: ND91608427
+  network: tcp
   port: 443
-  server: 15.237.137.197
-  skip-cert-verify: true
-  sni: fancy-skink.rooster465.autos
-  type: trojan
+  reality-opts:
+    public-key: jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo
+    short-id: '5030'
+  server: 213.136.92.67
+  servername: status.play.google.com
+  tls: true
+  type: vless
+  uuid: af348651-1624-4710-b55f-0307a22d891f
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FRANCE]
   proxies:

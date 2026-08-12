@@ -4,18 +4,30 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇵🇱 GhostVPN
-  network: grpc
+  network: tcp
   port: 443
   reality-opts: {}
-  server: 31.56.188.183
-  servername: 31.56.188.183
-  tls: false
+  server: 95.85.253.134
+  servername: pl5.fast-connect-service.site
+  tls: true
   type: vless
-  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
+  uuid: 551955b3-46e9-5129-95c9-e7474c15ed6b
   ws-opts: {}
+- name: 🇵🇱 GhostVPN
+  network: ws
+  port: 8443
+  reality-opts: {}
+  server: 50.7.249.218
+  servername: apkav-5.bosx.net
+  tls: true
+  type: vless
+  uuid: e83af88a-a884-48ba-b462-a1edccff15e7
+  ws-opts:
+    path: /api/connect
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:
+  - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   type: select
 rules:

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794312743
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794334452
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,16 +11,18 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-vless://aa8250e1-954c-449e-98fc-aa56a973a3f1@216.106.183.132:8020?type=ws&security=none&encryption=none&path=%2Fupload%3Fed%3D2560&host=ea.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://e83af88a-a884-48ba-b462-a1edccff15e7@67.159.42.154:443?type=ws&security=tls&encryption=none&sni=cli-q.bosx.net&path=%2Fapi%2Fconnect&alpn=http/1.1&fp=firefox#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vmess://eyJzY3kiOiJhdXRvIiwidHlwZSI6Im5vbmUiLCJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIiwiYWRkIjoiMTY1LjE0MC4yMTYuMTQxIiwicG9ydCI6IjQ0MyIsImlkIjoiZTdkNzJhOGQtMjZmMi00YjU0LWIzNjYtMGM0M2UwYmNiYTdkIiwiYWlkIjoiMCIsIm5ldCI6InRjcCJ9
 vmess://eyJ2IjoiMiIsImFkZCI6IjE2NS4xNDAuMjE2LjE0MiIsInBvcnQiOiI0NDMiLCJpZCI6ImI2NWEyZDY5LTU2MzQtNDJhMi1lNGJlLTU0ZThhNjE3NjkwMCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6IiIsInRscyI6IiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIn0=
+vmess://eyJzY3kiOiJhdXRvIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjggR2hvc3RWUE4iLCJhZGQiOiIxMzIuMTQ1LjIwMC40MyIsInBvcnQiOiIyMDU0IiwiaWQiOiJjZWVhZWUwYi04OWFmLTQwYjEtYWExNC01NzdjYmRlMDNhODkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3AifQ==
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.97:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.136:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.55:8080?type=ws&encryption=none&sni=40.160.68.55#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplRGZON1NPRFFjZUlPbUlBYnRKSnRL@198.98.53.130:443#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
 vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.72:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
 vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.118:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vmess://eyJzY3kiOiJhdXRvIiwidHlwZSI6Ii0tLSIsInYiOiIyIiwicHMiOiJcdWQ4M2NcdWRkZmFcdWQ4M2NcdWRkZjggR2hvc3RWUE4iLCJhZGQiOiIxMzIuMTQ1LjIwMC40MyIsInBvcnQiOiIyMDU0IiwiaWQiOiJjZWVhZWUwYi04OWFmLTQwYjEtYWExNC01NzdjYmRlMDNhODkiLCJhaWQiOiIwIiwibmV0Ijoid3MiLCJwYXRoIjoiL3AifQ==
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.55:8080?type=ws&encryption=none&sni=40.160.68.55#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.136:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.97:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.53:8080?type=ws&encryption=none&sni=40.160.69.53#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
 vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.126:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.53:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vmess://eyJ2IjoiMiIsInNjeSI6ImF1dG8iLCJ0eXBlIjoibm9uZSIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIiwiYWRkIjoiMTI5LjE0Ni4xNDMuODAiLCJwb3J0IjoiNDgxMTEiLCJpZCI6ImQ0NjAzY2MyLWUwZWUtNDY1MS04M2Y1LTFkYjViNzE2ODE3NyIsImFpZCI6IjAiLCJuZXQiOiJ0Y3AifQ==
 vmess://eyJ2IjoiMiIsInNjeSI6ImF1dG8iLCJ0eXBlIjoibm9uZSIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIiwiYWRkIjoiMTI5LjE0Ni43Ny4yNDgiLCJwb3J0IjoiMzk0OTUiLCJpZCI6ImY4MzZjNzM2LTg3ZmMtNGZkZS1hYWJjLTAwODU3ZWNkZmYzZSIsImFpZCI6IjAiLCJuZXQiOiJ3cyIsInBhdGgiOiIvY2N0djEzLm0zdTgifQ==
-trojan://ND91608427@44.244.3.114:443?sni=pet-ghost.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-trojan://ND91608427@44.242.235.129:443?fp=chrome&sni=devoted-tapir.rooster465.autos#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.144:8080?type=ws&security=none&encryption=none&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

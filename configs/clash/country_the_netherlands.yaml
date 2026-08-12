@@ -4,53 +4,15 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
-  network: grpc
-  port: 443
+  network: tcp
+  port: 62145
   reality-opts: {}
-  server: 78.17.132.147
-  servername: 78.17.132.147
+  server: 141.144.196.65
+  servername: 141.144.196.65
   tls: false
   type: vless
-  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
-- name: 🇳🇱 GhostVPN
-  network: grpc
-  port: 443
-  reality-opts: {}
-  server: 78.17.132.148
-  servername: 78.17.132.148
-  tls: false
-  type: vless
-  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
-  ws-opts: {}
-- name: 🇳🇱 GhostVPN
-  network: grpc
-  port: 443
-  reality-opts: {}
-  server: 94.156.131.91
-  servername: 94.156.131.91
-  tls: false
-  type: vless
-  uuid: 63ffaa18-d7dd-4bef-9479-9a979858850b
-  ws-opts: {}
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 193.29.139.225
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 193.29.139.225
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 193.29.139.230
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 GhostVPN
   password: 4a2rfixophdjffa8KVA4Aa
@@ -63,22 +25,31 @@ proxies:
   port: 8080
   server: 193.29.139.223
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 193.29.139.230
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: QCXDxuDlTTMD7jtgHUjIoj
+  port: 8080
+  server: 193.29.139.212
+  type: ss
 - name: 🇳🇱 GhostVPN
-  network: xhttp
+  network: tcp
   port: 443
   reality-opts: {}
-  server: 185.229.190.148
-  servername: moein-bf821.b-cdn.net
+  server: 64.188.77.184
+  servername: nl13.fast-connect-service.site
   tls: true
   type: vless
-  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
+  uuid: 551955b3-46e9-5129-95c9-e7474c15ed6b
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN

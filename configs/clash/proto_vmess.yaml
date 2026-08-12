@@ -8,6 +8,17 @@ proxies:
   name: 🇺🇸 GhostVPN
   network: tcp
   port: 443
+  server: 165.140.216.141
+  servername: 165.140.216.141
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 443
   server: 165.140.216.142
   servername: 165.140.216.142
   tls: false
@@ -28,6 +39,17 @@ proxies:
     headers:
       Host: ''
     path: /p
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 48111
+  server: 129.146.143.80
+  servername: 129.146.143.80
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 🇺🇸 GhostVPN
@@ -56,6 +78,8 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_VMESS]
   proxies:
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
