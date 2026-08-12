@@ -13,42 +13,9 @@ proxies:
   type: vless
   uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
   ws-opts: {}
-- name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 95.85.253.5
-  servername: pl4.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 144.31.171.233
-  servername: pl6.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
-- name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 95.85.253.134
-  servername: pl5.fast-connect-service.site
-  tls: true
-  type: vless
-  uuid: '8033102198'
-  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:
-  - 🇵🇱 GhostVPN
-  - 🇵🇱 GhostVPN
-  - 🇵🇱 GhostVPN
   - 🇵🇱 GhostVPN
   type: select
 rules:

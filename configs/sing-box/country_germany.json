@@ -15,6 +15,7 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇩🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -29,31 +30,49 @@
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "87.120.126.63",
-      "server_port": 8443,
-      "uuid": "b94da146-a56e-49d7-af4c-a68c9065cbfd",
+      "server": "5.75.196.249",
+      "server_port": 8088,
+      "uuid": "119f5e84-0923-48e9-97be-f0be9c6acead",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "vpnforppl.top",
+        "server_name": "www.yahoo.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo",
-          "short_id": "1e943a831d22faf6"
+          "public_key": "hYLvEGoxIMNpQkqxVJt298bBGE1Tz8dhtXGsPsLznj0",
+          "short_id": "2acf8977eb67ea0c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "144.31.168.91",
+      "server": "147.45.39.85",
       "server_port": 443,
-      "uuid": "8033102198",
-      "flow": "xtls-rprx-vision",
+      "uuid": "3548fba9-e70a-4fe3-98f0-ff7e392226f4",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "de14.fast-connect-service.site",
+        "server_name": "www.google.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "169.40.138.65",
+      "server_port": 27254,
+      "uuid": "5109835e-f49b-4094-a069-3ad3ce240e9d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "169.40.138.65",
         "insecure": true
       }
     }

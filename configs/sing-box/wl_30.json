@@ -14,8 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇷🇺 GhostVPN",
-        "🇺🇸 GhostVPN"
+        "direct"
       ]
     },
     {
@@ -25,42 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "178.248.236.0",
-      "server_port": 60443,
-      "uuid": "bda0ede7-ef0a-4fbc-b3b6-1205e55ffb48",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "rutube.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "l4a04BlcqPrdTrvx6uWjdSUr6ctSY6OfRvECpS4oR3E",
-          "short_id": "8f3c1a7d5be204c9"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "179.198.49.14",
-      "server_port": 443,
-      "uuid": "4cfb9456-0921-4547-a684-4614980d4a86",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "yandex.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "0tsW6-mbhq0zPODM7BlymfZDYAjSB5S5doDDk8qpYXE",
-          "short_id": "8e79809e9958ae22"
-        }
-      }
     }
   ],
   "route": {

@@ -5,9 +5,9 @@ port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 GhostVPN
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 443
-  server: 193.29.139.230
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: 45819
+  server: 152.70.53.15
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱 GhostVPN
@@ -21,6 +21,12 @@ proxies:
   port: 8080
   server: 193.29.139.212
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 193.29.139.225
+  type: ss
 - name: 🇳🇱 GhostVPN
   network: tcp
   port: 443
@@ -31,9 +37,60 @@ proxies:
   type: vless
   uuid: '8033102198'
   ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 66.248.205.49
+  servername: oldcdn.intercom-home.online
+  tls: true
+  type: vless
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+    short-id: ''
+  server: 194.26.192.220
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+    short-id: ''
+  server: 153.80.249.77
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+    short-id: ''
+  server: 194.26.192.234
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN

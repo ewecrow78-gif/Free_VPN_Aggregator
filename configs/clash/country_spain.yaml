@@ -4,16 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇪🇸 GhostVPN
-  network: tcp
-  port: 8433
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: VnpuNVes24AiqJofMykF5ZPj_1ufZZyHnj_oAZ4_8kw
-    short-id: 81f3d1e4c057
-  server: 193.17.183.81
-  servername: yahoo.com
+    public-key: jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo
+    short-id: ''
+  server: 170.168.97.7
+  servername: cdn.steamstatic.com
   tls: true
   type: vless
-  uuid: 3a4dbd51-72ea-4c20-a764-f51de001c0ab
+  uuid: fc03a9a8-ef0f-5794-e119-0c3b68b178e8
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SPAIN]

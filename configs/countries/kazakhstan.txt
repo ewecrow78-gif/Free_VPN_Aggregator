@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1793859537
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794291445
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_KAZAKHSTAN%20%F0%9F%9A%80
-vless://03464802-b517-404b-b15c-7750ffc5e78f@111.88.143.139:51940?mode=gun&security=reality&encryption=none&pbk=uPHvFb_vZ3DKL-8Et_e9OliZskdSV5U1NZ66tHfC-2Y&fp=random&spx=%2F&type=grpc&sni=yahoo.com&sid=fd7f#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://2cca8201-c93e-40eb-bd8a-fea4170c169e@185.136.12.179:443?encryption=none&security=tls&sni=deu683.lackerdeu.org&fp=chrome&alpn=h2&insecure=0&allowInsecure=0&type=xhttp&path=%2Fapi%2Fv1%2F&mode=auto&extra=%7B%22xmux%22%3A%7B%22cMaxLifetimeMs%22%3A%22180000-300000%22%2C%22cMaxReuseTimes%22%3A%220%22%2C%22maxConcurrency%22%3A%2216-32%22%7D%7D#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

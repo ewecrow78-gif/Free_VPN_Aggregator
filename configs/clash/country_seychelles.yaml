@@ -3,12 +3,18 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
-  name: 🏳️ GhostVPN
-  password: RexnBgU7EV5ADxG
-  port: 7002
-  server: 156.244.32.9
-  type: ss
+- name: 🏳️ GhostVPN
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+    short-id: ''
+  server: 194.33.61.19
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SEYCHELLES]
   proxies:

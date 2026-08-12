@@ -4,18 +4,6 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇨🇭 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: KrFnWxAwVGL6tuj1JE0qpykLzY4aOFjyK3OaymF_hT0
-    short-id: e2e66f4537770cef
-  server: 45.90.56.231
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: e2b8f727-c5ee-47e1-8f1b-7c5c61479ce0
-  ws-opts: {}
-- name: 🇨🇭 GhostVPN
   network: ws
   port: 8204
   reality-opts: {}
@@ -29,7 +17,6 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWITZERLAND]
   proxies:
-  - 🇨🇭 GhostVPN
   - 🇨🇭 GhostVPN
   type: select
 rules:

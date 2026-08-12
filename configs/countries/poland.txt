@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794269605
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794291445
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -12,6 +12,3 @@
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_POLAND%20%F0%9F%9A%80
 vless://7e760d89-a8f4-4a87-8f10-b4af28c61b7f@82.26.91.87:443?type=tcp&security=tls&encryption=none&flow=xtls-rprx-vision&fp=firefox&sni=faster.yandex-apicloud.ru#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://8033102198@95.85.253.5:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=pl4.fast-connect-service.site&alpn=http%2F1.1&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://8033102198@144.31.171.233:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=pl6.fast-connect-service.site&alpn=h2%2Chttp%2F1.1&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://8033102198@95.85.253.134:443/?type=tcp&encryption=none&flow=xtls-rprx-vision&security=tls&sni=pl5.fast-connect-service.site&alpn=http%2F1.1&fp=firefox#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN

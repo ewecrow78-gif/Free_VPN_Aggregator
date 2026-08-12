@@ -4,11 +4,11 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🏳️ GhostVPN
-  password: ND91608427
+  password: UO36402987
   port: 443
-  server: 54.217.133.71
+  server: 34.251.228.118
   skip-cert-verify: true
-  sni: willing-beagle.rooster465.autos
+  sni: definite-ladybird.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_IRELAND]

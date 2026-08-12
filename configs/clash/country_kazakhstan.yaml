@@ -4,16 +4,14 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🏳️ GhostVPN
-  network: grpc
-  port: 51940
-  reality-opts:
-    public-key: uPHvFb_vZ3DKL-8Et_e9OliZskdSV5U1NZ66tHfC-2Y
-    short-id: fd7f
-  server: 111.88.143.139
-  servername: yahoo.com
+  network: xhttp
+  port: 443
+  reality-opts: {}
+  server: 185.136.12.179
+  servername: deu683.lackerdeu.org
   tls: true
   type: vless
-  uuid: 03464802-b517-404b-b15c-7750ffc5e78f
+  uuid: 2cca8201-c93e-40eb-bd8a-fea4170c169e
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_KAZAKHSTAN]

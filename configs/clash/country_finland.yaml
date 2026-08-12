@@ -13,9 +13,22 @@ proxies:
   type: vless
   uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
   ws-opts: {}
+- name: 🇫🇮 GhostVPN
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+    short-id: ''
+  server: 2.26.27.49
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FINLAND]
   proxies:
+  - 🇫🇮 GhostVPN
   - 🇫🇮 GhostVPN
   type: select
 rules:

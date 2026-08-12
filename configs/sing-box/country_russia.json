@@ -15,6 +15,7 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇷🇺 GhostVPN",
+        "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN"
       ]
     },
@@ -29,37 +30,52 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "178.248.236.0",
-      "server_port": 60443,
-      "uuid": "bda0ede7-ef0a-4fbc-b3b6-1205e55ffb48",
-      "flow": "xtls-rprx-vision",
+      "server": "104.171.136.112",
+      "server_port": 2200,
+      "uuid": "bee21918-0933-430c-904b-c941b92256ba",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "rutube.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "l4a04BlcqPrdTrvx6uWjdSUr6ctSY6OfRvECpS4oR3E",
-          "short_id": "8f3c1a7d5be204c9"
-        }
+        "server_name": "104.171.136.112",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
       }
     },
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "46.243.142.180",
-      "server_port": 26443,
-      "uuid": "bda0ede7-ef0a-4fbc-b3b6-1205e55ffb48",
-      "flow": "xtls-rprx-vision",
+      "server": "104.171.133.53",
+      "server_port": 4100,
+      "uuid": "55009b9b-7b9c-4830-86c6-cb058a7a2e2f",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "X3ukS8lu3cNsbazVqxhD7yoRNfofmLqb0LzOKcMAyTs",
-          "short_id": "1497fe3dff69ff78"
-        }
+        "server_name": "104.171.133.53",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "104.171.135.186",
+      "server_port": 4100,
+      "uuid": "2c66d559-9889-45c5-a712-d8b7a31fa04d",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "104.171.135.186",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
       }
     }
   ],

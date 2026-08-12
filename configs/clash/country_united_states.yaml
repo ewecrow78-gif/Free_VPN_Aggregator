@@ -4,64 +4,26 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  network: tcp
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: 0tsW6-mbhq0zPODM7BlymfZDYAjSB5S5doDDk8qpYXE
-    short-id: 8e79809e9958ae22
-  server: 179.198.49.14
-  servername: yandex.ru
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
+    short-id: ''
+  server: 45.83.31.36
+  servername: www.google.com
   tls: true
   type: vless
-  uuid: 4cfb9456-0921-4547-a684-4614980d4a86
+  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
   ws-opts: {}
 - name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.198.183
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 46197
-  reality-opts:
-    public-key: npJEB6VpYJ9iYTZ-z0IL06Xs7PEz0N3fZU_IRwftQ00
-    short-id: f24c17bb7fc284
-  server: 70.39.197.13
-  servername: updates.cdn-apple.com
-  tls: true
-  type: vless
-  uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 56679
-  reality-opts:
-    public-key: nXNWy2NMbCitk1oBQwEmbattbPeIC1vYpNrCahGFlRc
-    short-id: 574fb961ca6be4
-  server: 192.204.33.111
-  servername: www.tesla.com
-  tls: true
-  type: vless
-  uuid: 4935bf38-dd83-454a-ba0f-6fa18c418fc0
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: tcp
+  network: xhttp
   port: 443
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
-  server: 66.175.217.170
-  servername: www.amazon.com
+  reality-opts: {}
+  server: 143.246.182.7
+  servername: uk7.jailever.org
   tls: true
   type: vless
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
   ws-opts: {}
 - name: 🇺🇸 GhostVPN
   network: tcp
@@ -76,17 +38,26 @@ proxies:
   uuid: 5aab0d40-c509-4560-b048-ade921fdfb6a
   ws-opts: {}
 - name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 34045
-  reality-opts:
-    public-key: cDaDzPr3PlS3NM8lreHZbdo-Mhqz8vMBzMSkHXhGIUA
-    short-id: e8ab71d0
-  server: 64.23.143.23
-  servername: visit-this-invitation-link-to-join-tg-enkelte-notif.ekt.me
-  tls: true
-  type: vless
-  uuid: d8dd94fd-540e-461d-b5d4-acebef02c22a
-  ws-opts: {}
+  password: ND91608427
+  port: 443
+  server: 44.242.235.129
+  skip-cert-verify: true
+  sni: devoted-tapir.rooster465.autos
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 44.244.3.114
+  skip-cert-verify: true
+  sni: pet-ghost.rooster465.autos
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 35.86.90.51
+  skip-cert-verify: true
+  sni: natural-collie.rooster465.autos
+  type: trojan
 - name: 🇺🇸 GhostVPN
   network: tcp
   port: 443
@@ -99,18 +70,9 @@ proxies:
   type: vless
   uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
   ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 44.244.3.114
-  skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
-  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
