@@ -13,7 +13,7 @@ proxies:
   servername: fin1.panel11.ru
   tls: true
   type: vless
-  uuid: bc74bd1a-ec97-41cb-9de6-7cccf65dc042
+  uuid: 7957928d-bcfb-45bb-8e78-a072ef578ae4
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BRITISH_VIRGIN_ISLANDS]

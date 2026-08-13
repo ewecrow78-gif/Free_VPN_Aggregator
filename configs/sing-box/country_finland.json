@@ -14,7 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇫🇮 GhostVPN",
         "🇫🇮 GhostVPN"
       ]
     },
@@ -37,24 +36,6 @@
         "enabled": true,
         "server_name": "fastcdn.intercom-home.online",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇫🇮 GhostVPN",
-      "server": "2.26.27.49",
-      "server_port": 443,
-      "uuid": "3548fba9-e70a-4fe3-98f0-ff7e392226f4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE",
-          "short_id": ""
-        }
       }
     }
   ],

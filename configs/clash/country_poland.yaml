@@ -7,23 +7,22 @@ proxies:
   network: tcp
   port: 443
   reality-opts: {}
-  server: 95.85.253.134
-  servername: pl5.fast-connect-service.site
+  server: 95.85.253.5
+  servername: pl4.fast-connect-service.site
   tls: true
   type: vless
-  uuid: 551955b3-46e9-5129-95c9-e7474c15ed6b
+  uuid: '8033102198'
   ws-opts: {}
 - name: 🇵🇱 GhostVPN
-  network: ws
-  port: 8443
+  network: tcp
+  port: 443
   reality-opts: {}
-  server: 50.7.249.218
-  servername: apkav-5.bosx.net
+  server: 82.26.91.87
+  servername: faster.yandex-apicloud.ru
   tls: true
   type: vless
-  uuid: e83af88a-a884-48ba-b462-a1edccff15e7
-  ws-opts:
-    path: /api/connect
+  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:

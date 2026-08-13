@@ -26,22 +26,12 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇧🇷 GhostVPN",
-      "server": "147.45.116.30",
-      "server_port": 443,
-      "uuid": "eac6ea16-8963-4948-8ba8-0dd3bab4773e",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "br-storage10.infrastucture.site",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "yg6IqqBKuUew1C26U8I2ZiQuBXLcGSKN3MyxEzhsaFM",
-          "short_id": "b6ff5a25b94803d8"
-        }
-      }
+      "server": "163.176.133.70",
+      "server_port": 59319,
+      "method": "chacha20-ietf-poly1305",
+      "password": "YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU="
     }
   ],
   "route": {

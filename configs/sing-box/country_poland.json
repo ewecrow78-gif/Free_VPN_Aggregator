@@ -29,31 +29,27 @@
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "95.85.253.134",
+      "server": "95.85.253.5",
       "server_port": 443,
-      "uuid": "551955b3-46e9-5129-95c9-e7474c15ed6b",
+      "uuid": "8033102198",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl5.fast-connect-service.site",
+        "server_name": "pl4.fast-connect-service.site",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "50.7.249.218",
-      "server_port": 8443,
-      "uuid": "e83af88a-a884-48ba-b462-a1edccff15e7",
-      "flow": "",
+      "server": "82.26.91.87",
+      "server_port": 443,
+      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apkav-5.bosx.net",
+        "server_name": "faster.yandex-apicloud.ru",
         "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/connect"
       }
     }
   ],

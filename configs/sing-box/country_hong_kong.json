@@ -26,12 +26,16 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇭🇰 GhostVPN",
-      "server": "182.16.61.4",
-      "server_port": 45647,
-      "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
-      "flow": ""
+      "server": "18.167.42.162",
+      "server_port": 41421,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "t.me/ripaojiedian",
+        "insecure": true
+      }
     }
   ],
   "route": {

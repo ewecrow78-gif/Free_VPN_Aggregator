@@ -2,11 +2,22 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 56723
+  server: 35.212.204.142
+  servername: 35.212.204.142
+  tls: false
+  type: vmess
+  uuid: 987dc12e-cd35-4df9-9542-6e96908c754a
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_100]
   proxies:
-  - DIRECT
+  - 🇺🇸 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_100]

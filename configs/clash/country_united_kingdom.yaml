@@ -3,20 +3,28 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: 61312
+  server: 129.151.86.242
+  type: ss
 - name: 🇬🇧 GhostVPN
-  network: ws
-  port: 8443
-  reality-opts: {}
-  server: 50.7.197.2
-  servername: apkav-6.bosx.net
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: lE6w45X8Bwb0HscO6Wa5wnN0qlw7wUuaCW8-iYL5HAQ
+    short-id: bc609efa3b2d052f
+  server: 164.37.105.2
+  servername: pnnsh.falsemirrov.com
   tls: true
   type: vless
-  uuid: e83af88a-a884-48ba-b462-a1edccff15e7
-  ws-opts:
-    path: /api/connect
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]
   proxies:
+  - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   type: select
 rules:

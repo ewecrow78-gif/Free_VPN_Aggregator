@@ -3,18 +3,12 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇧🇷 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: yg6IqqBKuUew1C26U8I2ZiQuBXLcGSKN3MyxEzhsaFM
-    short-id: b6ff5a25b94803d8
-  server: 147.45.116.30
-  servername: br-storage10.infrastucture.site
-  tls: true
-  type: vless
-  uuid: eac6ea16-8963-4948-8ba8-0dd3bab4773e
-  ws-opts: {}
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇷 GhostVPN
+  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
+  port: 59319
+  server: 163.176.133.70
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BRAZIL]
   proxies:

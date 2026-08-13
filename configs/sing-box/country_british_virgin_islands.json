@@ -30,7 +30,7 @@
       "tag": "🏳️ GhostVPN",
       "server": "185.221.163.211",
       "server_port": 443,
-      "uuid": "bc74bd1a-ec97-41cb-9de6-7cccf65dc042",
+      "uuid": "7957928d-bcfb-45bb-8e78-a072ef578ae4",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,

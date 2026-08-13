@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN"
       ]
     },
@@ -26,20 +27,29 @@
       "tag": "dns-out"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "129.151.86.242",
+      "server_port": 61312,
+      "method": "chacha20-ietf-poly1305",
+      "password": "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
+    },
+    {
       "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "50.7.197.2",
-      "server_port": 8443,
-      "uuid": "e83af88a-a884-48ba-b462-a1edccff15e7",
-      "flow": "",
+      "server": "164.37.105.2",
+      "server_port": 443,
+      "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apkav-6.bosx.net",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/connect"
+        "server_name": "pnnsh.falsemirrov.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "lE6w45X8Bwb0HscO6Wa5wnN0qlw7wUuaCW8-iYL5HAQ",
+          "short_id": "bc609efa3b2d052f"
+        }
       }
     }
   ],
