@@ -4,56 +4,20 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 194.26.229.219
-  servername: 194.26.229.219
-  tls: false
-  type: vless
-  uuid: 099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 2200
-  reality-opts: {}
-  server: 217.149.23.169
-  servername: 217.149.23.169
-  tls: false
-  type: vless
-  uuid: 4cbdaf4f-ca34-4a00-9a96-49eaa6564b42
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 80.93.52.44
-  servername: 80.93.52.44
-  tls: false
-  type: vless
-  uuid: 2216b0ee-b94a-4ea9-8780-ccc21c4b5f31
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: grpc
+  network: tcp
   port: 443
   reality-opts:
-    public-key: lSeitTmljIgK_En2BqNrbmFzmni_Ws1JRemX_VfDChw
-    short-id: a1b2c3d4
-  server: 79.174.92.122
-  servername: m.vk.com
+    public-key: GkHB79Vhb0L7LCG9P2MNFfkHxwut2Qql1dQ8zz74pgM
+    short-id: 0fafb2da2621
+  server: 176.109.94.32
+  servername: smartcaptcha.yandexcloud.net
   tls: true
   type: vless
-  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  uuid: f95706c5-16a0-481b-b6ca-69446130da5e
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select
 rules:

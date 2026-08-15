@@ -2,11 +2,47 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: GkHB79Vhb0L7LCG9P2MNFfkHxwut2Qql1dQ8zz74pgM
+    short-id: 0fafb2da2621
+  server: 176.109.94.32
+  servername: smartcaptcha.yandexcloud.net
+  tls: true
+  type: vless
+  uuid: f95706c5-16a0-481b-b6ca-69446130da5e
+  ws-opts: {}
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 57.180.27.225
+  skip-cert-verify: true
+  sni: picked-guinea.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: AE62539071
+  port: 443
+  server: 18.183.182.132
+  skip-cert-verify: true
+  sni: exciting-grizzly.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 57.180.13.78
+  skip-cert-verify: true
+  sni: healthy-louse.rooster465.autos
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [MIXED_100]
   proxies:
-  - DIRECT
+  - 🇷🇺 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [MIXED_100]

@@ -14,9 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN"
       ]
     },
@@ -31,64 +28,18 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "194.26.229.219",
-      "server_port": 4100,
-      "uuid": "099c6e3f-e8d3-41d4-95f2-ef2eafb51cdc",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "194.26.229.219",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "217.149.23.169",
-      "server_port": 2200,
-      "uuid": "4cbdaf4f-ca34-4a00-9a96-49eaa6564b42",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "217.149.23.169",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "80.93.52.44",
-      "server_port": 4100,
-      "uuid": "2216b0ee-b94a-4ea9-8780-ccc21c4b5f31",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "79.174.92.122",
+      "server": "176.109.94.32",
       "server_port": 443,
-      "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
-      "flow": "",
+      "uuid": "f95706c5-16a0-481b-b6ca-69446130da5e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m.vk.com",
+        "server_name": "smartcaptcha.yandexcloud.net",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "lSeitTmljIgK_En2BqNrbmFzmni_Ws1JRemX_VfDChw",
-          "short_id": "a1b2c3d4"
+          "public_key": "GkHB79Vhb0L7LCG9P2MNFfkHxwut2Qql1dQ8zz74pgM",
+          "short_id": "0fafb2da2621"
         }
       }
     }
