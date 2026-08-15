@@ -1,26 +1,23 @@
 {
   "funnel": {},
-  "total": 4,
-  "alive": 4,
-  "top_50_fast": 4,
-  "top_30_fast": 4,
-  "all_configs": 4,
+  "total": 1,
+  "alive": 1,
+  "top_50_fast": 1,
+  "top_30_fast": 1,
+  "all_configs": 1,
   "wl_100": 0,
   "wl_50": 0,
   "wl_30": 0,
-  "mixed_100": 4,
+  "mixed_100": 1,
   "all_wl": 0,
-  "fastest_all_100": 4,
+  "fastest_all_100": 1,
   "by_country": {
-    "Russia": 1,
-    "Japan": 3
+    "Germany": 1
   },
   "country_flags": {
-    "Russia": "🇷🇺",
-    "Japan": "🇯🇵"
+    "Germany": "🇩🇪"
   },
   "by_protocol": {
-    "vless": 1,
-    "trojan": 3
+    "vless": 1
   }
 }

@@ -1,2 +1,3 @@
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?type=tcp&security=none#%E2%9D%8C%20Subscription%20disabled
 vless://00000000-0000-0000-0000-000000000000@0.0.0.0:3?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=ssvmqwroFTDVi1v2Jkmqlo8QoArjaLyJ17lq6BhIlzo&security=reality&sid=7a69656e6734&sni=re_s_b.tg&type=tcp#https://t.me/Reverse_Engineer_s_Basement
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@pl05.skorostnet.space:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w&sid=e852dc&sni=wp.pl&descriptions=люби_себяb7421c#t.me%2Ffreekesha21
+vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@pl04.skorostnet.space:13868?encryption=none&security=reality&fp=firefox&flow=xtls-rprx-vision&sni=wp.pl&sid=e852dc&pbk=YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w&type=tcp#t.me%2Ffreekesha21

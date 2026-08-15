@@ -14,8 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇩🇪 GhostVPN",
-        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -30,49 +28,13 @@
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "87.120.126.63",
-      "server_port": 8443,
-      "uuid": "b94da146-a56e-49d7-af4c-a68c9065cbfd",
+      "server": "194.31.223.87",
+      "server_port": 5443,
+      "uuid": "d71aecee-ef16-418e-baf5-2b2458122d5a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "vpnforppl.top",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo",
-          "short_id": "1e943a831d22faf6"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "84.32.100.160",
-      "server_port": 443,
-      "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ger.nosok-top.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "NqYnddqVskPX-aTP4Vdip_XDnMphLwVtgc3XwTc2QVg",
-          "short_id": "9c2378562188c3cb"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "178.215.236.182",
-      "server_port": 443,
-      "uuid": "8033102198",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de34.fast-connect-service.site",
+        "server_name": "de.wlrus.cfd",
         "insecure": true
       }
     }

@@ -104,7 +104,7 @@
 
 ## 📊 Статус сети
 
-> Автообновление пайплайном. Время: **2026-08-15 06:08 UTC**.
+> Автообновление пайплайном. Время: **2026-08-15 18:08 UTC**.
 
 | Показатель | Значение | Описание |
 | :--- | :---: | :--- |
@@ -113,15 +113,15 @@
 | **Отсеяно (синтаксис / IP)** | `0` | Битый URI, private IP |
 | **Отсеяно (DNS / TCP)** | `0` | Мёртвые домены / порты |
 | **Рабочих (Xray test)** | `0` | Реальный HTTP через VPN |
-| **Топ 50 быстрых** | `4` | |
-| **Топ 30 быстрых** | `4` | |
-| **Все конфиги** | `4` | Без лимитов |
+| **Топ 50 быстрых** | `1` | |
+| **Топ 30 быстрых** | `1` | |
+| **Все конфиги** | `1` | Без лимитов |
 | **Белые списки 100** | `0` | |
 | **Топ 50 белых списков** | `0` | |
 | **Топ 30 белых списков** | `0` | |
-| **Все вместе** | `4` | 50 обычных + 50 белых |
+| **Все вместе** | `1` | 50 обычных + 50 белых |
 | **Все белые списки** | `0` | Без лимитов |
-| **Топ быстрых 100** | `4` | Обычные и белые |
+| **Топ быстрых 100** | `1` | Обычные и белые |
 
 ---
 
@@ -135,7 +135,7 @@
 *(Подписки для каждой страны находятся ниже в разделе «Страны»)*
 
 ### 2. Топ 50 быстрых
-### 🚀 ТОП 50 БЫСТРЫХ ⚫ (4)
+### 🚀 ТОП 50 БЫСТРЫХ ⚫ (1)
 
 ### [base64/top_50_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt)
 
@@ -177,7 +177,7 @@
 
 
 ### 3. Топ 30 быстрых
-### 🚀 ТОП 30 БЫСТРЫХ ⚫ (4)
+### 🚀 ТОП 30 БЫСТРЫХ ⚫ (1)
 
 ### [base64/top_30_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt)
 
@@ -219,7 +219,7 @@
 
 
 ### 4. Все конфиги (без лимитов на количество)
-### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (4)
+### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (1)
 
 ### [base64/all_configs.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt)
 
@@ -387,7 +387,7 @@
 
 
 ### 8. Все вместе (50 обычных конфигов, 50 белых списков)
-### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (4)
+### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (1)
 
 ### [base64/mixed_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt)
 
@@ -471,7 +471,7 @@
 
 
 ### 10. Топ самых быстрых конфигов (без разницы простые или белые списки)
-### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (4)
+### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (1)
 
 ### [base64/fastest_all_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt)
 
@@ -827,8 +827,7 @@ python main.py
 
 | Страна | Кол-во | Флаг | Подписки |
 | :--- | :---: | :---: | :--- |
-| Japan | 3 | 🇯🇵 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_japan.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/japan.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_japan.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_japan.json) |
-| Russia | 1 | 🇷🇺 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_russia.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/russia.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_russia.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_russia.json) |
+| Germany | 1 | 🇩🇪 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_germany.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/germany.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_germany.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_germany.json) |
 
 </details>
 
@@ -837,8 +836,7 @@ python main.py
 
 | Протокол | Кол-во | Доля |
 | :--- | :---: | :---: |
-| TROJAN | 3 | 75.0% |
-| VLESS | 1 | 25.0% |
+| VLESS | 1 | 100.0% |
 
 </details>
 
@@ -854,6 +852,6 @@ MIT — см. [LICENSE](LICENSE).
 
 **⭐ Если проект полезен — поставьте Star**
 
-<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-15 06:08 UTC</sub>
+<sub>Generated automatically by Free VPN Aggregator Pro · 2026-08-15 18:08 UTC</sub>
 
 </div>

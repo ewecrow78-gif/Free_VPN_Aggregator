@@ -3,22 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇷🇺 GhostVPN
+- name: 🇩🇪 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: GkHB79Vhb0L7LCG9P2MNFfkHxwut2Qql1dQ8zz74pgM
-    short-id: 0fafb2da2621
-  server: 176.109.94.32
-  servername: smartcaptcha.yandexcloud.net
+  port: 5443
+  reality-opts: {}
+  server: 194.31.223.87
+  servername: de.wlrus.cfd
   tls: true
   type: vless
-  uuid: f95706c5-16a0-481b-b6ca-69446130da5e
+  uuid: d71aecee-ef16-418e-baf5-2b2458122d5a
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_VLESS]
   proxies:
-  - 🇷🇺 GhostVPN
+  - 🇩🇪 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [PROTO_VLESS]
