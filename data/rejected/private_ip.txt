@@ -1,4 +1,1 @@
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?type=tcp&security=none#%F0%9F%9A%A7%20Subscription%20limited
-vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@pl04.skorostnet.space:13868?fp=firefox&sni=wp.pl&type=tcp&sid=e852dc&flow=xtls-rprx-vision&pbk=YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w&security=reality&encryption=none&__rand=a528df3c#t.me%2Ffreekesha21
-vless://546eeb73-0099-464d-aaa5-141b8b8b934a@azadiconfig.myvpsd.ir:20267?type=ws&sni=azadiconfig.myvpsd.ir#t.me%2Ffreekesha21
-vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@pl01.skorostnet.space:13868?fp=firefox&type=tcp&sni=wp.pl&flow=xtls-rprx-vision&security=reality&pbk=YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w&sid=e852dc&encryption=none#t.me%2Ffreekesha21
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&type=tcp&security=none#%E2%8C%9B%20%D0%9F%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D0%BA%D0%B0%20%D0%B8%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%B0%20%3A(
