@@ -15,7 +15,6 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇫🇷 GhostVPN",
-        "🇫🇷 GhostVPN",
         "🇫🇷 GhostVPN"
       ]
     },
@@ -30,43 +29,26 @@
     {
       "type": "vless",
       "tag": "🇫🇷 GhostVPN",
-      "server": "213.176.73.235",
-      "server_port": 443,
-      "uuid": "1ef571c9-b9f0-48bb-a6d6-866c98c80eb9",
-      "flow": "xtls-rprx-vision",
+      "server": "45.67.139.50",
+      "server_port": 9800,
+      "uuid": "2a650f3b-d95b-4bd6-aadf-16ccc0717155",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "note.magazinetut.online",
+        "server_name": "45.67.139.50",
         "insecure": true
       }
     },
     {
       "type": "vless",
       "tag": "🇫🇷 GhostVPN",
-      "server": "195.58.140.146",
-      "server_port": 443,
-      "uuid": "d7790b85-9659-4558-a405-e0ab57d32984",
-      "flow": "xtls-rprx-vision",
+      "server": "45.67.139.155",
+      "server_port": 9800,
+      "uuid": "2a650f3b-d95b-4bd6-aadf-16ccc0717155",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "d1-fr.cloud-cdn.xyz",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI",
-          "short_id": "dc927a04e8572c61"
-        }
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇫🇷 GhostVPN",
-      "server": "51.44.160.58",
-      "server_port": 443,
-      "password": "QV31589740",
-      "tls": {
-        "enabled": true,
-        "server_name": "great-krill.rooster465.autos",
+        "server_name": "45.67.139.155",
         "insecure": true
       }
     }

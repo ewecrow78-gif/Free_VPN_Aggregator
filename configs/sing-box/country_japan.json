@@ -14,7 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇯🇵 GhostVPN",
         "🇯🇵 GhostVPN"
       ]
     },
@@ -29,24 +28,12 @@
     {
       "type": "trojan",
       "tag": "🇯🇵 GhostVPN",
-      "server": "52.196.34.5",
+      "server": "54.64.255.224",
       "server_port": 443,
-      "password": "FH72359861",
+      "password": "AE62539071",
       "tls": {
         "enabled": true,
-        "server_name": "welcome-owl.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "18.181.164.216",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "upright-impala.rooster465.autos",
+        "server_name": "maximum-elk.rooster465.autos",
         "insecure": true
       }
     }

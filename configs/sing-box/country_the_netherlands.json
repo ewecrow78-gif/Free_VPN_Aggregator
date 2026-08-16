@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN"
       ]
     },
@@ -28,20 +29,23 @@
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "45.92.1.131",
-      "server_port": 443,
-      "uuid": "32fff625-bdaa-4aad-8b45-14a02b1d5f9d",
-      "flow": "xtls-rprx-vision",
+      "server": "143.47.188.131",
+      "server_port": 62145,
+      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.ray-balance.space",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI",
-          "short_id": ""
-        }
+        "server_name": "143.47.188.131",
+        "insecure": true
       }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "152.70.53.76",
+      "server_port": 45819,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "YyppYr+19SFyy4WAU2OmSlq+NwKjR+L0oV2CCJ6rMAM="
     }
   ],
   "route": {

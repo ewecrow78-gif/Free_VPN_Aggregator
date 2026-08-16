@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794636613
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794680218
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_POLAND%20%F0%9F%9A%80
-vless://23f2fcb8-3b1c-4246-9751-0888f703e9ad@82.26.91.166:26391?type=grpc&security=reality&fp=firefox&pbk=dxuGa3gRo3CPwx1TcaAM9GLkgVBnGcUpDjUfrX8CuiU&sid=09e67e78ad6bf369&sni=proxy11.h1guro.ovh#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@94.183.157.121:443?&security=reality&flow=xtls-rprx-vision&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&fp=qq&sni=eu-central.cendora.ru&type=tcp&headerType=none&host=eu-central.cendora.ru&path=%2F#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN
+vless://9b9b7e9b-bed1-4d40-97b9-ea277295bdd9@50.7.249.218:8443?alpn=http/1.1&encryption=none&fp=firefox&path=/api/connect&security=tls&sni=apkav-5.bosx.net&type=ws#%F0%9F%87%B5%F0%9F%87%B1%20GhostVPN

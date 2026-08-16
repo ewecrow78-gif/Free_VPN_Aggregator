@@ -1,17 +1,41 @@
 {
   "funnel": {},
-  "total": 0,
-  "alive": 0,
-  "top_50_fast": 0,
-  "top_30_fast": 0,
-  "all_configs": 0,
+  "total": 19,
+  "alive": 18,
+  "top_50_fast": 18,
+  "top_30_fast": 18,
+  "all_configs": 18,
   "wl_100": 0,
   "wl_50": 0,
   "wl_30": 0,
-  "mixed_100": 0,
+  "mixed_100": 18,
   "all_wl": 0,
-  "fastest_all_100": 0,
-  "by_country": {},
-  "country_flags": {},
-  "by_protocol": {}
+  "fastest_all_100": 18,
+  "by_country": {
+    "Russia": 3,
+    "The Netherlands": 2,
+    "United Kingdom": 5,
+    "France": 2,
+    "United States": 2,
+    "Bulgaria": 1,
+    "Poland": 1,
+    "Singapore": 1,
+    "Japan": 1
+  },
+  "country_flags": {
+    "Russia": "🇷🇺",
+    "The Netherlands": "🇳🇱",
+    "United Kingdom": "🇬🇧",
+    "France": "🇫🇷",
+    "United States": "🇺🇸",
+    "Bulgaria": "🏳️",
+    "Poland": "🇵🇱",
+    "Singapore": "🇸🇬",
+    "Japan": "🇯🇵"
+  },
+  "by_protocol": {
+    "vless": 12,
+    "ss": 5,
+    "trojan": 1
+  }
 }

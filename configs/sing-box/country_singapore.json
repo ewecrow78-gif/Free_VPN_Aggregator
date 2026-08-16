@@ -26,15 +26,15 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "vless",
       "tag": "🇸🇬 GhostVPN",
-      "server": "54.254.235.88",
+      "server": "52.74.176.20",
       "server_port": 443,
-      "password": "FH72359861",
-      "tls": {
-        "enabled": true,
-        "server_name": "charming-ox.rooster465.autos",
-        "insecure": true
+      "uuid": "5ad0bed3-68ac-495e-b778-8b2d0e1dc176",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
       }
     }
   ],

@@ -4,12 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇸🇬 GhostVPN
-  password: FH72359861
+  network: ws
   port: 443
-  server: 54.254.235.88
-  skip-cert-verify: true
-  sni: charming-ox.rooster465.autos
-  type: trojan
+  reality-opts: {}
+  server: 52.74.176.20
+  servername: 52.74.176.20
+  tls: false
+  type: vless
+  uuid: 5ad0bed3-68ac-495e-b778-8b2d0e1dc176
+  ws-opts:
+    path: ''
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
   proxies:

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794636614
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794680218
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_JAPAN%20%F0%9F%9A%80
-trojan://FH72359861@52.196.34.5:443?security=tls&insecure=0&headerType=&type=tcp&allowInsecure=0&sni=welcome-owl.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
-trojan://ND91608427@18.181.164.216:443?security=tls&insecure=0&headerType=none&fp=chrome&type=tcp&allowInsecure=0&sni=upright-impala.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+trojan://AE62539071@54.64.255.224:443?security=tls&sni=maximum-elk.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN

@@ -5,19 +5,24 @@ port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: d1NlaZfnsYjWfxRTqIBk1ldBUmdE-kRTEQ_sWd1JYwI
-    short-id: ''
-  server: 45.92.1.131
-  servername: www.ray-balance.space
-  tls: true
+  port: 62145
+  reality-opts: {}
+  server: 143.47.188.131
+  servername: 143.47.188.131
+  tls: false
   type: vless
-  uuid: 32fff625-bdaa-4aad-8b45-14a02b1d5f9d
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇳🇱 GhostVPN
+  password: YyppYr+19SFyy4WAU2OmSlq+NwKjR+L0oV2CCJ6rMAM=
+  port: 45819
+  server: 152.70.53.76
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
 rules:

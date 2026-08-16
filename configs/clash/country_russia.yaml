@@ -5,18 +5,41 @@ port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
   network: ws
+  port: 4100
+  reality-opts: {}
+  server: 186.246.6.234
+  servername: 186.246.6.234
+  tls: false
+  type: vless
+  uuid: 77fd4d9e-c314-4203-b3e0-b836a1d969b4
+  ws-opts:
+    path: /v1
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 45.146.131.97
+  servername: 45.146.131.97
+  tls: false
+  type: vless
+  uuid: 5502312d-b5cf-4652-8c59-4d670dd047be
+  ws-opts:
+    path: /v1
+- name: 🇷🇺 GhostVPN
+  network: tcp
   port: 443
   reality-opts: {}
-  server: 85.193.84.49
-  servername: files-x.bosx.net
+  server: 194.87.234.219
+  servername: nbb--6566d244.vpn.partners
   tls: true
   type: vless
-  uuid: ca599ed4-f7a0-4ddf-a45d-3cb6276d6cd7
-  ws-opts:
-    path: /api/v1/connect
+  uuid: 28af86fc-34fa-4b4e-b96f-041a1b687823
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select
 rules:
