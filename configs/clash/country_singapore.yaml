@@ -4,20 +4,31 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇸🇬 GhostVPN
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: T4CMxxAJiCcrGk2r87kMkDcvmfNs3nL-gKleaE1wTHQ
-    short-id: fb7ebc9996caf9ac
-  server: 217.217.254.126
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  uuid: 6b408e62-c5d5-45e1-ae3a-4c9833d46d82
-  ws-opts: {}
+  password: AE62539071
+  port: 443
+  server: 54.169.241.164
+  skip-cert-verify: true
+  sni: rested-osprey.rooster465.autos
+  type: trojan
+- name: 🇸🇬 GhostVPN
+  password: AE62539071
+  port: 443
+  server: 54.169.117.191
+  skip-cert-verify: true
+  sni: excited-sole.rooster465.autos
+  type: trojan
+- name: 🇸🇬 GhostVPN
+  password: FH72359861
+  port: 443
+  server: 54.254.235.88
+  skip-cert-verify: true
+  sni: charming-ox.rooster465.autos
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
   proxies:
+  - 🇸🇬 GhostVPN
+  - 🇸🇬 GhostVPN
   - 🇸🇬 GhostVPN
   type: select
 rules:

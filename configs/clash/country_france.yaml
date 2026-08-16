@@ -7,13 +7,13 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo
-    short-id: '5030'
-  server: 213.136.92.67
-  servername: status.play.google.com
+    public-key: lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI
+    short-id: dc927a04e8572c61
+  server: 195.58.140.146
+  servername: d1-fr.cloud-cdn.xyz
   tls: true
   type: vless
-  uuid: af348651-1624-4710-b55f-0307a22d891f
+  uuid: d7790b85-9659-4558-a405-e0ab57d32984
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FRANCE]

@@ -3,12 +3,54 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- name: 🏳️ GhostVPN
+  password: bptHV5U91mWneB61rRKhCQ8f
+  port: 443
+  server: 87.121.218.169
+  skip-cert-verify: true
+  sni: 87.121.218.169
+  type: trojan
+- name: 🇸🇬 GhostVPN
+  password: AE62539071
+  port: 443
+  server: 54.169.241.164
+  skip-cert-verify: true
+  sni: rested-osprey.rooster465.autos
+  type: trojan
+- name: 🇸🇬 GhostVPN
+  password: AE62539071
+  port: 443
+  server: 54.169.117.191
+  skip-cert-verify: true
+  sni: excited-sole.rooster465.autos
+  type: trojan
+- name: 🇸🇬 GhostVPN
+  password: FH72359861
+  port: 443
+  server: 54.254.235.88
+  skip-cert-verify: true
+  sni: charming-ox.rooster465.autos
+  type: trojan
 - name: 🇯🇵 GhostVPN
   password: ND91608427
   port: 443
-  server: 57.180.27.225
+  server: 13.231.232.184
   skip-cert-verify: true
-  sni: picked-guinea.rooster465.autos
+  sni: better-molly.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: ND91608427
+  port: 443
+  server: 13.230.118.96
+  skip-cert-verify: true
+  sni: real-werewolf.rooster465.autos
+  type: trojan
+- name: 🇯🇵 GhostVPN
+  password: FH72359861
+  port: 443
+  server: 52.196.34.5
+  skip-cert-verify: true
+  sni: welcome-owl.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
   password: AE62539071
@@ -18,15 +60,21 @@ proxies:
   sni: exciting-grizzly.rooster465.autos
   type: trojan
 - name: 🇯🇵 GhostVPN
-  password: ND91608427
+  password: AE62539071
   port: 443
-  server: 57.180.13.78
+  server: 54.95.128.248
   skip-cert-verify: true
-  sni: healthy-louse.rooster465.autos
+  sni: engaged-ram.rooster465.autos
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_TROJAN]
   proxies:
+  - 🏳️ GhostVPN
+  - 🇸🇬 GhostVPN
+  - 🇸🇬 GhostVPN
+  - 🇸🇬 GhostVPN
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN

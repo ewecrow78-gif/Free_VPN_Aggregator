@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794377708
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794614942
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,13 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIiwiYWRkIjoiMzUuMjEyLjIwNC4xNDIiLCJwb3J0IjoiNTY3MjMiLCJ0eXBlIjoibm9uZSIsImlkIjoiOTg3ZGMxMmUtY2QzNS00ZGY5LTk1NDItNmU5NjkwOGM3NTRhIiwiYWlkIjoiMCIsIm5ldCI6InRjcCIsInBhdGgiOiIvIiwiaG9zdCI6IiIsInRscyI6IiJ9
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.97:8080?type=ws&sni=40.160.69.97#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.72:8080?type=ws&sni=40.160.68.72#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.136:8080?type=ws&sni=40.160.68.136#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.55:8080?path=/?ed&security=none&encryption=none&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.53:8080?type=ws&sni=40.160.69.53#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.118:8080?type=ws&sni=40.160.68.118#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.126:8080?type=ws&sni=40.160.68.126#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://a1ac8747-4fd7-486b-b099-19fbb45610be@154.19.184.40:52535?#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://928e6cce-8ced-4243-9a48-a6642edd09b0@143.110.192.171:13779?flow=xtls-rprx-vision&fp=chrome&pbk=llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg&security=reality&sid=af1bdd293097b664&sni=tesla.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://fd8905c5-598e-4357-bc80-648706897cda@151.101.110.216:443?mode=packet-up&path=%2FLunex&security=tls&alpn=h3&encryption=none&extra=%7B%22scMaxEachPostBytes%22%3A%2B1000000%2C%2B%22scMaxConcurrentPosts%22%3A%2B100%2C%2B%22scMinPostsIntervalMs%22%3A%2B30%2C%2B%22xPaddingBytes%22%3A%2B%22100-1000%22%2C%2B%22noGRPCHeader%22%3A%2Bfalse%7D&insecure=0&host=lunex.store&fp=chrome&type=xhttp&allowInsecure=0&sni=accaunt.fastly.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

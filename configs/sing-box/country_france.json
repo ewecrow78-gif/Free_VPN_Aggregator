@@ -28,18 +28,18 @@
     {
       "type": "vless",
       "tag": "🇫🇷 GhostVPN",
-      "server": "213.136.92.67",
+      "server": "195.58.140.146",
       "server_port": 443,
-      "uuid": "af348651-1624-4710-b55f-0307a22d891f",
-      "flow": "",
+      "uuid": "d7790b85-9659-4558-a405-e0ab57d32984",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "status.play.google.com",
+        "server_name": "d1-fr.cloud-cdn.xyz",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "jvJPfOHtnr2sH79qG-rEtJHFbr36_7Ag7ARsUmtSDQo",
-          "short_id": "5030"
+          "public_key": "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI",
+          "short_id": "dc927a04e8572c61"
         }
       }
     }

@@ -14,6 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇸🇬 GhostVPN",
+        "🇸🇬 GhostVPN",
         "🇸🇬 GhostVPN"
       ]
     },
@@ -26,21 +28,39 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇸🇬 GhostVPN",
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "uuid": "6b408e62-c5d5-45e1-ae3a-4c9833d46d82",
-      "flow": "",
+      "server": "54.169.241.164",
+      "server_port": 443,
+      "password": "AE62539071",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "T4CMxxAJiCcrGk2r87kMkDcvmfNs3nL-gKleaE1wTHQ",
-          "short_id": "fb7ebc9996caf9ac"
-        }
+        "server_name": "rested-osprey.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 GhostVPN",
+      "server": "54.169.117.191",
+      "server_port": 443,
+      "password": "AE62539071",
+      "tls": {
+        "enabled": true,
+        "server_name": "excited-sole.rooster465.autos",
+        "insecure": true
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇸🇬 GhostVPN",
+      "server": "54.254.235.88",
+      "server_port": 443,
+      "password": "FH72359861",
+      "tls": {
+        "enabled": true,
+        "server_name": "charming-ox.rooster465.autos",
+        "insecure": true
       }
     }
   ],

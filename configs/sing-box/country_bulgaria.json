@@ -26,21 +26,15 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🏳️ GhostVPN",
-      "server": "87.120.196.135",
+      "server": "87.121.218.169",
       "server_port": 443,
-      "uuid": "860c29ef-ea15-4fa7-aa2e-249dcbb64c79",
-      "flow": "",
+      "password": "bptHV5U91mWneB61rRKhCQ8f",
       "tls": {
         "enabled": true,
-        "server_name": "ai.android",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "uE1WBdW9se1rQnx8Vh-a1jjaehzK-iUmCVrPui5KU3g",
-          "short_id": "53499a662395"
-        }
+        "server_name": "87.121.218.169",
+        "insecure": true
       }
     }
   ],

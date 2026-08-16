@@ -4,17 +4,12 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🏳️ GhostVPN
-  network: grpc
+  password: bptHV5U91mWneB61rRKhCQ8f
   port: 443
-  reality-opts:
-    public-key: uE1WBdW9se1rQnx8Vh-a1jjaehzK-iUmCVrPui5KU3g
-    short-id: 53499a662395
-  server: 87.120.196.135
-  servername: ai.android
-  tls: true
-  type: vless
-  uuid: 860c29ef-ea15-4fa7-aa2e-249dcbb64c79
-  ws-opts: {}
+  server: 87.121.218.169
+  skip-cert-verify: true
+  sni: 87.121.218.169
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BULGARIA]
   proxies:
