@@ -4,15 +4,12 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  network: xhttp
+  password: ND91608427
   port: 443
-  reality-opts: {}
-  server: 151.101.110.216
-  servername: accaunt.fastly.com
-  tls: true
-  type: vless
-  uuid: fd8905c5-598e-4357-bc80-648706897cda
-  ws-opts: {}
+  server: 44.244.3.114
+  skip-cert-verify: true
+  sni: pet-ghost.rooster465.autos
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:

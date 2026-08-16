@@ -14,7 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN"
       ]
     },
@@ -27,28 +26,20 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "129.151.86.242",
-      "server_port": 61312,
-      "method": "chacha20-ietf-poly1305",
-      "password": "MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y="
-    },
-    {
       "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "164.37.105.2",
+      "server": "164.37.110.121",
       "server_port": 443,
-      "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d",
-      "flow": "xtls-rprx-vision",
+      "uuid": "921db318-1694-4408-9cc7-c93df39f7f8e",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pnnsh.falsemirrov.com",
+        "server_name": "uk.monkora.org",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "lE6w45X8Bwb0HscO6Wa5wnN0qlw7wUuaCW8-iYL5HAQ",
-          "short_id": "bc609efa3b2d052f"
+          "public_key": "aUdvs6o4PHN6jmdkIKBA2rHsN_7l8W2SaDfNgzn-BwU",
+          "short_id": ""
         }
       }
     }

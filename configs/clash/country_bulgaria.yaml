@@ -4,6 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🏳️ GhostVPN
+  network: tcp
+  port: 8443
+  reality-opts: {}
+  server: 87.121.218.169
+  servername: 87.121.218.169
+  tls: true
+  type: vless
+  uuid: 9e1e2fad-b6ca-474b-a28d-4b52c7891da0
+  ws-opts: {}
+- name: 🏳️ GhostVPN
   password: bptHV5U91mWneB61rRKhCQ8f
   port: 443
   server: 87.121.218.169
@@ -13,6 +23,7 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BULGARIA]
   proxies:
+  - 🏳️ GhostVPN
   - 🏳️ GhostVPN
   type: select
 rules:

@@ -14,9 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN"
+        "direct"
       ]
     },
     {
@@ -26,60 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "45.9.14.159",
-      "server_port": 38444,
-      "uuid": "994fcbac-4433-4ea3-b42b-9073037ab5fa",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "z6CzPNecp20sehGM6VjzL2C-vvKXqfiDKbfsTiUbJW0",
-          "short_id": "aaaa"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "217.16.31.248",
-      "server_port": 443,
-      "uuid": "34a38f21-310e-4da5-b549-35076e16993c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "eh.vk.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw",
-          "short_id": "e7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "217.16.31.162",
-      "server_port": 443,
-      "uuid": "34a38f21-310e-4da5-b549-35076e16993c",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw",
-          "short_id": "e7"
-        }
-      }
     }
   ],
   "route": {

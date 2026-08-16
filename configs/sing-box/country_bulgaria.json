@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🏳️ GhostVPN",
         "🏳️ GhostVPN"
       ]
     },
@@ -24,6 +25,19 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ GhostVPN",
+      "server": "87.121.218.169",
+      "server_port": 8443,
+      "uuid": "9e1e2fad-b6ca-474b-a28d-4b52c7891da0",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "87.121.218.169",
+        "insecure": true
+      }
     },
     {
       "type": "trojan",

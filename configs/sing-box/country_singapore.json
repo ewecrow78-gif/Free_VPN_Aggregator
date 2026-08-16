@@ -14,8 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇬 GhostVPN",
-        "🇸🇬 GhostVPN",
         "🇸🇬 GhostVPN"
       ]
     },
@@ -26,30 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "trojan",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "54.169.241.164",
-      "server_port": 443,
-      "password": "AE62539071",
-      "tls": {
-        "enabled": true,
-        "server_name": "rested-osprey.rooster465.autos",
-        "insecure": true
-      }
-    },
-    {
-      "type": "trojan",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "54.169.117.191",
-      "server_port": 443,
-      "password": "AE62539071",
-      "tls": {
-        "enabled": true,
-        "server_name": "excited-sole.rooster465.autos",
-        "insecure": true
-      }
     },
     {
       "type": "trojan",

@@ -29,27 +29,37 @@
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "95.85.253.5",
-      "server_port": 443,
-      "uuid": "8033102198",
-      "flow": "xtls-rprx-vision",
+      "server": "82.26.91.166",
+      "server_port": 26391,
+      "uuid": "23f2fcb8-3b1c-4246-9751-0888f703e9ad",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pl4.fast-connect-service.site",
-        "insecure": true
+        "server_name": "proxy11.h1guro.ovh",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "dxuGa3gRo3CPwx1TcaAM9GLkgVBnGcUpDjUfrX8CuiU",
+          "short_id": "09e67e78ad6bf369"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇵🇱 GhostVPN",
-      "server": "82.26.91.87",
+      "server": "94.183.157.121",
       "server_port": 443,
-      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
+      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "faster.yandex-apicloud.ru",
-        "insecure": true
+        "server_name": "eu-central.cendora.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI",
+          "short_id": "00bca5982f82d083"
+        }
       }
     }
   ],

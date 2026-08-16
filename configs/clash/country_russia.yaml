@@ -4,85 +4,19 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
-  network: grpc
-  port: 8446
-  reality-opts:
-    public-key: rUCHk3_64Wv_f_v46OfVNYldKu9fUqHpX937bmGeeDs
-    short-id: ''
-  server: 5.188.115.159
-  servername: 360.yandex.ru
-  tls: true
-  type: vless
-  uuid: beed79cf-3cb1-450e-ab71-b5de788b156a
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: xhttp
-  port: 4443
-  reality-opts:
-    public-key: h4ykk3TnjOoph-89y4vL9A_V9nQB1yp1WMN344yhU3I
-    short-id: 791176388131b7e2
-  server: 46.243.142.184
-  servername: se-2.nodes.ac
-  tls: true
-  type: vless
-  uuid: ed322689-c3bc-48a9-8272-abe58e29a0b7
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: xhttp
-  port: 9443
-  reality-opts:
-    public-key: 5hhzoP441DrGa2l5YlwizPSA5chdY2VjRP7CiEfLLA0
-    short-id: eea4ab7bddaeea39
-  server: 46.243.142.89
-  servername: pl-1.nodes.ac
-  tls: true
-  type: vless
-  uuid: ed322689-c3bc-48a9-8272-abe58e29a0b7
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: xhttp
-  port: 38444
-  reality-opts:
-    public-key: z6CzPNecp20sehGM6VjzL2C-vvKXqfiDKbfsTiUbJW0
-    short-id: aaaa
-  server: 45.9.14.159
-  servername: max.ru
-  tls: true
-  type: vless
-  uuid: 994fcbac-4433-4ea3-b42b-9073037ab5fa
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
+  network: ws
   port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: 217.16.31.248
-  servername: eh.vk.com
+  reality-opts: {}
+  server: 85.193.84.49
+  servername: files-x.bosx.net
   tls: true
   type: vless
-  uuid: 34a38f21-310e-4da5-b549-35076e16993c
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: 217.16.31.162
-  servername: max.ru
-  tls: true
-  type: vless
-  uuid: 34a38f21-310e-4da5-b549-35076e16993c
-  ws-opts: {}
+  uuid: ca599ed4-f7a0-4ddf-a45d-3cb6276d6cd7
+  ws-opts:
+    path: /api/v1/connect
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select
 rules:

@@ -3,18 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🏳️ GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: UdeZc5DrXa8lWOET4wlBp55-nXskqsvoU-2kVvd3zBg
-    short-id: 7a3f9e2b1c8d4f6a
-  server: 202.155.14.176
-  servername: id.cdn-global.pro
-  tls: true
-  type: vless
-  uuid: 02e2d68f-9982-4467-ad47-00cbeeae30e6
-  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🏳️ GhostVPN
+  network: ws
+  port: 53548
+  server: 202.47.89.133
+  servername: 202.47.89.133
+  tls: false
+  type: vmess
+  uuid: 3a03613b-bbac-4a22-bee6-2c9a751a2761
+  ws-opts:
+    headers:
+      Host: ''
+    path: /dkfjh222
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_INDONESIA]
   proxies:

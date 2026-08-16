@@ -4,24 +4,28 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇵🇱 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 95.85.253.5
-  servername: pl4.fast-connect-service.site
+  network: grpc
+  port: 26391
+  reality-opts:
+    public-key: dxuGa3gRo3CPwx1TcaAM9GLkgVBnGcUpDjUfrX8CuiU
+    short-id: 09e67e78ad6bf369
+  server: 82.26.91.166
+  servername: proxy11.h1guro.ovh
   tls: true
   type: vless
-  uuid: '8033102198'
+  uuid: 23f2fcb8-3b1c-4246-9751-0888f703e9ad
   ws-opts: {}
 - name: 🇵🇱 GhostVPN
   network: tcp
   port: 443
-  reality-opts: {}
-  server: 82.26.91.87
-  servername: faster.yandex-apicloud.ru
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: 00bca5982f82d083
+  server: 94.183.157.121
+  servername: eu-central.cendora.ru
   tls: true
   type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]

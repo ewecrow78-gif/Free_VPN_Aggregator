@@ -1,0 +1,25 @@
+allow-lan: true
+log-level: info
+mode: Rule
+port: 7890
+proxies:
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: JyGDRuOThmoCQ2pYD5VyPnFBKb25RqwqJ6-W-tNHBlY
+    short-id: 0491f3e34348cb95
+  server: 185.226.67.182
+  servername: depa.kupivodku.top
+  tls: true
+  type: vless
+  uuid: 27dcb3a9-c82d-4628-a8c4-bae39e6cb4f4
+  ws-opts: {}
+proxy-groups:
+- name: Free_VPN_Aggregator [COUNTRY_GREECE]
+  proxies:
+  - 🏳️ GhostVPN
+  type: select
+rules:
+- MATCH,Free_VPN_Aggregator [COUNTRY_GREECE]
+socks-port: 7891

@@ -2,49 +2,11 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies:
-- name: 🇷🇺 GhostVPN
-  network: xhttp
-  port: 38444
-  reality-opts:
-    public-key: z6CzPNecp20sehGM6VjzL2C-vvKXqfiDKbfsTiUbJW0
-    short-id: aaaa
-  server: 45.9.14.159
-  servername: max.ru
-  tls: true
-  type: vless
-  uuid: 994fcbac-4433-4ea3-b42b-9073037ab5fa
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: 217.16.31.248
-  servername: eh.vk.com
-  tls: true
-  type: vless
-  uuid: 34a38f21-310e-4da5-b549-35076e16993c
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw
-    short-id: e7
-  server: 217.16.31.162
-  servername: max.ru
-  tls: true
-  type: vless
-  uuid: 34a38f21-310e-4da5-b549-35076e16993c
-  ws-opts: {}
+proxies: []
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_50]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
+  - DIRECT
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_50]

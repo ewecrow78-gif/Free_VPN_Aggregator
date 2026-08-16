@@ -6,6 +6,16 @@ proxies:
 - name: 🇫🇷 GhostVPN
   network: tcp
   port: 443
+  reality-opts: {}
+  server: 213.176.73.235
+  servername: note.magazinetut.online
+  tls: true
+  type: vless
+  uuid: 1ef571c9-b9f0-48bb-a6d6-866c98c80eb9
+  ws-opts: {}
+- name: 🇫🇷 GhostVPN
+  network: tcp
+  port: 443
   reality-opts:
     public-key: lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI
     short-id: dc927a04e8572c61
@@ -15,9 +25,18 @@ proxies:
   type: vless
   uuid: d7790b85-9659-4558-a405-e0ab57d32984
   ws-opts: {}
+- name: 🇫🇷 GhostVPN
+  password: QV31589740
+  port: 443
+  server: 51.44.160.58
+  skip-cert-verify: true
+  sni: great-krill.rooster465.autos
+  type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FRANCE]
   proxies:
+  - 🇫🇷 GhostVPN
+  - 🇫🇷 GhostVPN
   - 🇫🇷 GhostVPN
   type: select
 rules:

@@ -26,15 +26,14 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "trojan",
       "tag": "🇺🇸 GhostVPN",
-      "server": "151.101.110.216",
+      "server": "44.244.3.114",
       "server_port": 443,
-      "uuid": "fd8905c5-598e-4357-bc80-648706897cda",
-      "flow": "",
+      "password": "ND91608427",
       "tls": {
         "enabled": true,
-        "server_name": "accaunt.fastly.com",
+        "server_name": "pet-ghost.rooster465.autos",
         "insecure": true
       }
     }

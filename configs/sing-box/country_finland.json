@@ -28,19 +28,14 @@
     {
       "type": "vless",
       "tag": "🇫🇮 GhostVPN",
-      "server": "31.76.80.69",
-      "server_port": 2083,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "flow": "",
+      "server": "212.237.216.46",
+      "server_port": 8443,
+      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk",
-          "short_id": "29b21343ab4d"
-        }
+        "server_name": "fastcdn.intercom-home.online",
+        "insecure": true
       }
     }
   ],

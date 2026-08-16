@@ -14,6 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇫🇷 GhostVPN",
+        "🇫🇷 GhostVPN",
         "🇫🇷 GhostVPN"
       ]
     },
@@ -24,6 +26,19 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇷 GhostVPN",
+      "server": "213.176.73.235",
+      "server_port": 443,
+      "uuid": "1ef571c9-b9f0-48bb-a6d6-866c98c80eb9",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "note.magazinetut.online",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
@@ -41,6 +56,18 @@
           "public_key": "lRuJPDrUb0b32-47hl4BgDoQutqmkuW31N4qVxbDgmI",
           "short_id": "dc927a04e8572c61"
         }
+      }
+    },
+    {
+      "type": "trojan",
+      "tag": "🇫🇷 GhostVPN",
+      "server": "51.44.160.58",
+      "server_port": 443,
+      "password": "QV31589740",
+      "tls": {
+        "enabled": true,
+        "server_name": "great-krill.rooster465.autos",
+        "insecure": true
       }
     }
   ],
