@@ -28,13 +28,13 @@
     {
       "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "185.136.12.179",
-      "server_port": 443,
-      "uuid": "2cca8201-c93e-40eb-bd8a-fea4170c169e",
-      "flow": "",
+      "server": "5.180.52.186",
+      "server_port": 8443,
+      "uuid": "7d641c2e-6897-4b9f-8a82-3f0cc8980db1",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deu683.lackerdeu.org",
+        "server_name": "magazinetut.online",
         "insecure": true
       }
     }

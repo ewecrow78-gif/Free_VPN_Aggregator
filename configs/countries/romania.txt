@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794269605
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794701338
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_ROMANIA%20%F0%9F%9A%80
-vless://b748a230-b157-4401-8423-f8e44df31b5e@82.117.255.87:443?security=reality&encryption=none&pbk=1xxZM10W-A8nuj6MOXFd1kA9lS7bEy-5SO5j-jrd_Cg&fp=chrome&sni=www.cloudflare.com&sid=b70076439f4a1340&type=tcp&flow=xtls-rprx-vision#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@79.108.166.178:13443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&security=reality&sid=a7f3c91b2e6d84c0&sni=auto.cendora.ru&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a@178.214.211.36:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8&security=reality&sid=5629431325884ff0&sni=rom2.o4ka-internet.com&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

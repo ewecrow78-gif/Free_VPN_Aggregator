@@ -5,19 +5,32 @@ port: 7890
 proxies:
 - name: 🏳️ GhostVPN
   network: tcp
-  port: 443
+  port: 13443
   reality-opts:
-    public-key: 1xxZM10W-A8nuj6MOXFd1kA9lS7bEy-5SO5j-jrd_Cg
-    short-id: b70076439f4a1340
-  server: 82.117.255.87
-  servername: www.cloudflare.com
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: a7f3c91b2e6d84c0
+  server: 79.108.166.178
+  servername: auto.cendora.ru
   tls: true
   type: vless
-  uuid: b748a230-b157-4401-8423-f8e44df31b5e
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts: {}
+- name: 🏳️ GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: 5629431325884ff0
+  server: 178.214.211.36
+  servername: rom2.o4ka-internet.com
+  tls: true
+  type: vless
+  uuid: 2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_ROMANIA]
   proxies:
+  - 🏳️ GhostVPN
   - 🏳️ GhostVPN
   type: select
 rules:

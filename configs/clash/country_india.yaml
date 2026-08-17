@@ -5,15 +5,15 @@ port: 7890
 proxies:
 - name: 🇮🇳 GhostVPN
   network: tcp
-  port: 443
+  port: 2053
   reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: ff776ff77be48b88
-  server: 217.216.79.6
-  servername: ind2.helper-internet.com
+    public-key: GAYlNViQ9mkjs0iTjNmijAIXOaK2h0P2opHCYOrCNy0
+    short-id: ae3ba555edc1ba0a
+  server: 194.61.31.126
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 670decfe-68cc-499e-8cb1-22b39c20acbb
+  uuid: 7f1f5848-da44-47df-8581-df83e88ee2b3
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_INDIA]

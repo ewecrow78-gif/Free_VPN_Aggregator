@@ -4,16 +4,14 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🏳️ GhostVPN
-  network: grpc
+  network: tcp
   port: 443
-  reality-opts:
-    public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y
-    short-id: c56c3ba3b9f676c5
-  server: 95.85.233.181
-  servername: c.primarymaster.online
+  reality-opts: {}
+  server: 150.241.121.21
+  servername: cloud445772.mvp-rk.site
   tls: true
   type: vless
-  uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f
+  uuid: 83448201-7493-41df-8be1-4310bd161cfb
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_CZECHIA]

@@ -4,42 +4,20 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 186.246.6.234
-  servername: 186.246.6.234
-  tls: false
-  type: vless
-  uuid: 77fd4d9e-c314-4203-b3e0-b836a1d969b4
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 45.146.131.97
-  servername: 45.146.131.97
-  tls: false
-  type: vless
-  uuid: 5502312d-b5cf-4652-8c59-4d670dd047be
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
-  reality-opts: {}
-  server: 194.87.234.219
-  servername: nbb--6566d244.vpn.partners
+  reality-opts:
+    public-key: l0R5_L16z0BMq5HhYvA538EJd3ztzHgIOtysCl6Q60U
+    short-id: e78c4073
+  server: 213.226.112.113
+  servername: rutube.ru
   tls: true
   type: vless
-  uuid: 28af86fc-34fa-4b4e-b96f-041a1b687823
+  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select
 rules:

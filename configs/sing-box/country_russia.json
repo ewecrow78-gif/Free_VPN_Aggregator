@@ -14,8 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN"
       ]
     },
@@ -30,48 +28,19 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "186.246.6.234",
-      "server_port": 4100,
-      "uuid": "77fd4d9e-c314-4203-b3e0-b836a1d969b4",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "186.246.6.234",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "45.146.131.97",
-      "server_port": 4100,
-      "uuid": "5502312d-b5cf-4652-8c59-4d670dd047be",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "45.146.131.97",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "194.87.234.219",
+      "server": "213.226.112.113",
       "server_port": 443,
-      "uuid": "28af86fc-34fa-4b4e-b96f-041a1b687823",
+      "uuid": "a2738d8d-ed26-4b13-a4a2-b89c7238cd10",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nbb--6566d244.vpn.partners",
-        "insecure": true
+        "server_name": "rutube.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "l0R5_L16z0BMq5HhYvA538EJd3ztzHgIOtysCl6Q60U",
+          "short_id": "e78c4073"
+        }
       }
     }
   ],

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794614942
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794701339
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_CYPRUS%20%F0%9F%9A%80
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.253.42.79:13443?type=tcp&security=reality&sni=auto.cendora.ru&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&sid=a7f3c91b2e6d84c0&fp=qq&encryption=none&flow=xtls-rprx-vision#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN
+vless://423b1d79-08c4-403f-9d5e-c541f791b55f@5.253.42.79:13443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM&security=reality&sid=a7f3c91b2e6d84c0&sni=auto.cendora.ru&type=tcp#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

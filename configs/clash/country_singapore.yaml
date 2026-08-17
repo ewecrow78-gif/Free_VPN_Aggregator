@@ -4,16 +4,17 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇸🇬 GhostVPN
-  network: ws
-  port: 443
-  reality-opts: {}
-  server: 52.74.176.20
-  servername: 52.74.176.20
-  tls: false
+  network: tcp
+  port: 2053
+  reality-opts:
+    public-key: T4CMxxAJiCcrGk2r87kMkDcvmfNs3nL-gKleaE1wTHQ
+    short-id: fb7ebc9996caf9ac
+  server: 217.217.254.126
+  servername: www.cloudflare.com
+  tls: true
   type: vless
-  uuid: 5ad0bed3-68ac-495e-b778-8b2d0e1dc176
-  ws-opts:
-    path: ''
+  uuid: 6b408e62-c5d5-45e1-ae3a-4c9833d46d82
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
   proxies:
