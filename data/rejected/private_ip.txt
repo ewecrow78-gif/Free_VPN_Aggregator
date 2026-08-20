@@ -1,4 +1,1 @@
-vless://info@0.0.0.0:443?type=tcp&security=none#для
-vless://423b1d79-08c4-403f-9d5e-c541f791b55f@mws.tunnelgate.org:14443?type=ws&security=tls&path=%2Fru&sni=mws.tunnelgate.org&fp=qq&alpn=http%2F1.1&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20LTE%20%D0%90%D0%B2%D1%82%D0%BE%20-%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%201",
-vless://xxxxxxxxxx3@localhost:8443?security=reality&encryption=none&pbk=xJ-mCD0MscYfXxKjBF6O3b4MBkNiLRRyEJZcJpFy1lU&headerType=&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=ya.ru&sid=26a70553#%F0%9F%87%B7%F0%9F%87%BA%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%20131%20%7C%20%40nzea234
-ss://MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206NU9obnhaUTAwV0hLN3FreDlqQ1NIQkxOTXhzODUyOGdzNnRyOHlzUzdmMD06TTI1SVJtaHRjRGRSWmpSNExXSldkVGRFV1ZZMlJIaHJUV2d6VERCWlFsQT0@lte.most:50443#%F0%9F%87%AA%F0%9F%87%BA%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%203
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&type=tcp&security=none#%F0%9F%9A%AB%20Subscription%20disabled
