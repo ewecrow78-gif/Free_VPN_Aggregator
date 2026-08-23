@@ -7,8 +7,10 @@ import os
 sys.path.append(str(Path.cwd()))
 from src.models.protocols import parse_link
 from src.services.validator import start_xray_batch
+from src.services.xray_manager import download_xray
 
 async def main():
+    await download_xray()
     scored_file = Path("data/06_scored.jsonl")
     if not scored_file.exists():
         print("No scored configs found!")
