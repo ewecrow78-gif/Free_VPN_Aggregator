@@ -22,7 +22,7 @@ async def download_xray():
     
     if sys_os == "windows":
         archive_name = "Xray-windows-64.zip"
-    elif sys_os == "linux":
+    elif sys_os in ("linux", "android"):
         arch = platform.machine().lower()
         if "aarch64" in arch or "arm64" in arch:
             archive_name = "Xray-linux-arm64-v8a.zip"
