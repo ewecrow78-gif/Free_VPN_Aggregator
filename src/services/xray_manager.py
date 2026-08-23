@@ -23,8 +23,12 @@ async def download_xray():
     if sys_os == "windows":
         archive_name = "Xray-windows-64.zip"
     elif sys_os in ("linux", "android"):
+        import struct
+        is_32bit = struct.calcsize("P") * 8 == 32
         arch = platform.machine().lower()
-        if "aarch64" in arch or "arm64" in arch or "armv8" in arch:
+        if is_32bit or "armv7" in arch:
+            archive_name = "Xray-linux-arm32-v7a.zip"
+        elif "aarch64" in arch or "arm64" in arch or "armv8" in arch:
             archive_name = "Xray-linux-arm64-v8a.zip"
         else:
             archive_name = "Xray-linux-64.zip"
