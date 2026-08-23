@@ -14,8 +14,8 @@ git pull origin main --rebase || true
 
 # Устанавливаем прокси-туннель
 if ! pgrep -f "ssh -o StrictHostKeyChecking=no -N -D 1080 root@178.253.44.97" > /dev/null; then
-    echo "Запускаем свой прокси через VPS..."
-    sshpass -p '9>upN^>7t87z1?e5' ssh -f -o StrictHostKeyChecking=no -N -D 1080 root@178.253.44.97
+    echo "Запускаем Tor прокси..."
+    pgrep -f tor > /dev/null || tor &
 fi
 
 # Загружаем ключи из .env для Телеграма
