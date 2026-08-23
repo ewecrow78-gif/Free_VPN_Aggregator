@@ -364,7 +364,7 @@ async def fetch_telegram() -> List[BaseVPNConfig]:
             StringSession(TG_SESSION), 
             int(TG_API_ID), 
             TG_API_HASH, 
-            proxy=None
+            proxy=(python_socks.ProxyType.SOCKS5, "127.0.0.1", int(os.environ.get("PROXY_PORT", 10000)), False)
         )
         await client.connect()
         if not await client.is_user_authorized():

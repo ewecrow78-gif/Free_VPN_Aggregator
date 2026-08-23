@@ -12,21 +12,21 @@ trap 'rm -f "${LOCKFILE}"; exit' INT TERM EXIT
 
 git pull origin main --rebase || true
 
-# Устанавливаем прокси-туннель
-if ! pgrep -f "ssh -o StrictHostKeyChecking=no -N -D 1080 root@178.253.44.97" > /dev/null; then
-    echo "Запускаем Tor прокси..."
-    pgrep -f tor > /dev/null || tor &
-fi
+# Убиваем зависшие с прошлых запусков процессы xray
+pkill -9 -f xray || true
+pkill -9 -f tor || true
+
+source venv/bin/activate
+
+echo "Запускаем локальный Xray-прокси для сбора Telegram..."
+export PROXY_PORT=10000
+python bootstrap_proxy.py || true
 
 # Загружаем ключи из .env для Телеграма
 set -a
 [ -f .env ] && source .env
 set +a
 
-# Убиваем зависшие с прошлых запусков процессы xray, чтобы освободить память и порты
-pkill -9 -f xray || true
-
-source venv/bin/activate
 python main.py
 
 git config user.name "VPN Aggregator VPS"
