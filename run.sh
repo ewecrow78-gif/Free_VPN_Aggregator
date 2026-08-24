@@ -27,7 +27,7 @@ set -a
 [ -f .env ] && source .env
 set +a
 
-python main.py
+python -u main.py
 
 git config user.name "VPN Aggregator VPS"
 git config user.email "root@myserver.com"
