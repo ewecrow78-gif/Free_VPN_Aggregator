@@ -28,18 +28,19 @@
     {
       "type": "vless",
       "tag": "🇨🇭 GhostVPN",
-      "server": "92.119.165.177",
-      "server_port": 8204,
-      "uuid": "ed1aaa45-18b3-4c07-a434-ea42e2dfba77",
-      "flow": "",
+      "server": "45.90.58.216",
+      "server_port": 443,
+      "uuid": "2e8077d9-7bd9-444b-b2e3-de940d2eb35e",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "zeta.optiklink.com",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/gayporn---gayporn---gayporn---gayporn---gayporn---gayporn---gayporn"
+        "server_name": "www.cloudflare.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc",
+          "short_id": "77d7abe2c55892f1"
+        }
       }
     }
   ],

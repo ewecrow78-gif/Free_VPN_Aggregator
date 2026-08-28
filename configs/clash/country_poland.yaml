@@ -4,16 +4,17 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇵🇱 GhostVPN
-  network: ws
-  port: 8443
-  reality-opts: {}
-  server: 50.7.249.218
-  servername: apkav-5.bosx.net
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: U1X__Tg779LinTpcP65AVLHtxAGPSKzr04K1Fq_mDy8
+    short-id: 146c918c71da5d81
+  server: 82.118.20.109
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 9b9b7e9b-bed1-4d40-97b9-ea277295bdd9
-  ws-opts:
-    path: /api/connect
+  uuid: e459d26c-0957-4695-b1ac-0719e8df64f6
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_POLAND]
   proxies:

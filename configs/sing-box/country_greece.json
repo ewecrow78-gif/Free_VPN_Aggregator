@@ -28,18 +28,18 @@
     {
       "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "185.226.67.182",
+      "server": "217.12.194.226",
       "server_port": 443,
-      "uuid": "27dcb3a9-c82d-4628-a8c4-bae39e6cb4f4",
+      "uuid": "b8cff836-8a21-4b72-a77d-231c8678c711",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "depa.kupivodku.top",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "JyGDRuOThmoCQ2pYD5VyPnFBKb25RqwqJ6-W-tNHBlY",
-          "short_id": "0491f3e34348cb95"
+          "public_key": "oOp4xgD1R9MGm17qYp4XIHiq1dAfTaknr39UvhOv8Gc",
+          "short_id": "ab55ed2e71e8f58e"
         }
       }
     }

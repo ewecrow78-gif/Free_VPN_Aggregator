@@ -4,54 +4,32 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 51.15.56.211
-  servername: 51.15.56.211
-  tls: false
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: dQ1gH8wthrDqq1MkzQiLCuKDV0vtcYRDUOHgTU3znH8
+    short-id: 085d21ba5e089c9b
+  server: 37.49.226.85
+  servername: dl.google.com
+  tls: true
   type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: /?ed=2048
+  uuid: c7ae1368-b6ca-4d11-beef-bb76f68d1b80
+  ws-opts: {}
 - name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 51.158.227.14
-  servername: 51.158.227.14
-  tls: false
+  network: tcp
+  port: 22746
+  reality-opts:
+    public-key: B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU
+    short-id: d9fd4fa80238cd05
+  server: 172.239.239.53
+  servername: www.intel.com
+  tls: true
   type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
-- name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 51.158.238.49
-  servername: 51.158.238.49
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
-- name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 51.158.241.182
-  servername: 51.158.241.182
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
+  uuid: a4846a6c-163f-4b12-a99f-378d814e5e09
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select

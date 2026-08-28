@@ -15,8 +15,6 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN"
       ]
     },
@@ -31,49 +29,37 @@
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "51.15.56.211",
-      "server_port": 8080,
-      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048"
+      "server": "37.49.226.85",
+      "server_port": 443,
+      "uuid": "c7ae1368-b6ca-4d11-beef-bb76f68d1b80",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "dQ1gH8wthrDqq1MkzQiLCuKDV0vtcYRDUOHgTU3znH8",
+          "short_id": "085d21ba5e089c9b"
+        }
       }
     },
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "51.158.227.14",
-      "server_port": 8080,
-      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": ""
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "51.158.238.49",
-      "server_port": 8080,
-      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": ""
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "51.158.241.182",
-      "server_port": 8080,
-      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": ""
+      "server": "172.239.239.53",
+      "server_port": 22746,
+      "uuid": "a4846a6c-163f-4b12-a99f-378d814e5e09",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU",
+          "short_id": "d9fd4fa80238cd05"
+        }
       }
     }
   ],
