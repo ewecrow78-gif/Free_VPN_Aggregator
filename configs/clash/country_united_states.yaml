@@ -3,15 +3,176 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 GhostVPN
-  password: eDfN7SODQceIOmIAbtJJtK
-  port: 443
-  server: 198.98.53.130
-  type: ss
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.4.113
+  servername: 40.160.4.113
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed=2048
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.55
+  servername: 40.160.69.55
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed=2048
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.14.205
+  servername: 40.160.14.205
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed=2048
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.214
+  servername: 40.160.69.214
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed=2048
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.72
+  servername: 40.160.68.72
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.55
+  servername: 40.160.68.55
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.112
+  servername: 40.160.69.112
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.75
+  servername: 40.160.69.75
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.126
+  servername: 40.160.68.126
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.97
+  servername: 40.160.69.97
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.144
+  servername: 40.160.69.144
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.79
+  servername: 40.160.68.79
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.69.180
+  servername: 40.160.69.180
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇺🇸 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 40.160.68.118
+  servername: 40.160.68.118
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select
 rules:

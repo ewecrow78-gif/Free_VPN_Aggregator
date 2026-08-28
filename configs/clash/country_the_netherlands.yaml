@@ -3,12 +3,17 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇳🇱 GhostVPN
-  password: KXH1wvyRSEvM9nM+k1Twlar5OyguGkr5VdW7mi/q934=
-  port: 45819
-  server: 141.148.227.92
-  type: ss
+- name: 🇳🇱 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 51.15.56.211
+  servername: 51.15.56.211
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed=2048
 - name: 🇳🇱 GhostVPN
   network: ws
   port: 8080
@@ -20,9 +25,33 @@ proxies:
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   ws-opts:
     path: ''
+- name: 🇳🇱 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 51.158.238.49
+  servername: 51.158.238.49
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
+- name: 🇳🇱 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 51.158.241.182
+  servername: 51.158.241.182
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select

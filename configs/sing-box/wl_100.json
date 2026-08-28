@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "direct"
+        "🇧🇷 GhostVPN"
       ]
     },
     {
@@ -24,6 +24,23 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.19",
+      "server_port": 2200,
+      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "rzd.ru",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
     }
   ],
   "route": {

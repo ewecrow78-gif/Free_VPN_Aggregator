@@ -15,7 +15,6 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇩🇪 GhostVPN",
-        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -30,45 +29,35 @@
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "87.120.126.63",
-      "server_port": 8443,
-      "uuid": "b94da146-a56e-49d7-af4c-a68c9065cbfd",
+      "server": "91.107.154.19",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "vpnforppl.top",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo",
-          "short_id": "1e943a831d22faf6"
-        }
+        "server_name": "91.107.154.19",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
       }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "82.38.4.126",
-      "server_port": 443,
-      "uuid": "53c76647-14d1-4df5-99cb-be99ad2e6bd9",
-      "flow": "xtls-rprx-vision",
+      "server": "91.107.190.175",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "de126.mechvpn.online",
+        "server_name": "91.107.190.175",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "194.24.161.133",
-      "server_port": 443,
-      "uuid": "53c76647-14d1-4df5-99cb-be99ad2e6bd9",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fr133.mechvpn.online",
-        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
       }
     }
   ],

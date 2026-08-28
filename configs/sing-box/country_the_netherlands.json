@@ -15,6 +15,8 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇳🇱 GhostVPN",
+        "🇳🇱 GhostVPN",
+        "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN"
       ]
     },
@@ -27,17 +29,45 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "141.148.227.92",
-      "server_port": 45819,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "KXH1wvyRSEvM9nM+k1Twlar5OyguGkr5VdW7mi/q934="
+      "server": "51.15.56.211",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      }
     },
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
       "server": "51.158.227.14",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "51.158.238.49",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "51.158.241.182",
       "server_port": 8080,
       "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
       "flow": "",

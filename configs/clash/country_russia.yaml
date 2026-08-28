@@ -6,14 +6,12 @@ proxies:
 - name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
-  reality-opts:
-    public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
-    short-id: caa0a516476ad539
-  server: 193.124.128.233
-  servername: storage.yandex.net
-  tls: true
+  reality-opts: {}
+  server: 176.119.159.185
+  servername: 176.119.159.185
+  tls: false
   type: vless
-  uuid: 39c96b4b-8908-4e9c-9db0-ac9415bd4df8
+  uuid: 0129534e-6fb9-456a-bf63-e099dc141b15
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]

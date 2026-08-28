@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794636613
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795695058
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_GERMANY%20%F0%9F%9A%80
-vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@87.120.126.63:8443?type=grpc&security=reality&fp=firefox&pbk=gOummriWvIYMJpd5oifBLqxsf_jcWHVsxVI7wnM0rRo&sid=1e943a831d22faf6&sni=vpnforppl.top#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://53c76647-14d1-4df5-99cb-be99ad2e6bd9@82.38.4.126:443?security=tls&encryption=none&sni=de126.mechvpn.online&alpn=h3%2Ch2%2Chttp/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://53c76647-14d1-4df5-99cb-be99ad2e6bd9@194.24.161.133:443?security=tls&encryption=none&sni=fr133.mechvpn.online&alpn=h3%2Ch2%2Chttp/1.1&fp=firefox&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.154.19:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.190.175:8080?path=%2F%3Fed%3D2048&security=none&encryption=none&type=ws#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
