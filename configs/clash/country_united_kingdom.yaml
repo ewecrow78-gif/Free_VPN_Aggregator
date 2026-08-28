@@ -5,9 +5,39 @@ port: 7890
 proxies:
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧 GhostVPN
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.206
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
-  server: 82.38.31.10
+  server: 82.38.31.18
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 443
+  server: 82.38.31.42
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.204
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 82.38.31.42
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 GhostVPN
+  password: k1dBOmOB4oqi7Ump37a1bQ
+  port: 8080
+  server: 82.38.31.195
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇬🇧 GhostVPN
@@ -19,29 +49,40 @@ proxies:
   name: 🇬🇧 GhostVPN
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  server: 82.38.31.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇬🇧 GhostVPN
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 82.38.31.180
+  server: 82.38.31.15
   type: ss
 - name: 🇬🇧 GhostVPN
   network: tcp
   port: 443
   reality-opts:
-    public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0
-    short-id: dd3ff38418d29d22
-  server: 46.226.163.243
-  servername: eu-west.cendora.ru
+    public-key: OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo
+    short-id: 535a3304
+  server: 50.7.193.131
+  servername: app5.jarvesitw.ru
   tls: true
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+  ws-opts: {}
+- name: 🇬🇧 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo
+    short-id: 8beb2706
+  server: 50.7.214.82
+  servername: app5.jarvesitw.ru
+  tls: true
+  type: vless
+  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]
   proxies:
+  - 🇬🇧 GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🇬🇧 GhostVPN
+  - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN

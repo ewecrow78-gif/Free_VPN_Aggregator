@@ -26,16 +26,12 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇭🇰 GhostVPN",
-      "server": "18.167.42.162",
-      "server_port": 41421,
-      "password": "BxceQaOe",
-      "tls": {
-        "enabled": true,
-        "server_name": "t.me/ripaojiedian",
-        "insecure": true
-      }
+      "server": "95.40.120.162",
+      "server_port": 8316,
+      "method": "chacha20-ietf-poly1305",
+      "password": "ljqdalu13.."
     }
   ],
   "route": {

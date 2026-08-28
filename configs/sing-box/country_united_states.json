@@ -26,16 +26,12 @@
       "tag": "dns-out"
     },
     {
-      "type": "trojan",
+      "type": "shadowsocks",
       "tag": "🇺🇸 GhostVPN",
-      "server": "44.244.3.114",
+      "server": "198.98.53.130",
       "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "pet-ghost.rooster465.autos",
-        "insecure": true
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "eDfN7SODQceIOmIAbtJJtK"
     }
   ],
   "route": {

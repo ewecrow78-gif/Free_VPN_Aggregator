@@ -7,13 +7,13 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: l0R5_L16z0BMq5HhYvA538EJd3ztzHgIOtysCl6Q60U
-    short-id: e78c4073
-  server: 213.226.112.113
-  servername: rutube.ru
+    public-key: rZgu2lJcC2yrYnx66znee-Z75mW6m4TRfWt7_neoEVI
+    short-id: caa0a516476ad539
+  server: 193.124.128.233
+  servername: storage.yandex.net
   tls: true
   type: vless
-  uuid: a2738d8d-ed26-4b13-a4a2-b89c7238cd10
+  uuid: 39c96b4b-8908-4e9c-9db0-ac9415bd4df8
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]

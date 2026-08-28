@@ -27,25 +27,24 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "143.47.188.131",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "143.47.188.131",
-        "insecure": true
-      }
-    },
-    {
       "type": "shadowsocks",
       "tag": "🇳🇱 GhostVPN",
-      "server": "152.70.53.76",
+      "server": "141.148.227.92",
       "server_port": 45819,
       "method": "2022-blake3-chacha20-poly1305",
-      "password": "YyppYr+19SFyy4WAU2OmSlq+NwKjR+L0oV2CCJ6rMAM="
+      "password": "KXH1wvyRSEvM9nM+k1Twlar5OyguGkr5VdW7mi/q934="
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "51.158.227.14",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
     }
   ],
   "route": {

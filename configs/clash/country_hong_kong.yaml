@@ -3,13 +3,12 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇭🇰 GhostVPN
-  password: BxceQaOe
-  port: 41421
-  server: 18.167.42.162
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 GhostVPN
+  password: ljqdalu13..
+  port: 8316
+  server: 95.40.120.162
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_HONG_KONG]
   proxies:

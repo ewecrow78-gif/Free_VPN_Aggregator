@@ -4,16 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🏳️ GhostVPN
-  network: xhttp
+  network: tcp
   port: 443
   reality-opts:
-    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
-    short-id: ''
-  server: 194.33.61.19
-  servername: www.google.com
+    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
+    short-id: f45c9665f3261108
+  server: 45.195.228.104
+  servername: storage.yandex.net
   tls: true
   type: vless
-  uuid: 3548fba9-e70a-4fe3-98f0-ff7e392226f4
+  uuid: 39c96b4b-8908-4e9c-9db0-ac9415bd4df8
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SEYCHELLES]

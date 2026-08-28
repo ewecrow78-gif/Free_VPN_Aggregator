@@ -1,40 +1,39 @@
 {
   "funnel": {},
-  "total": 10,
-  "alive": 10,
-  "top_50_fast": 9,
-  "top_30_fast": 9,
-  "all_configs": 10,
-  "wl_100": 1,
-  "wl_50": 1,
-  "wl_30": 1,
-  "mixed_100": 10,
-  "all_wl": 1,
-  "fastest_all_100": 10,
+  "total": 18,
+  "alive": 18,
+  "top_50_fast": 18,
+  "top_30_fast": 18,
+  "all_configs": 18,
+  "wl_100": 0,
+  "wl_50": 0,
+  "wl_30": 0,
+  "mixed_100": 18,
+  "all_wl": 0,
+  "fastest_all_100": 18,
   "by_country": {
-    "Czechia": 1,
-    "Ireland": 1,
-    "Romania": 2,
-    "Kazakhstan": 1,
-    "India": 1,
-    "Singapore": 1,
-    "United States": 1,
+    "The Netherlands": 2,
+    "United Kingdom": 10,
     "Russia": 1,
-    "Cyprus": 1
+    "Seychelles": 1,
+    "United States": 1,
+    "Hong Kong": 1,
+    "Taiwan": 1,
+    "Japan": 1
   },
   "country_flags": {
-    "Czechia": "🏳️",
-    "Ireland": "🏳️",
-    "Romania": "🏳️",
-    "Kazakhstan": "🏳️",
-    "India": "🇮🇳",
-    "Singapore": "🇸🇬",
-    "United States": "🇺🇸",
+    "The Netherlands": "🇳🇱",
+    "United Kingdom": "🇬🇧",
     "Russia": "🇷🇺",
-    "Cyprus": "🏳️"
+    "Seychelles": "🏳️",
+    "United States": "🇺🇸",
+    "Hong Kong": "🇭🇰",
+    "Taiwan": "🇹🇼",
+    "Japan": "🇯🇵"
   },
   "by_protocol": {
-    "vless": 8,
-    "trojan": 2
+    "ss": 12,
+    "vless": 5,
+    "vmess": 1
   }
 }

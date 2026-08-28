@@ -1,1 +1,2 @@
-vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?encryption=none&type=tcp&security=none#%F0%9F%9A%AB%20Subscription%20disabled
+vless://00000000-0000-0000-0000-000000000000@0.0.0.0:1?type=tcp&encryption=none#%F0%9F%9A%AB%20Subscription%20disabled%201",
+vless://d8599494-1224-0004-bdd2-17b94eff21c4@ruc.mythos-wargame.fun:443?security=tls&flow=xtls-rprx-vision&sni=ruc.mythos-wargame.fun&fp=qq#t.me%2Ffreekesha21
