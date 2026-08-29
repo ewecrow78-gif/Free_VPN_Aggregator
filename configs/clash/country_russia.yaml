@@ -4,17 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 9443
-  reality-opts:
-    public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
-    short-id: ''
-  server: 176.123.167.215
-  servername: io.ozone.ru
-  tls: true
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 201.34.137.15
+  servername: 201.34.137.15
+  tls: false
   type: vless
-  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
-  ws-opts: {}
+  uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
+  ws-opts:
+    path: /v1
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:

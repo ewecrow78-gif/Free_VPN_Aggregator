@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -26,21 +27,28 @@
       "tag": "dns-out"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "130.61.148.71",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "OXzmL1h7BLzI+gF8+61lZtiiltHgo2wphibbeQntWv0="
+    },
+    {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "45.151.74.209",
+      "server": "104.105.28.51",
       "server_port": 443,
-      "uuid": "c7ae1368-b6ca-4d11-beef-bb76f68d1b80",
-      "flow": "xtls-rprx-vision",
+      "uuid": "5d8fae5f-0427-4da3-99ab-242905fa5c69",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "VrBVCP2ZeR-D41K9BmaAiMyzWHUAj2N2uHLGVpJv3z0",
-          "short_id": "c72a5c4a1022f3c9"
-        }
+        "server_name": "fast.iqiraq.shop",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": ""
       }
     }
   ],

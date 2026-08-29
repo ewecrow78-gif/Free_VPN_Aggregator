@@ -5,28 +5,17 @@ port: 7890
 proxies:
 - name: 🇫🇷 GhostVPN
   network: tcp
-  port: 9800
+  port: 13903
   reality-opts: {}
-  server: 45.67.139.50
-  servername: 45.67.139.50
+  server: 217.69.5.160
+  servername: 217.69.5.160
   tls: false
   type: vless
-  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-  ws-opts: {}
-- name: 🇫🇷 GhostVPN
-  network: tcp
-  port: 9800
-  reality-opts: {}
-  server: 45.67.139.155
-  servername: 45.67.139.155
-  tls: false
-  type: vless
-  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
+  uuid: 3bbbd875-6bf1-4240-bd15-061e78206140
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FRANCE]
   proxies:
-  - 🇫🇷 GhostVPN
   - 🇫🇷 GhostVPN
   type: select
 rules:

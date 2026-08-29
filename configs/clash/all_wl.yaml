@@ -2,11 +2,21 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🏳️ GhostVPN
+  network: xhttp
+  port: 443
+  reality-opts: {}
+  server: 188.114.96.6
+  servername: cdn.tinfary.ir
+  tls: true
+  type: vless
+  uuid: 252210e6-83b2-420e-962c-c11a1367bf16
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [ALL_WL]
   proxies:
-  - DIRECT
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [ALL_WL]

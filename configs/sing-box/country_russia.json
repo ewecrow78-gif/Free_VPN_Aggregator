@@ -28,19 +28,13 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "176.123.167.215",
-      "server_port": 9443,
-      "uuid": "76186f1e-3062-4a2b-98c2-fab3c61a9511",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "io.ozone.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4",
-          "short_id": ""
-        }
+      "server": "201.34.137.15",
+      "server_port": 4100,
+      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
       }
     }
   ],

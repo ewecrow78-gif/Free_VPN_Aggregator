@@ -28,13 +28,13 @@
     {
       "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "104.18.32.47",
+      "server": "188.114.96.6",
       "server_port": 443,
-      "uuid": "a5a544bf-e4b3-4651-9ff4-de3461910d87",
+      "uuid": "252210e6-83b2-420e-962c-c11a1367bf16",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "rus.aba-hum.store",
+        "server_name": "cdn.tinfary.ir",
         "insecure": true
       }
     }

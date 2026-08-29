@@ -5,31 +5,79 @@ port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: dQ1gH8wthrDqq1MkzQiLCuKDV0vtcYRDUOHgTU3znH8
-    short-id: 085d21ba5e089c9b
-  server: 37.49.226.85
-  servername: dl.google.com
-  tls: true
+  port: 62145
+  reality-opts: {}
+  server: 141.148.247.166
+  servername: 141.148.247.166
+  tls: false
   type: vless
-  uuid: c7ae1368-b6ca-4d11-beef-bb76f68d1b80
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
 - name: 🇳🇱 GhostVPN
   network: tcp
-  port: 22746
-  reality-opts:
-    public-key: B6bPTxNaLqqoUTuNggzTBP0pPxJEqE_Bd_Ob27MPvgU
-    short-id: d9fd4fa80238cd05
-  server: 172.239.239.53
-  servername: www.intel.com
-  tls: true
+  port: 62145
+  reality-opts: {}
+  server: 134.98.151.202
+  servername: 134.98.151.202
+  tls: false
   type: vless
-  uuid: a4846a6c-163f-4b12-a99f-378d814e5e09
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 141.148.232.137
+  servername: 141.148.232.137
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 141.148.225.65
+  servername: 141.148.225.65
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇳🇱 GhostVPN
+  password: w5pcVb0VsP2Ze6TbJAXR7ZaofRyoJn5sm0CdhBg78q4=
+  port: 45819
+  server: 141.148.244.146
+  type: ss
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 152.70.50.74
+  servername: 152.70.50.74
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 51.158.227.14
+  servername: 51.158.227.14
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
