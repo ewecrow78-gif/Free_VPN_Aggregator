@@ -5,15 +5,15 @@ port: 7890
 proxies:
 - name: 🇮🇹 GhostVPN
   network: tcp
-  port: 32833
+  port: 32396
   reality-opts:
-    public-key: PaTDdYBrlh1xBixdI0igvRRkf0vnUwMRzi-4oDyfS20
-    short-id: a0a305ccc8e94aa8
-  server: 172.238.232.239
-  servername: www.intel.com
+    public-key: Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU
+    short-id: dd6ce6af95001a
+  server: 172.232.196.241
+  servername: www.sony.com
   tls: true
   type: vless
-  uuid: 167ed405-7de9-4bff-b1ea-6e3d49c76b0b
+  uuid: bd6ebd72-25cd-4209-a418-a8c72946da90
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_ITALY]

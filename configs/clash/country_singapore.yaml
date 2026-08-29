@@ -5,58 +5,19 @@ port: 7890
 proxies:
 - name: 🇸🇬 GhostVPN
   network: tcp
-  port: 25193
+  port: 2053
   reality-opts:
-    public-key: Qsm5dVTgDmOCvRwi8M_WVE8EmeK6Ot9i-XIfCmM1zGg
-    short-id: 702186e48d5646
-  server: 13.214.194.139
-  servername: www.intel.com
+    public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
+    short-id: 3fc9b11ceeb2cc6b
+  server: 217.217.254.126
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 65166c4d-a46c-40f9-83cb-ee599f5279cb
-  ws-opts: {}
-- name: 🇸🇬 GhostVPN
-  network: tcp
-  port: 24146
-  reality-opts:
-    public-key: VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo
-    short-id: 7205d9079521832c
-  server: 54.251.9.130
-  servername: www.intel.com
-  tls: true
-  type: vless
-  uuid: 9d9a048b-3aea-4b3e-b106-1106bf301feb
-  ws-opts: {}
-- name: 🇸🇬 GhostVPN
-  network: tcp
-  port: 34033
-  reality-opts:
-    public-key: R1mts7yXplVMaA15AC1U0TMnYvqiX3OPbK1_ZBan_XQ
-    short-id: 702186e48d5646
-  server: 13.229.44.152
-  servername: www.amd.com
-  tls: true
-  type: vless
-  uuid: b5138354-066a-4e9f-93e3-5bc700eaf89f
-  ws-opts: {}
-- name: 🇸🇬 GhostVPN
-  network: tcp
-  port: 25066
-  reality-opts:
-    public-key: AU-qWQ9Vs1RXJfY9UawaDULc9LsxuinVJe8hNsyPezQ
-    short-id: ac4b9f02123aa50b
-  server: 52.77.187.151
-  servername: www.amd.com
-  tls: true
-  type: vless
-  uuid: 2f790dfd-d1fd-4f77-a494-6d75798135b5
+  uuid: 30430ca4-9a16-4689-a276-4014599d2f39
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
   proxies:
-  - 🇸🇬 GhostVPN
-  - 🇸🇬 GhostVPN
-  - 🇸🇬 GhostVPN
   - 🇸🇬 GhostVPN
   type: select
 rules:

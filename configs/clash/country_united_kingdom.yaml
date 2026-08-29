@@ -7,30 +7,17 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo
-    short-id: 535a3304
-  server: 50.7.193.131
-  servername: app5.jarvesitw.ru
+    public-key: em5MbaJeZoe--syIy7L8MEoNBwN1mLB2ur_YAY8PuQ0
+    short-id: daf012feff3b00d0
+  server: 2.24.131.46
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
-  ws-opts: {}
-- name: 🇬🇧 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo
-    short-id: 8beb2706
-  server: 50.7.214.82
-  servername: app5.jarvesitw.ru
-  tls: true
-  type: vless
-  uuid: ec537bff-dc14-495c-b65f-65393ad7ee75
+  uuid: 5e127068-e5d0-4c3f-86c4-dfb6b34e64a4
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_KINGDOM]
   proxies:
-  - 🇬🇧 GhostVPN
   - 🇬🇧 GhostVPN
   type: select
 rules:

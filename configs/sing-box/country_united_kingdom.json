@@ -14,7 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇬🇧 GhostVPN",
         "🇬🇧 GhostVPN"
       ]
     },
@@ -29,36 +28,18 @@
     {
       "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "50.7.193.131",
+      "server": "2.24.131.46",
       "server_port": 443,
-      "uuid": "ec537bff-dc14-495c-b65f-65393ad7ee75",
+      "uuid": "5e127068-e5d0-4c3f-86c4-dfb6b34e64a4",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "app5.jarvesitw.ru",
+        "server_name": "www.cloudflare.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "OINuDFEDTdmtFR8QRxAZfQIMPA-wJxfGN1LjB3TFUHo",
-          "short_id": "535a3304"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "50.7.214.82",
-      "server_port": 443,
-      "uuid": "ec537bff-dc14-495c-b65f-65393ad7ee75",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "app5.jarvesitw.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo",
-          "short_id": "8beb2706"
+          "public_key": "em5MbaJeZoe--syIy7L8MEoNBwN1mLB2ur_YAY8PuQ0",
+          "short_id": "daf012feff3b00d0"
         }
       }
     }

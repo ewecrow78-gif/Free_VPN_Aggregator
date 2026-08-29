@@ -5,13 +5,13 @@ port: 7890
 proxies:
 - name: 🇫🇮 GhostVPN
   network: tcp
-  port: 8443
+  port: 39633
   reality-opts: {}
-  server: 212.237.216.46
-  servername: fastcdn.intercom-home.online
-  tls: true
+  server: 65.109.215.50
+  servername: 65.109.215.50
+  tls: false
   type: vless
-  uuid: 7e760d89-a8f4-4a87-8f10-b4af28c61b7f
+  uuid: de5b01f7-0697-49ec-aeb1-6ef0361344fb
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FINLAND]

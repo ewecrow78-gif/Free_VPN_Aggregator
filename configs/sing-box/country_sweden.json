@@ -28,14 +28,19 @@
     {
       "type": "vless",
       "tag": "🇸🇪 GhostVPN",
-      "server": "95.85.246.138",
-      "server_port": 443,
-      "uuid": "551955b3-46e9-5129-95c9-e7474c15ed6b",
-      "flow": "xtls-rprx-vision",
+      "server": "177.3.215.41",
+      "server_port": 4443,
+      "uuid": "9b212e1c-9750-4dac-ae63-e6c537352dcb",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "pl9.fast-connect-service.site",
-        "insecure": true
+        "server_name": "idontknow.whit3.net",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "9hX9xn4aKrsXXqWi9nLyuDm2izZ_klzFffTR8192Rxs",
+          "short_id": "ca9273f1a19a886e"
+        }
       }
     }
   ],

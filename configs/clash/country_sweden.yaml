@@ -4,14 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇸🇪 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts: {}
-  server: 95.85.246.138
-  servername: pl9.fast-connect-service.site
+  network: xhttp
+  port: 4443
+  reality-opts:
+    public-key: 9hX9xn4aKrsXXqWi9nLyuDm2izZ_klzFffTR8192Rxs
+    short-id: ca9273f1a19a886e
+  server: 177.3.215.41
+  servername: idontknow.whit3.net
   tls: true
   type: vless
-  uuid: 551955b3-46e9-5129-95c9-e7474c15ed6b
+  uuid: 9b212e1c-9750-4dac-ae63-e6c537352dcb
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWEDEN]

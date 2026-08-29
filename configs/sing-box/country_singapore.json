@@ -14,9 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇬 GhostVPN",
-        "🇸🇬 GhostVPN",
-        "🇸🇬 GhostVPN",
         "🇸🇬 GhostVPN"
       ]
     },
@@ -31,72 +28,18 @@
     {
       "type": "vless",
       "tag": "🇸🇬 GhostVPN",
-      "server": "13.214.194.139",
-      "server_port": 25193,
-      "uuid": "65166c4d-a46c-40f9-83cb-ee599f5279cb",
-      "flow": "xtls-rprx-vision",
+      "server": "217.217.254.126",
+      "server_port": 2053,
+      "uuid": "30430ca4-9a16-4689-a276-4014599d2f39",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.intel.com",
+        "server_name": "www.apple.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "Qsm5dVTgDmOCvRwi8M_WVE8EmeK6Ot9i-XIfCmM1zGg",
-          "short_id": "702186e48d5646"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "54.251.9.130",
-      "server_port": 24146,
-      "uuid": "9d9a048b-3aea-4b3e-b106-1106bf301feb",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.intel.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "VeluC9A7XDurAWQNgXKShS2SJSgoK79QHFgiAMYrvGo",
-          "short_id": "7205d9079521832c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "13.229.44.152",
-      "server_port": 34033,
-      "uuid": "b5138354-066a-4e9f-93e3-5bc700eaf89f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "R1mts7yXplVMaA15AC1U0TMnYvqiX3OPbK1_ZBan_XQ",
-          "short_id": "702186e48d5646"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "52.77.187.151",
-      "server_port": 25066,
-      "uuid": "2f790dfd-d1fd-4f77-a494-6d75798135b5",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "AU-qWQ9Vs1RXJfY9UawaDULc9LsxuinVJe8hNsyPezQ",
-          "short_id": "ac4b9f02123aa50b"
+          "public_key": "yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I",
+          "short_id": "3fc9b11ceeb2cc6b"
         }
       }
     }

@@ -28,15 +28,10 @@
     {
       "type": "vless",
       "tag": "🇫🇮 GhostVPN",
-      "server": "212.237.216.46",
-      "server_port": 8443,
-      "uuid": "7e760d89-a8f4-4a87-8f10-b4af28c61b7f",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fastcdn.intercom-home.online",
-        "insecure": true
-      }
+      "server": "65.109.215.50",
+      "server_port": 39633,
+      "uuid": "de5b01f7-0697-49ec-aeb1-6ef0361344fb",
+      "flow": ""
     }
   ],
   "route": {

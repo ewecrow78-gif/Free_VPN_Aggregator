@@ -7,13 +7,13 @@ proxies:
   network: tcp
   port: 2053
   reality-opts:
-    public-key: GAYlNViQ9mkjs0iTjNmijAIXOaK2h0P2opHCYOrCNy0
-    short-id: ae3ba555edc1ba0a
+    public-key: Gy6W0bXf2bpxoG1k3szp8X0ekzoyXlEtzT8V4mYQ3EE
+    short-id: 29fe4205ddc971a8
   server: 194.61.31.126
   servername: www.apple.com
   tls: true
   type: vless
-  uuid: 7f1f5848-da44-47df-8581-df83e88ee2b3
+  uuid: 0bf89828-484f-4710-9581-12aa961e3bf1
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_INDIA]
