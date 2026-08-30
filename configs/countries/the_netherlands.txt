@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795847291
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795868304
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,9 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_THE_NETHERLANDS%20%F0%9F%9A%80
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6QnE3Zk5UZXRzS3haUi9hR081NGdSNCtEYWM2N3VaK1lZUm5JV3VIR0lvND0@141.148.237.51:45819#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6N3ZEY0FwdmpFTS9CS2pheFlRTEJqeW04ME1HQ2k2ZUo4amtmb1krNmJVcz0@141.148.239.62:45819#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MTR6ZHVWT3BxWk9LNmlheWsreGQzNGg5OHltcDZxcjJOdUpqMnh0V1hpWT0@158.178.155.37:45819#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SFJxd29zZlhxbWxsY2hhNHcrSzNMeFlCOHZKK0wxcVJKd0JaZ1ZFMWtSWT0=@84.235.171.56:45819#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-vless://148e52d4-c3fc-4527-b7e9-47c4a259cd61@31.56.186.210:443?encryption=none&type=xhttp&security=reality&sni=twitch.tv&pbk=kB6YhYZbonyvtLdx3jwkzyNH9JrYhvCsdj8gcVVDHU4&sid=1bf9037908116e5e&path=%2Fd3ef3edc63bc1b0957d8a550&mode=packet-up&extra=%7B%22xmux%22%3A%7B%22cMaxReuseTimes%22%3A0%2C%22maxConnections%22%3A1%2C%22hKeepAlivePeriod%22%3A30%2C%22hMaxRequestTimes%22%3A%22600-900%22%2C%22hMaxReusableSecs%22%3A%221800-3000%22%7D%2C%22headers%22%3A%7B%7D%2C%22noGRPCHeader%22%3Afalse%2C%22xPaddingBytes%22%3A%22100-1000%22%2C%22scMaxEachPostBytes%22%3A1000000%2C%22scMinPostsIntervalMs%22%3A30%2C%22scStreamUpServerSecs%22%3A%2220-80%22%7D&fp=chrome#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@51.158.238.49:8080?&type=ws&headerType=none&path=/?ed=2048#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.178.150.159:62145?security=none&type=tcp&encryption=none#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN

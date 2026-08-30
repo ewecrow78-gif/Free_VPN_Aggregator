@@ -2,22 +2,11 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies:
-- name: 🇧🇷 GhostVPN
-  network: ws
-  port: 2200
-  reality-opts: {}
-  server: 201.24.49.237
-  servername: rzd.ru
-  tls: false
-  type: vless
-  uuid: af412668-578c-4296-bc8c-8fac6a8d9003
-  ws-opts:
-    path: /v1
+proxies: []
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_30]
   proxies:
-  - 🇧🇷 GhostVPN
+  - DIRECT
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_30]

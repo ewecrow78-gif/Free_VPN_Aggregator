@@ -14,11 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
-        "🇳🇱 GhostVPN",
         "🇳🇱 GhostVPN"
       ]
     },
@@ -31,65 +26,16 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "141.148.237.51",
-      "server_port": 45819,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "Bq7fNTetsKxZR/aGO54gR4+Dac67uZ+YYRnIWuHGIo4="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "141.148.239.62",
-      "server_port": 45819,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "7vDcApvjEM/BKjaxYQLBjym80MGCi6eJ8jkfoY+6bUs="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "158.178.155.37",
-      "server_port": 45819,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "14zduVOpqZOK6iayk+xd34h98ymp6qr2NuJj2xtWXiY="
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "84.235.171.56",
-      "server_port": 45819,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "HRqwosfXqmllcha4w+K3LxYB8vJ+L1qRJwBZgVE1kRY="
-    },
-    {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "31.56.186.210",
-      "server_port": 443,
-      "uuid": "148e52d4-c3fc-4527-b7e9-47c4a259cd61",
+      "server": "158.178.150.159",
+      "server_port": 62145,
+      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "twitch.tv",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "kB6YhYZbonyvtLdx3jwkzyNH9JrYhvCsdj8gcVVDHU4",
-          "short_id": "1bf9037908116e5e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "51.158.238.49",
-      "server_port": 8080,
-      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
-      "flow": "",
-      "transport": {
-        "type": "ws",
-        "path": "/?ed=2048"
+        "server_name": "158.178.150.159",
+        "insecure": true
       }
     }
   ],

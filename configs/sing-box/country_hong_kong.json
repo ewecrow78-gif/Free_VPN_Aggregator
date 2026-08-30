@@ -29,7 +29,7 @@
       "type": "shadowsocks",
       "tag": "🇭🇰 GhostVPN",
       "server": "95.40.120.162",
-      "server_port": 8316,
+      "server_port": 8313,
       "method": "chacha20-ietf-poly1305",
       "password": "ljqdalu13.."
     }

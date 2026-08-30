@@ -3,61 +3,19 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇳🇱 GhostVPN
-  password: Bq7fNTetsKxZR/aGO54gR4+Dac67uZ+YYRnIWuHGIo4=
-  port: 45819
-  server: 141.148.237.51
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇳🇱 GhostVPN
-  password: 7vDcApvjEM/BKjaxYQLBjym80MGCi6eJ8jkfoY+6bUs=
-  port: 45819
-  server: 141.148.239.62
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇳🇱 GhostVPN
-  password: 14zduVOpqZOK6iayk+xd34h98ymp6qr2NuJj2xtWXiY=
-  port: 45819
-  server: 158.178.155.37
-  type: ss
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇳🇱 GhostVPN
-  password: HRqwosfXqmllcha4w+K3LxYB8vJ+L1qRJwBZgVE1kRY=
-  port: 45819
-  server: 84.235.171.56
-  type: ss
 - name: 🇳🇱 GhostVPN
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: kB6YhYZbonyvtLdx3jwkzyNH9JrYhvCsdj8gcVVDHU4
-    short-id: 1bf9037908116e5e
-  server: 31.56.186.210
-  servername: twitch.tv
-  tls: true
-  type: vless
-  uuid: 148e52d4-c3fc-4527-b7e9-47c4a259cd61
-  ws-opts: {}
-- name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
+  network: tcp
+  port: 62145
   reality-opts: {}
-  server: 51.158.238.49
-  servername: 51.158.238.49
+  server: 158.178.150.159
+  servername: 158.178.150.159
   tls: false
   type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: /?ed=2048
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
-  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
 rules:
