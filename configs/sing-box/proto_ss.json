@@ -14,7 +14,8 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇭🇰 GhostVPN"
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN"
       ]
     },
     {
@@ -27,11 +28,19 @@
     },
     {
       "type": "shadowsocks",
-      "tag": "🇭🇰 GhostVPN",
-      "server": "95.40.120.162",
-      "server_port": 8313,
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.38.31.48",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "ljqdalu13.."
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.38.31.18",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     }
   ],
   "route": {

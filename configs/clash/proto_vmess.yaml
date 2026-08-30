@@ -5,19 +5,19 @@ port: 7890
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇹🇼 GhostVPN
+  name: 🇯🇵 GhostVPN
   network: tcp
-  port: 35034
-  server: 165.154.195.38
-  servername: 165.154.195.38
+  port: 55216
+  server: 155.248.176.44
+  servername: 155.248.176.44
   tls: false
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_VMESS]
   proxies:
-  - 🇹🇼 GhostVPN
+  - 🇯🇵 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [PROTO_VMESS]

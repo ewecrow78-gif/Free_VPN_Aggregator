@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795847291
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795890947
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,8 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_RUSSIA%20%F0%9F%9A%80
-vless://76186f1e-3062-4a2b-98c2-fab3c61a9511@176.123.167.215:9443?type=tcp&security=reality&sni=www.io.ozone.ru&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://7fc953d6-ae75-46fb-a970-10b57d513487@45.139.27.63:443?path=%2Fapi%2Fv2%2F&security=tls&alpn=h2&encryption=none&insecure=0&fp=chrome&type=xhttp&allowInsecure=0&sni=emerge-01.uiu.fyi#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://716903b1-e6bf-4420-9e27-65e4451692e9@201.34.137.15:4100?&type=ws&headerType=none&host=live.ok.ru&path=/v1#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://303035c0-dd28-4568-87bb-9a11637c5407@194.55.239.20:443?alpn=http%2F1.1&encryption=none&fp=firefox&path=%2Flive.stream.v1.Broadcast%2F&security=tls&sni=harknmav.fun&type=ws#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@213.109.202.94:7443?security=reality&flow=xtls-rprx-vision&sni=amd.com&fp=qq&pbk=9Ow4bZxApNkRwAjQxyr_aZsBcJGc__jemUA7__BbZTE&sid=ab1c1a11&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://f538eeae-82a6-0008-8c6f-bed750322849@185.91.52.223:444?type=tcp&encryption=none&security=reality&flow=xtls-rprx-vision&sni=fn02.selcdn.ru&pbk=0sOrPeGIcSceisfJbeEPvQqj9HDiFx7LIU6urXbyMko&fp=edge&sid=63&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN

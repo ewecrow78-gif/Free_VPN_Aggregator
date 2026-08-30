@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇹🇼 GhostVPN"
+        "🇯🇵 GhostVPN"
       ]
     },
     {
@@ -27,10 +27,10 @@
     },
     {
       "type": "vmess",
-      "tag": "🇹🇼 GhostVPN",
-      "server": "165.154.195.38",
-      "server_port": 35034,
-      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "tag": "🇯🇵 GhostVPN",
+      "server": "155.248.176.44",
+      "server_port": 55216,
+      "uuid": "154dbc39-0921-cf11-29bd-156c5000d763",
       "security": "auto",
       "alter_id": 0
     }

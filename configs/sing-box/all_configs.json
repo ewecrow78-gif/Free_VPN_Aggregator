@@ -14,9 +14,12 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇳🇱 GhostVPN",
-        "🇭🇰 GhostVPN",
-        "🇺🇸 GhostVPN"
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇷🇺 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇯🇵 GhostVPN"
       ]
     },
     {
@@ -28,25 +31,55 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "158.178.150.159",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "158.178.150.159",
-        "insecure": true
-      }
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.38.31.48",
+      "server_port": 8080,
+      "method": "chacha20-ietf-poly1305",
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
       "type": "shadowsocks",
-      "tag": "🇭🇰 GhostVPN",
-      "server": "95.40.120.162",
-      "server_port": 8313,
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.38.31.18",
+      "server_port": 8080,
       "method": "chacha20-ietf-poly1305",
-      "password": "ljqdalu13.."
+      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "185.91.52.223",
+      "server_port": 444,
+      "uuid": "f538eeae-82a6-0008-8c6f-bed750322849",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fn02.selcdn.ru",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "0sOrPeGIcSceisfJbeEPvQqj9HDiFx7LIU6urXbyMko",
+          "short_id": "63"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "31.76.88.10",
+      "server_port": 443,
+      "uuid": "03c48eca-e0aa-4e18-998c-1f53f1de293c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "cf5.rumedia-cdn.com",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/cdn/v3/live"
+      }
     },
     {
       "type": "trojan",
@@ -59,6 +92,15 @@
         "server_name": "14.1.28.76",
         "insecure": true
       }
+    },
+    {
+      "type": "vmess",
+      "tag": "🇯🇵 GhostVPN",
+      "server": "155.248.176.44",
+      "server_port": 55216,
+      "uuid": "154dbc39-0921-cf11-29bd-156c5000d763",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {
