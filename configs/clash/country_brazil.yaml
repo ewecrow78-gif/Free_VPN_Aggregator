@@ -18,16 +18,64 @@ proxies:
   network: ws
   port: 2200
   reality-opts: {}
+  server: 201.24.49.79
+  servername: 201.24.49.79
+  tls: false
+  type: vless
+  uuid: 3b4274c1-4744-452e-9903-e11ccc0c9900
+  ws-opts:
+    path: /v1
+- name: 🇧🇷 GhostVPN
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 201.24.49.213
+  servername: 201.24.49.213
+  tls: false
+  type: vless
+  uuid: 6d662736-24ea-4f8e-9e73-acbc14d09cb1
+  ws-opts:
+    path: /v1
+- name: 🇧🇷 GhostVPN
+  network: ws
+  port: 2200
+  reality-opts: {}
   server: 201.24.49.19
-  servername: rzd.ru
+  servername: 201.24.49.19
   tls: false
   type: vless
   uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
   ws-opts:
     path: /v1
+- name: 🇧🇷 GhostVPN
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 201.24.49.233
+  servername: 201.24.49.233
+  tls: false
+  type: vless
+  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  ws-opts:
+    path: /v1
+- name: 🇧🇷 GhostVPN
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 201.24.49.69
+  servername: 201.24.49.69
+  tls: false
+  type: vless
+  uuid: 2cd5f052-6455-4153-b7d3-0545184dc64c
+  ws-opts:
+    path: /v1
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BRAZIL]
   proxies:
+  - 🇧🇷 GhostVPN
+  - 🇧🇷 GhostVPN
+  - 🇧🇷 GhostVPN
+  - 🇧🇷 GhostVPN
   - 🇧🇷 GhostVPN
   - 🇧🇷 GhostVPN
   type: select

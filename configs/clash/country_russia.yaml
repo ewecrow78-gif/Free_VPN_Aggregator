@@ -14,9 +14,46 @@ proxies:
   uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
   ws-opts:
     path: /v1
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
+    short-id: ''
+  server: 176.123.167.215
+  servername: www.io.ozone.ru
+  tls: true
+  type: vless
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 2200
+  reality-opts: {}
+  server: 91.222.237.55
+  servername: 91.222.237.55
+  tls: false
+  type: vless
+  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  ws-opts:
+    path: /v1
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 443
+  reality-opts: {}
+  server: 194.55.239.20
+  servername: harknmav.fun
+  tls: true
+  type: vless
+  uuid: 303035c0-dd28-4568-87bb-9a11637c5407
+  ws-opts:
+    path: /live.stream.v1.Broadcast/
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select
 rules:

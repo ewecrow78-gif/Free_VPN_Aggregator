@@ -5,15 +5,15 @@ port: 7890
 proxies:
 - name: 🇮🇹 GhostVPN
   network: tcp
-  port: 32396
+  port: 8443
   reality-opts:
-    public-key: Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU
-    short-id: dd6ce6af95001a
-  server: 172.232.196.241
-  servername: www.sony.com
+    public-key: vSwth-8n5PZiAc27bkA_6qlxhuPOC0uBft7F2DWrPXs
+    short-id: 5ecd85141e301108
+  server: 202.165.67.16
+  servername: mila.4ch.pro
   tls: true
   type: vless
-  uuid: bd6ebd72-25cd-4209-a418-a8c72946da90
+  uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_ITALY]

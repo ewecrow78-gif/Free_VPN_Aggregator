@@ -5,13 +5,15 @@ port: 7890
 proxies:
 - name: 🇫🇮 GhostVPN
   network: tcp
-  port: 39633
-  reality-opts: {}
-  server: 65.109.215.50
-  servername: 65.109.215.50
-  tls: false
+  port: 443
+  reality-opts:
+    public-key: 30eHXS9LpzFg443EtLaGLuDFo2QGa4zvLM7WdT-tSiM
+    short-id: 35debf0dc757d053
+  server: 185.69.123.106
+  servername: www.google.com
+  tls: true
   type: vless
-  uuid: de5b01f7-0697-49ec-aeb1-6ef0361344fb
+  uuid: 99e5e9a0-1c6b-4cb0-805d-a810fd47eb15
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FINLAND]

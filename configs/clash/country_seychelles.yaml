@@ -7,13 +7,13 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: f45c9665f3261108
-  server: 45.195.228.104
-  servername: storage.yandex.net
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: 4fa44664f6a566d3
+  server: 45.95.96.225
+  servername: germany.superbuba.top
   tls: true
   type: vless
-  uuid: 39c96b4b-8908-4e9c-9db0-ac9415bd4df8
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SEYCHELLES]

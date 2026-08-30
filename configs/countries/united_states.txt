@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795803870
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795826592
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,11 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-vless://5181e3af-4a0c-47d7-8beb-7e4fa4786cdd@201.24.51.241:4100?encryption=none&path=%2Fv1&security=none&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://936b7663-a841-4b42-b639-6e3fab1dbf45@200.165.234.119:2200?path=%2Fv1&security=none&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://39e0f41b-180b-4f7e-a607-37b135f0fd83@200.165.234.45:4100?encryption=none&type=ws&path=%2Fv1&security=none#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://5383fb97-1178-4709-9a25-b767b743e911@200.165.234.62:4100?path=/v1&security=none&encryption=none&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://1206bad5-dcc9-410e-9595-d9fe9ee54085@31.77.220.152:5015?type=tcp&security=reality&sni=special.aeternavpn.space&pbk=-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo&sid=a1b2c3d4&fp=firefox&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIiwiYWRkIjoiMTI5LjE0Ni4xNDMuODAiLCJwb3J0IjoiNDgxMTEiLCJpZCI6ImQ0NjAzY2MyLWUwZWUtNDY1MS04M2Y1LTFkYjViNzE2ODE3NyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoicmF3IiwidHlwZSI6IiIsInRscyI6IiJ9
+trojan://r49gssuondznyu2eex83@14.1.28.76:50740?security=tls&amp;insecure=1&amp;headerType=none&amp;type=tcp&amp;allowInsecure=1#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://5885b8b9-f2eb-452c-8a20-b4e0588bb4db@31.58.50.8:8443?security=reality&encryption=none&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://5885b8b9-f2eb-452c-8a20-b4e0588bb4db@31.57.46.55:8443?security=reality&encryption=none&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://5885b8b9-f2eb-452c-8a20-b4e0588bb4db@94.183.185.248:8443?security=reality&encryption=none&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=www.google.com#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

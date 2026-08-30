@@ -28,18 +28,18 @@
     {
       "type": "vless",
       "tag": "🇮🇹 GhostVPN",
-      "server": "172.232.196.241",
-      "server_port": 32396,
-      "uuid": "bd6ebd72-25cd-4209-a418-a8c72946da90",
-      "flow": "xtls-rprx-vision",
+      "server": "202.165.67.16",
+      "server_port": 8443,
+      "uuid": "d53f098c-c146-4c16-b8fc-263743fdb6b3",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.com",
+        "server_name": "mila.4ch.pro",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU",
-          "short_id": "dd6ce6af95001a"
+          "public_key": "vSwth-8n5PZiAc27bkA_6qlxhuPOC0uBft7F2DWrPXs",
+          "short_id": "5ecd85141e301108"
         }
       }
     }

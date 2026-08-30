@@ -28,18 +28,18 @@
     {
       "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "45.195.228.104",
+      "server": "45.95.96.225",
       "server_port": 443,
-      "uuid": "39c96b4b-8908-4e9c-9db0-ac9415bd4df8",
+      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "storage.yandex.net",
+        "server_name": "germany.superbuba.top",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg",
-          "short_id": "f45c9665f3261108"
+          "public_key": "rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs",
+          "short_id": "4fa44664f6a566d3"
         }
       }
     }

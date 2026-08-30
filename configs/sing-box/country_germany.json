@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -26,20 +27,28 @@
       "tag": "dns-out"
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "129.159.15.175",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "IwxNmiHQr4nZQEjxKD8bl/0lbvbZ/HJJbzAkjwnHOkk="
+    },
+    {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "104.105.18.183",
-      "server_port": 23147,
-      "uuid": "2cf1f3f4-f949-495f-95d6-7f3f6675c13f",
+      "server": "132.243.225.142",
+      "server_port": 443,
+      "uuid": "5885b8b9-f2eb-452c-8a20-b4e0588bb4db",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "fi1-cosmostechnology.ru",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "Q5olKgn1QNzByW6thPsIA-svXqdzSgyVOSsF9GiTvXI",
-          "short_id": "5f5d4386c2c53c"
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "short_id": ""
         }
       }
     }

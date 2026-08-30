@@ -3,17 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🏳️ Gh0st #94'
-  password: JA96378052
+- name: 🏳️ GhostVPN
+  network: tcp
   port: 443
-  server: 87.121.33.91
-  skip-cert-verify: true
-  sni: evident-gnat.rooster465.autos
-  type: trojan
+  reality-opts: {}
+  server: 82.115.21.139
+  servername: 82.115.21.139
+  tls: false
+  type: vless
+  uuid: 19e4a904-2da5-4ba6-8768-6c0e9dd52ed0
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_AUSTRALIA]
   proxies:
-  - '🏳️ Gh0st #94'
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_AUSTRALIA]

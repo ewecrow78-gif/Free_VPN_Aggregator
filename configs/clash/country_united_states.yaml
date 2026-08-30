@@ -7,27 +7,99 @@ proxies:
   network: ws
   port: 4100
   reality-opts: {}
-  server: 201.24.51.241
-  servername: 201.24.51.241
+  server: 200.165.234.45
+  servername: 200.165.234.45
   tls: false
   type: vless
-  uuid: 5181e3af-4a0c-47d7-8beb-7e4fa4786cdd
+  uuid: 39e0f41b-180b-4f7e-a607-37b135f0fd83
   ws-opts:
     path: /v1
 - name: 🇺🇸 GhostVPN
   network: ws
-  port: 2200
+  port: 4100
   reality-opts: {}
-  server: 200.165.234.119
-  servername: 200.165.234.119
+  server: 200.165.234.62
+  servername: 200.165.234.62
   tls: false
   type: vless
-  uuid: 936b7663-a841-4b42-b639-6e3fab1dbf45
+  uuid: 5383fb97-1178-4709-9a25-b767b743e911
   ws-opts:
     path: /v1
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 5015
+  reality-opts:
+    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
+    short-id: a1b2c3d4
+  server: 31.77.220.152
+  servername: special.aeternavpn.space
+  tls: true
+  type: vless
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 48111
+  server: 129.146.143.80
+  servername: 129.146.143.80
+  tls: false
+  type: vmess
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  password: r49gssuondznyu2eex83
+  port: 50740
+  server: 14.1.28.76
+  skip-cert-verify: true
+  sni: 14.1.28.76
+  type: trojan
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+    short-id: ''
+  server: 31.58.50.8
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 5885b8b9-f2eb-452c-8a20-b4e0588bb4db
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+    short-id: ''
+  server: 31.57.46.55
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 5885b8b9-f2eb-452c-8a20-b4e0588bb4db
+  ws-opts: {}
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+    short-id: ''
+  server: 94.183.185.248
+  servername: www.google.com
+  tls: true
+  type: vless
+  uuid: 5885b8b9-f2eb-452c-8a20-b4e0588bb4db
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
+  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select

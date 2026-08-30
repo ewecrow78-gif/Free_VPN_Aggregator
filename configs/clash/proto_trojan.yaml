@@ -3,24 +3,16 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🏳️ GhostVPN
-  password: UO36402987
-  port: 443
-  server: 34.251.228.118
-  skip-cert-verify: true
-  sni: definite-ladybird.rooster465.autos
-  type: trojan
 - name: 🇺🇸 GhostVPN
-  password: ND91608427
-  port: 443
-  server: 44.244.3.114
+  password: r49gssuondznyu2eex83
+  port: 50740
+  server: 14.1.28.76
   skip-cert-verify: true
-  sni: pet-ghost.rooster465.autos
+  sni: 14.1.28.76
   type: trojan
 proxy-groups:
 - name: Free_VPN_Aggregator [PROTO_TROJAN]
   proxies:
-  - 🏳️ GhostVPN
   - 🇺🇸 GhostVPN
   type: select
 rules:

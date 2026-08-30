@@ -3,16 +3,17 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇰🇷 GhostVPN
+- name: 🇰🇷 GhostVPN
   network: tcp
-  port: 443
-  server: 140.238.2.250
-  servername: 140.238.2.250
-  tls: false
-  type: vmess
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  port: 8443
+  reality-opts:
+    public-key: WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk
+    short-id: a1b2c3d4
+  server: 31.77.182.49
+  servername: fr.aeternavpn.space
+  tls: true
+  type: vless
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SOUTH_KOREA]

@@ -15,6 +15,10 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇧🇷 GhostVPN",
+        "🇧🇷 GhostVPN",
+        "🇧🇷 GhostVPN",
+        "🇧🇷 GhostVPN",
+        "🇧🇷 GhostVPN",
         "🇧🇷 GhostVPN"
       ]
     },
@@ -33,9 +37,38 @@
       "server_port": 2200,
       "uuid": "2e228435-33a0-47d1-a1d8-9a34b5a03c45",
       "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.79",
+      "server_port": 2200,
+      "uuid": "3b4274c1-4744-452e-9903-e11ccc0c9900",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "201.24.49.117",
+        "server_name": "201.24.49.79",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.213",
+      "server_port": 4100,
+      "uuid": "6d662736-24ea-4f8e-9e73-acbc14d09cb1",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "201.24.49.213",
         "insecure": true
       },
       "transport": {
@@ -52,7 +85,41 @@
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "rzd.ru",
+        "server_name": "201.24.49.19",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.233",
+      "server_port": 2200,
+      "uuid": "714e1212-6707-471e-9f40-2fbd3d8d3b4b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "201.24.49.233",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.69",
+      "server_port": 4100,
+      "uuid": "2cd5f052-6455-4153-b7d3-0545184dc64c",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "201.24.49.69",
         "insecure": true
       },
       "transport": {

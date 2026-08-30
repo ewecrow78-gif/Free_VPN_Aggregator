@@ -4,20 +4,33 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇸🇪 GhostVPN
-  network: xhttp
-  port: 4443
+  network: tcp
+  port: 5015
   reality-opts:
-    public-key: 9hX9xn4aKrsXXqWi9nLyuDm2izZ_klzFffTR8192Rxs
-    short-id: ca9273f1a19a886e
-  server: 177.3.215.41
-  servername: idontknow.whit3.net
+    public-key: HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ
+    short-id: a1b2c3d4
+  server: 31.207.7.106
+  servername: fi.aeternavpn.space
   tls: true
   type: vless
-  uuid: 9b212e1c-9750-4dac-ae63-e6c537352dcb
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  ws-opts: {}
+- name: 🇸🇪 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4sJi_kuLKl7--j0yDT5feC-pAQUAOInTZh4mOVlP11E
+    short-id: 2c9ee5b9f7255849
+  server: 46.246.90.11
+  servername: dl.google.com
+  tls: true
+  type: vless
+  uuid: 716576a9-7575-44f0-a82a-a21f774861f5
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWEDEN]
   proxies:
+  - 🇸🇪 GhostVPN
   - 🇸🇪 GhostVPN
   type: select
 rules:
