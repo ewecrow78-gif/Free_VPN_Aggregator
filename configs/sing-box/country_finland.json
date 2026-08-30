@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇫🇮 GhostVPN",
         "🇫🇮 GhostVPN"
       ]
     },
@@ -24,6 +25,14 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇫🇮 GhostVPN",
+      "server": "65.109.215.50",
+      "server_port": 39633,
+      "uuid": "de5b01f7-0697-49ec-aeb1-6ef0361344fb",
+      "flow": ""
     },
     {
       "type": "vless",

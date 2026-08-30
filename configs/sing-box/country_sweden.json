@@ -14,7 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇪 GhostVPN",
         "🇸🇪 GhostVPN"
       ]
     },
@@ -25,24 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 GhostVPN",
-      "server": "31.207.7.106",
-      "server_port": 5015,
-      "uuid": "1206bad5-dcc9-410e-9595-d9fe9ee54085",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.aeternavpn.space",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ",
-          "short_id": "a1b2c3d4"
-        }
-      }
     },
     {
       "type": "vless",

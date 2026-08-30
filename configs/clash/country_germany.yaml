@@ -5,25 +5,62 @@ port: 7890
 proxies:
 - cipher: 2022-blake3-chacha20-poly1305
   name: 🇩🇪 GhostVPN
-  password: IwxNmiHQr4nZQEjxKD8bl/0lbvbZ/HJJbzAkjwnHOkk=
+  password: IFvwvrqx26KIutn01x+IDo6chyktXgr2b0UvXNliBzc=
   port: 59924
-  server: 129.159.15.175
+  server: 141.147.53.115
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪 GhostVPN
+  password: +gebuWwfimHcw5FvH6Sfnw3ppf05PeV2M8QPMsr38oY=
+  port: 59924
+  server: 129.159.10.51
+  type: ss
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪 GhostVPN
+  password: kmkoVYMV3CiplXx9HrZ9swEnhpwqXMY0rOXC34dEi08=
+  port: 59924
+  server: 130.61.144.2
   type: ss
 - name: 🇩🇪 GhostVPN
-  network: tcp
+  network: xhttp
   port: 443
   reality-opts:
-    public-key: N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE
+    public-key: sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE
     short-id: ''
-  server: 132.243.225.142
-  servername: fi1-cosmostechnology.ru
+  server: 194.48.250.31
+  servername: www.google.com
   tls: true
   type: vless
-  uuid: 5885b8b9-f2eb-452c-8a20-b4e0588bb4db
+  uuid: 8c105407-82fb-4dd1-8df4-916d34a7d3fe
   ws-opts: {}
+- name: 🇩🇪 GhostVPN
+  network: tcp
+  port: 20827
+  reality-opts: {}
+  server: 140.82.33.78
+  servername: 140.82.33.78
+  tls: false
+  type: vless
+  uuid: 78c61f86-6229-4994-8389-7d7213ce7f42
+  ws-opts: {}
+- name: 🇩🇪 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 91.107.188.158
+  servername: 91.107.188.158
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_GERMANY]
   proxies:
+  - 🇩🇪 GhostVPN
+  - 🇩🇪 GhostVPN
+  - 🇩🇪 GhostVPN
+  - 🇩🇪 GhostVPN
   - 🇩🇪 GhostVPN
   - 🇩🇪 GhostVPN
   type: select

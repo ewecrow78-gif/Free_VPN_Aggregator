@@ -5,6 +5,16 @@ port: 7890
 proxies:
 - name: 🇫🇮 GhostVPN
   network: tcp
+  port: 39633
+  reality-opts: {}
+  server: 65.109.215.50
+  servername: 65.109.215.50
+  tls: false
+  type: vless
+  uuid: de5b01f7-0697-49ec-aeb1-6ef0361344fb
+  ws-opts: {}
+- name: 🇫🇮 GhostVPN
+  network: tcp
   port: 443
   reality-opts:
     public-key: 30eHXS9LpzFg443EtLaGLuDFo2QGa4zvLM7WdT-tSiM
@@ -18,6 +28,7 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_FINLAND]
   proxies:
+  - 🇫🇮 GhostVPN
   - 🇫🇮 GhostVPN
   type: select
 rules:

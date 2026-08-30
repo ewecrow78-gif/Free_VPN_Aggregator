@@ -14,9 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇬 GhostVPN",
-        "🇺🇸 GhostVPN",
-        "🇯🇵 GhostVPN",
         "🇹🇼 GhostVPN"
       ]
     },
@@ -27,33 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vmess",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "13.250.114.194",
-      "server_port": 8443,
-      "uuid": "9dcb8d73-cc0b-4fcc-a12d-d7affb56267c",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "129.146.143.80",
-      "server_port": 48111,
-      "uuid": "d4603cc2-e0ee-4651-83f5-1db5b7168177",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vmess",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "155.248.176.44",
-      "server_port": 55216,
-      "uuid": "154dbc39-0921-cf11-29bd-156c5000d763",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vmess",

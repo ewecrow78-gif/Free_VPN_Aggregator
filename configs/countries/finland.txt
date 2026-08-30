@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795826592
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795847291
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_FINLAND%20%F0%9F%9A%80
+vless://de5b01f7-0697-49ec-aeb1-6ef0361344fb@65.109.215.50:39633?type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20GhostVPN
 vless://99e5e9a0-1c6b-4cb0-805d-a810fd47eb15@185.69.123.106:443?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=firefox&sni=www.google.com&pbk=30eHXS9LpzFg443EtLaGLuDFo2QGa4zvLM7WdT-tSiM&sid=35debf0dc757d053#%F0%9F%87%AB%F0%9F%87%AE%20GhostVPN

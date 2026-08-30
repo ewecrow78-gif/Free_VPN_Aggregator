@@ -15,6 +15,10 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇩🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
         "🇩🇪 GhostVPN"
       ]
     },
@@ -29,27 +33,68 @@
     {
       "type": "shadowsocks",
       "tag": "🇩🇪 GhostVPN",
-      "server": "129.159.15.175",
+      "server": "141.147.53.115",
       "server_port": 59924,
       "method": "2022-blake3-chacha20-poly1305",
-      "password": "IwxNmiHQr4nZQEjxKD8bl/0lbvbZ/HJJbzAkjwnHOkk="
+      "password": "IFvwvrqx26KIutn01x+IDo6chyktXgr2b0UvXNliBzc="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "129.159.10.51",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "+gebuWwfimHcw5FvH6Sfnw3ppf05PeV2M8QPMsr38oY="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "130.61.144.2",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "kmkoVYMV3CiplXx9HrZ9swEnhpwqXMY0rOXC34dEi08="
     },
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "132.243.225.142",
+      "server": "194.48.250.31",
       "server_port": 443,
-      "uuid": "5885b8b9-f2eb-452c-8a20-b4e0588bb4db",
-      "flow": "xtls-rprx-vision",
+      "uuid": "8c105407-82fb-4dd1-8df4-916d34a7d3fe",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fi1-cosmostechnology.ru",
+        "server_name": "www.google.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "public_key": "sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE",
           "short_id": ""
         }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "140.82.33.78",
+      "server_port": 20827,
+      "uuid": "78c61f86-6229-4994-8389-7d7213ce7f42",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "91.107.188.158",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "91.107.188.158",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": ""
       }
     }
   ],

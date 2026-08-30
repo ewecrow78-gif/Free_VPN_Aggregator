@@ -4,17 +4,6 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
-  network: ws
-  port: 4100
-  reality-opts: {}
-  server: 201.34.137.15
-  servername: 201.34.137.15
-  tls: false
-  type: vless
-  uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
-  ws-opts:
-    path: /v1
-- name: 🇷🇺 GhostVPN
   network: tcp
   port: 9443
   reality-opts:
@@ -27,14 +16,24 @@ proxies:
   uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
   ws-opts: {}
 - name: 🇷🇺 GhostVPN
-  network: ws
-  port: 2200
+  network: xhttp
+  port: 443
   reality-opts: {}
-  server: 91.222.237.55
-  servername: 91.222.237.55
+  server: 45.139.27.63
+  servername: emerge-01.uiu.fyi
+  tls: true
+  type: vless
+  uuid: 7fc953d6-ae75-46fb-a970-10b57d513487
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: ws
+  port: 4100
+  reality-opts: {}
+  server: 201.34.137.15
+  servername: 201.34.137.15
   tls: false
   type: vless
-  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  uuid: 716903b1-e6bf-4420-9e27-65e4451692e9
   ws-opts:
     path: /v1
 - name: 🇷🇺 GhostVPN
@@ -48,9 +47,22 @@ proxies:
   uuid: 303035c0-dd28-4568-87bb-9a11637c5407
   ws-opts:
     path: /live.stream.v1.Broadcast/
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 9Ow4bZxApNkRwAjQxyr_aZsBcJGc__jemUA7__BbZTE
+    short-id: ab1c1a11
+  server: 213.109.202.94
+  servername: amd.com
+  tls: true
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
+  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795826592
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795847291
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,9 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_GERMANY%20%F0%9F%9A%80
-ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SXd4Tm1pSFFyNG5aUUVqeEtEOGJsLzBsYnZiWi9ISkpiekFranduSE9raz0@129.159.15.175:59924#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://5885b8b9-f2eb-452c-8a20-b4e0588bb4db@132.243.225.142:443?security=reality&encryption=none&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&headerType=none&fp=qq&type=tcp&flow=xtls-rprx-vision&sni=fi1-cosmostechnology.ru#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6SUZ2d3ZycXgyNktJdXRuMDF4K0lEbzZjaHlrdFhncjJiMFV2WE5saUJ6Yz0=@141.147.53.115:59924#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6K2dlYnVXd2ZpbUhjdzVGdkg2U2ZudzNwcGYwNVBlVjJNOFFQTXNyMzhvWT0=@129.159.10.51:59924#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6a21rb1ZZTVYzQ2lwbFh4OUhyWjlzd0VuaHB3cVhNWTByT1hDMzRkRWkwOD0=@130.61.144.2:59924#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://8c105407-82fb-4dd1-8df4-916d34a7d3fe@194.48.250.31:443?type=xhttp&security=reality&fp=chrome&pbk=sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE&sni=www.google.com&mode=auto#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://78c61f86-6229-4994-8389-7d7213ce7f42@140.82.33.78:20827?type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.188.158:8080?type=ws&security=none&sni=91.107.188.158#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN

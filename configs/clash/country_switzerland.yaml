@@ -7,13 +7,13 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc
-    short-id: 77d7abe2c55892f1
-  server: 45.90.58.216
-  servername: www.cloudflare.com
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: ff776ff77be48b88
+  server: 138.124.8.117
+  servername: fin2.helper-internet.com
   tls: true
   type: vless
-  uuid: 2e8077d9-7bd9-444b-b2e3-de940d2eb35e
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SWITZERLAND]

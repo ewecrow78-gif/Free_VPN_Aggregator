@@ -15,43 +15,70 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇳🇱 GhostVPN",
-        "🇧🇷 GhostVPN",
-        "🇷🇺 GhostVPN",
-        "🇷🇺 GhostVPN",
-        "🇺🇸 GhostVPN",
-        "🇧🇷 GhostVPN",
-        "🇷🇺 GhostVPN",
-        "🇧🇷 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇩🇪 GhostVPN",
-        "🇧🇷 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇬🇧 GhostVPN",
-        "🇺🇸 GhostVPN",
-        "🇧🇷 GhostVPN",
-        "🇸🇪 GhostVPN",
-        "🏳️ GhostVPN",
-        "🇷🇺 GhostVPN",
         "🇳🇱 GhostVPN",
-        "🇸🇪 GhostVPN",
-        "🏳️ GhostVPN",
-        "🇧🇷 GhostVPN",
-        "🇮🇹 GhostVPN",
-        "🇰🇷 GhostVPN",
+        "🇳🇱 GhostVPN",
         "🇩🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇧🇷 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇧🇷 GhostVPN",
+        "🇬🇧 GhostVPN",
         "🇺🇸 GhostVPN",
+        "🇳🇱 GhostVPN",
+        "🇳🇱 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇷🇺 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇷🇺 GhostVPN",
+        "🇧🇷 GhostVPN",
         "🇫🇮 GhostVPN",
-        "🇸🇬 GhostVPN",
+        "🇷🇺 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇧🇷 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇳🇱 GhostVPN",
         "🇺🇸 GhostVPN",
-        "🇮🇳 GhostVPN",
+        "🇸🇪 GhostVPN",
+        "🇩🇪 GhostVPN",
+        "🇨🇭 GhostVPN",
+        "🇷🇺 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇬🇧 GhostVPN",
+        "🇷🇺 GhostVPN",
+        "🇫🇮 GhostVPN",
         "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN",
         "🇺🇸 GhostVPN",
-        "🇸🇬 GhostVPN",
-        "🇯🇵 GhostVPN",
-        "🇹🇼 GhostVPN"
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🏳️ GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇺🇸 GhostVPN",
+        "🇹🇼 GhostVPN",
+        "🇯🇵 GhostVPN"
       ]
     },
     {
@@ -63,12 +90,44 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇳🇱 GhostVPN",
-      "server": "141.148.232.137",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
+      "server": "141.148.237.51",
+      "server_port": 45819,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "Bq7fNTetsKxZR/aGO54gR4+Dac67uZ+YYRnIWuHGIo4="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "141.148.239.62",
+      "server_port": 45819,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "7vDcApvjEM/BKjaxYQLBjym80MGCi6eJ8jkfoY+6bUs="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "158.178.155.37",
+      "server_port": 45819,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "14zduVOpqZOK6iayk+xd34h98ymp6qr2NuJj2xtWXiY="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "141.147.53.115",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "IFvwvrqx26KIutn01x+IDo6chyktXgr2b0UvXNliBzc="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "129.159.10.51",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "+gebuWwfimHcw5FvH6Sfnw3ppf05PeV2M8QPMsr38oY="
     },
     {
       "type": "vless",
@@ -83,20 +142,180 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "130.61.144.2",
+      "server_port": 59924,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "kmkoVYMV3CiplXx9HrZ9swEnhpwqXMY0rOXC34dEi08="
+    },
+    {
       "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "201.34.137.15",
-      "server_port": 4100,
-      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "194.48.250.31",
+      "server_port": 443,
+      "uuid": "8c105407-82fb-4dd1-8df4-916d34a7d3fe",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "201.34.137.15",
+        "server_name": "www.google.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "sJTPQLMDCyPAbRcaJM-P8Y3_xRVpEEGrvv-kkIuIuQE",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.81",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "auth-3.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.31",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-v2.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.53",
+      "server_port": 4100,
+      "uuid": "33965d4f-f9bd-4437-8867-ed705b435518",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "201.24.49.53",
         "insecure": true
       },
       "transport": {
         "type": "ws",
         "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.11",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "80.76.44.138",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "note.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "84.235.171.56",
+      "server_port": 45819,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "HRqwosfXqmllcha4w+K3LxYB8vJ+L1qRJwBZgVE1kRY="
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "31.56.186.210",
+      "server_port": 443,
+      "uuid": "148e52d4-c3fc-4527-b7e9-47c4a259cd61",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "twitch.tv",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "kB6YhYZbonyvtLdx3jwkzyNH9JrYhvCsdj8gcVVDHU4",
+          "short_id": "1bf9037908116e5e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.21",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-v2.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.141",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
       }
     },
     {
@@ -119,70 +338,74 @@
     },
     {
       "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.101",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.91",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "auth-3.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "🇺🇸 GhostVPN",
-      "server": "200.165.234.45",
-      "server_port": 4100,
-      "uuid": "39e0f41b-180b-4f7e-a607-37b135f0fd83",
+      "server": "80.76.44.135",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "200.165.234.45",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
+        "server_name": "note.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
       }
     },
     {
       "type": "vless",
-      "tag": "🇧🇷 GhostVPN",
-      "server": "201.24.49.79",
-      "server_port": 2200,
-      "uuid": "3b4274c1-4744-452e-9903-e11ccc0c9900",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "82.152.220.121",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "201.24.49.79",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "91.222.237.55",
-      "server_port": 2200,
-      "uuid": "714e1212-6707-471e-9f40-2fbd3d8d3b4b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "91.222.237.55",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 GhostVPN",
-      "server": "201.24.49.213",
-      "server_port": 4100,
-      "uuid": "6d662736-24ea-4f8e-9e73-acbc14d09cb1",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "201.24.49.213",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
+        "server_name": "s3.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
       }
     },
     {
@@ -194,23 +417,52 @@
       "password": "oZIoA69Q8yhcQV8ka3Pa3A"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "129.159.15.175",
-      "server_port": 59924,
+      "server": "140.82.33.78",
+      "server_port": 20827,
+      "uuid": "78c61f86-6229-4994-8389-7d7213ce7f42",
+      "flow": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "134.65.59.103",
+      "server_port": 61312,
       "method": "2022-blake3-chacha20-poly1305",
-      "password": "IwxNmiHQr4nZQEjxKD8bl/0lbvbZ/HJJbzAkjwnHOkk="
+      "password": "EfGEytWYCn3S7KiNjCTKlsDjG4MdZzAB+GTSuKlREUQ="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "129.151.80.142",
+      "server_port": 61312,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "m8FfNqhzuXPMFe0gaunpieW87PteuaBFonYmUgPM+tg="
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "45.139.27.63",
+      "server_port": 443,
+      "uuid": "7fc953d6-ae75-46fb-a970-10b57d513487",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "emerge-01.uiu.fyi",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
       "tag": "🇧🇷 GhostVPN",
-      "server": "201.24.49.19",
+      "server": "201.24.49.237",
       "server_port": 2200,
-      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
+      "uuid": "af412668-578c-4296-bc8c-8fac6a8d9003",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "201.24.49.19",
+        "server_name": "rzd.ru",
         "insecure": true
       },
       "transport": {
@@ -219,28 +471,97 @@
       }
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.42",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "type": "vless",
+      "tag": "🇫🇮 GhostVPN",
+      "server": "65.109.215.50",
+      "server_port": 39633,
+      "uuid": "de5b01f7-0697-49ec-aeb1-6ef0361344fb",
+      "flow": ""
     },
     {
-      "type": "shadowsocks",
-      "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.213",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "k1dBOmOB4oqi7Ump37a1bQ"
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "201.34.137.15",
+      "server_port": 4100,
+      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.42",
+      "server": "82.152.220.111",
       "server_port": 443,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "s3.savesafe.run",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8",
+          "short_id": "812609fa663c57fb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.228",
+      "server_port": 2200,
+      "uuid": "09f2e2f4-3225-4342-bc92-cb58ee841f72",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "201.24.49.228",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "13.43.176.25",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "13.43.176.25",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "13.43.176.25",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "13.43.176.25",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "51.158.238.49",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/?ed=2048"
+      }
     },
     {
       "type": "vless",
@@ -257,84 +578,6 @@
       "transport": {
         "type": "ws",
         "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇧🇷 GhostVPN",
-      "server": "201.24.49.233",
-      "server_port": 2200,
-      "uuid": "714e1212-6707-471e-9f40-2fbd3d8d3b4b",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "201.24.49.233",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇪 GhostVPN",
-      "server": "31.207.7.106",
-      "server_port": 5015,
-      "uuid": "1206bad5-dcc9-410e-9595-d9fe9ee54085",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi.aeternavpn.space",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ GhostVPN",
-      "server": "82.115.21.139",
-      "server_port": 443,
-      "uuid": "19e4a904-2da5-4ba6-8768-6c0e9dd52ed0",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "82.115.21.139",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "194.55.239.20",
-      "server_port": 443,
-      "uuid": "303035c0-dd28-4568-87bb-9a11637c5407",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "harknmav.fun",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/live.stream.v1.Broadcast/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "94.103.1.65",
-      "server_port": 8443,
-      "uuid": "5495728b-5b89-4330-9193-c6c09920f998",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "n3.plus-abc.ru",
-        "insecure": true
       }
     },
     {
@@ -357,32 +600,66 @@
     },
     {
       "type": "vless",
-      "tag": "🏳️ GhostVPN",
-      "server": "45.95.96.225",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "91.107.188.158",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "91.107.188.158",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇭 GhostVPN",
+      "server": "138.124.8.117",
       "server_port": 443,
-      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
+      "uuid": "ae8e0f7d-b661-41ca-b55d-d8c383adb2f8",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "germany.superbuba.top",
+        "server_name": "fin2.helper-internet.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs",
-          "short_id": "4fa44664f6a566d3"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "🇧🇷 GhostVPN",
-      "server": "201.24.49.69",
-      "server_port": 4100,
-      "uuid": "2cd5f052-6455-4153-b7d3-0545184dc64c",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "194.55.239.20",
+      "server_port": 443,
+      "uuid": "303035c0-dd28-4568-87bb-9a11637c5407",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "201.24.49.69",
+        "server_name": "harknmav.fun",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "200.165.234.119",
+      "server_port": 2200,
+      "uuid": "936b7663-a841-4b42-b639-6e3fab1dbf45",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "200.165.234.119",
         "insecure": true
       },
       "transport": {
@@ -392,73 +669,32 @@
     },
     {
       "type": "vless",
-      "tag": "🇮🇹 GhostVPN",
-      "server": "202.165.67.16",
-      "server_port": 8443,
-      "uuid": "d53f098c-c146-4c16-b8fc-263743fdb6b3",
+      "tag": "🇬🇧 GhostVPN",
+      "server": "186.190.211.188",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "mila.4ch.pro",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "vSwth-8n5PZiAc27bkA_6qlxhuPOC0uBft7F2DWrPXs",
-          "short_id": "5ecd85141e301108"
-        }
+        "server_name": "186.190.211.188",
+        "insecure": true
       }
     },
     {
       "type": "vless",
-      "tag": "🇰🇷 GhostVPN",
-      "server": "31.77.182.49",
-      "server_port": 8443,
-      "uuid": "1206bad5-dcc9-410e-9595-d9fe9ee54085",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "213.109.202.94",
+      "server_port": 7443,
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fr.aeternavpn.space",
+        "server_name": "amd.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "WblkmqKUs4-IiNsawjWBV16uB_FBxLr8xFVi6eDPkxk",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "132.243.225.142",
-      "server_port": 443,
-      "uuid": "5885b8b9-f2eb-452c-8a20-b4e0588bb4db",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi1-cosmostechnology.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "31.77.220.152",
-      "server_port": 5015,
-      "uuid": "1206bad5-dcc9-410e-9595-d9fe9ee54085",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "special.aeternavpn.space",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo",
-          "short_id": "a1b2c3d4"
+          "public_key": "9Ow4bZxApNkRwAjQxyr_aZsBcJGc__jemUA7__BbZTE",
+          "short_id": "ab1c1a11"
         }
       }
     },
@@ -481,39 +717,186 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "13.250.114.194",
-      "server_port": 8443,
-      "uuid": "9dcb8d73-cc0b-4fcc-a12d-d7affb56267c",
-      "security": "auto",
-      "alter_id": 0
+      "type": "shadowsocks",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "129.146.62.211",
+      "server_port": 50356,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "3RVXu5xARCPQlD3Fv/cmQt7o/XGqUZLwrTTt0FkA2vo="
     },
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇺🇸 GhostVPN",
-      "server": "129.146.143.80",
-      "server_port": 48111,
-      "uuid": "d4603cc2-e0ee-4651-83f5-1db5b7168177",
-      "security": "auto",
-      "alter_id": 0
+      "server": "129.146.76.20",
+      "server_port": 50356,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "eR3ZjLaKtCr4U1m81fqUrBHGvIuRkm64vt0kSZDgIGQ="
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "129.146.73.67",
+      "server_port": 50356,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "RoFdephcuY8+LrAoVBBy0QjUxywV5XKPrjU2sc0RtKw="
     },
     {
       "type": "vless",
-      "tag": "🇮🇳 GhostVPN",
-      "server": "194.61.31.126",
-      "server_port": 2053,
-      "uuid": "0bf89828-484f-4710-9581-12aa961e3bf1",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "204.44.127.222",
+      "server_port": 37262,
+      "uuid": "c8c06f90-c267-47a6-a91a-967e58e61db0",
+      "flow": ""
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "129.146.60.116",
+      "server_port": 50356,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "xDEXXhNhDE1+LUHo1bMUnTwFqgPX3i7cpDX+hUx+dRg="
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.97",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.214",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "Gy6W0bXf2bpxoG1k3szp8X0ekzoyXlEtzT8V4mYQ3EE",
-          "short_id": "29fe4205ddc971a8"
-        }
+        "server_name": "40.160.69.214",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.68.55",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.26",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.68.79",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.112",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "40.160.69.112",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/?ed"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.68.72",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.55",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.68.136",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "40.160.69.180",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ GhostVPN",
+      "server": "158.247.126.244",
+      "server_port": 62145,
+      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "158.247.126.244",
+        "insecure": true
       }
     },
     {
@@ -526,42 +909,6 @@
         "enabled": true,
         "server_name": "14.1.28.76",
         "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "31.58.50.8",
-      "server_port": 8443,
-      "uuid": "5885b8b9-f2eb-452c-8a20-b4e0588bb4db",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇺🇸 GhostVPN",
-      "server": "31.57.46.55",
-      "server_port": 8443,
-      "uuid": "5885b8b9-f2eb-452c-8a20-b4e0588bb4db",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
-        }
       }
     },
     {
@@ -584,30 +931,21 @@
     },
     {
       "type": "vless",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "uuid": "30430ca4-9a16-4689-a276-4014599d2f39",
-      "flow": "",
+      "tag": "🇺🇸 GhostVPN",
+      "server": "31.58.50.8",
+      "server_port": 8443,
+      "uuid": "5885b8b9-f2eb-452c-8a20-b4e0588bb4db",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.google.com",
         "insecure": true,
         "reality": {
           "enabled": true,
-          "public_key": "yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I",
-          "short_id": "3fc9b11ceeb2cc6b"
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "short_id": ""
         }
       }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇯🇵 GhostVPN",
-      "server": "155.248.176.44",
-      "server_port": 55216,
-      "uuid": "154dbc39-0921-cf11-29bd-156c5000d763",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "type": "vmess",
@@ -617,6 +955,14 @@
       "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇯🇵 GhostVPN",
+      "server": "84.247.155.196",
+      "server_port": 80,
+      "method": "aes-256-gcm",
+      "password": "3eOFeNssde7PYYMv"
     }
   ],
   "route": {

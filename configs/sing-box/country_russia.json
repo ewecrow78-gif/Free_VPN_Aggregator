@@ -17,6 +17,7 @@
         "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN",
+        "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN"
       ]
     },
@@ -27,23 +28,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vless",
-      "tag": "🇷🇺 GhostVPN",
-      "server": "201.34.137.15",
-      "server_port": 4100,
-      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "201.34.137.15",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/v1"
-      }
     },
     {
       "type": "vless",
@@ -66,15 +50,23 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "91.222.237.55",
-      "server_port": 2200,
-      "uuid": "714e1212-6707-471e-9f40-2fbd3d8d3b4b",
+      "server": "45.139.27.63",
+      "server_port": 443,
+      "uuid": "7fc953d6-ae75-46fb-a970-10b57d513487",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "91.222.237.55",
+        "server_name": "emerge-01.uiu.fyi",
         "insecure": true
-      },
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "201.34.137.15",
+      "server_port": 4100,
+      "uuid": "716903b1-e6bf-4420-9e27-65e4451692e9",
+      "flow": "",
       "transport": {
         "type": "ws",
         "path": "/v1"
@@ -95,6 +87,24 @@
       "transport": {
         "type": "ws",
         "path": "/live.stream.v1.Broadcast/"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "213.109.202.94",
+      "server_port": 7443,
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "amd.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "9Ow4bZxApNkRwAjQxyr_aZsBcJGc__jemUA7__BbZTE",
+          "short_id": "ab1c1a11"
+        }
       }
     }
   ],
