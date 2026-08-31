@@ -30,44 +30,33 @@
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
+      "server": "158.178.147.174",
+      "server_port": 62145,
+      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
+      "server": "51.15.57.139",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇳🇱 GhostVPN",
       "server": "51.15.56.211",
       "server_port": 8080,
       "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
       "flow": "",
       "transport": {
         "type": "ws",
-        "path": "/?ed=2048"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "31.56.184.168",
-      "server_port": 443,
-      "uuid": "8f1e76cb-eb11-478f-bd14-29ee2811f839",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.kicker.de",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "z5Zq_yi9Fw4yFFC0XJHTa_0bPSUU7yifPK9zfpVF7S8",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇳🇱 GhostVPN",
-      "server": "134.98.129.48",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "134.98.129.48",
-        "insecure": true
+        "path": ""
       }
     }
   ],

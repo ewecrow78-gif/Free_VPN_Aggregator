@@ -3,17 +3,16 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇹🇼 GhostVPN
+- alterId: 0
+  cipher: auto
+  name: 🇹🇼 GhostVPN
   network: tcp
-  port: 40800
-  reality-opts:
-    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
-    short-id: 186e4c2732d61a3d
-  server: 104.199.219.172
-  servername: www.intel.com
-  tls: true
-  type: vless
-  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
+  port: 35034
+  server: 165.154.195.38
+  servername: 165.154.195.38
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_TAIWAN]

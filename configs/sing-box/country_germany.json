@@ -29,29 +29,36 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "138.2.161.254",
-      "server_port": 59924,
-      "method": "2022-blake3-chacha20-poly1305",
-      "password": "1XTdzbvLts9QsSGsu6VgI1Vu65EFYaQurcuu3vlt/ak="
+      "server": "45.77.53.179",
+      "server_port": 51125,
+      "uuid": "b0f95fa6-2cc5-4e41-a33f-0b0ad58daaed",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.77.53.179",
+        "insecure": true
+      }
     },
     {
       "type": "vless",
       "tag": "🇩🇪 GhostVPN",
-      "server": "31.76.249.150",
-      "server_port": 443,
-      "uuid": "8f1e76cb-eb11-478f-bd14-29ee2811f839",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.kicker.de",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "xoWhMRI_9b7yxK9roN_Es31cXty0i480kww8VqGzBDY",
-          "short_id": ""
-        }
+      "server": "91.107.242.197",
+      "server_port": 51815,
+      "uuid": "f7e8a87f-e472-4fca-a393-fb9cc5b5dfa9",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🇩🇪 GhostVPN",
+      "server": "91.107.154.19",
+      "server_port": 8080,
+      "uuid": "11af1c47-865a-47c6-92ff-118013655d78",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": ""
       }
     },
     {
@@ -63,25 +70,7 @@
       "flow": "",
       "transport": {
         "type": "ws",
-        "path": "/"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇩🇪 GhostVPN",
-      "server": "31.76.249.151",
-      "server_port": 443,
-      "uuid": "8f1e76cb-eb11-478f-bd14-29ee2811f839",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.kicker.de",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "FjnQOip9Vri01Kl3k0Y0uUZVgReYU0P4gt9EOXZoP3w",
-          "short_id": ""
-        }
+        "path": ""
       }
     }
   ],

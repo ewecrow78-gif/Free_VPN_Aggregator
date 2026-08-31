@@ -4,29 +4,6 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇺🇸 GhostVPN
-  network: tcp
-  port: 12443
-  reality-opts:
-    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
-    short-id: a1b2c3d4
-  server: 31.77.220.185
-  servername: special.aeternavpn.space
-  tls: true
-  type: vless
-  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
-  ws-opts: {}
-- name: 🇺🇸 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 40.160.68.136
-  servername: 40.160.68.136
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: /?ed
-- name: 🇺🇸 GhostVPN
   network: ws
   port: 8080
   reality-opts: {}
@@ -36,7 +13,7 @@ proxies:
   type: vless
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   ws-opts:
-    path: ''
+    path: /?ed=2048
 - name: 🇺🇸 GhostVPN
   network: ws
   port: 8080
@@ -47,72 +24,10 @@ proxies:
   type: vless
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   ws-opts:
-    path: ''
-- name: 🇺🇸 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 40.160.69.214
-  servername: 40.160.69.214
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: /
-- name: 🇺🇸 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 40.160.69.97
-  servername: 40.160.69.97
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
-- name: 🇺🇸 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 40.160.69.112
-  servername: 40.160.69.112
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
-- name: 🇺🇸 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 40.160.69.26
-  servername: 40.160.69.26
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
-- name: 🇺🇸 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 40.160.68.72
-  servername: 40.160.68.72
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: /?ed
+    path: /?ed=2048
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
-  - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   - 🇺🇸 GhostVPN
   type: select

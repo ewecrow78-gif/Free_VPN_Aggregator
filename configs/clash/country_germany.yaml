@@ -3,24 +3,37 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇩🇪 GhostVPN
-  password: 1XTdzbvLts9QsSGsu6VgI1Vu65EFYaQurcuu3vlt/ak=
-  port: 59924
-  server: 138.2.161.254
-  type: ss
 - name: 🇩🇪 GhostVPN
   network: tcp
-  port: 443
-  reality-opts:
-    public-key: xoWhMRI_9b7yxK9roN_Es31cXty0i480kww8VqGzBDY
-    short-id: ''
-  server: 31.76.249.150
-  servername: www.kicker.de
-  tls: true
+  port: 51125
+  reality-opts: {}
+  server: 45.77.53.179
+  servername: 45.77.53.179
+  tls: false
   type: vless
-  uuid: 8f1e76cb-eb11-478f-bd14-29ee2811f839
+  uuid: b0f95fa6-2cc5-4e41-a33f-0b0ad58daaed
   ws-opts: {}
+- name: 🇩🇪 GhostVPN
+  network: tcp
+  port: 51815
+  reality-opts: {}
+  server: 91.107.242.197
+  servername: 91.107.242.197
+  tls: false
+  type: vless
+  uuid: f7e8a87f-e472-4fca-a393-fb9cc5b5dfa9
+  ws-opts: {}
+- name: 🇩🇪 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 91.107.154.19
+  servername: 91.107.154.19
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: ''
 - name: 🇩🇪 GhostVPN
   network: ws
   port: 8080
@@ -31,19 +44,7 @@ proxies:
   type: vless
   uuid: 11af1c47-865a-47c6-92ff-118013655d78
   ws-opts:
-    path: /
-- name: 🇩🇪 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: FjnQOip9Vri01Kl3k0Y0uUZVgReYU0P4gt9EOXZoP3w
-    short-id: ''
-  server: 31.76.249.151
-  servername: www.kicker.de
-  tls: true
-  type: vless
-  uuid: 8f1e76cb-eb11-478f-bd14-29ee2811f839
-  ws-opts: {}
+    path: ''
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_GERMANY]
   proxies:

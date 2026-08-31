@@ -3,22 +3,20 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   name: 🇯🇵 GhostVPN
-  password: 3eOFeNssde7PYYMv
-  port: 443
-  server: 84.247.155.196
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇯🇵 GhostVPN
-  password: 3eOFeNssde7PYYMv
-  port: 80
-  server: 84.247.155.196
-  type: ss
+  network: tcp
+  port: 55216
+  server: 155.248.176.44
+  servername: 155.248.176.44
+  tls: false
+  type: vmess
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_JAPAN]
   proxies:
-  - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   type: select
 rules:
