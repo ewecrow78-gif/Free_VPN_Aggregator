@@ -2,11 +2,36 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🇺🇸 GhostVPN
+  network: tcp
+  port: 15443
+  reality-opts:
+    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
+    short-id: a1b2c3d4
+  server: 31.77.220.163
+  servername: max.ru
+  tls: true
+  type: vless
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  ws-opts: {}
+- name: 🇹🇼 GhostVPN
+  network: tcp
+  port: 40800
+  reality-opts:
+    public-key: zohUbvPLKVBwzuDmZNsaXXFYZSKA9_xEhdUyURChrgo
+    short-id: 186e4c2732d61a3d
+  server: 104.199.219.172
+  servername: www.intel.com
+  tls: true
+  type: vless
+  uuid: 5859f6a7-cda1-47c2-8353-fcdee281f31d
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_30]
   proxies:
-  - DIRECT
+  - 🇺🇸 GhostVPN
+  - 🇹🇼 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_30]

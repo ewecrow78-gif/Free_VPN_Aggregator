@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795826592
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795911429
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_ITALY%20%F0%9F%9A%80
-vless://d53f098c-c146-4c16-b8fc-263743fdb6b3@202.165.67.16:8443?security=reality&encryption=none&sni=mila.4ch.pro&fp=firefox&pbk=vSwth-8n5PZiAc27bkA_6qlxhuPOC0uBft7F2DWrPXs&sid=5ecd85141e301108#%F0%9F%87%AE%F0%9F%87%B9%20GhostVPN
+vless://bd6ebd72-25cd-4209-a418-a8c72946da90@172.232.196.241:32396?security=reality&encryption=none&pbk=Pj1XWo01sxdH8jKJ_8DoJiZDFANHFKRAqOncP8RNkwU&headerType=&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=www.sony.com&sid=dd6ce6af95001a#%F0%9F%87%AE%F0%9F%87%B9%20GhostVPN

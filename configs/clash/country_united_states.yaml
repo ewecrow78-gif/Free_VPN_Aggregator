@@ -15,12 +15,17 @@ proxies:
   ws-opts:
     path: /cdn/v3/live
 - name: 🇺🇸 GhostVPN
-  password: r49gssuondznyu2eex83
-  port: 50740
-  server: 14.1.28.76
-  skip-cert-verify: true
-  sni: 14.1.28.76
-  type: trojan
+  network: tcp
+  port: 15443
+  reality-opts:
+    public-key: cpoZcpYNYSvFXGGB21tByHUoNd7-FYrJ0UP7ZDfSFCs
+    short-id: a1b2c3d4
+  server: 31.77.220.163
+  servername: max.ru
+  tls: true
+  type: vless
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_UNITED_STATES]
   proxies:

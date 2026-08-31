@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795890947
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795911429
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_RUSSIA%20%F0%9F%9A%80
-vless://f538eeae-82a6-0008-8c6f-bed750322849@185.91.52.223:444?type=tcp&encryption=none&security=reality&flow=xtls-rprx-vision&sni=fn02.selcdn.ru&pbk=0sOrPeGIcSceisfJbeEPvQqj9HDiFx7LIU6urXbyMko&fp=edge&sid=63&spx=%2F#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://c05888f0-4029-45c8-bea7-ea5eff564462@194.26.229.157:2200?&type=ws&headerType=none&path=%2Fv1#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://338efc17-02d7-433b-902a-e7d4771dc802@147.45.229.3:443?path=%2Fapi%2Fuser&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=gaaga.korgivps.ru#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN

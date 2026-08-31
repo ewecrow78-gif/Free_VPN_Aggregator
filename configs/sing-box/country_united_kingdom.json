@@ -29,18 +29,23 @@
     {
       "type": "shadowsocks",
       "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.48",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "server": "129.151.84.127",
+      "server_port": 61312,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "HKSvOU0Ruej4DuNgM41S+dNISlcFU45tqwqj3BQCuYY="
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇬🇧 GhostVPN",
-      "server": "82.38.31.18",
-      "server_port": 8080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "oZIoA69Q8yhcQV8ka3Pa3A"
+      "server": "186.190.211.188",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "186.190.211.188",
+        "insecure": true
+      }
     }
   ],
   "route": {

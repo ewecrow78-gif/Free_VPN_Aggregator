@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇷🇺 GhostVPN",
         "🇷🇺 GhostVPN"
       ]
     },
@@ -28,19 +29,30 @@
     {
       "type": "vless",
       "tag": "🇷🇺 GhostVPN",
-      "server": "185.91.52.223",
-      "server_port": 444,
-      "uuid": "f538eeae-82a6-0008-8c6f-bed750322849",
-      "flow": "xtls-rprx-vision",
+      "server": "194.26.229.157",
+      "server_port": 2200,
+      "uuid": "c05888f0-4029-45c8-bea7-ea5eff564462",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇷🇺 GhostVPN",
+      "server": "147.45.229.3",
+      "server_port": 443,
+      "uuid": "338efc17-02d7-433b-902a-e7d4771dc802",
+      "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "fn02.selcdn.ru",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "0sOrPeGIcSceisfJbeEPvQqj9HDiFx7LIU6urXbyMko",
-          "short_id": "63"
-        }
+        "server_name": "gaaga.korgivps.ru",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/user"
       }
     }
   ],
