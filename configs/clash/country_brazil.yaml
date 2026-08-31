@@ -7,6 +7,17 @@ proxies:
   network: ws
   port: 2200
   reality-opts: {}
+  server: 201.24.49.77
+  servername: 201.24.49.77
+  tls: false
+  type: vless
+  uuid: af60d475-3c13-41cf-af0e-18353d08877a
+  ws-opts:
+    path: /v1
+- name: 🇧🇷 GhostVPN
+  network: ws
+  port: 2200
+  reality-opts: {}
   server: 201.24.49.120
   servername: 201.24.49.120
   tls: false
@@ -18,16 +29,17 @@ proxies:
   network: ws
   port: 4100
   reality-opts: {}
-  server: 201.24.49.120
-  servername: 201.24.49.120
+  server: 201.24.49.240
+  servername: 201.24.49.240
   tls: false
   type: vless
-  uuid: 714e1212-6707-471e-9f40-2fbd3d8d3b4b
+  uuid: aa7d939b-feaa-4ad3-9615-74216f490807
   ws-opts:
     path: /v1
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_BRAZIL]
   proxies:
+  - 🇧🇷 GhostVPN
   - 🇧🇷 GhostVPN
   - 🇧🇷 GhostVPN
   type: select

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795934410
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795954946
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,7 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_GERMANY%20%F0%9F%9A%80
-vless://5d8fae5f-0427-4da3-99ab-242905fa5c69@104.105.28.51:443?path=/&security=tls&alpn=h3,h2,http/1.1&encryption=none&insecure=0&fp=chrome&type=ws&allowInsecure=0&sni=fast.iqiraq.shop#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6MVhUZHpidkx0czlRc1NHc3U2VmdJMVZ1NjVFRllhUXVyY3V1M3ZsdC9haz0@138.2.161.254:59924#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://8f1e76cb-eb11-478f-bd14-29ee2811f839@31.76.249.150:443?encryption=none&security=reality&sni=www.kicker.de&fp=firefox&pbk=xoWhMRI_9b7yxK9roN_Es31cXty0i480kww8VqGzBDY&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@91.107.190.175:8080?type=ws&path=%2F#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
+vless://8f1e76cb-eb11-478f-bd14-29ee2811f839@31.76.249.151:443?encryption=none&security=reality&sni=www.kicker.de&fp=firefox&pbk=FjnQOip9Vri01Kl3k0Y0uUZVgReYU0P4gt9EOXZoP3w&flow=xtls-rprx-vision#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN

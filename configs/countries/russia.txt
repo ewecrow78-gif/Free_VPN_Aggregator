@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795911429
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795954946
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,8 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_RUSSIA%20%F0%9F%9A%80
-vless://c05888f0-4029-45c8-bea7-ea5eff564462@194.26.229.157:2200?&type=ws&headerType=none&path=%2Fv1#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://338efc17-02d7-433b-902a-e7d4771dc802@147.45.229.3:443?path=%2Fapi%2Fuser&security=tls&alpn=http%2F1.1&encryption=none&insecure=0&fp=firefox&type=ws&allowInsecure=0&sni=gaaga.korgivps.ru#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://6a726f9a-5753-4113-bfd8-bd845281dca8@194.26.229.110:4100?type=ws&security=none&path=/v1#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://76186f1e-3062-4a2b-98c2-fab3c61a9511@176.123.167.215:9443?type=tcp&security=reality&sni=www.io.ozone.ru&pbk=im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4&fp=chrome&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://ab0affcc-eb2f-4556-97ad-bf661e54d1de@158.160.249.252:443?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=random&pbk=xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I&sid=27e53bbcab7593d7&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://ab0affcc-eb2f-4556-97ad-bf661e54d1de@51.250.46.190:443?encryption=none&security=reality&sni=www.vk.com&fp=random&pbk=bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0&sid=27e53bbcab7593d7&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://ab0affcc-eb2f-4556-97ad-bf661e54d1de@51.250.40.223:443?encryption=none&security=reality&sni=smartcaptcha.yandexcloud.net&fp=random&pbk=iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM&sid=27e53bbcab7593d7&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN

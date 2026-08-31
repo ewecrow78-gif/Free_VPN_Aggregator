@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795782646
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795954946
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,7 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_FRANCE%20%F0%9F%9A%80
-vless://3bbbd875-6bf1-4240-bd15-061e78206140@217.69.5.160:13903?encryption=none&amp;amp;type=tcp&amp;amp;allowInsecure=1#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://ec59ffd5-385f-42b5-b4f0-acd58d6f665a@104.105.192.149:445?type=tcp&encryption=none#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://1236329f-bc88-43a2-ae3b-7cf63ab1bf11@108.61.177.236:32263?encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGViXHVkODNjXHVkZGY3IEdob3N0VlBOIiwiYWRkIjoiMTA0LjEwNS4xOTIuMTQ5IiwicG9ydCI6IjgwODEiLCJpZCI6IjRjMWJlYjEwLWU0ZTctNGY4NC05Y2YyLWIxNmFjYjlhYTljMyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6Ii8iLCJ0bHMiOiIiLCJzbmkiOiIifQ==
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWWVGTzVKUFdHMHBjRkJNaGFXQXd3@104.105.192.149:1080#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN

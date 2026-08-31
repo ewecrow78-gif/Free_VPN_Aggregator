@@ -5,29 +5,69 @@ port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
   network: ws
-  port: 2200
+  port: 4100
   reality-opts: {}
-  server: 194.26.229.157
-  servername: 194.26.229.157
+  server: 194.26.229.110
+  servername: 194.26.229.110
   tls: false
   type: vless
-  uuid: c05888f0-4029-45c8-bea7-ea5eff564462
+  uuid: 6a726f9a-5753-4113-bfd8-bd845281dca8
   ws-opts:
     path: /v1
 - name: 🇷🇺 GhostVPN
-  network: ws
-  port: 443
-  reality-opts: {}
-  server: 147.45.229.3
-  servername: gaaga.korgivps.ru
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: im7-98zxWz_OGimQfeoN_Y5p1tAy8KoZCxOe2wOeWS4
+    short-id: ''
+  server: 176.123.167.215
+  servername: www.io.ozone.ru
   tls: true
   type: vless
-  uuid: 338efc17-02d7-433b-902a-e7d4771dc802
-  ws-opts:
-    path: /api/user
+  uuid: 76186f1e-3062-4a2b-98c2-fab3c61a9511
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I
+    short-id: 27e53bbcab7593d7
+  server: 158.160.249.252
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: ab0affcc-eb2f-4556-97ad-bf661e54d1de
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: bwuT_tpimT_uUeWpSn-HbRztfol4o4uCcUHcdvkeFx0
+    short-id: 27e53bbcab7593d7
+  server: 51.250.46.190
+  servername: www.vk.com
+  tls: true
+  type: vless
+  uuid: ab0affcc-eb2f-4556-97ad-bf661e54d1de
+  ws-opts: {}
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: iRbc5G3wZbluYutzDvrJlc356yJsEnhV1T4tvE-tCnM
+    short-id: 27e53bbcab7593d7
+  server: 51.250.40.223
+  servername: smartcaptcha.yandexcloud.net
+  tls: true
+  type: vless
+  uuid: ab0affcc-eb2f-4556-97ad-bf661e54d1de
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
+  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select

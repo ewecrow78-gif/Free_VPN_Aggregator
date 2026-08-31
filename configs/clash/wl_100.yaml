@@ -2,11 +2,23 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- name: 🇷🇺 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: xwusQ4IEWdYyuPLCc4LOA89P6HyQDNT7xo_75v2YW2I
+    short-id: 27e53bbcab7593d7
+  server: 158.160.249.252
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  uuid: ab0affcc-eb2f-4556-97ad-bf661e54d1de
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_100]
   proxies:
-  - DIRECT
+  - 🇷🇺 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_100]

@@ -15,6 +15,7 @@
       "tag": "proxy-select",
       "outbounds": [
         "🇧🇷 GhostVPN",
+        "🇧🇷 GhostVPN",
         "🇧🇷 GhostVPN"
       ]
     },
@@ -25,6 +26,23 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.77",
+      "server_port": 2200,
+      "uuid": "af60d475-3c13-41cf-af0e-18353d08877a",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "201.24.49.77",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
     },
     {
       "type": "vless",
@@ -46,13 +64,13 @@
     {
       "type": "vless",
       "tag": "🇧🇷 GhostVPN",
-      "server": "201.24.49.120",
+      "server": "201.24.49.240",
       "server_port": 4100,
-      "uuid": "714e1212-6707-471e-9f40-2fbd3d8d3b4b",
+      "uuid": "aa7d939b-feaa-4ad3-9615-74216f490807",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "201.24.49.120",
+        "server_name": "201.24.49.240",
         "insecure": true
       },
       "transport": {

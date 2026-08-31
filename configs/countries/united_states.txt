@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795934410
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795954946
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,8 +11,12 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_STATES%20%F0%9F%9A%80
-vless://936b7663-a841-4b42-b639-6e3fab1dbf45@200.165.234.119:2200?path=%2Fv1&security=none&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://d3815c21-ef06-43e2-82e1-ca313962b489@50.7.92.250:443?&security=reality&flow=xtls-rprx-vision&pbk=ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo&sid=8beb2706&fp=firefox&sni=app25.jarvestip.ru&type=tcp&headerType=none&host=app25.jarvestip.ru&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://d3815c21-ef06-43e2-82e1-ca313962b489@50.7.241.226:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=OYvSeQqu0XhV12blOVAR2Cn_3m6HI95raTdlqnVobjk&security=reality&sid=360de9e1&sni=app27.jarvestip.ru&type=tcp#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://d3815c21-ef06-43e2-82e1-ca313962b489@50.7.95.172:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=2e9dGid5D-e4demAVGqU71uEeusuBhviikchaJ96E3o&sid=8ece2039&sni=app47.jarvestip.ru#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://c8c06f90-c267-47a6-a91a-967e58e61db0@204.44.127.222:37262/?type=tcp&encryption=none&flow=#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://1206bad5-dcc9-410e-9595-d9fe9ee54085@31.77.220.185:12443?type=tcp&security=reality&sni=special.aeternavpn.space&pbk=-6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo&sid=a1b2c3d4&fp=firefox&encryption=none&flow=xtls-rprx-vision#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.136:8080?path=/?ed&security=none&encryption=none&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.79:8080?type=ws&sni=40.160.68.79#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.180:8080?type=ws&sni=40.160.69.180#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.214:8080?&security=false&fp=chrome&type=ws&headerType=none&host=40.160.69.214&path=%2F#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.97:8080?type=ws&sni=40.160.69.97#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.112:8080?type=ws&sni=40.160.69.112#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.69.26:8080?type=ws&sni=40.160.69.26#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@40.160.68.72:8080?security=none&encryption=none&type=ws&path=%2F%3Fed#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN

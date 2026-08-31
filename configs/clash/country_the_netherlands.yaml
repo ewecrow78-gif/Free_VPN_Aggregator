@@ -4,6 +4,29 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
+  network: ws
+  port: 8080
+  reality-opts: {}
+  server: 51.15.56.211
+  servername: 51.15.56.211
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+  ws-opts:
+    path: /?ed=2048
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: z5Zq_yi9Fw4yFFC0XJHTa_0bPSUU7yifPK9zfpVF7S8
+    short-id: ''
+  server: 31.56.184.168
+  servername: www.kicker.de
+  tls: true
+  type: vless
+  uuid: 8f1e76cb-eb11-478f-bd14-29ee2811f839
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
   network: tcp
   port: 62145
   reality-opts: {}
@@ -16,6 +39,8 @@ proxies:
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
+  - 🇳🇱 GhostVPN
+  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
 rules:
