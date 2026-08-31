@@ -28,13 +28,13 @@
     {
       "type": "vless",
       "tag": "🇳🇱 GhostVPN",
-      "server": "158.178.150.159",
+      "server": "134.98.129.48",
       "server_port": 62145,
       "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "158.178.150.159",
+        "server_name": "134.98.129.48",
         "insecure": true
       }
     }

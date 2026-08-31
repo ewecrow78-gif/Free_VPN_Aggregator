@@ -7,8 +7,8 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
-  server: 158.178.150.159
-  servername: 158.178.150.159
+  server: 134.98.129.48
+  servername: 134.98.129.48
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
