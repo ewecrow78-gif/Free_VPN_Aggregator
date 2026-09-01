@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795998631
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796042422
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,5 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_THE_NETHERLANDS%20%F0%9F%9A%80
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@134.98.129.48:62145?type=tcp&security=none&encryption=none#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@143.47.176.112:62145?encryption=none#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@158.178.147.174:62145#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
+vless://11af1c47-865a-47c6-92ff-118013655d78@51.15.56.211:8080?encryption=none&security=&sni=&type=ws&alpn=&host=&path=/?ed=2048#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
+vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxIEdob3N0VlBOIiwiYWRkIjoiMjMuMTM3LjI0OS4xMTAiLCJwb3J0IjoiMzAwMTEiLCJpZCI6ImE3YWVlNjllLTZlMDItNDdkMS04MTcyLTcwMTg2NmJiYjI4YyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6InRscyIsInNuaSI6IjIzLjEzNy4yNDkuMTEwIn0=

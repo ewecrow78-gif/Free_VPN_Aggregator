@@ -4,76 +4,29 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 1301
+  network: ws
+  port: 4100
   reality-opts: {}
-  server: 46.149.67.4
-  servername: 46.149.67.4
+  server: 188.225.25.113
+  servername: 188.225.25.113
   tls: false
   type: vless
-  uuid: 1cf4b1c5-bde7-414d-be9e-e12c31258e31
-  ws-opts: {}
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺 GhostVPN
-  password: qIpg3esvBo9BBf3zRQ5_1Q
-  port: 831
-  server: 213.171.15.179
-  type: ss
+  uuid: ed1fd11d-cbf7-4a73-9e98-c7f332b37117
+  ws-opts:
+    path: /v1
 - name: 🇷🇺 GhostVPN
   network: tcp
   port: 443
-  reality-opts:
-    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
-    short-id: 122218f4c1f172e4
-  server: 189.74.106.142
-  servername: ads.yandex-developer.org
+  reality-opts: {}
+  server: 81.163.23.111
+  servername: shop.core-multiplayer.com
   tls: true
   type: vless
-  uuid: f7bb615a-ea5d-4823-8158-f57dca98a87a
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: a8
-  server: 189.74.117.13
-  servername: deepl.com
-  tls: true
-  type: vless
-  uuid: f7bb615a-ea5d-4823-8158-f57dca98a87a
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
-    short-id: 122218f4c1f172e4
-  server: 189.74.115.6
-  servername: api.yandex-dev.online
-  tls: true
-  type: vless
-  uuid: f7bb615a-ea5d-4823-8158-f57dca98a87a
-  ws-opts: {}
-- name: 🇷🇺 GhostVPN
-  network: tcp
-  port: 90
-  reality-opts:
-    public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
-    short-id: 3f8ad1
-  server: 116.206.95.34
-  servername: aliusfilms.ru
-  tls: true
-  type: vless
-  uuid: 601bde9d-475d-4bae-ad69-c3e44ca30e12
+  uuid: 00a9b272-0296-47da-b365-bf585a7009b2
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_RUSSIA]
   proxies:
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
-  - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   - 🇷🇺 GhostVPN
   type: select

@@ -3,12 +3,16 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- cipher: 2022-blake3-chacha20-poly1305
-  name: 🇸🇬 GhostVPN
-  password: QBlUmYJVDFiaz6ug+SYat6dnNH0irhfF26JGEv+axh4=
-  port: 56927
-  server: 213.35.118.140
-  type: ss
+- name: 🇸🇬 GhostVPN
+  network: tcp
+  port: 443
+  reality-opts: {}
+  server: 213.163.198.254
+  servername: sahanwickramasinghevip.shop
+  tls: true
+  type: vless
+  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
+  ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
   proxies:

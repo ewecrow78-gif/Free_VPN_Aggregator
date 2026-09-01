@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1794377708
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796042422
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,4 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_UNITED_ARAB_EMIRATES%20%F0%9F%9A%80
-vless://b11841e3-2acc-45ff-afe0-a9ed9a823aaa@151.242.160.15:443?security=reality&encryption=none&sni=edge-de2.mystatic-cdn.ru&fp=qq&pbk=7vBIjExxrcwTpbknJXdAfpTjddGw8AGww0izaZUU528&sid=313328a7aa886b12&flow=xtls-rprx-vision#%F0%9F%87%A6%F0%9F%87%AA%20GhostVPN
+vmess://eyJhZGQiOiIxOTUuMTMzLjE5Mi4yMzIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiOWI2NDE5ZjgtODEyMC00NDJlLWE0OGMtNmJmNTJhZWYwYWJmIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjMzIiwicHMiOiJcdWQ4M2NcdWRkZTZcdWQ4M2NcdWRkZWEgR2hvc3RWUE4iLCJzbmkiOiJnYi51bmlxdWVuYW1lcy5uZXQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=

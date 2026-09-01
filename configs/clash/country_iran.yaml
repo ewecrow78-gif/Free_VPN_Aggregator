@@ -3,22 +3,24 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: '🇮🇷 Gh0st #55'
-  network: tcp
+- alterId: 0
+  cipher: auto
+  name: 🇮🇷 GhostVPN
+  network: ws
   port: 443
-  reality-opts:
-    public-key: zSjG6wndmLAzE8ykCBXpAm2eh0viWVSy3gt2juXF4EE
-    short-id: eaa8
-  server: 195.254.165.243
-  servername: play.google.com
-  tls: true
-  type: vless
-  uuid: 1f6531a1-a6eb-4274-9f51-4a0899456fcf
-  ws-opts: {}
+  server: 185.59.113.4
+  servername: 185.59.113.4
+  tls: false
+  type: vmess
+  uuid: efc02ac5-685e-4c88-b3da-ce3dfc236585
+  ws-opts:
+    headers:
+      Host: amir.amirport.ir
+    path: /
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_IRAN]
   proxies:
-  - '🇮🇷 Gh0st #55'
+  - 🇮🇷 GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [COUNTRY_IRAN]
