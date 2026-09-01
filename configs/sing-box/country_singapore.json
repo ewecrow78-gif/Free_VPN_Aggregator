@@ -14,7 +14,6 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🇸🇬 GhostVPN",
         "🇸🇬 GhostVPN"
       ]
     },
@@ -27,31 +26,12 @@
       "tag": "dns-out"
     },
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇸🇬 GhostVPN",
-      "server": "13.250.114.194",
-      "server_port": 8443,
-      "uuid": "9dcb8d73-cc0b-4fcc-a12d-d7affb56267c",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "type": "vless",
-      "tag": "🇸🇬 GhostVPN",
-      "server": "217.217.254.126",
-      "server_port": 2053,
-      "uuid": "30430ca4-9a16-4689-a276-4014599d2f39",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I",
-          "short_id": "3fc9b11ceeb2cc6b"
-        }
-      }
+      "server": "213.35.118.140",
+      "server_port": 56927,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "QBlUmYJVDFiaz6ug+SYat6dnNH0irhfF26JGEv+axh4="
     }
   ],
   "route": {

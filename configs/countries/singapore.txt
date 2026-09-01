@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795826592
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795998631
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,5 +11,4 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_SINGAPORE%20%F0%9F%9A%80
-vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGY4XHVkODNjXHVkZGVjIEdob3N0VlBOIiwiYWRkIjoiMTMuMjUwLjExNC4xOTQiLCJwb3J0IjoiODQ0MyIsImlkIjoiOWRjYjhkNzMtY2MwYi00ZmNjLWExMmQtZDdhZmZiNTYyNjdjIiwiYWlkIjoiMCIsInNjeSI6ImF1dG8iLCJuZXQiOiJ0Y3AiLCJ0eXBlIjoiIiwidGxzIjoiIn0=
-vless://30430ca4-9a16-4689-a276-4014599d2f39@217.217.254.126:2053?security=reality&type=tcp&sni=www.apple.com&fp=firefox&sid=3fc9b11ceeb2cc6b&pbk=yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I&encryption=none#%F0%9F%87%B8%F0%9F%87%AC%20GhostVPN
+ss://MjAyMi1ibGFrZTMtY2hhY2hhMjAtcG9seTEzMDU6UUJsVW1ZSlZERmlhejZ1ZytTWWF0NmRuTkgwaXJoZkYyNkpHRXYrYXhoND0@213.35.118.140:56927#%F0%9F%87%B8%F0%9F%87%AC%20GhostVPN

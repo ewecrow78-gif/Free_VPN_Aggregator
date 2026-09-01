@@ -3,33 +3,15 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
+- cipher: 2022-blake3-chacha20-poly1305
   name: 🇸🇬 GhostVPN
-  network: tcp
-  port: 8443
-  server: 13.250.114.194
-  servername: 13.250.114.194
-  tls: false
-  type: vmess
-  uuid: 9dcb8d73-cc0b-4fcc-a12d-d7affb56267c
-  ws-opts: {}
-- name: 🇸🇬 GhostVPN
-  network: tcp
-  port: 2053
-  reality-opts:
-    public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
-    short-id: 3fc9b11ceeb2cc6b
-  server: 217.217.254.126
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 30430ca4-9a16-4689-a276-4014599d2f39
-  ws-opts: {}
+  password: QBlUmYJVDFiaz6ug+SYat6dnNH0irhfF26JGEv+axh4=
+  port: 56927
+  server: 213.35.118.140
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
   proxies:
-  - 🇸🇬 GhostVPN
   - 🇸🇬 GhostVPN
   type: select
 rules:

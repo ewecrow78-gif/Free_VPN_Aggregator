@@ -16,7 +16,6 @@
       "outbounds": [
         "🏳️ GhostVPN",
         "🏳️ GhostVPN",
-        "🏳️ GhostVPN",
         "🏳️ GhostVPN"
       ]
     },
@@ -31,15 +30,10 @@
     {
       "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "149.130.175.159",
+      "server": "149.130.184.116",
       "server_port": 62145,
       "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "149.130.175.159",
-        "insecure": true
-      }
+      "flow": ""
     },
     {
       "type": "vless",
@@ -47,28 +41,20 @@
       "server": "149.130.179.13",
       "server_port": 62145,
       "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
+      "flow": ""
+    },
+    {
+      "type": "vless",
+      "tag": "🏳️ GhostVPN",
+      "server": "157.137.237.11",
+      "server_port": 62145,
+      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "149.130.179.13",
+        "server_name": "157.137.237.11",
         "insecure": true
       }
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ GhostVPN",
-      "server": "149.130.172.177",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
-    },
-    {
-      "type": "vless",
-      "tag": "🏳️ GhostVPN",
-      "server": "149.130.184.116",
-      "server_port": 62145,
-      "uuid": "8fb65472-5957-4f64-ba2d-b5812b2f155a",
-      "flow": ""
     }
   ],
   "route": {

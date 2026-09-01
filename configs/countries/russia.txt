@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795976922
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1795998631
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,6 +11,9 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20COUNTRY_RUSSIA%20%F0%9F%9A%80
-vless://85223e1a-f55d-4d0d-b27d-39e8be49d220@83.147.246.153:4100?encryption=none&security=none&type=ws&host=live.ok.ru&path=/v1#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://470a883b-da25-4f1c-92ed-6b3bb28cd182@46.149.67.4:1301?type=tcp&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://1cf4b1c5-bde7-414d-be9e-e12c31258e31@46.149.67.4:1301?type=tcp&encryption=none#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXBnM2VzdkJvOUJCZjN6UlE1XzFR@213.171.15.179:831#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://f7bb615a-ea5d-4823-8158-f57dca98a87a@189.74.106.142:443?type=tcp&headerType=none&security=reality&encryption=none&sni=ads.yandex-developer.org&fp=safari&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&sid=122218f4c1f172e4&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://f7bb615a-ea5d-4823-8158-f57dca98a87a@189.74.117.13:443?type=tcp&headerType=none&security=reality&encryption=none&sni=deepl.com&fp=edge&pbk=r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs&sid=a8&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://f7bb615a-ea5d-4823-8158-f57dca98a87a@189.74.115.6:443?type=tcp&headerType=none&security=reality&encryption=none&sni=api.yandex-dev.online&fp=qq&pbk=IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0&sid=122218f4c1f172e4&flow=xtls-rprx-vision#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
+vless://601bde9d-475d-4bae-ad69-c3e44ca30e12@116.206.95.34:90?encryption=none&type=tcp&security=reality&flow=xtls-rprx-vision&sni=aliusfilms.ru&pbk=cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg&sid=3f8ad1&fp=firefox#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN

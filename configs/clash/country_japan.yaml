@@ -14,9 +14,23 @@ proxies:
   type: vmess
   uuid: 154dbc39-0921-cf11-29bd-156c5000d763
   ws-opts: {}
+- cipher: aes-256-gcm
+  name: 🇯🇵 GhostVPN
+  password: 3eOFeNssde7PYYMv
+  port: 443
+  server: 84.247.155.196
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇯🇵 GhostVPN
+  password: 3eOFeNssde7PYYMv
+  port: 80
+  server: 84.247.155.196
+  type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_JAPAN]
   proxies:
+  - 🇯🇵 GhostVPN
+  - 🇯🇵 GhostVPN
   - 🇯🇵 GhostVPN
   type: select
 rules:

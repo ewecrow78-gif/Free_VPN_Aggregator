@@ -7,34 +7,32 @@ proxies:
   network: tcp
   port: 62145
   reality-opts: {}
+  server: 134.98.129.48
+  servername: 134.98.129.48
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
+  server: 143.47.176.112
+  servername: 143.47.176.112
+  tls: false
+  type: vless
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
+  ws-opts: {}
+- name: 🇳🇱 GhostVPN
+  network: tcp
+  port: 62145
+  reality-opts: {}
   server: 158.178.147.174
   servername: 158.178.147.174
   tls: false
   type: vless
   uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
-- name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 51.15.57.139
-  servername: 51.15.57.139
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
-- name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
-  reality-opts: {}
-  server: 51.15.56.211
-  servername: 51.15.56.211
-  tls: false
-  type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: ''
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:

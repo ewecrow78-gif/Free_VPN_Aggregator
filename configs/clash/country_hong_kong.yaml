@@ -6,12 +6,19 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: 🇭🇰 GhostVPN
   password: ljqdalu13..
+  port: 8319
+  server: 95.40.120.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇭🇰 GhostVPN
+  password: ljqdalu13..
   port: 8313
   server: 95.40.120.162
   type: ss
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_HONG_KONG]
   proxies:
+  - 🇭🇰 GhostVPN
   - 🇭🇰 GhostVPN
   type: select
 rules:

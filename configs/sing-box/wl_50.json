@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "direct"
+        "🇧🇷 GhostVPN"
       ]
     },
     {
@@ -24,6 +24,18 @@
     {
       "type": "dns",
       "tag": "dns-out"
+    },
+    {
+      "type": "vless",
+      "tag": "🇧🇷 GhostVPN",
+      "server": "201.24.49.77",
+      "server_port": 2200,
+      "uuid": "af60d475-3c13-41cf-af0e-18353d08877a",
+      "flow": "",
+      "transport": {
+        "type": "ws",
+        "path": "/v1"
+      }
     }
   ],
   "route": {

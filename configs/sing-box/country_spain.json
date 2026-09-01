@@ -14,6 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
+        "🇪🇸 GhostVPN",
         "🇪🇸 GhostVPN"
       ]
     },
@@ -26,22 +27,20 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "shadowsocks",
       "tag": "🇪🇸 GhostVPN",
-      "server": "170.168.97.7",
+      "server": "68.221.254.87",
       "server_port": 443,
-      "uuid": "fc03a9a8-ef0f-5794-e119-0c3b68b178e8",
-      "flow": "",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.steamstatic.com",
-        "insecure": true,
-        "reality": {
-          "enabled": true,
-          "public_key": "jYD82Xg6TRu2lR0XINMWxKb8dNycDwF-H28ZrtiafUo",
-          "short_id": ""
-        }
-      }
+      "method": "chacha20-ietf-poly1305",
+      "password": "TCJYBIHsSW5RwR9Db8EX0A"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "🇪🇸 GhostVPN",
+      "server": "108.181.121.226",
+      "server_port": 8388,
+      "method": "chacha20-ietf-poly1305",
+      "password": "WSyL4XTwNsdv"
     }
   ],
   "route": {
