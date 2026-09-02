@@ -14,7 +14,7 @@
       "type": "selector",
       "tag": "proxy-select",
       "outbounds": [
-        "🏳️ GhostVPN"
+        "direct"
       ]
     },
     {
@@ -24,24 +24,6 @@
     {
       "type": "dns",
       "tag": "dns-out"
-    },
-    {
-      "type": "vmess",
-      "tag": "🏳️ GhostVPN",
-      "server": "172.67.176.245",
-      "server_port": 443,
-      "uuid": "0632bfa9-b15c-4257-8c75-32f7c0c53b27",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "cg1c12.waimaojd.com",
-        "insecure": true
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api/v1/graphql"
-      }
     }
   ],
   "route": {

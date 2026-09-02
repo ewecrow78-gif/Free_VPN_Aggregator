@@ -104,7 +104,7 @@
 
 ## 📊 Статус сети
 
-> Автообновление пайплайном. Время: **2026-09-02 00:18 UTC**.
+> Автообновление пайплайном. Время: **2026-09-02 06:25 UTC**.
 
 | Показатель | Значение | Описание |
 | :--- | :---: | :--- |
@@ -113,15 +113,15 @@
 | **Отсеяно (синтаксис / IP)** | `0` | Битый URI, private IP |
 | **Отсеяно (DNS / TCP)** | `0` | Мёртвые домены / порты |
 | **Рабочих (Xray test)** | `0` | Реальный HTTP через VPN |
-| **Топ 50 быстрых** | `6` | |
-| **Топ 30 быстрых** | `6` | |
-| **Все конфиги** | `7` | Без лимитов |
-| **Белые списки 100** | `1` | |
-| **Топ 50 белых списков** | `1` | |
-| **Топ 30 белых списков** | `1` | |
-| **Все вместе** | `7` | 50 обычных + 50 белых |
-| **Все белые списки** | `1` | Без лимитов |
-| **Топ быстрых 100** | `7` | Обычные и белые |
+| **Топ 50 быстрых** | `0` | |
+| **Топ 30 быстрых** | `0` | |
+| **Все конфиги** | `0` | Без лимитов |
+| **Белые списки 100** | `0` | |
+| **Топ 50 белых списков** | `0` | |
+| **Топ 30 белых списков** | `0` | |
+| **Все вместе** | `0` | 50 обычных + 50 белых |
+| **Все белые списки** | `0` | Без лимитов |
+| **Топ быстрых 100** | `0` | Обычные и белые |
 
 ---
 
@@ -135,7 +135,7 @@
 *(Подписки для каждой страны находятся ниже в разделе «Страны»)*
 
 ### 2. Топ 50 быстрых
-### 🚀 ТОП 50 БЫСТРЫХ ⚫ (6)
+### 🚀 ТОП 50 БЫСТРЫХ ⚫ (0)
 
 ### [base64/top_50_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_50_fast.txt)
 
@@ -177,7 +177,7 @@
 
 
 ### 3. Топ 30 быстрых
-### 🚀 ТОП 30 БЫСТРЫХ ⚫ (6)
+### 🚀 ТОП 30 БЫСТРЫХ ⚫ (0)
 
 ### [base64/top_30_fast.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/top_30_fast.txt)
 
@@ -219,7 +219,7 @@
 
 
 ### 4. Все конфиги (без лимитов на количество)
-### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (7)
+### 📚 ВСЕ КОНФИГИ (Без лимитов) ⚫ (0)
 
 ### [base64/all_configs.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_configs.txt)
 
@@ -261,7 +261,7 @@
 
 
 ### 5. Белые списки (не должно превышать 100)
-### ⚪ БЕЛЫЕ СПИСКИ (До 100) ⚪ (1)
+### ⚪ БЕЛЫЕ СПИСКИ (До 100) ⚪ (0)
 
 ### [base64/wl_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_100.txt)
 
@@ -303,7 +303,7 @@
 
 
 ### 6. Топ 50 белых списков
-### ⚪ ТОП 50 БЕЛЫХ СПИСКОВ ⚪ (1)
+### ⚪ ТОП 50 БЕЛЫХ СПИСКОВ ⚪ (0)
 
 ### [base64/wl_50.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_50.txt)
 
@@ -345,7 +345,7 @@
 
 
 ### 7. Топ 30 белых списков
-### ⚪ ТОП 30 БЕЛЫХ СПИСКОВ ⚪ (1)
+### ⚪ ТОП 30 БЕЛЫХ СПИСКОВ ⚪ (0)
 
 ### [base64/wl_30.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/wl_30.txt)
 
@@ -387,7 +387,7 @@
 
 
 ### 8. Все вместе (50 обычных конфигов, 50 белых списков)
-### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (7)
+### 🔄 ВСЕ ВМЕСТЕ (50/50) ☯️ (0)
 
 ### [base64/mixed_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/mixed_100.txt)
 
@@ -429,7 +429,7 @@
 
 
 ### 9. Все конфиги белых списков без лимитов на количество
-### ⚪ ВСЕ БЕЛЫЕ СПИСКИ (Без лимитов) ⚪ (1)
+### ⚪ ВСЕ БЕЛЫЕ СПИСКИ (Без лимитов) ⚪ (0)
 
 ### [base64/all_wl.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/all_wl.txt)
 
@@ -471,7 +471,7 @@
 
 
 ### 10. Топ самых быстрых конфигов (без разницы простые или белые списки)
-### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (7)
+### ⚡ ТОП САМЫХ БЫСТРЫХ (Любые) ⚡ (0)
 
 ### [base64/fastest_all_100.txt](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/fastest_all_100.txt)
 
@@ -827,12 +827,7 @@ python main.py
 
 | Страна | Кол-во | Флаг | Подписки |
 | :--- | :---: | :---: | :--- |
-| United States | 2 | 🇺🇸 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_united_states.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/united_states.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_united_states.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_united_states.json) |
-| The Netherlands | 1 | 🇳🇱 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_the_netherlands.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/the_netherlands.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_the_netherlands.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_the_netherlands.json) |
-| Switzerland | 1 | 🇨🇭 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_switzerland.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/switzerland.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_switzerland.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_switzerland.json) |
-| Unknown | 1 | 🏳️ | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_unknown.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/unknown.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_unknown.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_unknown.json) |
-| Singapore | 1 | 🇸🇬 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_singapore.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/singapore.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_singapore.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_singapore.json) |
-| Japan | 1 | 🇯🇵 | [Base64](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/base64/country_japan.txt) \| [Raw](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/countries/japan.txt) \| [Clash](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/clash/country_japan.yaml) \| [Sing-Box](https://raw.githubusercontent.com/ewecrow78-gif/Free_VPN_Aggregator/main/configs/sing-box/country_japan.json) |
+| - | 0 | 🏳️ | - |
 
 </details>
 
@@ -841,8 +836,7 @@ python main.py
 
 | Протокол | Кол-во | Доля |
 | :--- | :---: | :---: |
-| VLESS | 4 | 57.1% |
-| VMESS | 3 | 42.9% |
+| - | 0 | 0% |
 
 </details>
 
@@ -858,6 +852,6 @@ MIT — см. [LICENSE](LICENSE).
 
 **⭐ Если проект полезен — поставьте Star**
 
-<sub>Generated automatically by Free VPN Aggregator Pro · 2026-09-02 00:18 UTC</sub>
+<sub>Generated automatically by Free VPN Aggregator Pro · 2026-09-02 06:25 UTC</sub>
 
 </div>

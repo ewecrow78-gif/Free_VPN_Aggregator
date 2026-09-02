@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796084279
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796106349
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,10 +11,3 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20MIXED_100%20%F0%9F%9A%80
-vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@141.148.240.61:62145?security=none&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-vless://03c48eca-e0aa-4e18-998c-1f53f1de293c@31.76.88.10:443?encryption=none&security=tls&sni=cf5.rumedia-cdn.com&alpn=http/1.1&fp=chrome&type=ws&host=cf5.rumedia-cdn.com&path=/cdn/v3/live&packetEncoding=xudp#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://f2ea3f68-6e31-4e07-a78c-fff6ebe246c3@2.26.129.73:443?security=reality&sni=ukrop.mycdn-me.ru&fp=firefox&pbk=gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE&sid=5a8e1a04f3d92b67&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#%F0%9F%87%A8%F0%9F%87%AD%20GhostVPN
-vmess://eyJ2IjoiMiIsImFkZCI6IjE2NS4xNDAuMjE2LjE0MiIsInBvcnQiOiI0NDMiLCJpZCI6ImI2NWEyZDY5LTU2MzQtNDJhMi1lNGJlLTU0ZThhNjE3NjkwMCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6IiIsInRscyI6IiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIn0=
-vless://30430ca4-9a16-4689-a276-4014599d2f39@217.217.254.126:2053?security=reality&type=tcp&sni=www.apple.com&fp=firefox&sid=3fc9b11ceeb2cc6b&pbk=yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I&encryption=none#%F0%9F%87%B8%F0%9F%87%AC%20GhostVPN
-vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1IEdob3N0VlBOIiwiYWRkIjoiMTU1LjI0OC4xNzYuNDQiLCJwb3J0IjoiNTUyMTYiLCJpZCI6IjE1NGRiYzM5LTA5MjEtY2YxMS0yOWJkLTE1NmM1MDAwZDc2MyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoicmF3IiwidHlwZSI6IiIsInRscyI6IiJ9
-vmess://eyJhZGQiOiIxNzIuNjcuMTc2LjI0NSIsImFpZCI6IjAiLCJob3N0IjoiY2cxYzEyLndhaW1hb2pkLmNvbSIsImlkIjoiMDYzMmJmYTktYjE1Yy00MjU3LThjNzUtMzJmN2MwYzUzYjI3IiwibmV0Ijoid3MiLCJwYXRoIjoiL2FwaS92MS9ncmFwaHFsIiwicG9ydCI6IjQ0MyIsInBzIjoiXHVkODNjXHVkZmYzXHVmZTBmIEdob3N0VlBOIiwic2N5IjoiYXV0byIsInNuaSI6ImNnMWMxMi53YWltYW9qZC5jb20iLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoiIiwidiI6IjIifQ==
