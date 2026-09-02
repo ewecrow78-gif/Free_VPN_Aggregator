@@ -104,7 +104,7 @@
 
 ## 📊 Статус сети
 
-> Автообновление пайплайном. Время: **2026-09-02 06:25 UTC**.
+> Автообновление пайплайном. Время: **2026-09-02 12:22 UTC**.
 
 | Показатель | Значение | Описание |
 | :--- | :---: | :--- |
@@ -852,6 +852,6 @@ MIT — см. [LICENSE](LICENSE).
 
 **⭐ Если проект полезен — поставьте Star**
 
-<sub>Generated automatically by Free VPN Aggregator Pro · 2026-09-02 06:25 UTC</sub>
+<sub>Generated automatically by Free VPN Aggregator Pro · 2026-09-02 12:22 UTC</sub>
 
 </div>
