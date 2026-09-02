@@ -2,11 +2,25 @@ allow-lan: true
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- alterId: 0
+  cipher: auto
+  name: 🏳️ GhostVPN
+  network: ws
+  port: 443
+  server: 172.67.176.245
+  servername: cg1c12.waimaojd.com
+  tls: true
+  type: vmess
+  uuid: 0632bfa9-b15c-4257-8c75-32f7c0c53b27
+  ws-opts:
+    headers:
+      Host: cg1c12.waimaojd.com
+    path: /api/v1/graphql
 proxy-groups:
 - name: Free_VPN_Aggregator [WL_50]
   proxies:
-  - DIRECT
+  - 🏳️ GhostVPN
   type: select
 rules:
 - MATCH,Free_VPN_Aggregator [WL_50]

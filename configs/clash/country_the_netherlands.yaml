@@ -4,31 +4,18 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🇳🇱 GhostVPN
-  network: ws
-  port: 8080
+  network: tcp
+  port: 62145
   reality-opts: {}
-  server: 51.15.56.211
-  servername: 51.15.56.211
+  server: 141.148.240.61
+  servername: 141.148.240.61
   tls: false
   type: vless
-  uuid: 11af1c47-865a-47c6-92ff-118013655d78
-  ws-opts:
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 🇳🇱 GhostVPN
-  network: tcp
-  port: 30011
-  server: 23.137.249.110
-  servername: 23.137.249.110
-  tls: true
-  type: vmess
-  uuid: a7aee69e-6e02-47d1-8172-701866bbb28c
+  uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THE_NETHERLANDS]
   proxies:
-  - 🇳🇱 GhostVPN
   - 🇳🇱 GhostVPN
   type: select
 rules:

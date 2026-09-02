@@ -26,16 +26,21 @@
       "tag": "dns-out"
     },
     {
-      "type": "vless",
+      "type": "vmess",
       "tag": "🏳️ GhostVPN",
-      "server": "188.114.96.6",
+      "server": "172.67.176.245",
       "server_port": 443,
-      "uuid": "252210e6-83b2-420e-962c-c11a1367bf16",
-      "flow": "",
+      "uuid": "0632bfa9-b15c-4257-8c75-32f7c0c53b27",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "cdn.tinfary.ir",
+        "server_name": "cg1c12.waimaojd.com",
         "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/graphql"
       }
     }
   ],

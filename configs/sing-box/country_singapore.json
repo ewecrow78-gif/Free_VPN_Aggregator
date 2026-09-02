@@ -28,14 +28,19 @@
     {
       "type": "vless",
       "tag": "🇸🇬 GhostVPN",
-      "server": "213.163.198.254",
-      "server_port": 443,
-      "uuid": "55d61055-1a7f-4bc5-aca2-4ee78c738b60",
+      "server": "217.217.254.126",
+      "server_port": 2053,
+      "uuid": "30430ca4-9a16-4689-a276-4014599d2f39",
       "flow": "",
       "tls": {
         "enabled": true,
-        "server_name": "sahanwickramasinghevip.shop",
-        "insecure": true
+        "server_name": "www.apple.com",
+        "insecure": true,
+        "reality": {
+          "enabled": true,
+          "public_key": "yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I",
+          "short_id": "3fc9b11ceeb2cc6b"
+        }
       }
     }
   ],

@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796042421
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796084279
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,17 +11,9 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20TOP_50_FAST%20%F0%9F%9A%80
-vless://ed1fd11d-cbf7-4a73-9e98-c7f332b37117@188.225.25.113:4100?encryption=none&type=ws&security=none&path=/v1&host=live.ok.ru#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vless://11af1c47-865a-47c6-92ff-118013655d78@51.15.56.211:8080?encryption=none&security=&sni=&type=ws&alpn=&host=&path=/?ed=2048#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@82.38.31.7:8080#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
-vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGYzXHVkODNjXHVkZGYxIEdob3N0VlBOIiwiYWRkIjoiMjMuMTM3LjI0OS4xMTAiLCJwb3J0IjoiMzAwMTEiLCJpZCI6ImE3YWVlNjllLTZlMDItNDdkMS04MTcyLTcwMTg2NmJiYjI4YyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6Im5vbmUiLCJob3N0IjoiIiwicGF0aCI6IiIsInRscyI6InRscyIsInNuaSI6IjIzLjEzNy4yNDkuMTEwIn0=
-vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGU5XHVkODNjXHVkZGVhIEdob3N0VlBOIiwiYWRkIjoiMTg5LjI0LjEwNi4xNjUiLCJwb3J0IjoiNDY5NDUiLCJ0eXBlIjoibm9uZSIsImlkIjoiN2FhM2EwMjQtZTMzMy00YjYzLTk5YTItM2RiOWQzYjIwNTRlIiwiYWlkIjoiMCIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJob3N0IjoiZ3cuYWxpY2RuLmNvbSIsInRscyI6IiJ9
-vless://aa41a66a-69c3-48c1-a71e-f2d8e153f14b@91.92.33.86:753?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&security=reality&sid=1ed136481e0ede74&sni=cdn.byteark.com&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://aa41a66a-69c3-48c1-a71e-f2d8e153f14b@91.92.43.242:753?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M&security=reality&sid=1ed136481e0ede74&sni=cdn.byteark.com&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20GhostVPN
-vless://3d09f1e9-da54-4ba1-9c25-8131563a708e@130.78.216.210:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=ork7ibKio_WWoeDjdGALI3rNkw1becVxD0_A86mLExw&security=reality&sid=75c6c89d5d9fa6e8&sni=free3.anotherboring.top&type=tcp#%F0%9F%87%AC%F0%9F%87%A7%20GhostVPN
-vless://00a9b272-0296-47da-b365-bf585a7009b2@81.163.23.111:443?type=tcp&security=tls&flow=xtls-rprx-vision&sni=shop.core-multiplayer.com&fp=chrome#%F0%9F%87%B7%F0%9F%87%BA%20GhostVPN
-vmess://eyJhZGQiOiIxODUuNTkuMTEzLjQiLCJhaWQiOiIwIiwiaG9zdCI6ImFtaXIuYW1pcnBvcnQuaXIiLCJpZCI6ImVmYzAyYWM1LTY4NWUtNGM4OC1iM2RhLWNlM2RmYzIzNjU4NSIsIm5ldCI6IndzIiwicGF0aCI6Ii8iLCJwb3J0IjoiNDQzIiwicHMiOiJcdWQ4M2NcdWRkZWVcdWQ4M2NcdWRkZjcgR2hvc3RWUE4iLCJzY3kiOiJhdXRvIiwic25pIjoiIiwidGxzIjoiIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=
-vmess://eyJhZGQiOiIxOTUuMTMzLjE5Mi4yMzIiLCJhaWQiOiIwIiwiaG9zdCI6IiIsImlkIjoiOWI2NDE5ZjgtODEyMC00NDJlLWE0OGMtNmJmNTJhZWYwYWJmIiwibmV0IjoidGNwIiwicGF0aCI6IiIsInBvcnQiOiIxMjMzIiwicHMiOiJcdWQ4M2NcdWRkZTZcdWQ4M2NcdWRkZWEgR2hvc3RWUE4iLCJzbmkiOiJnYi51bmlxdWVuYW1lcy5uZXQiLCJ0bHMiOiJ0bHMiLCJ0eXBlIjoibm9uZSIsInYiOiIyIn0=
-vless://6379673b-197f-4944-ba81-a45c66aefe9c@31.77.220.183:1443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=HNjZe5pYUhcuE8sASYVVrVSMW_jFfekgLnrnO4xXIyQ&sid=a1b2c3d4&sni=fi.aeternavpn.space#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
-vless://55d61055-1a7f-4bc5-aca2-4ee78c738b60@213.163.198.254:443?type=tcp&security=tls&fp=firefox&sni=sahanwickramasinghevip.shop#%F0%9F%87%B8%F0%9F%87%AC%20GhostVPN
-ss://YWVzLTI1Ni1nY206M2VPRmVOc3NkZTdQWVlNdg==@84.247.155.196:80#%F0%9F%87%AF%F0%9F%87%B5%20GhostVPN
+vless://8fb65472-5957-4f64-ba2d-b5812b2f155a@141.148.240.61:62145?security=none&type=tcp#%F0%9F%87%B3%F0%9F%87%B1%20GhostVPN
+vless://03c48eca-e0aa-4e18-998c-1f53f1de293c@31.76.88.10:443?encryption=none&security=tls&sni=cf5.rumedia-cdn.com&alpn=http/1.1&fp=chrome&type=ws&host=cf5.rumedia-cdn.com&path=/cdn/v3/live&packetEncoding=xudp#%F0%9F%87%BA%F0%9F%87%B8%20GhostVPN
+vless://f2ea3f68-6e31-4e07-a78c-fff6ebe246c3@2.26.129.73:443?security=reality&sni=ukrop.mycdn-me.ru&fp=firefox&pbk=gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE&sid=5a8e1a04f3d92b67&type=tcp&flow=xtls-rprx-vision&packetEncoding=xudp&encryption=none#%F0%9F%87%A8%F0%9F%87%AD%20GhostVPN
+vmess://eyJ2IjoiMiIsImFkZCI6IjE2NS4xNDAuMjE2LjE0MiIsInBvcnQiOiI0NDMiLCJpZCI6ImI2NWEyZDY5LTU2MzQtNDJhMi1lNGJlLTU0ZThhNjE3NjkwMCIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoidGNwIiwidHlwZSI6IiIsInRscyI6IiIsInBzIjoiXHVkODNjXHVkZGZhXHVkODNjXHVkZGY4IEdob3N0VlBOIn0=
+vless://30430ca4-9a16-4689-a276-4014599d2f39@217.217.254.126:2053?security=reality&type=tcp&sni=www.apple.com&fp=firefox&sid=3fc9b11ceeb2cc6b&pbk=yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I&encryption=none#%F0%9F%87%B8%F0%9F%87%AC%20GhostVPN
+vmess://eyJ2IjoiMiIsInBzIjoiXHVkODNjXHVkZGVmXHVkODNjXHVkZGY1IEdob3N0VlBOIiwiYWRkIjoiMTU1LjI0OC4xNzYuNDQiLCJwb3J0IjoiNTUyMTYiLCJpZCI6IjE1NGRiYzM5LTA5MjEtY2YxMS0yOWJkLTE1NmM1MDAwZDc2MyIsImFpZCI6IjAiLCJzY3kiOiJhdXRvIiwibmV0IjoicmF3IiwidHlwZSI6IiIsInRscyI6IiJ9

@@ -5,13 +5,15 @@ port: 7890
 proxies:
 - name: 🇸🇬 GhostVPN
   network: tcp
-  port: 443
-  reality-opts: {}
-  server: 213.163.198.254
-  servername: sahanwickramasinghevip.shop
+  port: 2053
+  reality-opts:
+    public-key: yVb3JqVqlnXhiIb3E-gAVvgsXCpWgoeLIAJau9yuZ1I
+    short-id: 3fc9b11ceeb2cc6b
+  server: 217.217.254.126
+  servername: www.apple.com
   tls: true
   type: vless
-  uuid: 55d61055-1a7f-4bc5-aca2-4ee78c738b60
+  uuid: 30430ca4-9a16-4689-a276-4014599d2f39
   ws-opts: {}
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_SINGAPORE]
