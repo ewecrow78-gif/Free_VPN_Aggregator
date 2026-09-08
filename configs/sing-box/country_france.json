@@ -28,28 +28,43 @@
       "tag": "dns-out"
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇫🇷 GhostVPN",
-      "server": "104.105.192.149",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "izWse7085fB0FG_7XjNH0Q"
+      "server": "35.181.64.150",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "35.181.64.150",
+        "insecure": true
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇫🇷 GhostVPN",
-      "server": "20.43.56.60",
-      "server_port": 1080,
-      "method": "chacha20-ietf-poly1305",
-      "password": "L9b0xMykfyO4rtevzOX_QA"
+      "server": "35.181.64.150",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "35.181.64.150",
+        "insecure": true
+      }
     },
     {
-      "type": "shadowsocks",
+      "type": "vless",
       "tag": "🇫🇷 GhostVPN",
-      "server": "20.43.56.60",
-      "server_port": 9997,
-      "method": "chacha20-ietf-poly1305",
-      "password": "L9b0xMykfyO4rtevzOX_QA"
+      "server": "35.181.64.150",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "35.181.64.150",
+        "insecure": true
+      }
     }
   ],
   "route": {

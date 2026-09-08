@@ -2,7 +2,7 @@
 #profile-web-page: https://github.com/ewecrow78-gif/Free_VPN_Aggregator
 #support-url: https://t.me
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796127768
+#subscription-userinfo: upload=0; download=0; total=854347202560000; expire=1796669417
 #
 # ⏱ Нажми на значок спидометра 👆
 # 🌐 Подключись к серверу который выдал наименьшее число 🌐
@@ -11,3 +11,7 @@
 # ⏳ Обновляется каждые 2 часа ⏳
 
 vless://00000000-0000-0000-0000-000000000000@1.1.1.1:80?security=none&type=tcp#Free%20VPN%20%C2%B7%20TOP_30_FAST%20%F0%9F%9A%80
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.64.150:22224?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.64.150:22222?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://e4514801-0d5a-42ba-869f-39bd605aef9e@35.181.64.150:22223?Telegram=Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server---Cfox_Server&encryption=none&security=none&type=tcp#%F0%9F%87%AB%F0%9F%87%B7%20GhostVPN
+vless://3c52e091-6714-4915-949f-2149fe69951b@103.86.49.57:80?host=aIs.SpEeDtEsT.nEt&path=%2Fws&security=none&type=ws#%F0%9F%8F%B3%EF%B8%8F%20GhostVPN

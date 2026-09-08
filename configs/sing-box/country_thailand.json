@@ -28,10 +28,19 @@
     {
       "type": "vless",
       "tag": "🏳️ GhostVPN",
-      "server": "157.85.102.28",
-      "server_port": 1083,
-      "uuid": "b93efa30-e2c5-401c-9ec7-22e30266cc60",
-      "flow": ""
+      "server": "103.86.49.57",
+      "server_port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "flow": "",
+      "tls": {
+        "enabled": true,
+        "server_name": "103.86.49.57",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws"
+      }
     }
   ],
   "route": {

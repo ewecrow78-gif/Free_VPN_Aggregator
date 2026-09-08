@@ -4,15 +4,16 @@ mode: Rule
 port: 7890
 proxies:
 - name: 🏳️ GhostVPN
-  network: tcp
-  port: 1083
+  network: ws
+  port: 80
   reality-opts: {}
-  server: 157.85.102.28
-  servername: 157.85.102.28
+  server: 103.86.49.57
+  servername: 103.86.49.57
   tls: false
   type: vless
-  uuid: b93efa30-e2c5-401c-9ec7-22e30266cc60
-  ws-opts: {}
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  ws-opts:
+    path: /ws
 proxy-groups:
 - name: Free_VPN_Aggregator [COUNTRY_THAILAND]
   proxies:

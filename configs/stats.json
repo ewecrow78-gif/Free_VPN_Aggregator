@@ -1,17 +1,25 @@
 {
   "funnel": {},
-  "total": 0,
-  "alive": 0,
-  "top_50_fast": 0,
-  "top_30_fast": 0,
-  "all_configs": 0,
+  "total": 4,
+  "alive": 4,
+  "top_50_fast": 4,
+  "top_30_fast": 4,
+  "all_configs": 4,
   "wl_100": 0,
   "wl_50": 0,
   "wl_30": 0,
-  "mixed_100": 0,
+  "mixed_100": 4,
   "all_wl": 0,
-  "fastest_all_100": 0,
-  "by_country": {},
-  "country_flags": {},
-  "by_protocol": {}
+  "fastest_all_100": 4,
+  "by_country": {
+    "France": 3,
+    "Thailand": 1
+  },
+  "country_flags": {
+    "France": "🇫🇷",
+    "Thailand": "🏳️"
+  },
+  "by_protocol": {
+    "vless": 4
+  }
 }
